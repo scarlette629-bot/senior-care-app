@@ -52,3 +52,5 @@
 
 .installAdded{display:inline-flex;align-items:center;margin-left:6px;padding:4px 8px;border-radius:999px;background:#E4F4EF;color:#47745a;font-size:12px;font-weight:800;white-space:nowrap}.hearingTestBottom{margin-top:16px!important}
 :root[data-theme="night"] .installAdded{background:#263c30;color:#e9fff0}
+
+.radioEmoji{font-size:36px}.radioList{display:grid;gap:10px;margin-top:14px}.radioStation{display:flex;align-items:center;gap:12px;padding:16px;border-radius:18px;background:#FFF9F1;color:#403A37;text-decoration:none;text-align:left}.radioStation>span{font-size:25px}.radioStation>div{flex:1}.radioStation b,.radioStation small{display:block}.radioStation b{font-size:21px}.radioStation small{margin-top:3px;color:#746C67;font-size:15px}:root[data-theme="night"] .radioStation{background:#413d39;color:#fff}:root[data-theme="night"] .radioStation small{color:#e3d9d0}
