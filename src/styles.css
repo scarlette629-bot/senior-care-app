@@ -49,3 +49,6 @@
 :root[data-theme="night"] .sourceNote{color:#e3d9d0!important}
 :root[data-theme="night"] .message p,:root[data-theme="night"] .message small,:root[data-theme="night"] .message label{color:#f2ece6}
 :root[data-theme="night"] .secondary{background:#504a45!important;color:#fff!important;border-color:#746b64!important}
+
+.installAdded{display:inline-flex;align-items:center;margin-left:6px;padding:4px 8px;border-radius:999px;background:#E4F4EF;color:#47745a;font-size:12px;font-weight:800;white-space:nowrap}.hearingTestBottom{margin-top:16px!important}
+:root[data-theme="night"] .installAdded{background:#263c30;color:#e9fff0}
