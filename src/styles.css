@@ -40,3 +40,5 @@
 
 /* PWA home install */
 .installHome{width:100%;min-height:58px;margin:10px 0 6px;border:0;border-radius:20px;background:linear-gradient(135deg,#F59E8B,#F6C85F);color:#403A37;font-size:20px;font-weight:900;box-shadow:0 7px 18px rgba(160,110,80,.15)}.installHome.installed{display:flex;align-items:center;justify-content:center;background:#E4F4EF;color:#47745a;font-size:17px;box-shadow:none}
+
+.installPlus{width:32px!important;height:32px!important;min-height:32px!important;padding:0!important;margin-left:5px;border:0;border-radius:50%;background:#F59E8B;color:#fff;font-size:25px;font-weight:800;line-height:30px;display:inline-flex;align-items:center;justify-content:center;box-shadow:none}
