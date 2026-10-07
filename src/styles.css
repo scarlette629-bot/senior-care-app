@@ -26,3 +26,6 @@
 
 /* v0.6.4 dashboard priority */
 .compactTasks .task{min-height:125px;padding:16px}.compactTasks .task .emoji{font-size:30px}.compactTasks .task strong{font-size:21px;margin:7px 0 3px}.todaySports{width:100%;margin:14px 0 10px;border:0;border-radius:20px;background:#FFF1C7;padding:16px 18px;display:flex;align-items:center;text-align:left;color:#403A37}.todaySports div{flex:1}.todaySports small,.todaySports strong,.todaySports span{display:block}.todaySports small{font-size:16px;font-weight:800}.todaySports strong{font-size:21px;margin:4px 0}.todaySports span{font-size:15px;color:#746C67;font-weight:600}
+
+/* v0.6.5 unified interest summary */
+.interestSummary{width:100%;margin:14px 0 10px;border:0;border-radius:22px;background:linear-gradient(135deg,#FFF1C7,#F1ECFA);padding:17px;display:flex;align-items:center;gap:13px;text-align:left;color:#403A37}.interestSummary .summaryIcon{font-size:36px}.interestSummary>div:nth-child(2){flex:1;min-width:0}.interestSummary small,.interestSummary strong,.interestSummary span{display:block}.interestSummary small{font-weight:800;color:#746C67}.interestSummary strong{font-size:21px;margin:3px 0 6px}.interestSummary span{font-size:15px;line-height:1.45;color:#746C67}.interestSummary span+span{margin-top:3px}
