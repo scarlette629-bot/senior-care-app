@@ -1,1 +1,19 @@
-{"name":"暖心守護｜長者生活照護","short_name":"暖心守護","start_url":"/","display":"standalone","background_color":"#fffaf5","theme_color":"#f59e7b","lang":"zh-Hant","description":"為獨居長者設計的溫馨、易讀生活照護 PWA"}
+{
+  "name": "WECARE 暖心守護｜長者生活照護",
+  "short_name": "WECARE",
+  "start_url": "/senior-care-app/",
+  "scope": "/senior-care-app/",
+  "display": "standalone",
+  "background_color": "#FFF9F1",
+  "theme_color": "#F59E8B",
+  "lang": "zh-Hant",
+  "description": "像家人一樣陪伴長輩的溫暖生活照護 PWA",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
