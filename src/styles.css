@@ -4,3 +4,6 @@
 
 /* home schedule summary */
 .scheduleSummary{padding:0;overflow:hidden}.scheduleSummary .taskMain{width:100%;border:0;background:transparent;text-align:left;padding:20px;display:flex;flex-direction:column;gap:6px;color:inherit}.scheduleQuick{margin:0 12px 10px;width:calc(100% - 24px);min-height:52px;border:0;border-radius:16px;background:rgba(255,255,255,.78);display:flex;align-items:center;gap:12px;padding:10px 12px;text-align:left;color:var(--color-text,#403A37)}.scheduleQuick b{min-width:48px;font-size:17px}.scheduleQuick span{font-size:17px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.moreSchedule{display:block;padding:0 16px 14px;color:var(--color-text-secondary,#746C67);font-weight:700}
+
+/* v0.5 safety */
+.sosConfirm{display:grid;gap:12px;width:100%}.sosConfirm>b{font-size:22px;color:#A92323}.contactCall{display:flex;align-items:center;justify-content:center;gap:8px;min-height:60px;border-radius:18px;background:#FFF0F0;color:#A92323;text-decoration:none;font-size:20px;font-weight:800;border:2px solid #D93838}.sosPanel>span{font-size:64px}.sosPanel{display:flex;flex-direction:column;align-items:center;gap:16px}.sosPanel p{text-align:center;font-size:20px}
