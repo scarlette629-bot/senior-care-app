@@ -60,3 +60,63 @@
 .updateApp{margin-left:auto;min-height:44px;border:2px solid #D96C5F;border-radius:14px;background:#FFF9F1;color:#A92323;padding:8px 13px;font-size:17px;font-weight:800;white-space:nowrap;cursor:pointer}
 .updateApp:disabled{opacity:.7;cursor:wait}
 @media(max-width:520px){.top{gap:6px}.top .brandLogo{max-width:48%;height:auto}.top .version{font-size:12px;padding:6px 8px}.top .updateApp{font-size:16px;padding:7px 10px;min-height:44px}.top .installPlus{margin-left:0}}
+
+/* v1.0.1 night-mode contrast: readable controls without changing functionality */
+:root[data-theme="night"] .task,
+:root[data-theme="night"] .taskMain,
+:root[data-theme="night"] .medQuick,
+:root[data-theme="night"] .scheduleQuick,
+:root[data-theme="night"] .wideCard,
+:root[data-theme="night"] .morningCard,
+:root[data-theme="night"] .interestSummary,
+:root[data-theme="night"] .todaySports,
+:root[data-theme="night"] .toolCard,
+:root[data-theme="night"] .quick button,
+:root[data-theme="night"] .assistantBrief,
+:root[data-theme="night"] .interestGrid button,
+:root[data-theme="night"] .mealBtns button,
+:root[data-theme="night"] .v4row button,
+:root[data-theme="night"] .v4row,
+:root[data-theme="night"] .zoom button,
+:root[data-theme="night"] .whatsappBtn,
+:root[data-theme="night"] .contactCall,
+:root[data-theme="night"] .contactItem,
+:root[data-theme="night"] .contactActions a,
+:root[data-theme="night"] .contactActions button,
+:root[data-theme="night"] .toolHint,
+:root[data-theme="night"] .programCard,
+:root[data-theme="night"] .updateApp {
+  background:#413d39!important;
+  color:#fff7ef!important;
+  border-color:#82776e;
+}
+:root[data-theme="night"] .task small,
+:root[data-theme="night"] .wideCard small,
+:root[data-theme="night"] .morningCard small,
+:root[data-theme="night"] .interestSummary small,
+:root[data-theme="night"] .interestSummary span,
+:root[data-theme="night"] .toolCard small,
+:root[data-theme="night"] .todaySports small,
+:root[data-theme="night"] .todaySports span,
+:root[data-theme="night"] .radioStation small,
+:root[data-theme="night"] .programCard small,
+:root[data-theme="night"] .v4row span,
+:root[data-theme="night"] .contactItem small {color:#eee1d5!important}
+:root[data-theme="night"] .task strong,
+:root[data-theme="night"] .wideCard strong,
+:root[data-theme="night"] .morningCard strong,
+:root[data-theme="night"] .interestSummary strong,
+:root[data-theme="night"] .toolCard b,
+:root[data-theme="night"] .todaySports strong,
+:root[data-theme="night"] .medQuick b,
+:root[data-theme="night"] .scheduleQuick b,
+:root[data-theme="night"] .scheduleQuick span,
+:root[data-theme="night"] .contactItem b,
+:root[data-theme="night"] .programCard b {color:#fff7ef!important}
+:root[data-theme="night"] .primary,
+:root[data-theme="night"] .installHome:not(.installed) {background:#ad4d41!important;color:#fff!important}
+:root[data-theme="night"] .danger,
+:root[data-theme="night"] .sos {background:#bd3030!important;color:#fff!important}
+:root[data-theme="night"] .goodMorningArt {color:#403a37}
+:root[data-theme="night"] .goodMorningArt * {color:#403a37}
+:root[data-theme="night"] .installHome.installed {background:#284b3a;color:#eafff0}
