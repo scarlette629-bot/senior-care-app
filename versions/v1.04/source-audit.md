@@ -18,3 +18,20 @@
 - 目前 scripts/update_entertainment.py 只收集 Google News RSS，sports 四類仍是空陣列；不宣稱已完成自動同步。
 - GitHub Actions 設定為 UTC 22:00（台灣次日 06:00），執行時間可能延遲。
 - 正式版 main /senior-care-app/ 與 PWA manifest 不變。
+
+## 第二輪補查（2026-10-09）
+| 來源 | 官方網址 | 確認結果 | WECARE v1.04 決策 |
+|---|---|---|---|
+| MLB | https://www.mlb.com/official-information/terms-of-use | MLB 條款禁止未經授權以自動腳本收集資訊及重製發布數位內容 | 不自動擷取；先連至官方賽程或洽授權 |
+| NPB | https://npb.jp/games/2026/ | 有 2026 官方逐日賽程；NPB+ 的條款明確限制該 App 爬取及二次利用，但不能直接視為 NPB.jp 全站條款 | 可人工核對，不自動擷取，先確認 NPB.jp 授權 |
+| BWF | https://bwfbadminton.com/ | 有官方賽事頁及選手／結果資料；尚未查得允許第三方批量抓取重發的授權 | 僅官方查閱連結，暫不自動同步 |
+| Google Trends | https://developers.google.com/search/apis/trends | 官方 Trends API 為限制名額 alpha 測試，不是一般公開 API；搜尋熱度不是收視率 | 未取得 API 權限前不做無授權抓取；可提供官方 Trends 連結 |
+| 豆瓣 | https://www.douban.com/about/legal | 官方法律聲明限制未經書面許可使用評分、評論、條目與爬蟲採集 | 不自動擷取豆瓣評分／排行；需書面許可 |
+| Netflix | https://about.netflix.com/en/news/top-10-things-about-netflix-top-10 | Top 10 為每週統計而非即時，平台提供官方公開資訊，但未核實第三方自動重製授權 | 僅標註每週榜單並連官方頁；暫不自動複製 |
+| Disney+、iQIYI、其他 OTT | 各平台官方節目頁與服務條款 | 可作上架公告查閱來源；本輪未證實統一公開可再發布 API 或抓取授權 | 官方連結或經核實的人工編輯資料，不擅自抓取 |
+
+### 限制
+- NPB+ App 條款不等於 NPB.jp 網站條款，不能混為一談。
+- BWF 與 OTT 「尚未找到許可」不代表已確認法律禁止所有使用；目前只是缺乏自動化授權依據。
+- 賽事時間／隊伍等事實與官方頁面的受保護編排或資料庫利用權須分別評估。
+- 本次僅完成文件查核，未接入任何自動爬蟲，未測試端點或建立資料授權合約。
