@@ -1,4 +1,4 @@
-const VERSION="wecare-v1.0.1";const BASE="/senior-care-app/";const CACHE=VERSION+"-shell";
+const VERSION="wecare-v1.0.2";const BASE="/senior-care-app/";const CACHE=VERSION+"-shell";
 self.addEventListener("install",event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([BASE,BASE+"manifest.webmanifest",BASE+"icon.svg",BASE+"wecare-logo.svg"])).catch(()=>{}))});
 self.addEventListener("activate",event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))),self.clients.claim()]))});
 self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;if(event.request.mode==="navigate"){event.respondWith(fetch(event.request).then(res=>{const copy=res.clone();caches.open(CACHE).then(c=>c.put(BASE,copy));return res}).catch(()=>caches.match(BASE)));return}event.respondWith(fetch(event.request).then(res=>{if(res.ok){const copy=res.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return res}).catch(()=>caches.match(event.request)))});
