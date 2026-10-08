@@ -120,3 +120,19 @@
 :root[data-theme="night"] .goodMorningArt {color:#403a37}
 :root[data-theme="night"] .goodMorningArt * {color:#403a37}
 :root[data-theme="night"] .installHome.installed {background:#284b3a;color:#eafff0}
+
+/* v1.0.3 night weather hero: warm background with dark high-contrast text */
+:root[data-theme="night"] .home .hero {
+  background:linear-gradient(135deg,#FCE9D6,#F4D6C8)!important;
+  color:#382C29!important;
+}
+:root[data-theme="night"] .home .hero h1,
+:root[data-theme="night"] .home .hero p,
+:root[data-theme="night"] .home .hero .weather,
+:root[data-theme="night"] .home .hero .sun {
+  color:#382C29!important;
+}
+:root[data-theme="night"] .home .hero .weatherExtras b {
+  background:rgba(255,255,255,.76)!important;
+  color:#50372F!important;
+}
