@@ -54,3 +54,21 @@
 :root[data-theme="night"] .installAdded{background:#263c30;color:#e9fff0}
 
 .radioEmoji{font-size:36px}.radioList{display:grid;gap:10px;margin-top:14px}.radioStation{display:flex;align-items:center;gap:12px;padding:16px;border-radius:18px;background:#FFF9F1;color:#403A37;text-decoration:none;text-align:left}.radioStation>span{font-size:25px}.radioStation>div{flex:1}.radioStation b,.radioStation small{display:block}.radioStation b{font-size:21px}.radioStation small{margin-top:3px;color:#746C67;font-size:15px}:root[data-theme="night"] .radioStation{background:#413d39;color:#fff}:root[data-theme="night"] .radioStation small{color:#e3d9d0}
+
+/* v1.0 accessibility: full-width, readable home task rows; no behavior changes */
+.home .taskGrid.compactTasks{grid-template-columns:minmax(0,1fr);gap:12px}
+.home .compactTasks .task{width:100%;min-width:0;min-height:100px;border-radius:22px;padding:18px 20px;box-shadow:0 4px 14px rgba(80,60,50,.05)}
+.home .compactTasks button.task{display:grid;grid-template-columns:54px minmax(0,1fr);column-gap:14px;align-content:center;align-items:center}
+.home .compactTasks button.task>.emoji{grid-row:1 / span 2;grid-column:1;font-size:38px;line-height:1.2}
+.home .compactTasks button.task>strong{grid-column:2;font-size:23px;line-height:1.35;margin:0;overflow-wrap:anywhere}
+.home .compactTasks button.task>small{grid-column:2;font-size:17px;line-height:1.55;margin-top:5px;overflow-wrap:anywhere}
+.home .compactTasks .homeMed,.home .compactTasks .scheduleSummary{padding:0;overflow:hidden}
+.home .compactTasks .homeMed .taskMain,.home .compactTasks .scheduleSummary .taskMain{display:grid;grid-template-columns:54px minmax(0,1fr);column-gap:14px;align-items:center;align-content:center;min-height:100px;padding:18px 20px}
+.home .compactTasks .taskMain>.emoji{grid-column:1;grid-row:1 / span 2;font-size:38px;line-height:1.2}
+.home .compactTasks .taskMain>strong{grid-column:2;font-size:23px;line-height:1.35;margin:0;overflow-wrap:anywhere}
+.home .compactTasks .taskMain>small{grid-column:2;font-size:17px;line-height:1.55;margin:5px 0 0;overflow-wrap:anywhere}
+.home .compactTasks .medQuick,.home .compactTasks .scheduleQuick{width:calc(100% - 40px);margin:0 20px 12px;min-height:54px;font-size:17px}
+.home .compactTasks .scheduleQuick span{min-width:0;white-space:normal;overflow:visible;text-overflow:clip;line-height:1.4}
+.home .compactTasks .medQuick span{min-width:0;overflow-wrap:anywhere;line-height:1.4}
+.home .compactTasks .medQuick b{flex-shrink:0}
+@media(max-width:360px){.home .compactTasks .task{padding:15px}.home .compactTasks .homeMed .taskMain,.home .compactTasks .scheduleSummary .taskMain{padding:15px}.home .compactTasks .medQuick,.home .compactTasks .scheduleQuick{margin-left:15px;margin-right:15px;width:calc(100% - 30px)}}
