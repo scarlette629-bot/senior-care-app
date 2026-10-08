@@ -1,7 +1,7 @@
 name: Refresh entertainment news
 on:
   schedule:
-    - cron: '10 0 * * *'
+    - cron: '0 22 * * *' # 06:00 Asia/Taipei (UTC+8)
   workflow_dispatch:
 permissions:
   contents: write
