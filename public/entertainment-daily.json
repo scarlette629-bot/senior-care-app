@@ -612,5 +612,90 @@
         "evidenceType": "當週節目播映資訊"
       }
     ]
+  },
+  "weeklyStreaming": {
+    "weekStart": "2026-10-05",
+    "weekEnd": "2026-10-11",
+    "market": "台灣及海外平台資訊（依台灣可觀看權利而異）",
+    "method": "官網上架日／本週公告；非熱度排名，僅保留本週 10/5–10/11 的來源項目",
+    "updatedAt": "2026-10-09T11:10:00+08:00",
+    "items": [
+      {
+        "id": "stream-netflix-korea-charge-20261009",
+        "title": "《請為我充電》（Take Charge of My Heart）今日上架",
+        "type": "韓劇",
+        "interests": [
+          "韓劇"
+        ],
+        "platform": "Netflix",
+        "eventAt": "2026-10-09T08:00:00+08:00",
+        "eventLabel": "10/9 官方預定首播",
+        "description": "金英光、蔡秀彬主演奇幻浪漫喜劇。人工心臟電力將耗盡的男子，遇上能替他充電的女子。Netflix 官方已公告 10 月 9 日上線。",
+        "source": "Netflix 官方 2026-09-10 上線公告",
+        "sourceUrl": "https://about.netflix.com/en/news/take-charge-of-my-heart-premieres-october-9",
+        "evidenceType": "本週預定上架（較早公告；非本週討論排名）"
+      },
+      {
+        "id": "stream-netflix-korea-solo-20261006",
+        "title": "《我獨自升級》真人版公布新演員",
+        "type": "韓劇",
+        "interests": [
+          "韓劇"
+        ],
+        "platform": "Netflix",
+        "eventAt": "2026-10-06T12:00:00+08:00",
+        "eventLabel": "10/6 官方新消息",
+        "description": "Netflix 公布韓韶禧、姜有皙、成俊等加入真人版演員陣容；屬製作消息，未公布上線日。",
+        "source": "Netflix 官方新聞（10/6）",
+        "sourceUrl": "https://about.netflix.com/en/news/solo-leveling-cast-announcement",
+        "evidenceType": "本週官方公告"
+      },
+      {
+        "id": "stream-netflix-west-empress-20261007",
+        "title": "《茜茜皇后》第三季公開最終季預告",
+        "type": "歐美劇",
+        "interests": [
+          "歐美劇"
+        ],
+        "platform": "Netflix",
+        "eventAt": "2026-10-07T12:00:00+08:00",
+        "eventLabel": "10/7 預告／11/12 預定上架",
+        "description": "Netflix 發布德國宮廷劇第三季的預告和劇照，官方宣布 11 月 12 日上線；目前是本週新公告，不是已上架。",
+        "source": "Netflix 官方新聞（10/7）",
+        "sourceUrl": "https://about.netflix.com/en/news/the-empress-third-final-season-trailer-and-artwork",
+        "evidenceType": "本週官方公告"
+      },
+      {
+        "id": "stream-disney-japan-korea-merry-20261007",
+        "title": "《Merry Berry Love》韓日合作愛情劇本週首播",
+        "type": "韓劇",
+        "interests": [
+          "韓劇",
+          "日劇"
+        ],
+        "platform": "Disney+",
+        "eventAt": "2026-10-07T08:00:00+08:00",
+        "eventLabel": "10/7 海外平台首播",
+        "description": "韓國設計師前往日本小島，遇見種草莓的女孩；Disney+ 官方列 10 月 7 日上線。跨國節目之台灣供應依當地片庫為準。",
+        "source": "Disney+ 官方作品頁、10 月節目表",
+        "sourceUrl": "https://www.disneyplus.com/en-it/browse/entity-dfa34bdf-143d-4053-aec9-ab38496249de",
+        "evidenceType": "本週平台首播"
+      },
+      {
+        "id": "stream-hbo-west-rage-20261009",
+        "title": "《RAGE／FURIA》第二季本週首播",
+        "type": "歐美劇",
+        "interests": [
+          "歐美劇"
+        ],
+        "platform": "HBO Max",
+        "eventAt": "2026-10-09T08:00:00+08:00",
+        "eventLabel": "10/9 海外平台首播",
+        "description": "HBO Max 公布西班牙劇《RAGE》第二季 10 月 9 日首播，共八集、每週五更新；是否在台灣上架須依本地公告。",
+        "source": "Warner Bros. Discovery 官方 HBO Max 十月節目表",
+        "sourceUrl": "https://press.wbd.com/us/media-release/hbo-max/whats-new-hbo-max-october-1",
+        "evidenceType": "本週平台首播"
+      }
+    ]
   }
 }

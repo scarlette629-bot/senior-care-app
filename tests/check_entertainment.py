@@ -148,3 +148,35 @@ assert 'window.location.reload()' in recovery
 assert 'localStorage.clear(' not in recovery
 assert 'fetch(' not in recovery
 print("PASS: legacy iPhone clipboard fallback and backup verification")
+
+
+# WECARE data preservation: no automatic startup cleanup, family backups optional,
+# historic records deleted only after the user explicitly confirms.
+assert "useEffect(()=>{autoCleanup();" not in app
+assert "if(!window.confirm(\"只有這次手動清除過期紀錄" in app
+assert "家人協助：備份及還原（平常不需要操作）" in app
+assert "<DataBackup/>" in app
+assert "🧹 立即清除舊紀錄" in app
+assert "localStorage.clear(" not in app
+
+# The weekly streaming section contains all three target platforms, permits
+# multiple drama interests per item, and expires on the next Monday.
+stream=feed.get("weeklyStreaming")
+assert isinstance(stream,dict) and isinstance(stream.get("items"),list)
+assert stream["weekStart"]==weekly["weekStart"] and stream["weekEnd"]==weekly["weekEnd"]
+assert len(stream["items"])>=5
+stream_platforms={x["platform"] for x in stream["items"]}
+assert {"Netflix","HBO Max","Disney+"}<=stream_platforms
+interest_kinds={t for x in stream["items"] for t in x.get("interests",[])}
+assert {"韓劇","日劇","歐美劇"}<=interest_kinds
+for x in stream["items"]:
+    assert x.get("sourceUrl","").startswith("https://")
+    assert x["eventAt"][:10]>=stream["weekStart"] and x["eventAt"][:10]<=stream["weekEnd"]
+    assert x.get("source") and x.get("eventLabel") and x.get("description")
+    assert x["platform"] in {"Netflix","HBO Max","Disney+"}
+assert "weeklyStreamingCurrent" in app
+assert "streamingSorted" in app and "pickedStreaming" in app
+seed=json.loads((root/"data/weekly-streaming-reviewed.json").read_text(encoding="utf-8"))
+assert seed["weekStart"]==stream["weekStart"] and seed["weekEnd"]==stream["weekEnd"]
+assert {x["id"] for x in seed["items"]}<={x["id"] for x in stream["items"]}
+print("PASS: manual-only data cleanup and 3-platform Korean/Japanese/Western weekly streaming")
