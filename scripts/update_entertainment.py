@@ -25,6 +25,48 @@ for kind,q in QUERIES.items():
     except Exception as exc:
         print(kind,exc)
         out["categories"][kind]=[]
+# CPBL schedule: official CPBL advanced-statistics API; preserve last successful feed on failure.
+def refresh_cpbl():
+    import zoneinfo
+    today=NOW.date()
+    games=[]
+    for delta in range(0,7):
+        date=(today+datetime.timedelta(days=delta)).isoformat()
+        endpoint="https://stats.cpbl.com.tw/api/proxy/v1/games/schedule/"+date
+        req=urllib.request.Request(endpoint,headers={"User-Agent":"Mozilla/5.0","Accept":"application/json"})
+        with urllib.request.urlopen(req,timeout=15) as response:
+            payload=json.load(response)
+        if isinstance(payload,dict):
+            rows=next((payload[k] for k in ("games","data","schedule","results") if isinstance(payload.get(k),list)),[])
+        elif isinstance(payload,list): rows=payload
+        else: rows=[]
+        for game in rows:
+            if not isinstance(game,dict): continue
+            visitor=game.get("awayTeam") or game.get("visitingTeam") or game.get("away")
+            home=game.get("homeTeam") or game.get("home")
+            def team(value):
+                if isinstance(value,dict): return value.get("name") or value.get("teamName") or value.get("chineseName") or ""
+                return value if isinstance(value,str) else ""
+            away_name,home_name=team(visitor),team(home)
+            if not away_name or not home_name: continue
+            start=game.get("startTime") or game.get("gameTime") or game.get("scheduledTime") or ""
+            if isinstance(start,str) and "T" in start:
+                try: start=datetime.datetime.fromisoformat(start.replace("Z","+00:00")).astimezone(zoneinfo.ZoneInfo("Asia/Taipei")).strftime("%H:%M")
+                except ValueError: pass
+            field=game.get("stadium") or game.get("venue") or game.get("field") or ""
+            if isinstance(field,dict): field=field.get("name") or field.get("fieldName") or ""
+            games.append({"id":str(game.get("id") or game.get("gameId") or date+"-"+away_name),"date":date,"match":away_name+"（客） vs "+home_name+"（主）","timeTW":str(start) if start else "待公布","venue":field,"status":str(game.get("status") or game.get("gameStatus") or "待確認"),"source":"中華職棒官方進階數據","updatedAt":NOW.isoformat(timespec="minutes")})
+    return games
+
+try:
+    cpbl=refresh_cpbl()
+    out["cpblGames"]=cpbl
+    out["cpblLastSuccessAt"]=NOW.isoformat(timespec="minutes")
+    print("CPBL verified games:",len(cpbl))
+except Exception as exc:
+    print("CPBL update failed; preserving previous data:",exc)
+    out["cpblLastSuccessAt"]=previous.get("cpblLastSuccessAt")
+
 # Only explicitly reviewed, sourced text recommendations are eligible for publication.
 # This file is maintained separately; do not infer plots or release dates from RSS headlines.
 curated=pathlib.Path("data/entertainment-reviewed.json")
