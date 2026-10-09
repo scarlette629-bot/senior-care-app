@@ -72,6 +72,42 @@
       "source": "芒果TV 官方綜藝節目列表",
       "url": "https://www.mgtv.com/lib/1?chargeInfo=b1&kind=a1&lastp=list_index&sort=c1",
       "verified": true
+    },
+    {
+      "id": "when-life-gives-you-tangerines",
+      "title": "苦盡柑來遇見你",
+      "type": "韓劇",
+      "platform": "Netflix",
+      "releaseDate": "2025",
+      "cast": "IU、朴寶劍、文素利",
+      "description": "以濟州島為背景，描繪愛純與寬植從年少到人生不同階段的相伴，經歷家庭、生活與愛情的考驗。",
+      "source": "Netflix 台灣官方作品頁",
+      "url": "https://www.netflix.com/tw/title/81681535",
+      "verified": true
+    },
+    {
+      "id": "bon-appetit-your-majesty",
+      "title": "暴君的廚師",
+      "type": "韓劇",
+      "platform": "Netflix",
+      "releaseDate": "2025",
+      "cast": "林潤娥、李彩玟、姜漢娜",
+      "description": "一位現代主廚意外穿越至朝鮮時代，遇見性格強勢的君王，以廚藝捲入宮廷的挑戰與情感糾葛。",
+      "source": "Netflix 台灣官方作品頁",
+      "url": "https://www.netflix.com/tw/title/82024852",
+      "verified": true
+    },
+    {
+      "id": "singles-inferno",
+      "title": "單身即地獄",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "releaseDate": "2026（官方頁面節目年份）",
+      "cast": "洪真慶、李多熙、曹圭賢",
+      "description": "一群單身男女在孤島上相處、尋找心儀對象，只有彼此配對成功，才能前往另一個地點享受約會時光。",
+      "source": "Netflix 台灣官方作品頁",
+      "url": "https://www.netflix.com/tw/title/81436209",
+      "verified": true
     }
   ],
   "cpblGames": [
@@ -129,6 +165,6 @@
     "綜藝": []
   },
   "cpblSyncError": "自動同步尚未驗證成功；下列為已核對之季後賽預定賽程",
-  "recommendationCount": 6,
+  "recommendationCount": 9,
   "contentReviewNote": "人工審核片單；與新聞快訊分開顯示"
 }
