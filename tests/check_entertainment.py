@@ -84,3 +84,17 @@ assert '.compactTasks .taskHeading' in styles and 'white-space:nowrap' in styles
 assert 'grid-template-columns:repeat(2,minmax(0,1fr))' in styles
 assert 'mergedEntertainment' in styles
 print("PASS: single entertainment entry and non-wrapping four-card task headings")
+
+
+# Prevent PWA update regressions: changing UI must always produce a new build ID.
+app=(root/"src/App.jsx").read_text(encoding="utf-8")
+vite=(root/"vite.config.js").read_text(encoding="utf-8")
+sw=(root/"public/sw.js").read_text(encoding="utf-8")
+assert "remote.build===WECARE_BUILD_ID" in app
+assert "version.json?wecare_check=" in app
+assert 'WECARE_VERSION="1.0.5"' in app
+assert 'localStorage.clear(' not in app and 'indexedDB.deleteDatabase(' not in app
+assert '__WECARE_BUILD_ID__' in vite and 'fileName: "version.json"' in vite
+assert 'url.pathname===BASE+"version.json"' in sw
+assert 'k.startsWith("wecare-")' in sw
+print("PASS: versioned PWA updates preserve user data and bypass cached release metadata")
