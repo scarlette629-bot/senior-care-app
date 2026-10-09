@@ -60,7 +60,7 @@ for x in weekly["items"]:
 app=(root/"src/App.jsx").read_text(encoding="utf-8")
 assert 'const all=["棒球","籃球","羽球","桌球","台劇","韓劇","陸劇","日劇","歐美劇","綜藝"]' in app
 assert 'weeklyCurrent' in app and 'weeklySorted' in app
-assert 'x==="棒球"?"中職：點入查看最新賽程"' in app
+assert 'aria-label="開啟我的興趣、節目表與本週熱播"' in app
 
 print('PASS: release-date precision, weekly freshness, interest settings')
 
