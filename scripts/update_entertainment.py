@@ -219,6 +219,73 @@ def update_weekly_hot(reviewed):
             "items":matched[:12]}
 
 out["weeklyHot"]=update_weekly_hot(out["recommendations"])
+# Korean, Japanese and Western series: separate, sourced weekly platform updates.
+# This list is NOT a popularity ranking. RSS articles must have actual same-week
+# publication timestamps; curated premiere-date items automatically expire Sunday.
+def update_weekly_streaming():
+    start=NOW.date()-datetime.timedelta(days=NOW.weekday())
+    end=start+datetime.timedelta(days=6)
+    minimum=datetime.datetime.combine(start,datetime.time.min,tzinfo=NOW.tzinfo)
+    result=[]
+    reviewed_path=pathlib.Path("data/weekly-streaming-reviewed.json")
+    if reviewed_path.exists():
+        try:
+            seed=json.loads(reviewed_path.read_text(encoding="utf-8"))
+            if seed.get("weekStart")==start.isoformat() and seed.get("weekEnd")==end.isoformat():
+                for item in seed.get("items",[]):
+                    if not isinstance(item,dict):continue
+                    try: moment=datetime.datetime.fromisoformat(item["eventAt"]).astimezone(NOW.tzinfo)
+                    except (KeyError,ValueError,TypeError):continue
+                    if not minimum<=moment<=NOW:continue
+                    if item.get("platform") not in ("Netflix","Disney+","HBO Max"):continue
+                    if not set(item.get("interests",[])).intersection(("韓劇","日劇","歐美劇")):continue
+                    if not str(item.get("sourceUrl","")).startswith("https://"):continue
+                    result.append(item)
+        except Exception as exc:print("Reviewed streaming updates unavailable:",exc)
+    queries=[
+        ("Netflix","韓劇","Netflix 韓劇 新劇 新消息 本週"),
+        ("Netflix","日劇","Netflix 日劇 新劇 新消息 本週"),
+        ("Netflix","歐美劇","Netflix 歐美劇 新劇 本週"),
+        ("Disney+","韓劇","Disney+ 韓劇 新劇 新消息 本週"),
+        ("Disney+","日劇","Disney+ 日劇 新劇 新消息 本週"),
+        ("Disney+","歐美劇","Disney+ 歐美劇 新劇 本週"),
+        ("HBO Max","韓劇","HBO Max 韓劇 新劇 本週"),
+        ("HBO Max","日劇","HBO Max 日劇 新劇 本週"),
+        ("HBO Max","歐美劇","HBO Max 歐美劇 新劇 本週")]
+    for platform,kind,query in queries:
+        try:
+            if os.environ.get("WECARE_OFFLINE")=="1":raise RuntimeError("Offline test")
+            url="https://news.google.com/rss/search?"+urllib.parse.urlencode({
+                "q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
+            req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 WECARE/1.0"})
+            with urllib.request.urlopen(req,timeout=10) as response:root=ET.fromstring(response.read())
+            added=0
+            for article in root.findall("./channel/item"):
+                title=(article.findtext("title") or "").strip()
+                link=(article.findtext("link") or "").strip()
+                try:pub=email.utils.parsedate_to_datetime(article.findtext("pubDate") or "").astimezone(NOW.tzinfo)
+                except Exception:continue
+                if pub<minimum or pub>NOW or not title or not link.startswith("https://"):continue
+                if platform.lower().replace(" ","") not in title.lower().replace(" ","") and platform!="HBO Max":continue
+                if any(x.get("title")==title for x in result):continue
+                result.append({"id":"rss-"+kind+"-"+str(len(result))+"-"+pub.strftime("%Y%m%d"),
+                    "title":title,"type":kind,"interests":[kind],"platform":platform,
+                    "eventAt":pub.isoformat(timespec="minutes"),"eventLabel":"本週媒體消息（非官方熱度榜）",
+                    "source":(article.findtext("source") or "華語娛樂新聞").strip(),
+                    "sourceUrl":link,"evidenceType":"本週新聞"})
+                added+=1
+                if added>=2:break
+        except Exception as exc:print("Streaming RSS unavailable",platform,kind,str(exc)[:120])
+    # Keep curated verified source items visible ahead of general RSS discovery.
+    curated=[x for x in result if not str(x.get("id","")).startswith("rss-")]
+    found=[x for x in result if str(x.get("id","")).startswith("rss-")]
+    return {"weekStart":start.isoformat(),"weekEnd":end.isoformat(),
+        "updatedAt":NOW.isoformat(timespec="minutes"),"market":"台灣關注的三大串流平台",
+        "method":"官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
+        "items":curated[:10]+found[:18]}
+
+out["weeklyStreaming"]=update_weekly_streaming()
+
 p=pathlib.Path("public/entertainment-daily.json")
 if any(out["categories"].values()) or out["recommendations"] or out["cpblGames"]:
     p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
