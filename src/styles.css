@@ -136,3 +136,29 @@
   background:rgba(255,255,255,.76)!important;
   color:#50372F!important;
 }
+
+/* WECARE home: one entertainment entry + four consistent single-line task headings. */
+.home .mergedEntertainment{margin-top:16px;min-height:96px;gap:12px}
+.home .mergedEntertainment>.summaryIcon{flex:0 0 auto;font-size:32px;line-height:1}
+.home .mergedEntertainment>.summaryContent{display:flex;flex:1 1 0;min-width:0;flex-direction:column;align-items:flex-start}
+.home .mergedEntertainment>.summaryContent>small{font-weight:800;color:var(--muted);margin-bottom:3px}
+.home .mergedEntertainment>.summaryContent>strong{font-size:clamp(17px,4vw,20px);line-height:1.35;margin:0}
+.home .mergedEntertainment>.summaryContent>.selectedInterests{font-size:14px;line-height:1.4;overflow-wrap:anywhere;margin-top:5px}
+.home .mergedEntertainment>.summaryArrow{flex:none;width:19px}
+.home .compactTasks{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.home .compactTasks .task{min-width:0;box-sizing:border-box;padding:12px;overflow:hidden}
+.home .compactTasks .homeMed,.home .compactTasks .scheduleSummary{padding:0}
+.home .compactTasks .taskMain{box-sizing:border-box;padding:12px;min-width:0}
+.home .compactTasks .taskHeading{display:flex;align-items:center;justify-content:flex-start;flex-wrap:nowrap;gap:6px;max-width:100%;white-space:nowrap;min-width:0}
+.home .compactTasks .taskHeading .emoji{display:inline-block;flex:none;font-size:23px;line-height:1.1;margin:0}
+.home .compactTasks .taskHeading strong{display:inline-block;min-width:0;font-size:clamp(15px,3.9vw,19px);line-height:1.25;white-space:nowrap;word-break:keep-all;margin:0;font-weight:800;letter-spacing:-.035em}
+.home .compactTasks .task>small,.home .compactTasks .taskMain>small{display:block;margin-top:8px;line-height:1.4;overflow-wrap:anywhere}
+@media(max-width:360px){
+  .home .compactTasks{gap:8px}
+  .home .compactTasks .task{padding:9px}
+  .home .compactTasks .homeMed,.home .compactTasks .scheduleSummary{padding:0}
+  .home .compactTasks .taskMain{padding:9px}
+  .home .compactTasks .taskHeading{gap:4px}
+  .home .compactTasks .taskHeading .emoji{font-size:21px}
+  .home .compactTasks .taskHeading strong{font-size:15px;letter-spacing:-.05em}
+}
