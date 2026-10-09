@@ -165,7 +165,7 @@ def update_weekly_hot(reviewed):
         title=entry.get("title","")
         signals=[n for n in news if title and title in n["title"]]
         if not signals:continue
-        signals.sort(key=lambda x:(not x["weiboMention"],x["publishedAt"]),reverse=False)
+        signals.sort(key=lambda x:(int(bool(x["weiboMention"])),x["publishedAt"]),reverse=True)
         top=signals[0]
         matched.append({"id":entry["id"],"title":title,"type":entry["type"],
                         "platform":entry.get("platform"),"description":entry.get("description"),
@@ -173,7 +173,27 @@ def update_weekly_hot(reviewed):
                         "source":top["source"],"sourceUrl":top["url"],"observedAt":top["publishedAt"],
                         "isWeiboMention":top["weiboMention"],"evidenceType":"本週新聞／微博相關報導",
                         "verified":True})
-    matched.sort(key=lambda x:(not x["isWeiboMention"],x["observedAt"]),reverse=False)
+    # Also show current-week entertainment reports for newly released titles not yet
+    # represented in the hand-reviewed catalogue. These are labeled as news only,
+    # not certified rankings or verified streaming premieres.
+    for kind,items in out["categories"].items():
+        for article in items:
+            try:
+                ts=email.utils.parsedate_to_datetime(article.get("published","")).astimezone(NOW.tzinfo)
+            except Exception:continue
+            if ts<minimum or ts>NOW:continue
+            title=article.get("title","").strip()
+            if not title:continue
+            if any(m["title"] in title for m in matched):continue
+            source=article.get("source") or "華語娛樂報導"
+            is_weibo=("微博" in title or "微博" in source)
+            matched.append({"id":"news-"+kind+"-"+ts.strftime("%Y%m%d%H%M")+"-"+str(len(matched)),
+                "title":title,"type":kind,"source":source,"sourceUrl":article.get("url"),
+                "observedAt":ts.isoformat(timespec="minutes"),"isWeiboMention":is_weibo,
+                "evidenceType":"本週新聞話題（非官方排行）","verified":False})
+    # Highest confidence: a Weibo-specific news item this week. Chronological
+    # order within each tier, without inventing a numeric popularity score.
+    matched.sort(key=lambda x:(int(bool(x["isWeiboMention"])),x["observedAt"]),reverse=True)
     return {"weekStart":week_start.isoformat(),"weekEnd":week_end.isoformat(),
             "updatedAt":NOW.isoformat(timespec="minutes"),"market":"台灣及華語市場",
             "method":"本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
