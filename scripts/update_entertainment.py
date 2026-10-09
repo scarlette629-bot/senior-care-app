@@ -191,6 +191,25 @@ def update_weekly_hot(reviewed):
                 "title":title,"type":kind,"source":source,"sourceUrl":article.get("url"),
                 "observedAt":ts.isoformat(timespec="minutes"),"isWeiboMention":is_weibo,
                 "evidenceType":"本週新聞話題（非官方排行）","verified":False})
+    # Editorially reviewed, dated public reports are a fallback when Google RSS
+    # is unavailable on the Actions runner. They expire automatically on Monday
+    # and are NEVER recycled into a new week.
+    reviewed_hot=pathlib.Path("data/weekly-hot-reviewed.json")
+    if reviewed_hot.exists():
+        try:
+            seed=json.loads(reviewed_hot.read_text(encoding="utf-8"))
+            if seed.get("weekStart")==week_start.isoformat() and seed.get("weekEnd")==week_end.isoformat():
+                have={(x.get("title"),x.get("sourceUrl")) for x in matched}
+                for x in seed.get("items",[]):
+                    try: observed=datetime.datetime.fromisoformat(x["observedAt"]).astimezone(NOW.tzinfo)
+                    except (ValueError,KeyError):continue
+                    if not minimum<=observed<=NOW:continue
+                    if x.get("type") not in QUERIES or not x.get("sourceUrl","").startswith("https://"):continue
+                    if (x.get("title"),x["sourceUrl"]) in have:continue
+                    matched.append(x)
+                    have.add((x["title"],x["sourceUrl"]))
+        except (OSError,ValueError,TypeError) as exc:
+            print("Reviewed weekly topics unavailable:",exc)
     # Highest confidence: a Weibo-specific news item this week. Chronological
     # order within each tier, without inventing a numeric popularity score.
     matched.sort(key=lambda x:(int(bool(x["isWeiboMention"])),x["observedAt"]),reverse=True)
