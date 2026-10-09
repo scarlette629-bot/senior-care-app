@@ -43,7 +43,7 @@ from datetime import date, timedelta
 import re
 for x in published:
     if x.get("releasePrecision")=="day":
-        assert re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",x["releaseDate"]), x["id"]
+        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}",x["releaseDate"]), x["id"]
         date.fromisoformat(x["releaseDate"])
         assert x.get("releaseSourceUrl"),("missing date evidence",x["id"])
     else:
