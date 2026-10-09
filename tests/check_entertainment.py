@@ -135,3 +135,16 @@ package=json.loads((root/"package.json").read_text(encoding="utf-8"))
 assert '@vitejs/plugin-legacy' in vite and 'iOS >= 12' in vite
 assert '@vitejs/plugin-legacy' in package["devDependencies"]
 print("PASS: no automatic history deletion, local-only backup and iPhone 6 legacy build")
+
+# iPhone 6 backup must copy actual JSON, not leave old URLs on clipboard.
+recovery=(root/"src/DataBackup.jsx").read_text(encoding="utf-8")
+assert 'document.execCommand("copy")' in recovery
+assert 'navigator.clipboard.writeText(copyText)' in recovery
+assert 'onClick={copyBackup}' in recovery
+assert 'onClick={testPaste}' in recovery
+assert 'sample===copyText' in recovery
+assert 'backupCurrent()' in recovery
+assert 'window.location.reload()' in recovery
+assert 'localStorage.clear(' not in recovery
+assert 'fetch(' not in recovery
+print("PASS: legacy iPhone clipboard fallback and backup verification")
