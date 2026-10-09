@@ -1,30 +1,100 @@
-name: Deploy to GitHub Pages
+name: Deploy WECARE v1.05 stable and immutable archive
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
+env:
+  WECARE_STABLE_SHA: 1c7545150502fee79b90b562a86c6edbc2c346d7
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Ensure main cannot deploy changes to frozen application code
+        shell: bash
+        run: |
+          set -euo pipefail
+          actual=$(git ls-remote origin refs/heads/release/v1.05-stable | cut -f1)
+          test "$actual" = "$WECARE_STABLE_SHA" || { echo "::error::Frozen v1.05 branch was modified"; exit 1; }
+          while IFS= read -r file; do
+            case "$file" in
+              .github/workflows/deploy.yml|scripts/prepare_v105_snapshot.py|docs/VERSIONING.md|public/entertainment-daily.json) ;;
+              *) echo "::error::Refusing to deploy modification of frozen v1.05 application: $file"; exit 1 ;;
+            esac
+          done < <(git diff --name-only "$WECARE_STABLE_SHA" HEAD)
+      - name: Create immutable annotated Git tag v1.05
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --tags origin refs/tags/v1.05 >/dev/null 2>&1; then
+            git fetch origin tag v1.05
+            test "$(git rev-parse 'v1.05^{}')" = "$WECARE_STABLE_SHA" || { echo "::error::v1.05 tag points to the wrong commit"; exit 1; }
+          else
+            git tag -a v1.05 "$WECARE_STABLE_SHA" -m "WECARE stable v1.05 - 2026-10-09; permanent source snapshot"
+            git push origin refs/tags/v1.05
+          fi
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Install
-        run: npm install
-      - name: Build
-        run: npm run build
+      - name: Freeze v1.05 website once on dedicated archive branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin release/v1.05-site
+          if git ls-tree -r --name-only FETCH_HEAD frozen/v1.05/index.html | grep -qx 'frozen/v1.05/index.html'; then
+            echo "Immutable v1.05 archive already exists; no rebuild."
+          else
+            git worktree add --detach "$RUNNER_TEMP/wecare-v105-source" "$WECARE_STABLE_SHA"
+            python scripts/prepare_v105_snapshot.py "$RUNNER_TEMP/wecare-v105-source" "$WECARE_STABLE_SHA"
+            (
+              cd "$RUNNER_TEMP/wecare-v105-source"
+              npm install --no-audit --no-fund
+              npm run build
+              test -f dist/index.html
+              test -f dist/version.json
+            )
+            git worktree add --detach "$RUNNER_TEMP/wecare-v105-site" FETCH_HEAD
+            mkdir -p "$RUNNER_TEMP/wecare-v105-site/frozen/v1.05"
+            cp -a "$RUNNER_TEMP/wecare-v105-source/dist/." "$RUNNER_TEMP/wecare-v105-site/frozen/v1.05/"
+            (
+              cd "$RUNNER_TEMP/wecare-v105-site"
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git add frozen/v1.05
+              git commit -m "Archive immutable built WECARE v1.05 website"
+              git push origin HEAD:refs/heads/release/v1.05-site
+            )
+          fi
+      - name: Build unchanged stable app at original URL
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm install --no-audit --no-fund
+          npm run build
+      - name: Include archived permanent /v1.05/ URL
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/v105-copy"
+          git fetch origin release/v1.05-site
+          git archive FETCH_HEAD frozen/v1.05 | tar -xf - -C "$RUNNER_TEMP/v105-copy"
+          test -f "$RUNNER_TEMP/v105-copy/frozen/v1.05/index.html"
+          test ! -e dist/v1.05 || { echo "::error::Current build must not overwrite archived snapshot"; exit 1; }
+          mkdir -p dist/v1.05
+          cp -a "$RUNNER_TEMP/v105-copy/frozen/v1.05/." dist/v1.05/
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
