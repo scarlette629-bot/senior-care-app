@@ -98,3 +98,23 @@ assert '__WECARE_BUILD_ID__' in vite and 'fileName: "version.json"' in vite
 assert 'url.pathname===BASE+"version.json"' in sw
 assert 'k.startsWith("wecare-")' in sw
 print("PASS: versioned PWA updates preserve user data and bypass cached release metadata")
+
+
+# Home typography must respond to saved Standard/Large/Extra-large settings.
+styles=(root/"src/styles.css").read_text(encoding="utf-8")
+for size in ("large","xlarge"):
+    assert ':root[data-size="'+size+'"] {' in styles,("Missing size profile",size)
+for selector in (".home .hero h1",".home .hero p",".home .sectionTitle h2",".home .compactTasks .taskHeading strong",".home .morningCard strong",".home .mergedEntertainment>.summaryContent>strong"):
+    assert selector in styles,("Home font size not adjustable",selector)
+assert "--wecare-home-task-detail" in styles
+assert "white-space:nowrap" in styles
+html=(root/"index.html").read_text(encoding="utf-8")
+assert 'rel="apple-touch-icon" sizes="120x120"' in html
+assert 'apple-touch-icon.png' in html and 'apple-touch-icon-120x120.png' in html
+png=(root/"public/apple-touch-icon-120x120.png").read_bytes()
+assert png[:8]==bytes.fromhex("89504e470d0a1a0a")
+assert int.from_bytes(png[16:20],"big")==120
+assert int.from_bytes(png[20:24],"big")==120
+manifest=json.loads((root/"public/manifest.webmanifest").read_text(encoding="utf-8"))
+assert any(i.get("src")=="apple-touch-icon-120x120.png" and i.get("type")=="image/png" for i in manifest["icons"])
+print("PASS: accessible homepage text sizes and iPhone 6 PNG icon")
