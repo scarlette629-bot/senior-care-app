@@ -1,6 +1,6 @@
 import json,datetime,email.utils,urllib.parse,urllib.request,xml.etree.ElementTree as ET,pathlib
 NOW=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
-QUERIES={"陸劇":"陸劇 微博 熱搜 新劇","台劇":"台劇 Netflix 愛奇藝 Disney+ 新劇","韓劇":"韓劇 Netflix Disney+ 新劇","綜藝":"綜藝 Netflix 愛奇藝 Disney+ 新節目"}
+QUERIES={"陸劇":"陸劇 微博 熱搜 新劇","台劇":"台劇 Netflix 愛奇藝 Disney+ 新劇","韓劇":"韓劇 Netflix Disney+ 新劇","綜藝":"綜藝 芒果TV 愛奇藝 騰訊視頻 Netflix 新節目","日劇":"日劇 Netflix 新劇","歐美劇":"歐美劇 Netflix 新劇"}
 previous_path=pathlib.Path("public/entertainment-daily.json")
 try:
     previous=json.loads(previous_path.read_text(encoding="utf-8"))
@@ -24,7 +24,7 @@ for kind,q in QUERIES.items():
         out["categories"][kind]=items
     except Exception as exc:
         print(kind,exc)
-        out["categories"][kind]=[]
+        out["categories"][kind]=previous.get("categories",{}).get(kind,[])
 # CPBL schedule: official CPBL advanced-statistics API; preserve last successful feed on failure.
 def refresh_cpbl():
     import zoneinfo
@@ -68,6 +68,7 @@ try:
 except Exception as exc:
     print("CPBL update failed; preserving previous data:",exc)
     out["cpblLastSuccessAt"]=previous.get("cpblLastSuccessAt")
+    out["cpblSyncError"]="官方賽程尚未取得有效資料"
 
 # Only explicitly reviewed, sourced text recommendations are eligible for publication.
 # This file is maintained separately; do not infer plots or release dates from RSS headlines.
