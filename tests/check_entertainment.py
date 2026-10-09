@@ -73,3 +73,14 @@ for x in seed["items"]:
     assert x["sourceUrl"].startswith("https://") and x["type"] in categories,x["title"]
 assert len(weekly["items"])>=len(seed["items"]), "Current-week curated hot topics missing from preview"
 print("PASS: verified source-backed current-week Chinese-market hot topics",len(seed["items"]))
+
+
+# Home layout regression: avoid duplicate navigation, protect all four task headings.
+assert app.count('<InterestSummary go={go}/>')==1, "Duplicate entertainment entry"
+assert '<button className="wideCard" onClick={()=>go("entertainment")}' not in app, "Old duplicate card still displayed"
+assert app.count('className="taskHeading"')==3, "All four task types must use the shared icon-title row"
+styles=(root/"src/styles.css").read_text(encoding="utf-8")
+assert '.compactTasks .taskHeading' in styles and 'white-space:nowrap' in styles
+assert 'grid-template-columns:repeat(2,minmax(0,1fr))' in styles
+assert 'mergedEntertainment' in styles
+print("PASS: single entertainment entry and non-wrapping four-card task headings")
