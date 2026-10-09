@@ -84,7 +84,8 @@ if curated.exists():
         parsed=urllib.parse.urlparse(entry["url"])
         if parsed.scheme!="https" or not parsed.hostname: continue
         out["recommendations"].append(entry)
-    out["recommendations"]=out["recommendations"][:5]
+    # Keep all reviewed recommendations; the UI filters to the user’s selected interests.
+    out["recommendations"]=out["recommendations"]
 p=pathlib.Path("public/entertainment-daily.json")
 if any(out["categories"].values()) or out["recommendations"] or out["cpblGames"]:
     p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
