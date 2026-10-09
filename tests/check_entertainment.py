@@ -63,3 +63,13 @@ assert 'weeklyCurrent' in app and 'weeklySorted' in app
 assert 'x==="棒球"?"中職：點入查看最新賽程"' in app
 
 print('PASS: release-date precision, weekly freshness, interest settings')
+
+# Week-specific editorial backup must never leak into future weeks.
+seed=json.loads((root/"data/weekly-hot-reviewed.json").read_text(encoding="utf-8"))
+assert seed["weekStart"]==weekly["weekStart"] and seed["weekEnd"]==weekly["weekEnd"]
+assert len(seed["items"])>=6, "Reviewed weekly hot content should be substantive"
+for x in seed["items"]:
+    assert weekly["weekStart"]<=x["observedAt"][:10]<=weekly["weekEnd"],x["title"]
+    assert x["sourceUrl"].startswith("https://") and x["type"] in categories,x["title"]
+assert len(weekly["items"])>=len(seed["items"]), "Current-week curated hot topics missing from preview"
+print("PASS: verified source-backed current-week Chinese-market hot topics",len(seed["items"]))
