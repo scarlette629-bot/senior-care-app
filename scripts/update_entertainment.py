@@ -1,4 +1,4 @@
-import json,datetime,email.utils,urllib.parse,urllib.request,xml.etree.ElementTree as ET,pathlib
+import json,datetime,email.utils,urllib.parse,urllib.request,xml.etree.ElementTree as ET,pathlib,os
 NOW=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
 QUERIES={"陸劇":"陸劇 微博 熱搜 新劇","台劇":"台劇 Netflix 愛奇藝 Disney+ 新劇","韓劇":"韓劇 Netflix Disney+ 新劇","綜藝":"綜藝 芒果TV 愛奇藝 騰訊視頻 Netflix 新節目","日劇":"日劇 Netflix 新劇","歐美劇":"歐美劇 Netflix 新劇"}
 previous_path=pathlib.Path("public/entertainment-daily.json")
@@ -10,6 +10,7 @@ out={"schemaVersion":"1.04","updatedAt":NOW.isoformat(timespec="minutes"),"categ
 for kind,q in QUERIES.items():
     url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":q,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
     try:
+        if os.environ.get("WECARE_OFFLINE")=="1": raise RuntimeError("Offline fixture validation")
         req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 WECARE/1.0"})
         with urllib.request.urlopen(req,timeout=25) as resp: root=ET.fromstring(resp.read())
         items=[]
@@ -29,6 +30,7 @@ for kind,q in QUERIES.items():
 # Some cloud data-center IP addresses are denied by cpbl.com.tw. Failure must
 # NEVER replace a reviewed fixture or advance cpblLastSuccessAt.
 def refresh_cpbl():
+    if os.environ.get("WECARE_OFFLINE")=="1": raise RuntimeError("Offline fixture validation")
     import http.cookiejar, re
     jar=http.cookiejar.CookieJar()
     opener=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
