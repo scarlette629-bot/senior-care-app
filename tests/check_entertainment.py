@@ -37,3 +37,29 @@ assert feed.get("cpblDataMode") in {"reviewed","official"}, "Feed must identify 
 if feed["cpblDataMode"]=="reviewed":
     assert not feed.get("cpblLastSuccessAt"),"Offline/curated data falsely marked official CPBL sync successful"
 print("PASS:",len(published),"verified recommendations;",len(fixture),"CPBL fixtures; all six interest categories")
+
+# New release-date and current-week integrity checks
+from datetime import date, timedelta
+import re
+for x in published:
+    if x.get("releasePrecision")=="day":
+        assert re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}",x["releaseDate"]), x["id"]
+        date.fromisoformat(x["releaseDate"])
+        assert x.get("releaseSourceUrl"),("missing date evidence",x["id"])
+    else:
+        assert x.get("releaseWindow") or x.get("releaseStatus")=="upcoming", ("missing qualified date window",x["id"])
+weekly=feed.get("weeklyHot")
+assert weekly and isinstance(weekly.get("items"),list),"Weekly digest is missing"
+start=date.fromisoformat(weekly["weekStart"])
+end=date.fromisoformat(weekly["weekEnd"])
+assert end-start==timedelta(days=6),"Weekly digest must use a seven-day Monday–Sunday window"
+for x in weekly["items"]:
+    observed=date.fromisoformat(x["observedAt"][:10])
+    assert start<=observed<=end,("stale weekly news",x.get("id"))
+    assert x.get("source") and x.get("sourceUrl"),("missing hot-list source",x.get("id"))
+app=(root/"src/App.jsx").read_text(encoding="utf-8")
+assert 'const all=["棒球","籃球","羽球","桌球","台劇","韓劇","陸劇","日劇","歐美劇","綜藝"]' in app
+assert 'weeklyCurrent' in app and 'weeklySorted' in app
+assert 'x==="棒球"?"中職：點入查看最新賽程"' in app
+
+print('PASS: release-date precision, weekly freshness, interest settings')
