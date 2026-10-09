@@ -180,3 +180,19 @@ seed=json.loads((root/"data/weekly-streaming-reviewed.json").read_text(encoding=
 assert seed["weekStart"]==stream["weekStart"] and seed["weekEnd"]==stream["weekEnd"]
 assert {x["id"] for x in seed["items"]}<={x["id"] for x in stream["items"]}
 print("PASS: manual-only data cleanup and 3-platform Korean/Japanese/Western weekly streaming")
+
+
+# Empty Chinese-market week must not show an empty heading for Western-only
+# interests. Compact streaming source/date must not override homepage typography.
+assert 'const chineseMarketInterests=shows.filter(t=>["陸劇","台劇","綜藝"].includes(t))' in app
+assert 'weeklySorted.length>0&&<section className="interestSection chineseHotSection"' in app
+assert 'className="interestSection streamingNews"' in app
+assert 'className="streamingMeta"' in app
+assert 'taipeiNow=new Date(Date.now()+8*60*60*1000)' in app
+assert 'Intl.DateTimeFormat("en-CA"' not in app
+styles=(root/"src/styles.css").read_text(encoding="utf-8")
+assert '.streamingNews .streamingMeta span' in styles
+assert 'font-size:12px' in styles
+assert '.message .streamingNews .streamingDescription' in styles
+assert ':root[data-theme="night"] .streamingNews .streamingMeta span' in styles
+print("PASS: no empty Western-interest Chinese hot block; compact readable stream metadata")
