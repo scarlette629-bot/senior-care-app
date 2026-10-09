@@ -60,6 +60,8 @@ def refresh_cpbl():
 
 try:
     cpbl=refresh_cpbl()
+    if not cpbl:
+        raise ValueError("CPBL feed returned zero verified games; do not mark synchronization successful")
     out["cpblGames"]=cpbl
     out["cpblLastSuccessAt"]=NOW.isoformat(timespec="minutes")
     print("CPBL verified games:",len(cpbl))
