@@ -24,6 +24,54 @@
       "source": "Netflix 官方作品頁",
       "url": "https://qr.netflix.com/title/81700182",
       "verified": true
+    },
+    {
+      "id": "can-this-love-be-translated",
+      "title": "愛情怎麼翻譯？",
+      "type": "韓劇",
+      "platform": "Netflix",
+      "releaseDate": "2026（官方作品頁）",
+      "cast": "金宣虎、高胤禎、福士蒼汰",
+      "description": "一位全球知名的明星與擔任口譯的男子為拍攝節目走訪不同國家；語言可以翻譯，兩人漸生的感情卻難以用言語說清。",
+      "source": "Netflix 官方作品頁",
+      "url": "https://www.netflix.com/tw/title/81697769",
+      "verified": true
+    },
+    {
+      "id": "mgtv-najiu",
+      "title": "娜就聊姐姐",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "releaseDate": "2026-10-08期",
+      "cast": "主持及來賓以當期官方節目資訊為準",
+      "description": "以女性話題為主軸的輕鬆聊天節目，分享生活感受、彼此交流與放鬆時刻。",
+      "source": "芒果TV 官方綜藝節目列表",
+      "url": "https://www.mgtv.com/lib/1?chargeInfo=b1&kind=a1&lastp=list_index&sort=c1",
+      "verified": true
+    },
+    {
+      "id": "mgtv-london",
+      "title": "倫敦合夥人",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "releaseDate": "2026-10-06期",
+      "cast": "出演者以當期官方節目資訊為準",
+      "description": "年輕合夥人在倫敦嘗試經營店鋪，記錄創業過程中的分工、挑戰與合作。",
+      "source": "芒果TV 官方綜藝節目列表",
+      "url": "https://www.mgtv.com/lib/1?chargeInfo=b1&kind=a1&lastp=list_index&sort=c1",
+      "verified": true
+    },
+    {
+      "id": "mgtv-farmer3",
+      "title": "我在中國當農人 第三季",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "releaseDate": "2026-10-05期",
+      "cast": "出演者以當期官方節目資訊為準",
+      "description": "以鄉村生活與農村經營為題材的紀實真人秀，呈現參與者的日常實作與生活體驗。",
+      "source": "芒果TV 官方綜藝節目列表",
+      "url": "https://www.mgtv.com/lib/1?chargeInfo=b1&kind=a1&lastp=list_index&sort=c1",
+      "verified": true
     }
   ],
   "cpblGames": [
@@ -80,5 +128,7 @@
     "歐美劇": [],
     "綜藝": []
   },
-  "cpblSyncError": "自動同步尚未驗證成功；下列為已核對之季後賽預定賽程"
+  "cpblSyncError": "自動同步尚未驗證成功；下列為已核對之季後賽預定賽程",
+  "recommendationCount": 6,
+  "contentReviewNote": "人工審核片單；與新聞快訊分開顯示"
 }
