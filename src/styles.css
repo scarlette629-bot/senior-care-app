@@ -162,3 +162,79 @@
   .home .compactTasks .taskHeading .emoji{font-size:21px}
   .home .compactTasks .taskHeading strong{font-size:15px;letter-spacing:-.05em}
 }
+
+/* v1.0.6: Font-size setting applies throughout the homepage.
+   Explicit pixel-valued CSS variables also work on older iOS Safari
+   (unlike clamp()/multiplied calc() syntax). */
+:root {
+  --wecare-hero-title:25px; --wecare-hero-body:15px; --wecare-weather:15px;
+  --wecare-home-section:25px; --wecare-home-count:15px;
+  --wecare-home-task:17px; --wecare-home-task-detail:15px;
+  --wecare-home-icon:23px; --wecare-quick:16px;
+  --wecare-card-title:19px; --wecare-card-note:15px;
+  --wecare-interest-title:19px; --wecare-interest-note:14px;
+  --wecare-home-cta:18px; --wecare-home-sos:23px;
+}
+:root[data-size="large"] {
+  --wecare-hero-title:29px; --wecare-hero-body:18px; --wecare-weather:18px;
+  --wecare-home-section:28px; --wecare-home-count:17px;
+  --wecare-home-task:19px; --wecare-home-task-detail:17px;
+  --wecare-home-icon:23px; --wecare-quick:18px;
+  --wecare-card-title:21px; --wecare-card-note:17px;
+  --wecare-interest-title:21px; --wecare-interest-note:16px;
+  --wecare-home-cta:20px; --wecare-home-sos:25px;
+}
+:root[data-size="xlarge"] {
+  --wecare-hero-title:33px; --wecare-hero-body:20px; --wecare-weather:20px;
+  --wecare-home-section:31px; --wecare-home-count:19px;
+  --wecare-home-task:20px; --wecare-home-task-detail:19px;
+  --wecare-home-icon:23px; --wecare-quick:20px;
+  --wecare-card-title:23px; --wecare-card-note:19px;
+  --wecare-interest-title:23px; --wecare-interest-note:18px;
+  --wecare-home-cta:22px; --wecare-home-sos:28px;
+}
+.home .hero { gap:8px; }
+.home .hero>div:first-child { flex:1 1 auto; min-width:0; }
+.home .hero .sun { flex-shrink:0; }
+.home .hero h1 { font-size:var(--wecare-hero-title)!important; line-height:1.28; overflow-wrap:break-word; }
+.home .hero p { font-size:var(--wecare-hero-body)!important; line-height:1.45!important; }
+.home .hero .weather { font-size:var(--wecare-weather); }
+.home .hero .weatherExtras b { font-size:var(--wecare-home-task-detail); line-height:1.45; }
+.home .sectionTitle { align-items:baseline; flex-wrap:wrap; gap:6px 12px; }
+.home .sectionTitle h2 { font-size:var(--wecare-home-section); line-height:1.3; }
+.home .sectionTitle>span { font-size:var(--wecare-home-count); }
+.home .assistantBrief { font-size:var(--wecare-home-cta); line-height:1.4; padding:12px; height:auto; }
+.home .compactTasks .taskHeading { display:flex; align-items:center; flex-wrap:nowrap; max-width:100%; gap:5px; }
+.home .compactTasks .taskHeading .emoji { font-size:var(--wecare-home-icon); flex:none; }
+.home .compactTasks .taskHeading strong {
+  font-size:var(--wecare-home-task); line-height:1.25; margin:0;
+  white-space:nowrap; word-break:keep-all; letter-spacing:-.045em;
+}
+.home .compactTasks .task>small, .home .compactTasks .taskMain>small {
+  font-size:var(--wecare-home-task-detail); line-height:1.45;
+  overflow-wrap:break-word;
+}
+.home .compactTasks .medQuick { font-size:var(--wecare-quick); flex-wrap:wrap; height:auto; }
+.home .compactTasks .medQuick span { min-width:0; overflow-wrap:break-word; }
+.home .compactTasks .medQuick b { font-size:var(--wecare-quick); }
+.home .compactTasks .scheduleQuick { height:auto; min-width:0; gap:6px; }
+.home .compactTasks .scheduleQuick b, .home .compactTasks .scheduleQuick span { font-size:var(--wecare-quick); }
+.home .compactTasks .scheduleQuick span { min-width:0; }
+.home .compactTasks .moreSchedule { font-size:var(--wecare-card-note); }
+.home .morningCard small { font-size:var(--wecare-card-note); line-height:1.45; }
+.home .morningCard strong { font-size:var(--wecare-card-title); line-height:1.35; overflow-wrap:break-word; }
+.home .mergedEntertainment>.summaryContent>small { font-size:var(--wecare-interest-note); }
+.home .mergedEntertainment>.summaryContent>strong { font-size:var(--wecare-interest-title); line-height:1.35; overflow-wrap:break-word; }
+.home .mergedEntertainment>.summaryContent>.selectedInterests { font-size:var(--wecare-interest-note); line-height:1.5; }
+.home .quick button { font-size:var(--wecare-home-cta); }
+.home .sos { font-size:var(--wecare-home-sos); line-height:1.3; }
+.home .care { font-size:var(--wecare-card-note); }
+/* iPhone 6 and smaller screens: preserve four two-column cards and
+   one-row icon/label without suppressing larger detail text. */
+@media(max-width:360px) {
+  .home .compactTasks .taskHeading { gap:4px; }
+  .home .compactTasks .taskHeading .emoji { font-size:20px; }
+  .home .compactTasks .taskHeading strong { font-size:15px; letter-spacing:-.05em; }
+  :root[data-size="large"] .home .compactTasks .taskHeading strong { font-size:17px; }
+  :root[data-size="xlarge"] .home .compactTasks .taskHeading strong { font-size:18px; letter-spacing:-.075em; }
+}

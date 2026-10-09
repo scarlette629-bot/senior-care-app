@@ -10,6 +10,12 @@
   "description": "像家人一樣陪伴長輩的溫暖生活照護 PWA",
   "icons": [
     {
+      "src": "apple-touch-icon-120x120.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
       "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
