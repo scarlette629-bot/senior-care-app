@@ -26,7 +26,52 @@
       "verified": true
     }
   ],
-  "cpblGames": [],
+  "cpblGames": [
+    {
+      "id": "2026-playoff-1",
+      "date": "2026-10-09",
+      "match": "統一7-ELEVEn獅（客） vs 中信兄弟（主）",
+      "timeTW": "17:05",
+      "venue": "洲際棒球場",
+      "status": "賽前排定（實際狀態以官方為準）",
+      "source": "Yahoo運動賽程／中華職棒官方賽程交叉比對",
+      "sourceUrl": "https://tw.news.yahoo.com/%E4%B8%AD%E8%81%B7-%E7%8D%85%E8%B1%A1%E7%88%AD%E9%9C%B8%E6%90%B6%E6%89%93%E9%BE%8D-%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD-%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E8%B3%BD%E7%A8%8B-%E9%96%80%E7%A5%A8-102139105.html",
+      "updatedAt": "2026-10-09T00:00:00+08:00"
+    },
+    {
+      "id": "2026-playoff-2",
+      "date": "2026-10-10",
+      "match": "中信兄弟（客） vs 統一7-ELEVEn獅（主）",
+      "timeTW": "17:05",
+      "venue": "亞太主球場",
+      "status": "賽前排定（實際狀態以官方為準）",
+      "source": "Yahoo運動賽程／中華職棒官方賽程交叉比對",
+      "sourceUrl": "https://tw.news.yahoo.com/%E4%B8%AD%E8%81%B7-%E7%8D%85%E8%B1%A1%E7%88%AD%E9%9C%B8%E6%90%B6%E6%89%93%E9%BE%8D-%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD-%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E8%B3%BD%E7%A8%8B-%E9%96%80%E7%A5%A8-102139105.html",
+      "updatedAt": "2026-10-09T00:00:00+08:00"
+    },
+    {
+      "id": "2026-playoff-3",
+      "date": "2026-10-11",
+      "match": "統一7-ELEVEn獅（客） vs 中信兄弟（主）",
+      "timeTW": "17:05",
+      "venue": "洲際棒球場",
+      "status": "如有需要才進行",
+      "source": "Yahoo運動賽程／中華職棒官方賽程交叉比對",
+      "sourceUrl": "https://tw.news.yahoo.com/%E4%B8%AD%E8%81%B7-%E7%8D%85%E8%B1%A1%E7%88%AD%E9%9C%B8%E6%90%B6%E6%89%93%E9%BE%8D-%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD-%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E8%B3%BD%E7%A8%8B-%E9%96%80%E7%A5%A8-102139105.html",
+      "updatedAt": "2026-10-09T00:00:00+08:00"
+    },
+    {
+      "id": "2026-playoff-4",
+      "date": "2026-10-12",
+      "match": "統一7-ELEVEn獅（客） vs 中信兄弟（主）",
+      "timeTW": "18:35",
+      "venue": "洲際棒球場",
+      "status": "如有需要才進行",
+      "source": "Yahoo運動賽程／中華職棒官方賽程交叉比對",
+      "sourceUrl": "https://tw.news.yahoo.com/%E4%B8%AD%E8%81%B7-%E7%8D%85%E8%B1%A1%E7%88%AD%E9%9C%B8%E6%90%B6%E6%89%93%E9%BE%8D-%E5%AD%A3%E5%BE%8C%E6%8C%91%E6%88%B0%E8%B3%BD-%E5%8F%B0%E7%81%A3%E5%A4%A7%E8%B3%BD%E8%B3%BD%E7%A8%8B-%E9%96%80%E7%A5%A8-102139105.html",
+      "updatedAt": "2026-10-09T00:00:00+08:00"
+    }
+  ],
   "categories": {
     "台劇": [],
     "韓劇": [],
@@ -34,5 +79,6 @@
     "日劇": [],
     "歐美劇": [],
     "綜藝": []
-  }
+  },
+  "cpblSyncError": "自動同步尚未驗證成功；下列為已核對之季後賽預定賽程"
 }
