@@ -48,6 +48,8 @@ def main(directory: str, commit_sha: str) -> None:
     replace_required(config,
                      'const BUILD_ID = `${(process.env.GITHUB_SHA || "local").slice(0,12)}-${Date.now().toString(36)}`;',
                      'const BUILD_ID = "v1.05-' + commit_sha[:12] + '";')
+    replace_required(config, 'base: "/senior-care-app/"',
+                     'base: "/senior-care-app/v1.05/"')
     replace_required(config, 'publishedAt: new Date().toISOString()',
                      'publishedAt: "2026-10-09T04:21:00Z"')
     print(f"Prepared frozen snapshot at {prefix} from {commit_sha}")
