@@ -4,13 +4,13 @@ import {changeLanguage,getLanguage,tr} from "./i18n";
 const originals=new WeakMap();
 const attributes=new WeakMap();
 const TARGET_ATTRIBUTES=["placeholder","title","aria-label","alt"];
-const excluded=new Set(["SCRIPT","STYLE","NOSCRIPT","TEXTAREA","OPTION","CODE","PRE"]);
+const excluded=new Set(["SCRIPT","STYLE","NOSCRIPT","TEXTAREA","OPTION","CODE","PRE","INPUT","SELECT"]);
 function translateElement(root){
  const english=getLanguage()==="en-US";
  const visit=node=>{
    if(node.nodeType===3){
      const parent=node.parentElement;
-     if(!parent||excluded.has(parent.tagName)||parent.closest("[contenteditable=true],[data-no-translate]"))return;
+     if(!parent||excluded.has(parent.tagName)||parent.closest("[contenteditable=true],[data-no-translate],.streamingCard,.streamingNews .streamingDescription,.contactItem .contactActions"))return;
      let source=originals.get(node);
      if(source===undefined){source=node.nodeValue;originals.set(node,source);}
      const desired=english?tr(source):source;
@@ -54,7 +54,7 @@ export default function LanguageBridge(){
    const observer=new MutationObserver(records=>{
      // The localization pass is idempotent; translation writes are ignored on
      // subsequent passes when they already match the target language.
-     if(records.length)translateElement(root);
+     if(records.some(record=>record.type!=="attributes"||TARGET_ATTRIBUTES.includes(record.attributeName)))translateElement(root);
    });
    observer.observe(root,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:TARGET_ATTRIBUTES});
    window.addEventListener("wecare-language-change",sync);
