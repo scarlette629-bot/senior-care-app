@@ -279,5 +279,41 @@
     "source": "Netflix 台灣官方作品頁",
     "url": "https://www.netflix.com/tw/title/81902047",
     "verified": true
+  },
+  {
+    "id": "china-fate-chooses-you",
+    "title": "佳偶天成",
+    "type": "陸劇",
+    "platform": "愛奇藝",
+    "releaseDate": "2026",
+    "cast": "任嘉倫、王鶴潤、張凱瑩",
+    "description": "戰鬼族陸千喬為打破轉生詛咒，與天生具有特殊靈根的辛湄成為夫妻。兩人由誤解到攜手，經歷追查舊案、仙門追殺與命運考驗。",
+    "source": "愛奇藝國際站官方作品頁",
+    "url": "https://www.iq.com/album/%E4%BD%B3%E5%81%B6%E5%A4%A9%E6%88%90-2026-sqb5dpk0vt?lang=zh_tw",
+    "verified": true
+  },
+  {
+    "id": "variety-boys-over-flowers",
+    "title": "母胎單身戀愛大作戰",
+    "type": "綜藝",
+    "platform": "Netflix",
+    "releaseDate": "2026",
+    "cast": "徐仁國、姜漢娜、李恩智",
+    "description": "一群從未談過戀愛的單身者在專家協助下改善生活與造型，建立自信，嘗試敞開心胸迎接第一次約會與感情。",
+    "source": "Netflix 台灣官方作品頁",
+    "url": "https://www.netflix.com/tw/title/81788026",
+    "verified": true
+  },
+  {
+    "id": "variety-culinary-class-wars",
+    "title": "黑白大廚：料理階級大戰",
+    "type": "綜藝",
+    "platform": "Netflix",
+    "releaseDate": "2025（第二季）",
+    "cast": "白種元、安成宰",
+    "description": "韓國料理名廚與眾多新銳廚師在同一競技舞台展開挑戰，透過一道道創意料理爭取評審肯定與晉級機會。",
+    "source": "Netflix 台灣官方作品頁",
+    "url": "https://www.netflix.com/tw/title/81728365",
+    "verified": true
   }
 ]
