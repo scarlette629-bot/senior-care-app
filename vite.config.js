@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import legacy from "@vitejs/plugin-legacy";
 
 // Each deployed build receives a unique identity. This avoids the PWA falsely
 // reporting "already up to date" when features changed but the human version
@@ -27,7 +28,7 @@ const releaseStamp = {
   }
 };
 export default defineConfig({
-  plugins: [react(), releaseStamp],
+  plugins: [react(), legacy({targets: ["iOS >= 12","Safari >= 12"]}), releaseStamp],
   define: { __WECARE_BUILD_ID__: JSON.stringify(BUILD_ID) },
   base: "/senior-care-app/"
 });

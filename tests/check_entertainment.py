@@ -118,3 +118,20 @@ assert int.from_bytes(png[20:24],"big")==120
 manifest=json.loads((root/"public/manifest.webmanifest").read_text(encoding="utf-8"))
 assert any(i.get("src")=="apple-touch-icon-120x120.png" and i.get("type")=="image/png" for i in manifest["icons"])
 print("PASS: accessible homepage text sizes and iPhone 6 PNG icon")
+
+
+# Safety: opening WECARE must not silently delete historical iPhone records.
+assert "useEffect(()=>{autoCleanup();" not in app
+assert '<DataBackup/>' in app
+recovery=(root/"src/DataBackup.jsx").read_text(encoding="utf-8")
+assert "WECARE_LOCAL_BACKUP_V1" in recovery
+assert "backupCurrent()" in recovery
+assert "wecare-recovery-before-import-" in recovery
+assert "window.confirm(" in recovery
+assert "localStorage.clear(" not in recovery
+assert "fetch(" not in recovery, "Local backup must never upload records"
+vite=(root/"vite.config.js").read_text(encoding="utf-8")
+package=json.loads((root/"package.json").read_text(encoding="utf-8"))
+assert '@vitejs/plugin-legacy' in vite and 'iOS >= 12' in vite
+assert '@vitejs/plugin-legacy' in package["devDependencies"]
+print("PASS: no automatic history deletion, local-only backup and iPhone 6 legacy build")
