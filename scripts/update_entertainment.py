@@ -103,8 +103,8 @@ except Exception as exc:
     out["cpblDataMode"]="reviewed"
 # Merge reviewed fixtures only where an official game was not available; never
 # mark reviewed fixtures as a successful network synchronization.
-keys={(g["date"],g["match"]) for g in official}
-merged=official+[g for g in reviewed if (g["date"],g["match"]) not in keys]
+keys={(g["date"],g["timeTW"]) for g in official}
+merged=official+[g for g in reviewed if (g["date"],g["timeTW"]) not in keys]
 merged.sort(key=lambda g:(g.get("date",""),g.get("timeTW",""),g.get("id","")))
 if not merged:
     old=previous.get("cpblGames",[])
