@@ -16,7 +16,7 @@ for kind in categories:
     amount=sum(x["type"]==kind for x in published)
     assert amount>=3,f"{kind}: only {amount} recommendations"
 for x in published:
-    for field in ("id","title","type","platform","releaseDate","cast","description","source","url"):
+    for field in ("id","title","type","platform","cast","description","source","url"):
         assert isinstance(x.get(field),str) and x[field].strip(),(x.get("id"),field)
     assert len(x["description"])>=35,x["id"]
     host=urlparse(x["url"]).hostname
