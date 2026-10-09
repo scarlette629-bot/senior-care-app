@@ -1,0 +1,108 @@
+{
+  "weekStart": "2026-10-05",
+  "weekEnd": "2026-10-11",
+  "market": "台灣及華人市場",
+  "description": "依 2026-10-05 至 2026-10-09 可追溯的微博與平台公開榜單／節目日曆選取，非微博熱搜名次",
+  "items": [
+    {
+      "id": "20261007-yunhe-lanxiang",
+      "title": "蘭香如故",
+      "type": "陸劇",
+      "observedAt": "2026-10-07T20:00:00+08:00",
+      "source": "雲合數據官方微博｜10 月 7 日長劇熱播榜",
+      "sourceUrl": "https://weibo.com/2/detail/5351778614772068",
+      "isWeiboMention": true,
+      "evidenceType": "當週播放榜話題"
+    },
+    {
+      "id": "20261007-yunhe-wuke",
+      "title": "無可替代",
+      "type": "陸劇",
+      "observedAt": "2026-10-07T20:00:00+08:00",
+      "source": "雲合數據官方微博｜10 月 7 日長劇熱播榜",
+      "sourceUrl": "https://weibo.com/2/detail/5351778614772068",
+      "isWeiboMention": true,
+      "evidenceType": "當週播放榜話題"
+    },
+    {
+      "id": "20261007-yunhe-meiying",
+      "title": "魅影神捕",
+      "type": "陸劇",
+      "observedAt": "2026-10-07T20:00:00+08:00",
+      "source": "雲合數據官方微博｜10 月 7 日長劇熱播榜",
+      "sourceUrl": "https://weibo.com/2/detail/5351778614772068",
+      "isWeiboMention": true,
+      "evidenceType": "當週播放榜話題"
+    },
+    {
+      "id": "20261007-yunhe-yicou",
+      "title": "一甌春",
+      "type": "陸劇",
+      "observedAt": "2026-10-07T20:00:00+08:00",
+      "source": "雲合數據官方微博｜10 月 7 日長劇熱播榜",
+      "sourceUrl": "https://weibo.com/2/detail/5351778614772068",
+      "isWeiboMention": true,
+      "evidenceType": "當週播放榜話題"
+    },
+    {
+      "id": "20261009-iqiyi-yuhong",
+      "title": "餘紅舊事",
+      "type": "陸劇",
+      "observedAt": "2026-10-09T00:57:00+08:00",
+      "source": "愛奇藝風雲榜｜10 月 9 日即時熱度榜",
+      "sourceUrl": "https://www.iqiyi.com/ranks1/-1/0",
+      "isWeiboMention": false,
+      "evidenceType": "當週平台熱播榜"
+    },
+    {
+      "id": "20261009-cctv-lanxiang",
+      "title": "蘭香如故｜10 月 9 日央視播映",
+      "type": "陸劇",
+      "observedAt": "2026-10-09T08:00:00+08:00",
+      "source": "央視電視劇官方微博｜10 月 9 日追劇日曆",
+      "sourceUrl": "https://weibo.com/2/detail/5352002944239206",
+      "isWeiboMention": true,
+      "evidenceType": "當週新集播映資訊"
+    },
+    {
+      "id": "20261005-yunhe-heart",
+      "title": "心動的信號 第九季",
+      "type": "綜藝",
+      "observedAt": "2026-10-05T16:20:00+08:00",
+      "source": "微博公開轉載｜10 月 5 日雲合綜藝有效播放市占",
+      "sourceUrl": "https://weibo.com/2/detail/5351061570716100",
+      "isWeiboMention": true,
+      "evidenceType": "當週綜藝播放榜討論"
+    },
+    {
+      "id": "20261005-yunhe-pijing",
+      "title": "披荊斬棘2026",
+      "type": "綜藝",
+      "observedAt": "2026-10-05T16:20:00+08:00",
+      "source": "微博公開轉載｜10 月 5 日雲合綜藝有效播放市占",
+      "sourceUrl": "https://weibo.com/2/detail/5351061570716100",
+      "isWeiboMention": true,
+      "evidenceType": "當週綜藝播放榜討論"
+    },
+    {
+      "id": "20261009-hunan-flowers",
+      "title": "花兒與少年8｜本週新一期",
+      "type": "綜藝",
+      "observedAt": "2026-10-09T08:00:00+08:00",
+      "source": "湖南衛視節目編排微博｜10 月 9 日",
+      "sourceUrl": "https://weibo.com/2/detail/5349821722656992",
+      "isWeiboMention": true,
+      "evidenceType": "當週節目播映資訊"
+    },
+    {
+      "id": "20261009-hunan-london",
+      "title": "倫敦合夥人｜本週新一期",
+      "type": "綜藝",
+      "observedAt": "2026-10-09T08:00:00+08:00",
+      "source": "湖南衛視節目編排微博｜10 月 10 日",
+      "sourceUrl": "https://weibo.com/2/detail/5349821722656992",
+      "isWeiboMention": true,
+      "evidenceType": "當週節目播映資訊"
+    }
+  ]
+}
