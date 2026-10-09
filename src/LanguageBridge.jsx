@@ -1,5 +1,5 @@
-import React,{useEffect,useState} from "react";
-import {changeLanguage,getLanguage,tr} from "./i18n";
+import React,{useEffect} from "react";
+import {getLanguage,tr} from "./i18n";
 
 const originals=new WeakMap();
 const attributes=new WeakMap();
@@ -46,9 +46,8 @@ function translateElement(root){
  visit(root);
 }
 export default function LanguageBridge(){
- const[language,setLanguage]=useState(getLanguage);
  useEffect(()=>{
-   const sync=()=>{const lang=getLanguage();setLanguage(lang);document.documentElement.lang=lang==="en-US"?"en":"zh-Hant";document.title=lang==="en-US"?"WECARE Warm Care | Senior Daily Care":"WECARE 暖心守護｜長者生活照護";translateElement(document.getElementById("root"));};
+   const sync=()=>{const lang=getLanguage();document.documentElement.lang=lang==="en-US"?"en":"zh-Hant";document.title=lang==="en-US"?"WECARE Warm Care | Senior Daily Care":"WECARE 暖心守護｜長者生活照護";translateElement(document.getElementById("root"));};
    const root=document.getElementById("root");
    if(!root)return;
    const observer=new MutationObserver(records=>{
@@ -61,8 +60,5 @@ export default function LanguageBridge(){
    sync();
    return()=>{observer.disconnect();window.removeEventListener("wecare-language-change",sync);};
  },[]);
- return <div className="languageSwitcher" role="group" aria-label="Language / 語言">
-  <button type="button" aria-pressed={language==="zh-TW"} className={language==="zh-TW"?"active":""} onClick={()=>changeLanguage("zh-TW")}>中文</button>
-  <button type="button" aria-pressed={language==="en-US"} className={language==="en-US"?"active":""} onClick={()=>changeLanguage("en-US")}>English</button>
- </div>;
+ return null;
 }
