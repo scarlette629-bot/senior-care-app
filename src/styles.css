@@ -268,3 +268,12 @@ html[lang="en"] .home .taskHeading strong{overflow-wrap:anywhere}
 html[lang="en"] .home .compactTasks .taskHeading{flex-wrap:wrap}
 html[lang="en"] .home .taskGrid button{overflow-wrap:anywhere}
 @media(max-width:360px){.languageSwitcher{padding:10px 12px 0;gap:6px}.languageSwitcher button{min-width:84px;padding:9px 11px;font-size:16px}}
+
+
+/* Profile language controls: large targets for senior accessibility. */
+.languageSettings{margin:12px 0 18px;padding:15px;border:1px solid var(--primary-light);border-radius:18px;background:var(--surface)}
+.languageSettingsTitle{font-size:18px;font-weight:800;margin-bottom:12px}
+.languageSettings .languageSwitcher{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));max-width:none;margin:0;padding:0;gap:10px}
+.languageSettings .languageSwitcher button{width:100%;min-height:52px;min-width:0;font-size:19px}
+:root[data-theme="night"] .languageSettings{background:var(--surface);border-color:var(--primary-dark)}
+@media(max-width:360px){.languageSettings{padding:12px}.languageSettings .languageSwitcher button{font-size:18px;min-height:50px}}
