@@ -257,3 +257,14 @@
 :root[data-theme="night"] .streamingNews .streamingMeta span,
 :root[data-theme="night"] .message .streamingNews>.streamingIntro{color:#eee1d5}
 @media(max-width:360px){.streamingNews .streamingCard{padding:11px}.streamingNews>h2{font-size:18px}.streamingNews .streamingMeta{gap:3px 10px}}
+
+
+/* v1.0.5 English branch: language controls remain in document flow, not over navigation. */
+.languageSwitcher{display:flex;justify-content:flex-end;align-items:center;gap:8px;max-width:760px;margin:0 auto;padding:12px 18px 0}
+.languageSwitcher button{border:2px solid var(--primary-dark);border-radius:16px;background:var(--surface);color:var(--text);padding:10px 16px;min-height:44px;min-width:94px;font-size:17px;font-weight:700;cursor:pointer}
+.languageSwitcher button.active{background:var(--primary-dark);color:white}
+.languageSwitcher button:focus-visible{outline:3px solid #255ac4;outline-offset:3px}
+html[lang="en"] .home .taskHeading strong{overflow-wrap:anywhere}
+html[lang="en"] .home .compactTasks .taskHeading{flex-wrap:wrap}
+html[lang="en"] .home .taskGrid button{overflow-wrap:anywhere}
+@media(max-width:360px){.languageSwitcher{padding:10px 12px 0;gap:6px}.languageSwitcher button{min-width:84px;padding:9px 11px;font-size:16px}}
