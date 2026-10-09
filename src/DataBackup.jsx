@@ -95,7 +95,7 @@ function DataBackup(){
     const sample=verifyText.trim();
     if(sample===copyText){
       setStatus("✅ 測試通過：剪貼簿裡是完整的 WECARE 備份文字！請再貼到自己的備忘錄保存。");
-    }else if(/^https?:\\/\\//i.test(sample)){
+    }else if(sample.indexOf("https://")===0||sample.indexOf("http://")===0){
       setStatus("❌ 貼上的是網站網址，不是 WECARE 備份！請回到上方按「一鍵複製備份」，不要按匯入。");
     }else if(!sample){
       setStatus("請先長按下方測試框並點「貼上」，再按「檢查貼上內容」。");
@@ -106,7 +106,7 @@ function DataBackup(){
   const importBackup=()=>{
     const raw=pasteText.trim();
     if(!raw){setStatus("請貼上你之前保存的 WECARE 備份文字。");return;}
-    if(/^https?:\\/\\//i.test(raw)){setStatus("這是 APP 網址，不是備份資料！沒有匯入也沒有改動原資料。");return;}
+    if(raw.indexOf("https://")===0||raw.indexOf("http://")===0){setStatus("這是 APP 網址，不是備份資料！沒有匯入也沒有改動原資料。");return;}
     if(raw.length>MAX_IMPORT_LENGTH){setStatus("備份內容過大，已取消匯入，以免手機儲存空間不足。");return;}
     let backup;
     try{backup=JSON.parse(raw);}catch{setStatus("這不是有效的 JSON 備份文字，沒有更動資料。");return;}
