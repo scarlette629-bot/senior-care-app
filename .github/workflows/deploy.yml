@@ -3,6 +3,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # GITHUB_TOKEN pushes from scheduled refresh do not initiate other push workflows.
+  # Trigger a Pages rebuild explicitly after a successful entertainment refresh.
+  workflow_run:
+    workflows: ["Refresh entertainment news"]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: write
   pages: write
@@ -14,6 +20,7 @@ env:
   WECARE_STABLE_SHA: 1c7545150502fee79b90b562a86c6edbc2c346d7
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
