@@ -5,7 +5,7 @@ import legacy from "@vitejs/plugin-legacy";
 // Each deployed build receives a unique identity. This avoids the PWA falsely
 // reporting "already up to date" when features changed but the human version
 // number stayed the same. GitHub Pages uses GITHUB_SHA; local builds work too.
-const APP_VERSION = "1.0.5";
+const APP_VERSION = "1.0.6";
 const BUILD_ID = `${(process.env.GITHUB_SHA || "local").slice(0,12)}-${Date.now().toString(36)}`;
 const releaseStamp = {
   name: "wecare-release-identity",
@@ -30,5 +30,5 @@ const releaseStamp = {
 export default defineConfig({
   plugins: [react(), legacy({targets: ["iOS >= 12","Safari >= 12"]}), releaseStamp],
   define: { __WECARE_BUILD_ID__: JSON.stringify(BUILD_ID) },
-  base: "/senior-care-app/"
+  base: "/senior-care-app/v1.06/"
 });
