@@ -1,8 +1,8 @@
 {
   "name": "WECARE 暖心守護｜長者生活照護",
   "short_name": "WECARE",
-  "start_url": "/senior-care-app/",
-  "scope": "/senior-care-app/",
+  "start_url": "/senior-care-app/v1.06/",
+  "scope": "/senior-care-app/v1.06/",
   "display": "standalone",
   "background_color": "#FFF9F1",
   "theme_color": "#F59E8B",
