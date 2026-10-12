@@ -102,6 +102,26 @@ jobs:
           test ! -e dist/v1.05 || { echo "::error::Current build must not overwrite archived snapshot"; exit 1; }
           mkdir -p dist/v1.05
           cp -a "$RUNNER_TEMP/v105-copy/frozen/v1.05/." dist/v1.05/
+      - name: Build WECARE v1.06 separately from its development branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin develop/v1.06
+          git worktree add --detach "$RUNNER_TEMP/wecare-v106-source" FETCH_HEAD
+          # Reuse the newest approved cloud data, not the older branch snapshot.
+          cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
+          (
+            cd "$RUNNER_TEMP/wecare-v106-source"
+            npm install --no-audit --no-fund
+            npm run build
+            test -f dist/index.html
+            test -f dist/version.json
+            grep -q '1.0.6' dist/version.json
+          )
+          test ! -e dist/v1.06 || { echo "::error::Current build must not overwrite v1.06 staging"; exit 1; }
+          mkdir -p dist/v1.06
+          cp -a "$RUNNER_TEMP/wecare-v106-source/dist/." dist/v1.06/
+          cmp public/entertainment-daily.json dist/v1.06/entertainment-daily.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
