@@ -1,5 +1,5 @@
-const BASE="/senior-care-app/";
-const CACHE="wecare-v1.0.5-shell";
+const BASE="/senior-care-app/v1.06/";
+const CACHE="wecare-v1.0.6-shell";
 const SHELL=[BASE,BASE+"manifest.webmanifest",BASE+"icon.svg",BASE+"wecare-logo.svg"];
 self.addEventListener("install",event=>{
   self.skipWaiting();
@@ -7,7 +7,7 @@ self.addEventListener("install",event=>{
 });
 self.addEventListener("activate",event=>{
   event.waitUntil(Promise.all([
-    caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("wecare-")&&k!==CACHE).map(k=>caches.delete(k)))),
+    caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("wecare-v1.0.6-")&&k!==CACHE).map(k=>caches.delete(k)))),
     self.clients.claim()
   ]));
 });
