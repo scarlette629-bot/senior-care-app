@@ -117,6 +117,7 @@ jobs:
             test -f dist/index.html
             test -f dist/version.json
             grep -q '1.0.6' dist/version.json
+            test -s dist/assets/$(sed -n 's/.*src="[^"]*\/assets\/\([^"]*\.js\)".*/\1/p' dist/index.html | head -n1)
           )
           test ! -e dist/v1.06 || { echo "::error::Current build must not overwrite v1.06 staging"; exit 1; }
           mkdir -p dist/v1.06
