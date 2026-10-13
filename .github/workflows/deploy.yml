@@ -114,6 +114,8 @@ jobs:
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "🎬 我的戲劇與綜藝推薦" in s; assert "📚 展開往年作品" in s; assert "📰 我的娛樂新聞" in s'
           # The recommendation lists must be computed before JSX rendering.
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); p=s.index("function Entertainment("); r=s.index("return <Page back={back} title=",p); assert p < s.index("const yearStart=",p) < r; assert "thisYearRecs" in s and "undatedRecs" in s'
+          test -s "$RUNNER_TEMP/wecare-v106-source/public/weekly-hot-history.json"
+          python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "showingPriorWeek" in s and "weekly-hot-history.json" in s'
           # Reuse the newest approved cloud data, not the older branch snapshot.
           cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
           (
