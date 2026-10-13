@@ -109,6 +109,8 @@ jobs:
           git fetch origin develop/v1.06
           git worktree add --detach "$RUNNER_TEMP/wecare-v106-source" FETCH_HEAD
           python -c 'from pathlib import Path; p=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx"); s=p.read_text(); a=s.index("function InterestSummary("); b=s.index("function Entertainment("); assert "const newsKinds=" not in s[a:b], "News logic leaked into home"; assert "const newsKinds=" in s[b:], "News logic missing from Entertainment"'
+          # Keep the verified drama recommendations visibly accessible in v1.06.
+          python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "🎬 我的戲劇與綜藝推薦" in s; assert "上映／播出時間" in s; assert "故事大綱" in s; assert "📰 我的娛樂新聞" in s'
           # Reuse the newest approved cloud data, not the older branch snapshot.
           cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
           (
