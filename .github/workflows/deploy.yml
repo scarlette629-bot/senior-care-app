@@ -1,4 +1,4 @@
-name: Deploy WECARE v1.05 stable and immutable archive
+name: Deploy WECARE current release and immutable v1.05 archive
 on:
   push:
     branches: [main]
@@ -85,12 +85,6 @@ jobs:
               git push origin HEAD:refs/heads/release/v1.05-site
             )
           fi
-      - name: Build unchanged stable app at original URL
-        shell: bash
-        run: |
-          set -euo pipefail
-          npm install --no-audit --no-fund
-          npm run build
       - name: Include archived permanent /v1.05/ URL
         shell: bash
         run: |
@@ -131,6 +125,29 @@ jobs:
           mkdir -p dist/v1.06
           cp -a "$RUNNER_TEMP/wecare-v106-source/dist/." dist/v1.06/
           cmp public/entertainment-daily.json dist/v1.06/entertainment-daily.json
+          # Publish the SAME tested v1.06 code at the established URL.
+          # Rebuild with the original base and PWA scope so existing home-screen
+          # icons and browser localStorage retain their original origin/path.
+          # Do not modify the immutable v1.05 snapshot.
+          sed -i 's@base: "/senior-care-app/v1.06/"@base: "/senior-care-app/"@' "$RUNNER_TEMP/wecare-v106-source/vite.config.js"
+          sed -i 's@/senior-care-app/v1.06/@/senior-care-app/@g' "$RUNNER_TEMP/wecare-v106-source/index.html" "$RUNNER_TEMP/wecare-v106-source/public/manifest.webmanifest" "$RUNNER_TEMP/wecare-v106-source/public/sw.js"
+          sed -i 's@wecare-v1.0.6-shell@wecare-v1.0.6-root-shell@g' "$RUNNER_TEMP/wecare-v106-source/public/sw.js"
+          # Only discard the previous ROOT service-worker shell; never touch
+          # any v1.05 archive or v1.06 standalone cache/data storage.
+          sed -i 's@k.startsWith("wecare-v1.0.6-")\&\&k!==CACHE@(k==="wecare-v1.0.5-shell"||k.startsWith("wecare-v1.0.6-root-"))\&\&k!==CACHE@' "$RUNNER_TEMP/wecare-v106-source/public/sw.js"
+          (
+            cd "$RUNNER_TEMP/wecare-v106-source"
+            npm run build
+            grep -q '1.0.6' dist/version.json
+            grep -q '/senior-care-app/assets/' dist/index.html
+            grep -q '"/senior-care-app/"' dist/manifest.webmanifest
+            test -s dist/entertainment-daily.json
+          )
+          cp -a "$RUNNER_TEMP/wecare-v106-source/dist/." dist/
+          cmp public/entertainment-daily.json dist/entertainment-daily.json
+          test -f dist/v1.05/index.html
+          test -f dist/v1.06/index.html
+          grep -q '1.0.6' dist/version.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
