@@ -218,6 +218,47 @@ def update_weekly_hot(reviewed):
             "method":"本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
             "items":matched[:12]}
 
+# Daily discovery of recently mentioned Mainland-China drama titles. News mentions are
+# candidates, NEVER verified premiere dates or confirmed streaming availability.
+def discover_china_drama_titles():
+    import re
+    seen={}
+    cutoff=NOW-datetime.timedelta(days=30)
+    searches=["陸劇 新劇 開播 愛奇藝 騰訊 優酷 芒果TV","國產劇 今日開播 定檔 新劇","陸劇 2026 十月 新劇 追劇"]
+    for query in searches:
+        try:
+            if os.environ.get("WECARE_OFFLINE")=="1":raise RuntimeError("offline")
+            url="https://news.google.com/rss/search?"+urllib.parse.urlencode({"q":query,"hl":"zh-TW","gl":"TW","ceid":"TW:zh-Hant"})
+            req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 WECARE/1.0"})
+            with urllib.request.urlopen(req,timeout=18) as response:root=ET.fromstring(response.read())
+            for story in root.findall("./channel/item"):
+                headline=(story.findtext("title") or "").strip()
+                link=(story.findtext("link") or "").strip()
+                stamp=(story.findtext("pubDate") or "").strip()
+                source=(story.findtext("source") or "").strip()
+                try: published=email.utils.parsedate_to_datetime(stamp).astimezone(NOW.tzinfo)
+                except (ValueError,TypeError):continue
+                if not cutoff<=published<=NOW or not link.startswith("https://"):continue
+                if any(term in headline for term in ("回顧","經典老劇","重播","播出十年","播出14年")):continue
+                for title in re.findall(r"《([^》]{2,22})》",headline):
+                    title=title.strip()
+                    if not re.search(r"[\u4e00-\u9fff]",title):continue
+                    if title not in seen or published>datetime.datetime.fromisoformat(seen[title]["publishedAt"]):
+                        seen[title]={"title":title,"publishedAt":published.isoformat(timespec="minutes"),
+                            "source":source or "近期公開新聞","sourceUrl":link,
+                            "status":"新聞提及（尚未核實正式開播）"}
+        except Exception as exc:print("China drama discovery:",exc)
+    return sorted(seen.values(),key=lambda x:x["publishedAt"],reverse=True)[:18]
+
+new_china_titles=discover_china_drama_titles()
+out["chinaDramaNewTitles"]={"checkedAt":NOW.isoformat(timespec="minutes"),"items":new_china_titles,
+    "lastSuccessfulAt":NOW.isoformat(timespec="minutes") if new_china_titles else previous.get("chinaDramaNewTitles",{}).get("lastSuccessfulAt"),
+    "method":"最近30天新聞提及的劇名，待官方核實後才能視為已開播"}
+if not new_china_titles:
+    saved=previous.get("chinaDramaNewTitles",{}).get("items",[])
+    cutoff=(NOW-datetime.timedelta(days=30)).date().isoformat()
+    out["chinaDramaNewTitles"]["items"]=[x for x in saved if x.get("publishedAt","")[:10]>=cutoff][:18]
+
 out["weeklyHot"]=update_weekly_hot(out["recommendations"])
 # Korean, Japanese and Western series: separate, sourced weekly platform updates.
 # This list is NOT a popularity ranking. RSS articles must have actual same-week
