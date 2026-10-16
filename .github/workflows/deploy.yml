@@ -36,7 +36,7 @@ jobs:
           test "$actual" = "$WECARE_STABLE_SHA" || { echo "::error::Frozen v1.05 branch was modified"; exit 1; }
           while IFS= read -r file; do
             case "$file" in
-              .github/workflows/deploy.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|docs/VERSIONING.md|public/entertainment-daily.json) ;;
+              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|docs/VERSIONING.md|public/entertainment-daily.json) ;;
               *) echo "::error::Refusing to deploy modification of frozen v1.05 application: $file"; exit 1 ;;
             esac
           done < <(git diff --name-only "$WECARE_STABLE_SHA" HEAD)
