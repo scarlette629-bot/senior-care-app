@@ -1,0 +1,38 @@
+name: Refresh China drama daily titles
+on:
+  schedule:
+    - cron: '20 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: wecare-china-drama-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update entertainment and new China drama titles
+        run: python3 scripts/update_entertainment.py
+      - name: Validate daily China drama feed
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data=json.loads(Path("public/entertainment-daily.json").read_text(encoding="utf-8"))
+          feed=data.get("chinaDramaNewTitles")
+          assert isinstance(feed,dict) and isinstance(feed.get("items"),list), "China drama feed not created"
+          assert feed.get("checkedAt"), "Missing refresh time"
+          print("China drama feed generated; titles:",len(feed["items"]))
+          PY
+      - name: Commit refreshed data only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/entertainment-daily.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh China drama titles and entertainment"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
