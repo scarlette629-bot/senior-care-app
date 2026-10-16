@@ -7,7 +7,7 @@ on:
   # GITHUB_TOKEN pushes from scheduled refresh do not initiate other push workflows.
   # Trigger a Pages rebuild explicitly after a successful entertainment refresh.
   workflow_run:
-    workflows: ["Refresh entertainment news"]
+    workflows: ["Refresh entertainment news", "Refresh China drama daily titles"]
     types: [completed]
     branches: [main]
 permissions:
