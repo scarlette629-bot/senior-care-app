@@ -1,4 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
+# China drama display rollout from develop/v1.06 (v1.05 archive remains untouched).
 on:
   push:
     branches: [main]
