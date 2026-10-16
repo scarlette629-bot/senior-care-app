@@ -68,7 +68,7 @@ jobs:
             python scripts/prepare_v105_snapshot.py "$RUNNER_TEMP/wecare-v105-source" "$WECARE_STABLE_SHA"
             (
               cd "$RUNNER_TEMP/wecare-v105-source"
-              npm install --no-audit --no-fund
+              npm install --no-audit --no-fund --legacy-peer-deps
               npm run build
               test -f dist/index.html
               test -f dist/version.json
@@ -114,7 +114,7 @@ jobs:
           cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
           (
             cd "$RUNNER_TEMP/wecare-v106-source"
-            npm install --no-audit --no-fund
+            npm install --no-audit --no-fund --legacy-peer-deps
             npm run build
             test -f dist/index.html
             test -f dist/version.json
