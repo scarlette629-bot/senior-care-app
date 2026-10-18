@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-10-18T07:34+08:00",
+  "updatedAt": "2026-10-18T12:38+08:00",
   "categories": {
     "陸劇": [
       {
@@ -74,16 +74,16 @@
         "source": "BEAUTY美人圈"
       },
       {
-        "title": "2026 韓劇推薦｜10 月最新片單＋9月、8 月、7 月、6 月熱門韓劇回顧 - GQ Hong Kong",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
-        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
-        "source": "GQ Hong Kong"
-      },
-      {
         "title": "2026 韓劇清單！10部 Netflix、Disney+ 必追片單：邊佑錫韓韶禧《我獨自升級》、高允貞《努力克服自卑的我們》 - Marie Claire 美麗佳人",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wR2tFSE9icEJ6QjJ1MFpiaEx2Qjh3NG1KSUZBUEh5SHJZTmV2UTVCMUNyMm5SLVNwaTBFdzBPMWluY1BicVhaWVNYQ2hxQ0JnT3U3U1J2akx4WjFiYmVNaWJnRjZNY2Y3?oc=5",
         "published": "Mon, 18 May 2026 07:00:00 GMT",
         "source": "Marie Claire 美麗佳人"
+      },
+      {
+        "title": "2026 韓劇推薦｜10 月最新片單＋9月、8 月、7 月、6 月熱門韓劇回顧 - GQ Hong Kong",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
+        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
+        "source": "GQ Hong Kong"
       },
       {
         "title": "2026 Disney+必追影集片單推薦！陸劇《尚公主》、日韓劇《莓好遇見你》、皮克斯動畫電影《玩具總動員5》等40+部最新片單請收藏！ - Harper's BAZAAR",
@@ -648,7 +648,7 @@
   "cpblDataMode": "reviewed",
   "cpblReviewedAt": "2026-10-09T09:55:00+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-10-18T07:34+08:00",
+    "checkedAt": "2026-10-18T12:38+08:00",
     "items": [
       {
         "title": "無可替代",
@@ -777,13 +777,13 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-10-18T07:34+08:00",
+    "lastSuccessfulAt": "2026-10-18T12:38+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "weeklyHot": {
     "weekStart": "2026-10-12",
     "weekEnd": "2026-10-18",
-    "updatedAt": "2026-10-18T07:34+08:00",
+    "updatedAt": "2026-10-18T12:38+08:00",
     "market": "台灣及華語市場",
     "method": "本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
     "items": [
@@ -825,7 +825,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-10-12",
     "weekEnd": "2026-10-18",
-    "updatedAt": "2026-10-18T07:34+08:00",
+    "updatedAt": "2026-10-18T12:38+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": [
@@ -837,7 +837,7 @@
           "歐美劇"
         ],
         "platform": "Netflix",
-        "eventAt": "2026-10-16T13:55+08:00",
+        "eventAt": "2026-10-16T14:12+08:00",
         "eventLabel": "本週媒體消息（非官方熱度榜）",
         "source": "Yahoo新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxQSXhoTC1CMkM2endmSEE0VzBkSFpLeGhwWEVrck52X3ZHWnF2bzNMdmh0c2szdWZQQ05xUkNhOFlRcEZZcnRramtQWERUU1dfLU1YZnZiekZwXzJ1bUtxcGU5NmZXa3lXLTQ1MTgxUXRlZ1pLR1dkZzR5TFhZZHF1WElCaXN0SHVFLW5tX1JBLXozVzQzZ2xILTFyVm1JVG1RZFVIVWVzQ0dXU1E0V3JzdF9ZWHZQZjVPN0ZmdzJTaUFyN3g1RlZIcThjSVZwaUlUSmwyMG1BajVfSmM5VWp2dDlBU2NiNk5IRnRmcXpxWXNZSTBuWkE4UDVucHFHT0dHYjVUN3loOFlBejgwLUNwWlhIX09OQ2ltalUyMi1tVmxfUnFCS3Y1V3NvSkdVY2tRcXl0VE1RdWM3cUJycFpTVlpGc3JlRVVwV0RNemVkVElVc0F4a1pBakFnam95WWQ1MHNKX2Q5ZFlvSHBUN3poS0JaQ2JKazBsbDRnWTNGeE5kbXRXLVhtalN6YjUtUDlZSi1Lb29SaEFRUFZPNnlHa2NZWmVPOTZwY3k2NV9EeWpvS0JCWmVtNFd1ckhGSzlDRHplZVRTTjlqaHZELXZBdUxKaEltZ204TVVSczNHczRmSlRmNnpnaXlPLUE?oc=5",
