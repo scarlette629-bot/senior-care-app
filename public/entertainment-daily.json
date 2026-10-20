@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-10-20T08:46+08:00",
+  "updatedAt": "2026-10-20T12:55+08:00",
   "categories": {
     "陸劇": [
       {
@@ -86,16 +86,16 @@
         "source": "Harper's BAZAAR"
       },
       {
-        "title": "2026 韓劇推薦｜10 月最新片單＋9月、8 月、7 月、6 月熱門韓劇回顧 - GQ Hong Kong",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
-        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
-        "source": "GQ Hong Kong"
-      },
-      {
         "title": "2026追劇片單！Netflix、Disney+強檔齊發，從《咒術迴戰3》到《百萬人推理》話題不掉線 - 迷誠品",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuczY4eF82X3ZCZHpBSmhHaE5kYkJta1dzLVZmaUx4czJVN2pONF9KS2JOcVFULTFpeGNVQ19yWnNRTUNRM092MUJsWnRXSlZwY1d5TVZYS2hiNzhVYldn?oc=5",
         "published": "Fri, 13 Feb 2026 08:00:00 GMT",
         "source": "迷誠品"
+      },
+      {
+        "title": "2026 韓劇推薦｜10 月最新片單＋9月、8 月、7 月、6 月熱門韓劇回顧 - GQ Hong Kong",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
+        "published": "Mon, 12 Oct 2026 07:00:00 GMT",
+        "source": "GQ Hong Kong"
       }
     ],
     "綜藝": [
@@ -624,18 +624,18 @@
   "cpblDataMode": "reviewed",
   "cpblReviewedAt": "2026-10-09T09:55:00+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-10-20T08:46+08:00",
+    "checkedAt": "2026-10-20T12:55+08:00",
     "items": [
       {
         "title": "嫁金釵",
-        "publishedAt": "2026-10-20T02:29+08:00",
+        "publishedAt": "2026-10-20T08:06+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
         "title": "尚公主",
-        "publishedAt": "2026-10-20T02:29+08:00",
+        "publishedAt": "2026-10-20T08:06+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
@@ -652,6 +652,13 @@
         "publishedAt": "2026-10-13T23:35+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT2IwZDZJY0pYczJWQzlTTmJvU2UwN3o5Qm5kajlXekJXeV8zQkktZVBIWVRPZnB0N0pEellNVmtOYTdNdkcwTFZEaHhHT3ZCTzdjVWkzVlNxekY0VDZJa3VkUkthcnpYdTJsRHlTcEhXMjVMSnNUaUlnaWVEeWRZLXpvdTE5SG5a?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "百日謊言",
+        "publishedAt": "2026-10-10T18:32+08:00",
+        "source": "udn 女子漾",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KNkxKb2F4RmFuOE01X1lJMzFaN2dPS2x5MjlWLXIxQzRiX2E5R21oUm8wdmNDX2FoNEh1TGVUWER0ZmVobmhhQXducWhCN2Q1V1RpcDNVLXdqRXR60gFiQVVfeXFMT0ZxbHJWcUJqYTkyZHRUTHpBQUxLaWhrSHBrWUNJeThTTGsxSmtvcW1lalhyb2FuMFdyb3hlOVBoZ2FfQXZiSFZpX19XV1V2NW9VOWlXX2ZfRDFrWDlkTVQ1Tmc?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -718,13 +725,6 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "百日謊言",
-        "publishedAt": "2026-09-24T15:00+08:00",
-        "source": "udn 女子漾",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43WlNyNmFfN2ZpUmdFUUFEX281NEx4X05BSDFBcS1pREdVT2VJSG1aQ21MZURlX3poY01fVzVyYTQ0M2tPbEFQNlJRWVBCY0tDTENaOFA1WkhGczFN0gFiQVVfeXFMTzg0OTlRWkpRNF9sbmxqZTZLeUljUnh1Sng0NW9JLUxmYWVZNkl0bUp4Tm9RZF9UYmxfUmJUb3Z3bFM2TFEtWHpobE5BUHJZY1BjWjdfVmRsM1JvV2ZmeE9zM2c?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
         "title": "玩具總動員5",
         "publishedAt": "2026-09-20T15:00+08:00",
         "source": "Harper's BAZAAR",
@@ -732,13 +732,13 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-10-20T08:46+08:00",
+    "lastSuccessfulAt": "2026-10-20T12:55+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "weeklyHot": {
     "weekStart": "2026-10-19",
     "weekEnd": "2026-10-25",
-    "updatedAt": "2026-10-20T08:46+08:00",
+    "updatedAt": "2026-10-20T12:55+08:00",
     "market": "台灣及華語市場",
     "method": "本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
     "items": []
@@ -746,7 +746,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-10-19",
     "weekEnd": "2026-10-25",
-    "updatedAt": "2026-10-20T08:46+08:00",
+    "updatedAt": "2026-10-20T12:55+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": [
