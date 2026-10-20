@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-10-19T12:45+08:00",
+  "updatedAt": "2026-10-20T08:46+08:00",
   "categories": {
     "陸劇": [
       {
@@ -38,7 +38,7 @@
       {
         "title": "2026必追台劇TOP10+！《消失的裂痕》張孝全楊謹華飆戲，霍建華《急診室的奇蹟》回歸「這天」開播 - ELLE",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
-        "published": "Wed, 30 Sep 2026 07:00:00 GMT",
+        "published": "Thu, 01 Oct 2026 07:00:00 GMT",
         "source": "ELLE"
       },
       {
@@ -144,9 +144,9 @@
         "source": "ELLE"
       },
       {
-        "title": "Netflix日劇《S&X》口碑爆棚 中島健人演「不舉」性治療師與新木優子床戲靠這1招搞定 - 上報",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MTzFONkV3S054VVhtWm9VZWlkQklDZ1Axby13enUxVE9pVkFPa00ta09lb19wZDBHaTdrRlJWcUVkTzdWaUszLUdUZUgtMDFSNElzOXVWaTJNcFB0LUQzc2IxX2d6cGh0S1E?oc=5",
-        "published": "Thu, 27 Aug 2026 07:00:00 GMT",
+        "title": "Netflix日劇《假面美顏》集結大咖演員揭醫美黑幕 木村光希演整形女「隆鼻模樣」曝光 - 上報",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tZ1I1ZldLUXR3eWJiVE9lQlBHbnk5Q1AzTTFVZk05VjNGNlhyZUpreWczb05KelRFVVdMeUxMYmRPbl9VWWdiUTdIUG9MSVhWYmhqdkNvbkdMNXV2UXB6djdWTlpReVZWc1E?oc=5",
+        "published": "Wed, 16 Sep 2026 07:00:00 GMT",
         "source": "上報"
       },
       {
@@ -553,18 +553,6 @@
   ],
   "cpblGames": [
     {
-      "id": "2026-CPBL-TS-2026-10-18",
-      "date": "2026-10-18",
-      "match": "季後挑戰賽晉級隊伍（客） vs 味全龍（主）",
-      "timeTW": "17:05",
-      "venue": "臺北大巨蛋",
-      "status": "已公告日期（晉級隊伍待定）",
-      "series": "台灣大賽",
-      "source": "中華職棒公告／聯合新聞網",
-      "sourceUrl": "https://udn.com/news/story/7001/9795183",
-      "verifiedAt": "2026-10-09T09:55:00+08:00"
-    },
-    {
       "id": "2026-CPBL-TS-2026-10-20",
       "date": "2026-10-20",
       "match": "味全龍（客） vs 季後挑戰賽晉級隊伍（主）",
@@ -636,34 +624,27 @@
   "cpblDataMode": "reviewed",
   "cpblReviewedAt": "2026-10-09T09:55:00+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-10-19T12:45+08:00",
+    "checkedAt": "2026-10-20T08:46+08:00",
     "items": [
+      {
+        "title": "嫁金釵",
+        "publishedAt": "2026-10-20T02:29+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "尚公主",
+        "publishedAt": "2026-10-20T02:29+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
       {
         "title": "無可替代",
         "publishedAt": "2026-10-16T15:00+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "嫁金釵",
-        "publishedAt": "2026-10-16T15:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "小城良方",
-        "publishedAt": "2026-10-14T13:19+08:00",
-        "source": "KONGGOK",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RUUdNNldKa3FyQWpXRGlzRTFmaWhjcWxNejZTOFBsRTNRaDRFbExVV1NHbV9jUWRBc3N0b2RYQTd4Wml0UVg4eEUzQlNMay03QkxDX1dDTW16Mm0yZHBMdXU5OGk3ckJDZ2J0MFFR?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "月明千里",
-        "publishedAt": "2026-10-14T13:19+08:00",
-        "source": "KONGGOK",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RUUdNNldKa3FyQWpXRGlzRTFmaWhjcWxNejZTOFBsRTNRaDRFbExVV1NHbV9jUWRBc3N0b2RYQTd4Wml0UVg4eEUzQlNMay03QkxDX1dDTW16Mm0yZHBMdXU5OGk3ckJDZ2J0MFFR?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -674,24 +655,10 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "精神小妹",
-        "publishedAt": "2026-10-13T17:38+08:00",
-        "source": "造咖",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tR0ljeGVNQjgxSXhHVXJxeVdJeWxOZTdwOU0tLW9yNE0yTHRtQVFoVDJqZXlNSkhqMHV3UmVSZ3BodmhOQ081U2VnV000enFGMC1MVEdoYnc?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
         "title": "蘭香如故",
-        "publishedAt": "2026-10-12T15:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "美人餘",
         "publishedAt": "2026-10-09T15:00+08:00",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0wRBVV95cUxQTWlfY2RsV1BYcGkwVUMtUXRpUFJzcTNvMVdYM3lrSTI5UjR3eTYteXRxTExGWE8xU0p1X0hHVGtYQk1jVnNWcThMc0JJaEJJdURxY0hNOUdKYVY1ZGV5MWY0SG4tRzdfbnhiRWlqX2ZFcjhaWlBrekFtWHhIVkk5QWF5T2xNeVRIYlZMZlJJdTZwTDZ1Mkp2RVg1UngtdWZNSGx6MU4yekNVdGRGbV9ZNm8xUGJaZHhydl9JXzlLRmY3MndhMFVnNkQ5b2JFODZ1V0I2M0tnX1BzWmFzMXNvaUZRb3RMNXRGVkxibUgwMXZudnhOV1FIbFdoeUtodlVQN1JIdEJSZEdOSnF6RlEyaVE0OV9nMXV1dXFRTUFFMnJuSnlHMzNZbzVrcFlwRjgyMUstS3Z6MHRyam1maTlBOU90TlJ0RzctemRtemJOLUhoWVo1emVIOXZUTkdqRFNqVWN6UklUbGs4STl5QVpZUGUtNG9jSjhKUlkyS1VsS05mc3VQMnViWGVndEhKUVBnT3VEQXhyLWpVeXRiNThZMWxvcmdFYjl2ZjBWbndUOU55NkN2YjhDejRGWTdrMDlfOU85dmdOTUszOUFRdnI2QWdvaEpSZFRySUNJRnhmVDAtTml1cU1ZNldfZlpaS1JPUlk5U29WMUtQTTYyWmstU2pBV1dnMlZfdXUxV19GSUJfRVdiR3RSMGEzTl91SXhRem03c0tFVl9icC1nMUFpWTNUaHUycjlLSXQzMy1YWHMzdlhQWHhWaW1PVUxuYl9Rcm1R?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxNWmV5dmtvQkxpQm42bnM1ZUgxOG9fVHZOWDk4bW5SOUFnZ0pwbVdLd0xGOS1mX2wzbnY3RFJJYy1CZ1loRVkyQW9MZXZGTU1TOGhHX09xYmV5cDAzMFN2MU5MYUtwUGZWQXlRaUNWUXhTR1Q0NWN2U0ZjNTJMQnRlWGFVR1Zka0prUldobmltVWlycHRWVGVXdUtZWG1jNzlpai1HMWs0MTBYUzJxbDhxc1ZJamRKYjUxM2FfX2gwQnUweHRCYlBGZmVadjV5OUxtV1B6dG95Yk5IM0ZKRmh0Z1MzazduODlPSzg5bXA0WjhrNF9QV2FyaWlQQVdQcDdabzBlb2FfT01LdjJrLVRBdUZtZ2RXdHJYajUxakV3U0RqTWJvYWtETVlYNmVndWhMYjhyR0w0V25rV0xfVXlxTURfdUpkSmVlYmRGUGpkSjJLQk12ZHJBbTVXTmFZNnY1T2pZQ2g5SEhCRnA4RkRTMGpRbjRVcnRsTjN1R0NLRDJhN3RmTnB5dEVzSDJKUlBsVGx4SlVPOEFYcWhMZXNfelRpd1lsR2JBdkNGelJmSmNhdXY1LWZnYWtyRU8yaTg1b25tRF9BckZUYTFSdEFhNlNWai1PazFBSFBLUklsU2IxTTlPMVRmejVDRGg4ZUFfM3Ytb0xsdldaM1JxRWJxNzktMVpTTHBnYTdKTldQY1RDVXBzaWctRW85eUNxTUNkd3J4OEl0amFRTzhhdmJobERxMEpIT3ZJNlhjdUp1Vl9LVVdGczljaVNlal9PckFsYzJRRFZET1hPQ2F2eWo5NnlGRk5aeU9VU00zbWEzdnozdlZRcDhfNzEtdjFVc1FzbzFrWWpwbzBKMHlOUmg1dkRvN0s1QVVsXzBhZ25RYVZaM3VoMUx1MDg5VkJlSnZRYzFMN0lIUnBTbmswZnZnT3JHNWlhSWxtQ1htSC12MndOSmdiV1g2bXVjcjBvdEw1UTk5RzZCbUV4MmF2OHFz?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -702,6 +669,13 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
+        "title": "小城良方",
+        "publishedAt": "2026-10-05T15:00+08:00",
+        "source": "TVBS新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JcUtaTVJaYkV4c3ptNzNpWHJkeWRkRlU4bEVkb1paY2VEVGtFUEtnV0Z3dXp1Q3B3QVhfME05SWZ3TlRxeWloWnY2ZnFfNDJsOFczZHNHdE44VlJuTm9zcUV3?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
         "title": "早春晴朗",
         "publishedAt": "2026-10-05T15:00+08:00",
         "source": "ELLE",
@@ -709,24 +683,24 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "亞森羅蘋4",
-        "publishedAt": "2026-09-30T15:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxPRG1SQm9lelJrTTEtZkwxNTBWMUFGcVhFcks4a2hxS0hoQ2I1MlBsOXozTm82SHBlbTZ0ZTJzUWdaRmpKMjRab0JFVjgwU2lDRGtuTnRMeHM3T29ndHpNZFVUaEJ5Y0wtTEJqb0xMQnplQzhFbk5PRlRxQW5yYmZ3RDZYd2MyNU5LV0hXbnJnU1ktMV8yWWNmVGtWdkI4TjNkNERLVEhGVlJuRDlIZzNXQ3J0Q0hlRGJRUUF1RC1sRmttU1V5RGNHSDJOWEMxV0hTNFdmUEVVODRsSExxcTN3NDNZc2d0ZE1PUFg2bm1rV3JFOXhZN29iS08xRjZydkxvRVdxVGczcTd1V1RDcnkwY2hhZUdncURjbl9ldFBVcjFGSkI3NVEtSjdLTjlKTTE3eW9XS1VkOENXbjh5U2xWZ0hGSTZQQ1NZcXVkWW9US0ZJZVdrUXRCUldjb0dfWFhLd2dqTWN1bXpTYTJPZHNyU1FVUEN3S1E1U3ZKMm5mN0tvRzVkV1dYYlNxZ1FpVllLcVJBdkJfVnBhTHk2NmtLYTZyaGctWFZLWjA1QW1aZTZFdUFtNmUzalVjdjdlNDA4Vk5rZlgwdjdTcTlCdkRfU1ZydGpRbUFYMC1MR01VMkJqZnFTM2tUTWNMVTRSeG45Rjl3WWZ1VkpzMHFaS3lvOXA2dU9jVU51a3hPT0lGX0xCVW05SGs3eERKWGZZZmZnZERpUnJFNXhWWDhhc19KZGZZbjVfeVRSMERZOU1jdjdKOHZTNGRuc3dySFdFXzBwOU5oa01SMGpXMG1mR3RjNHdR?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
         "title": "消失的裂痕",
-        "publishedAt": "2026-09-30T15:00+08:00",
+        "publishedAt": "2026-10-01T15:00+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
         "title": "急診室的奇蹟",
-        "publishedAt": "2026-09-30T15:00+08:00",
+        "publishedAt": "2026-10-01T15:00+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "亞森羅蘋4",
+        "publishedAt": "2026-09-30T15:00+08:00",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi4gRBVV95cUxPRG1SQm9lelJrTTEtZkwxNTBWMUFGcVhFcks4a2hxS0hoQ2I1MlBsOXozTm82SHBlbTZ0ZTJzUWdaRmpKMjRab0JFVjgwU2lDRGtuTnRMeHM3T29ndHpNZFVUaEJ5Y0wtTEJqb0xMQnplQzhFbk5PRlRxQW5yYmZ3RDZYd2MyNU5LV0hXbnJnU1ktMV8yWWNmVGtWdkI4TjNkNERLVEhGVlJuRDlIZzNXQ3J0Q0hlRGJRUUF1RC1sRmttU1V5RGNHSDJOWEMxV0hTNFdmUEVVODRsSExxcTN3NDNZc2d0ZE1PUFg2bm1rV3JFOXhZN29iS08xRjZydkxvRVdxVGczcTd1V1RDcnkwY2hhZUdncURjbl9ldFBVcjFGSkI3NVEtSjdLTjlKTTE3eW9XS1VkOENXbjh5U2xWZ0hGSTZQQ1NZcXVkWW9US0ZJZVdrUXRCUldjb0dfWFhLd2dqTWN1bXpTYTJPZHNyU1FVUEN3S1E1U3ZKMm5mN0tvRzVkV1dYYlNxZ1FpVllLcVJBdkJfVnBhTHk2NmtLYTZyaGctWFZLWjA1QW1aZTZFdUFtNmUzalVjdjdlNDA4Vk5rZlgwdjdTcTlCdkRfU1ZydGpRbUFYMC1MR01VMkJqZnFTM2tUTWNMVTRSeG45Rjl3WWZ1VkpzMHFaS3lvOXA2dU9jVU51a3hPT0lGX0xCVW05SGs3eERKWGZZZmZnZERpUnJFNXhWWDhhc19KZGZZbjVfeVRSMERZOU1jdjdKOHZTNGRuc3dySFdFXzBwOU5oa01SMGpXMG1mR3RjNHdR?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -744,13 +718,6 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "尚公主",
-        "publishedAt": "2026-09-29T15:00+08:00",
-        "source": "udnSTYLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KYzQ5bHFLbmVqRzFTYUFDdjdNQXFXQ25JR2x2QUU1SWU2emp3b0s5UFo5dXhsTDQ4Skt3RFVuRzZLajNvR1hoVW1lSVNmZjNJc2NDem9oREZJOGwt0gFiQVVfeXFMTk1XNGlCSFMwLUlVcTRDeFpYeXk4YTM3dXluTkhqb3VTNHJ5SkROTWVzbWVveUF2NllaT0FOY0VHdlRzQ24zWDdwSGxQOVNxclN2a21DRExlRXFUeWU3dzdCZWc?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
         "title": "百日謊言",
         "publishedAt": "2026-09-24T15:00+08:00",
         "source": "udn 女子漾",
@@ -765,13 +732,13 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-10-19T12:45+08:00",
+    "lastSuccessfulAt": "2026-10-20T08:46+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "weeklyHot": {
     "weekStart": "2026-10-19",
     "weekEnd": "2026-10-25",
-    "updatedAt": "2026-10-19T12:45+08:00",
+    "updatedAt": "2026-10-20T08:46+08:00",
     "market": "台灣及華語市場",
     "method": "本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
     "items": []
@@ -779,9 +746,24 @@
   "weeklyStreaming": {
     "weekStart": "2026-10-19",
     "weekEnd": "2026-10-25",
-    "updatedAt": "2026-10-19T12:45+08:00",
+    "updatedAt": "2026-10-20T08:46+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
-    "items": []
+    "items": [
+      {
+        "id": "rss-韓劇-0-20261019",
+        "title": "【10月韓劇推薦】12部海量新劇：Netflix《Doctor X》金智媛回歸、金裕貞《百日謊言》、池昌旭《莓好遇見你》 - Yahoo新聞",
+        "type": "韓劇",
+        "interests": [
+          "韓劇"
+        ],
+        "platform": "HBO Max",
+        "eventAt": "2026-10-19T21:02+08:00",
+        "eventLabel": "本週媒體消息（非官方熱度榜）",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxOUXdaMHpJN0tmUWVFenZfRlhBTzQ4bndLQ01PYXRuaHVEeDNCT1M2SjhFWkJCSDd6TU1rVEFYV2NNbWdTdFRhMHQ1TE4yWWFYTFhuTlNPalY0NGxKOU91YjhYbk9ycVdHUnR4amNTWklhaG82clVLVFBuTklaMS1KSEo5WHlndlhySVdSWjNTMkhGa0w1NjJUazFnMldGcW0tV2hTU2FWY3EzQVBNRzdHaEM1U3dJZWhhUGJUbXFndkxmcnR0OXFyeEVpSHRZb3lONE1IY3VLczYwa3gxQTZhRGJmSl9lUEthOFhVVTZDZ1JxTTVWR2NNNUFtSTVXR3Jvd2diMWkwbzk0RGltOTFQNUI0S3NpNjl3NHRnb2xYVDZNcWZVSGo4M2I3dWpfakFmcXc5N05lelJjYTU3Yy1XTnFwZFlsTlBmMzB3c0lweGlEUF90d190cVB4N3cyYzg3Y3pjTnprWjNodXJZYjUtdXRBNjZIVGlrR0tIdXpCZGtqUzl5M0VDMEN2TV84X09vQ1NlRmNGTmZPUDdjSjA4WGlPaVI3WkJWWVhibUh2UDRHNDFRU256ZVgyMENuNFJCeDRIbzdQNWJFSVk4b2g0LTR4YjQwbTlWQlQwYUY3dEhQaFFIN1Qxd3MyMWd3MHAzZHhTVUoyLWhxWS1KRHVnOGJkVlZyR2R5elI3X2RkYnRMYXZFTUFqaHY2cE5sVDR1a0xwR0FtTTZ0TXRIak1aWWZ4dTh3R1JoR2pLTnN0LVpoRzZJMmV2WGVVTWhSb0Fld0xoc2oyV09hcHRsNWFWN0F6MEdvcGlQeXNmRjBRSjh1clRSUWlXNENsa3dUVnBsNmdjV1JfUUM4RnZEaTFXb2stWTRLT014RG9pY2RlZTNfazhVdVJtanJwQTl1LUkyQ3BPT2N6SXB5elAzNlB3bU5MY3pXTHFLakt4a2hYdk5CQ3h5UDBJ?oc=5",
+        "evidenceType": "本週新聞"
+      }
+    ]
   }
 }
