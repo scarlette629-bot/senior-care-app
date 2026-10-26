@@ -1,53 +1,59 @@
 {
-  "checkedAt": "2026-10-26T17:16:03+08:00",
+  "checkedAt": "2026-10-26T17:18:22+08:00",
   "sources": [
     {
       "url": "https://www.netflix.com/tw/browse/genre/434295",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00",
+      "checkedAt": "2026-10-26T17:18:22+08:00",
       "titleCount": 60
     },
     {
       "url": "https://www.netflix.com/tw/browse/genre/83",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00",
+      "checkedAt": "2026-10-26T17:18:22+08:00",
       "titleCount": 68
+    },
+    {
+      "url": "https://www.netflix.com/tw/title/80090370",
+      "status": "error",
+      "checkedAt": "2026-10-26T17:18:22+08:00",
+      "error": "IncompleteRead(1997939 bytes read)"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E5%8F%B0%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "台劇",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E9%9F%93%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "韓劇",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E9%99%B8%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "陸劇",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E6%97%A5%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "日劇",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E6%AD%90%E7%BE%8E%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "歐美劇",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     },
     {
       "url": "https://news.google.com/rss/search?q=%E7%B6%9C%E8%97%9D+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
       "type": "綜藝",
       "status": "success",
-      "checkedAt": "2026-10-26T17:16:03+08:00"
+      "checkedAt": "2026-10-26T17:18:22+08:00"
     }
   ],
   "verified": [
@@ -61,7 +67,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81477955",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -80,7 +86,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81947300",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -99,7 +105,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82016402",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -118,7 +124,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81697769",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -137,7 +143,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82048302",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -156,7 +162,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/80994082",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -175,7 +181,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81915623",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -194,7 +200,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/80113541",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -213,7 +219,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81591296",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -232,7 +238,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82193667",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -251,7 +257,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81702550",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -270,7 +276,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81603806",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -289,7 +295,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81652677",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -308,7 +314,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81288983",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -327,7 +333,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82068293",
       "verified": true,
-      "verifiedAt": "2026-10-26T17:16:03+08:00",
+      "verifiedAt": "2026-10-26T17:18:22+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -483,24 +489,6 @@
       "status": "新聞提及，平台與上架日待核對"
     },
     {
-      "title": "Nine to Six",
-      "type": "韓劇",
-      "headline": "朴敏英、陸星材、高洙主演新劇《Nine to Six》大談姐弟戀！改編自陸劇《理智派》！ - Kdaily 韓粉日常",
-      "source": "Kdaily 韓粉日常",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGo5MWRIbDhtRzVGSl9NcUFnUWd3WlFuamZoTThsQjZaUHVHZlZBclZnZlVEYmRaOG1sSVRCX04xOTN4QnVoMDdfSWtxZ0NTYUlzaXAxMjFOZFp0eUR5YmFzN0JxQ25KbDl3Mm5uQXdrSVc3eW5CQllERVdFclJ5VUNVNGpubjFYYS1XQm55eVB3ZWJfbjE0UmpPRmpDcm14NG9KVzdjSF8wYmN0WmFiVFRuV29GMXRYVEpyLVF5TkFMcUc3eVNoS3ZlN1VJMmpBZ2NIRQ?oc=5",
-      "publishedAt": "2026-10-21T15:00:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
-      "title": "理智派",
-      "type": "韓劇",
-      "headline": "朴敏英、陸星材、高洙主演新劇《Nine to Six》大談姐弟戀！改編自陸劇《理智派》！ - Kdaily 韓粉日常",
-      "source": "Kdaily 韓粉日常",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGo5MWRIbDhtRzVGSl9NcUFnUWd3WlFuamZoTThsQjZaUHVHZlZBclZnZlVEYmRaOG1sSVRCX04xOTN4QnVoMDdfSWtxZ0NTYUlzaXAxMjFOZFp0eUR5YmFzN0JxQ25KbDl3Mm5uQXdrSVc3eW5CQllERVdFclJ5VUNVNGpubjFYYS1XQm55eVB3ZWJfbjE0UmpPRmpDcm14NG9KVzdjSF8wYmN0WmFiVFRuV29GMXRYVEpyLVF5TkFMcUc3eVNoS3ZlN1VJMmpBZ2NIRQ?oc=5",
-      "publishedAt": "2026-10-21T15:00:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
       "title": "殭屍校園2",
       "type": "韓劇",
       "headline": "6大新作搶先看！Netflix韓國10週年：《殭屍校園2》宣佈2027回歸！邊佑錫、李到晛、宋慧喬、孔劉、趙寅成集結宣傳新劇 - Yahoo新聞",
@@ -519,6 +507,42 @@
       "status": "新聞提及，平台與上架日待核對"
     },
     {
+      "title": "幻視任務",
+      "type": "韓劇",
+      "headline": "Netflix金智媛《Doctor X》、金裕貞《百日謊言》新集數上架！Disney+《幻視任務》必追！追劇推薦 - Yahoo新聞",
+      "source": "Yahoo新聞",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxQSXhoTC1CMkM2endmSEE0VzBkSFpLeGhwWEVrck52X3ZHWnF2bzNMdmh0c2szdWZQQ05xUkNhOFlRcEZZcnRramtQWERUU1dfLU1YZnZiekZwXzJ1bUtxcGU5NmZXa3lXLTQ1MTgxUXRlZ1pLR1dkZzR5TFhZZHF1WElCaXN0SHVFLW5tX1JBLXozVzQzZ2xILTFyVm1JVG1RZFVIVWVzQ0dXU1E0V3JzdF9ZWHZQZjVPN0ZmdzJTaUFyN3g1RlZIcThjSVZwaUlUSmwyMG1BajVfSmM5VWp2dDlBU2NiNk5IRnRmcXpxWXNZSTBuWkE4UDVucHFHT0dHYjVUN3loOFlBejgwLUNwWlhIX09OQ2ltalUyMi1tVmxfUnFCS3Y1V3NvSkdVY2tRcXl0VE1RdWM3cUJycFpTVlpGc3JlRVVwV0RNemVkVElVc0F4a1pBakFnam95WWQ1MHNKX2Q5ZFlvSHBUN3poS0JaQ2JKazBsbDRnWTNGeE5kbXRXLVhtalN6YjUtUDlZSi1Lb29SaEFRUFZPNnlHa2NZWmVPOTZwY3k2NV9EeWpvS0JCWmVtNFd1ckhGSzlDRHplZVRTTjlqaHZELXZBdUxKaEltZ204TVVSczNHczRmSlRmNnpnaXlPLUE?oc=5",
+      "publishedAt": "2026-10-23T16:37:52+08:00",
+      "status": "新聞提及，平台與上架日待核對"
+    },
+    {
+      "title": "Nine to Six",
+      "type": "韓劇",
+      "headline": "朴敏英、陸星材、高洙主演新劇《Nine to Six》大談姐弟戀！改編自陸劇《理智派》！ - Kdaily 韓粉日常",
+      "source": "Kdaily 韓粉日常",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGo5MWRIbDhtRzVGSl9NcUFnUWd3WlFuamZoTThsQjZaUHVHZlZBclZnZlVEYmRaOG1sSVRCX04xOTN4QnVoMDdfSWtxZ0NTYUlzaXAxMjFOZFp0eUR5YmFzN0JxQ25KbDl3Mm5uQXdrSVc3eW5CQllERVdFclJ5VUNVNGpubjFYYS1XQm55eVB3ZWJfbjE0UmpPRmpDcm14NG9KVzdjSF8wYmN0WmFiVFRuV29GMXRYVEpyLVF5TkFMcUc3eVNoS3ZlN1VJMmpBZ2NIRQ?oc=5",
+      "publishedAt": "2026-10-21T15:00:00+08:00",
+      "status": "新聞提及，平台與上架日待核對"
+    },
+    {
+      "title": "理智派",
+      "type": "韓劇",
+      "headline": "朴敏英、陸星材、高洙主演新劇《Nine to Six》大談姐弟戀！改編自陸劇《理智派》！ - Kdaily 韓粉日常",
+      "source": "Kdaily 韓粉日常",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbGo5MWRIbDhtRzVGSl9NcUFnUWd3WlFuamZoTThsQjZaUHVHZlZBclZnZlVEYmRaOG1sSVRCX04xOTN4QnVoMDdfSWtxZ0NTYUlzaXAxMjFOZFp0eUR5YmFzN0JxQ25KbDl3Mm5uQXdrSVc3eW5CQllERVdFclJ5VUNVNGpubjFYYS1XQm55eVB3ZWJfbjE0UmpPRmpDcm14NG9KVzdjSF8wYmN0WmFiVFRuV29GMXRYVEpyLVF5TkFMcUc3eVNoS3ZlN1VJMmpBZ2NIRQ?oc=5",
+      "publishedAt": "2026-10-21T15:00:00+08:00",
+      "status": "新聞提及，平台與上架日待核對"
+    },
+    {
+      "title": "認識的哥哥",
+      "type": "韓劇",
+      "headline": "《最後一桌》安孝燮、洪華蓮等4主演登《認識的哥哥》！主演新劇將在今晚首播 - KSD 韓星網",
+      "source": "KSD 韓星網",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kT2YyOFNMeHk1TnZsc3RNMGFyUTRaMldGUHM4eUloVUE0MVV0NVc2T3ExcFhJVnFWLW4ybGoxTjVsRVdhZ0tvZWx2SkFsWlpfalpraE5UQl_SAVdBVV95cUxQcjFPVS1xbUJrckpVaVViUU9nYXFOSlNCNHZ4bThfdzlpR01jWTVrWUVhVm9ubHRQRThEN1IwTTFtNnlCazBrZUhNVEVIR3RadW9sVDJlRGc?oc=5",
+      "publishedAt": "2026-10-24T10:03:00+08:00",
+      "status": "新聞提及，平台與上架日待核對"
+    },
+    {
       "title": "現在撥打的電話",
       "type": "韓劇",
       "headline": "《戀愛充電中》熱播後！金英光新作續攻「浪漫喜劇」、蔡秀彬接演《現在撥打的電話》原作新劇 - KSD 韓星網",
@@ -534,24 +558,6 @@
       "source": "明報 Our Lifestyle",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimANBVV95cUxNejBRT2cxVERVMkkzajBhNTNMOHExU2JGY2JhVHFOQkJ4Z1UxSUxvMHZ5SmFEWHNhd2plY0twdXA3anNvZF9UTUdMdlpOQ1NoRzlUMm5uSEdMdVRxSW9DeXpIUUFteHZrdmZ3NkllaVFoZWdiTWczZzl5MW53SW5uZGl5a2FFYkZiY2ZCTzJMUjh5dENGUXBRZnkwQkZabWo3NlFpdklxd00xc3k2YmNMVGZYSGVEQ1FEMkhvTDV5RFRNSl9USzZ0S3NZUlpNREYyX1N4YTBTTXk4RmhrdVNMS1VYaG0yd2Y2SXZETS1GOTQ5UkM4U05BQ2JsUFpDb3lNWTY0bWNwMmo0czdUWVIwTE9neGxqYXQ2a1VCdkF1UXd3QnZNT3k2a2wxNWJzSHZYSVlla082RDlGeWZtc0JLdXA3cG1HbU1raklQTS1UNVpFOWFiTEpsdFBJNTlHRjMxekNmcXRrNmhFWk5BQkdDM3lMemd6OVFsT1NBYUczQzhWVkhQQmZxQ2tZU2pudXFiVlFUemQ2eXI?oc=5",
       "publishedAt": "2026-10-23T04:30:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
-      "title": "信號2",
-      "type": "韓劇",
-      "headline": "《信號2》傳出12月7日首播、劇迷超驚喜！tvN 官方親自回應韓媒《第二個信號》的播出安排 - KSD 韓星網",
-      "source": "KSD 韓星網",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ZSkNoQkxQaTl5THUtUDZwVm54X3hWLUxwUFFfX1ctWjhMM0h1ZVd1RG9yLXVnNFdEcVdWSkJJcTNqVXlzTDFpUTNWX3dCRE92b0o1c3BVNNIBV0FVX3lxTE1ZSkNoQkxQaTl5THUtUDZwVm54X3hWLUxwUFFfX1ctWjhMM0h1ZVd1RG9yLXVnNFdEcVdWSkJJcTNqVXlzTDFpUTNWX3dCRE92b0o1c3BVNA?oc=5",
-      "publishedAt": "2026-10-25T09:18:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
-      "title": "第二個信號",
-      "type": "韓劇",
-      "headline": "《信號2》傳出12月7日首播、劇迷超驚喜！tvN 官方親自回應韓媒《第二個信號》的播出安排 - KSD 韓星網",
-      "source": "KSD 韓星網",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ZSkNoQkxQaTl5THUtUDZwVm54X3hWLUxwUFFfX1ctWjhMM0h1ZVd1RG9yLXVnNFdEcVdWSkJJcTNqVXlzTDFpUTNWX3dCRE92b0o1c3BVNNIBV0FVX3lxTE1ZSkNoQkxQaTl5THUtUDZwVm54X3hWLUxwUFFfX1ctWjhMM0h1ZVd1RG9yLXVnNFdEcVdWSkJJcTNqVXlzTDFpUTNWX3dCRE92b0o1c3BVNA?oc=5",
-      "publishedAt": "2026-10-25T09:18:00+08:00",
       "status": "新聞提及，平台與上架日待核對"
     },
     {
@@ -579,15 +585,6 @@
       "source": "上報Up Media",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OcWtMX2dYMVFDVmVNMzdmV0RuSmluSkt3S0JGTHZkN3NJcGQtVGcxb1Nta2oyQS00eWtTQkpDYi1DNS14b2dSLWNtYnVESUFkdWtXOE54YWlQdFVEb0ZPczhVNVJSRkI4QXc?oc=5",
       "publishedAt": "2026-10-23T15:20:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
-      "title": "幻視任務",
-      "type": "陸劇",
-      "headline": "Netflix金智媛《Doctor X》、金裕貞《百日謊言》新集數上架！Disney+《幻視任務》必追！追劇推薦 - Yahoo新聞",
-      "source": "Yahoo新聞",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxQSXhoTC1CMkM2endmSEE0VzBkSFpLeGhwWEVrck52X3ZHWnF2bzNMdmh0c2szdWZQQ05xUkNhOFlRcEZZcnRramtQWERUU1dfLU1YZnZiekZwXzJ1bUtxcGU5NmZXa3lXLTQ1MTgxUXRlZ1pLR1dkZzR5TFhZZHF1WElCaXN0SHVFLW5tX1JBLXozVzQzZ2xILTFyVm1JVG1RZFVIVWVzQ0dXU1E0V3JzdF9ZWHZQZjVPN0ZmdzJTaUFyN3g1RlZIcThjSVZwaUlUSmwyMG1BajVfSmM5VWp2dDlBU2NiNk5IRnRmcXpxWXNZSTBuWkE4UDVucHFHT0dHYjVUN3loOFlBejgwLUNwWlhIX09OQ2ltalUyMi1tVmxfUnFCS3Y1V3NvSkdVY2tRcXl0VE1RdWM3cUJycFpTVlpGc3JlRVVwV0RNemVkVElVc0F4a1pBakFnam95WWQ1MHNKX2Q5ZFlvSHBUN3poS0JaQ2JKazBsbDRnWTNGeE5kbXRXLVhtalN6YjUtUDlZSi1Lb29SaEFRUFZPNnlHa2NZWmVPOTZwY3k2NV9EeWpvS0JCWmVtNFd1ckhGSzlDRHplZVRTTjlqaHZELXZBdUxKaEltZ204TVVSczNHczRmSlRmNnpnaXlPLUE?oc=5",
-      "publishedAt": "2026-10-23T16:37:52+08:00",
       "status": "新聞提及，平台與上架日待核對"
     },
     {
@@ -645,24 +642,6 @@
       "status": "新聞提及，平台與上架日待核對"
     },
     {
-      "title": "南田南",
-      "type": "日劇",
-      "headline": "蘆田愛菜扮自閉律師獲讚 《南田南》首播收視勝《GTO》 - 明報 Our Lifestyle",
-      "source": "明報 Our Lifestyle",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORUt6ODRhLU5FT1FvQkVWQ1RDSE0yM1pCMXdtT1FJWDB3d2x3TUJxOTRWcW11MzZyd3FLNVpRRktiT04yMDVOc1dveUlJVUM0bnYwMm4wQ0pzZFl1WHRsbW9BVl9fVXhuTEtLcVlwMHNjTHl0ZF8xX0F4Z3ktTjNGOU1DN0Vab0xQLWtERDdCa2dlSmlSRkd4Ri15bjV6QUIyeFFDRG9SZDJSWmFlaDMzOS1FS2M2NmQ1TWVoa1YtOEs2bVlrM01zTXlzSkFpWmpLUkp4N0VubkdiZ2R6MzdVcXc0SmxSOER0NVZSQkhNYmZVTUhnYWs5MUxrWDdjVml0emNFRnN2ZjE0NEo1SFRYX01FZG9tMVcwemQ1eEFYUVBaOGlrZXFVaE1JbUw5TkxVb2lXdk5YVVB6dFZVU0FJU1c1dWtzbVNOUjRVN012eXhqeVk3d3QzOFBYWjVQMlg3Z2Q5LTNvY0VlWHFjcjZKX2FQUWlzVzFTMzdNcU1oN0FGWXJveXZtNXNn?oc=5",
-      "publishedAt": "2026-10-21T04:30:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
-      "title": "GTO",
-      "type": "日劇",
-      "headline": "蘆田愛菜扮自閉律師獲讚 《南田南》首播收視勝《GTO》 - 明報 Our Lifestyle",
-      "source": "明報 Our Lifestyle",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORUt6ODRhLU5FT1FvQkVWQ1RDSE0yM1pCMXdtT1FJWDB3d2x3TUJxOTRWcW11MzZyd3FLNVpRRktiT04yMDVOc1dveUlJVUM0bnYwMm4wQ0pzZFl1WHRsbW9BVl9fVXhuTEtLcVlwMHNjTHl0ZF8xX0F4Z3ktTjNGOU1DN0Vab0xQLWtERDdCa2dlSmlSRkd4Ri15bjV6QUIyeFFDRG9SZDJSWmFlaDMzOS1FS2M2NmQ1TWVoa1YtOEs2bVlrM01zTXlzSkFpWmpLUkp4N0VubkdiZ2R6MzdVcXc0SmxSOER0NVZSQkhNYmZVTUhnYWs5MUxrWDdjVml0emNFRnN2ZjE0NEo1SFRYX01FZG9tMVcwemQ1eEFYUVBaOGlrZXFVaE1JbUw5TkxVb2lXdk5YVVB6dFZVU0FJU1c1dWtzbVNOUjRVN012eXhqeVk3d3QzOFBYWjVQMlg3Z2Q5LTNvY0VlWHFjcjZKX2FQUWlzVzFTMzdNcU1oN0FGWXJveXZtNXNn?oc=5",
-      "publishedAt": "2026-10-21T04:30:00+08:00",
-      "status": "新聞提及，平台與上架日待核對"
-    },
-    {
       "title": "非常律師禹英禑",
       "type": "日劇",
       "headline": "【日版《非常律師禹英禑》】蘆田愛菜新劇《非常律師南田南》收視狂飆 卻因「這關鍵」挨轟魔改原作 - 上報Up Media",
@@ -690,12 +669,21 @@
       "status": "新聞提及，平台與上架日待核對"
     },
     {
-      "title": "認識的哥哥",
-      "type": "綜藝",
-      "headline": "《最後一桌》安孝燮、洪華蓮等4主演登《認識的哥哥》！主演新劇將在今晚首播 - KSD 韓星網",
-      "source": "KSD 韓星網",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kT2YyOFNMeHk1TnZsc3RNMGFyUTRaMldGUHM4eUloVUE0MVV0NVc2T3ExcFhJVnFWLW4ybGoxTjVsRVdhZ0tvZWx2SkFsWlpfalpraE5UQl_SAVdBVV95cUxQcjFPVS1xbUJrckpVaVViUU9nYXFOSlNCNHZ4bThfdzlpR01jWTVrWUVhVm9ubHRQRThEN1IwTTFtNnlCazBrZUhNVEVIR3RadW9sVDJlRGc?oc=5",
-      "publishedAt": "2026-10-24T10:03:00+08:00",
+      "title": "南田南",
+      "type": "日劇",
+      "headline": "蘆田愛菜扮自閉律師獲讚 《南田南》首播收視勝《GTO》 - 明報 Our Lifestyle",
+      "source": "明報 Our Lifestyle",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORUt6ODRhLU5FT1FvQkVWQ1RDSE0yM1pCMXdtT1FJWDB3d2x3TUJxOTRWcW11MzZyd3FLNVpRRktiT04yMDVOc1dveUlJVUM0bnYwMm4wQ0pzZFl1WHRsbW9BVl9fVXhuTEtLcVlwMHNjTHl0ZF8xX0F4Z3ktTjNGOU1DN0Vab0xQLWtERDdCa2dlSmlSRkd4Ri15bjV6QUIyeFFDRG9SZDJSWmFlaDMzOS1FS2M2NmQ1TWVoa1YtOEs2bVlrM01zTXlzSkFpWmpLUkp4N0VubkdiZ2R6MzdVcXc0SmxSOER0NVZSQkhNYmZVTUhnYWs5MUxrWDdjVml0emNFRnN2ZjE0NEo1SFRYX01FZG9tMVcwemQ1eEFYUVBaOGlrZXFVaE1JbUw5TkxVb2lXdk5YVVB6dFZVU0FJU1c1dWtzbVNOUjRVN012eXhqeVk3d3QzOFBYWjVQMlg3Z2Q5LTNvY0VlWHFjcjZKX2FQUWlzVzFTMzdNcU1oN0FGWXJveXZtNXNn?oc=5",
+      "publishedAt": "2026-10-21T04:30:00+08:00",
+      "status": "新聞提及，平台與上架日待核對"
+    },
+    {
+      "title": "GTO",
+      "type": "日劇",
+      "headline": "蘆田愛菜扮自閉律師獲讚 《南田南》首播收視勝《GTO》 - 明報 Our Lifestyle",
+      "source": "明報 Our Lifestyle",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigNBVV95cUxORUt6ODRhLU5FT1FvQkVWQ1RDSE0yM1pCMXdtT1FJWDB3d2x3TUJxOTRWcW11MzZyd3FLNVpRRktiT04yMDVOc1dveUlJVUM0bnYwMm4wQ0pzZFl1WHRsbW9BVl9fVXhuTEtLcVlwMHNjTHl0ZF8xX0F4Z3ktTjNGOU1DN0Vab0xQLWtERDdCa2dlSmlSRkd4Ri15bjV6QUIyeFFDRG9SZDJSWmFlaDMzOS1FS2M2NmQ1TWVoa1YtOEs2bVlrM01zTXlzSkFpWmpLUkp4N0VubkdiZ2R6MzdVcXc0SmxSOER0NVZSQkhNYmZVTUhnYWs5MUxrWDdjVml0emNFRnN2ZjE0NEo1SFRYX01FZG9tMVcwemQ1eEFYUVBaOGlrZXFVaE1JbUw5TkxVb2lXdk5YVVB6dFZVU0FJU1c1dWtzbVNOUjRVN012eXhqeVk3d3QzOFBYWjVQMlg3Z2Q5LTNvY0VlWHFjcjZKX2FQUWlzVzFTMzdNcU1oN0FGWXJveXZtNXNn?oc=5",
+      "publishedAt": "2026-10-21T04:30:00+08:00",
       "status": "新聞提及，平台與上架日待核對"
     },
     {
@@ -710,5 +698,5 @@
   ],
   "method": "官方片庫每日發現並逐片核對；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。",
   "lastSuccessfulAt": "2026-10-26T17:16:03+08:00",
-  "status": "success"
+  "status": "partial"
 }
