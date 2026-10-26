@@ -17,7 +17,7 @@ self.addEventListener("fetch",event=>{
   if(url.origin!==self.location.origin||!url.pathname.startsWith(BASE))return;
   // Version checks must use the network; cached version.json causes fake
   // "already latest" messages in installed iOS and Android PWAs.
-  if(url.pathname===BASE+"version.json") {
+  if(url.pathname===BASE+"version.json"||url.pathname===BASE+"entertainment-daily.json") {
     event.respondWith(fetch(event.request,{cache:"no-store"}));
     return;
   }
