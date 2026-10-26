@@ -51,6 +51,7 @@ def parse_official(page, title_id, now):
     if str(meta['videoId']) != title_id:
         raise ValueError('Redirected to a different title')
     if meta.get('type') != 'Show' or meta.get('isAvailable') is not True:
+        print('Excluded title', title_id, 'type=', meta.get('type'), 'available=', meta.get('isAvailable'), flush=True)
         return None
     genre = re.search(r'<h4[^>]*>類型</h4>\s*<span[^>]*>(.*?)</span>', page, re.S)
     genres = text(genre.group(1)) if genre else ''
@@ -58,12 +59,14 @@ def parse_official(page, title_id, now):
     if any(term in genres for term in ('實境', '綜藝', '競賽')):
         kind = '綜藝'
     if not kind or '動漫' in genres or '動畫' in genres:
+        print('Excluded title', title_id, 'genres=', genres, flush=True)
         return None
     year_match = re.search(r'<li[^>]*>\s*(20\d{2})\s*</li>', page)
     if not year_match:
         raise ValueError('Title year missing')
     year = int(year_match.group(1))
     if year < now.year or year > now.year:
+        print('Excluded title', title_id, 'year=', year, flush=True)
         return None
     title = data['copy']['title'].strip()
     synopsis = data['copy']['synopsis'].strip()
