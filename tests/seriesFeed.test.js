@@ -44,3 +44,18 @@ test('weekly topics reject prior week, future reports and unrelated interests',(
  assert.deepEqual(currentWeeklyHot({weeklyHot:hot},['陸劇'],now).map(x=>x.title),['current']);
  assert.deepEqual(currentWeeklyHot({weeklyHot:{...hot,weekStart:'2026-10-19',weekEnd:'2026-10-25'}},['陸劇'],now),[]);
 });
+
+import {dailySeriesEligible} from '../src/seriesFeed.js';
+test('unknown dates remain visible while known old and future releases are excluded',()=>{
+ assert.equal(dailySeriesEligible({releasePrecision:'year',catalogueYear:2026},now),true);
+ assert.equal(dailySeriesEligible({},now),true);
+ assert.equal(dailySeriesEligible({releaseDate:'2026-09-26'},now),false);
+ assert.equal(dailySeriesEligible({releaseDate:'2026-09-27'},now),true);
+ assert.equal(dailySeriesEligible({catalogueYear:2025},now),false);
+ assert.equal(dailySeriesEligible({releaseDate:'2026-10-27'},now),false);
+ assert.equal(dailySeriesEligible({type:'綜藝',releaseDate:'2026-01-01',latestEpisodeDate:'2026-10-25'},now),true);
+ assert.equal(dailySeriesEligible({type:'綜藝',latestEpisodeDate:'2026-09-01'},now),false);
+ const unknown={id:'jp',title:'日劇日期待確認',type:'日劇',platform:'Netflix',description:'official',verified:true};
+ assert.equal(selectDailySeries({recommendations:[unknown]},'mine',['日劇'],now).items.length,1);
+ assert.equal(selectDailySeries({recommendations:[unknown]},'mine',['棒球'],now).items.length,0);
+});
