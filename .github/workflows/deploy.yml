@@ -7,7 +7,7 @@ on:
   # GITHUB_TOKEN pushes from scheduled refresh do not initiate other push workflows.
   # Trigger a Pages rebuild explicitly after a successful entertainment refresh.
   workflow_run:
-    workflows: ["Refresh entertainment news", "Refresh China drama daily titles", "Refresh official CPBL schedule"]
+    workflows: ["Refresh entertainment news", "Refresh China drama daily titles", "Refresh official CPBL schedule", "Discover new series daily"]
     types: [completed]
     branches: [main]
 permissions:
@@ -21,7 +21,7 @@ env:
   WECARE_STABLE_SHA: 1c7545150502fee79b90b562a86c6edbc2c346d7
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.name == 'Refresh official CPBL schedule') }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.name == 'Refresh official CPBL schedule' || github.event.workflow_run.name == 'Discover new series daily') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,10 +36,12 @@ jobs:
           test "$actual" = "$WECARE_STABLE_SHA" || { echo "::error::Frozen v1.05 branch was modified"; exit 1; }
           while IFS= read -r file; do
             case "$file" in
-              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
+              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|scripts/discover_series.py|tests/test_series.py|public/series-discovery.json|.github/workflows/series-daily.yml|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/SERIES-DISCOVERY.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
               *) echo "::error::Refusing to deploy modification of frozen v1.05 application: $file"; exit 1 ;;
             esac
           done < <(git diff --name-only "$WECARE_STABLE_SHA" HEAD)
+      - name: Test series discovery
+        run: python -m unittest discover -s tests -p test_series.py -v
       - name: Test CPBL updater
         run: python -m unittest discover -s tests -p test_cpbl.py -v
       - name: Create immutable annotated Git tag v1.05
@@ -106,7 +108,7 @@ jobs:
           git fetch origin develop/v1.06
           git worktree add --detach "$RUNNER_TEMP/wecare-v106-source" FETCH_HEAD
           python -c 'from pathlib import Path; p=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx"); s=p.read_text(); a=s.index("function InterestSummary("); b=s.index("function Entertainment("); assert "const newsKinds=" not in s[a:b], "News logic leaked into home"; assert "const newsKinds=" in s[b:], "News logic missing from Entertainment"'
-          node --test "$RUNNER_TEMP/wecare-v106-source/tests/cpblSchedule.test.js"
+          node --test "$RUNNER_TEMP/wecare-v106-source/tests/cpblSchedule.test.js" "$RUNNER_TEMP/wecare-v106-source/tests/seriesFeed.test.js"
           # Keep the verified drama recommendations visibly accessible in v1.06.
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "🎬 我的戲劇與綜藝推薦" in s; assert "上映／播出時間" in s; assert "故事大綱" in s; assert "📰 我的娛樂新聞" in s'
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "🎬 我的戲劇與綜藝推薦" in s; assert "📚 展開往年作品" in s; assert "📰 我的娛樂新聞" in s'
@@ -116,6 +118,7 @@ jobs:
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "showingPriorWeek" in s and "weekly-hot-history.json" in s'
           # Reuse the newest approved cloud data, not the older branch snapshot.
           cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
+          cp public/series-discovery.json "$RUNNER_TEMP/wecare-v106-source/public/series-discovery.json"
           (
             cd "$RUNNER_TEMP/wecare-v106-source"
             npm install --no-audit --no-fund --legacy-peer-deps

@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-26T17:12:42+08:00",
+  "sources": [
+    {
+      "url": "https://www.netflix.com/tw/browse/genre/434295",
+      "status": "error",
+      "checkedAt": "2026-10-26T17:12:42+08:00",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://www.netflix.com/tw/browse/genre/83",
+      "status": "error",
+      "checkedAt": "2026-10-26T17:12:42+08:00",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E5%8F%B0%E5%8A%87+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "台劇",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E9%9F%93%E5%8A%87+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "韓劇",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E9%99%B8%E5%8A%87+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "陸劇",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E6%97%A5%E5%8A%87+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "日劇",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E6%AD%90%E7%BE%8E%E5%8A%87+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "歐美劇",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    },
+    {
+      "url": "https://news.google.com/rss/search?q=%E7%B6%9C%E8%97%9D+%E6%96%B0%E5%8A%87+%E6%96%B0%E4%B8%8A%E6%9E%B6+%E9%96%8B%E6%92%AD+Netflix+Disney%2B+HBO+%E6%84%9B%E5%A5%87%E8%97%9D+%E9%A8%B0%E8%A8%8A+%E8%8A%92%E6%9E%9CTV+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
+      "type": "綜藝",
+      "status": "success",
+      "checkedAt": "2026-10-26T17:12:42+08:00"
+    }
+  ],
+  "verified": [
+    {
+      "id": "netflix-auto-83124329",
+      "title": "新手上路",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "陳意涵、劉冠廷、黃冠智、天心、李李仁",
+      "description": "筋疲力竭的新手媽媽張如意在寶寶被黑道挾持後，和意想不到的黑道混混、鬼怪及天神聯手，展開瘋狂救援任務。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/83124329",
+      "verified": true,
+      "verifiedAt": "2026-10-26T17:04:29+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "available",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/83124329",
+      "catalogueYear": 2026,
+      "firstSeenAt": "2026-10-26T17:04:29+08:00",
+      "verificationStale": true
+    }
+  ],
+  "candidates": [],
+  "method": "官方片庫每日發現並逐片核對；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。",
+  "lastSuccessfulAt": null,
+  "status": "partial"
+}

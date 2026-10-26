@@ -177,6 +177,12 @@ if not new_china_titles:
     cutoff=(NOW-datetime.timedelta(days=30)).date().isoformat()
     out["chinaDramaNewTitles"]["items"]=[x for x in saved if x.get("publishedAt","")[:10]>=cutoff][:18]
 
+# Preserve automatically verified titles across independent entertainment refreshes.
+from discover_series import merge as merge_series
+series_path=pathlib.Path("public/series-discovery.json")
+if series_path.exists():
+    out=merge_series(out,json.loads(series_path.read_text(encoding="utf-8")),NOW)
+
 out["weeklyHot"]=update_weekly_hot(out["recommendations"])
 # Korean, Japanese and Western series: separate, sourced weekly platform updates.
 # This list is NOT a popularity ranking. RSS articles must have actual same-week
