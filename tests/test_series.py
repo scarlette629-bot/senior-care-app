@@ -24,6 +24,14 @@ class SeriesTests(unittest.TestCase):
     def test_movies_unavailable_old_titles_not_added(self):
         for html in [page(kind='Movie'),page(available=False),page(year=2023)]:
             self.assertIsNone(s.parse_official(html,'83124329',NOW))
+    def test_cloud_region_unavailability_does_not_override_taiwan_catalogue(self):
+        self.assertIsNone(s.parse_official(page(available=False),'83124329',NOW))
+        item=s.parse_official(page(available=False),'83124329',NOW,listed_in_taiwan=True)
+        self.assertEqual(item['title'],'新手上路')
+        self.assertFalse(item['platformAvailabilityVerified'])
+        self.assertEqual(item['releaseStatus'],'catalogue-listed')
+        self.assertIsNone(s.parse_official(page(kind='Movie',available=False),'83124329',NOW,listed_in_taiwan=True))
+
     def test_wrong_title_and_changed_layout_fail(self):
         for html,title_id in [(page(),'999'),('<html>blocked</html>','83124329')]:
             with self.assertRaises((ValueError,KeyError)):s.parse_official(html,title_id,NOW)

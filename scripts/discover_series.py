@@ -42,7 +42,7 @@ def official_ids(page):
     return ids
 
 
-def parse_official(page, title_id, now):
+def parse_official(page, title_id, now, listed_in_taiwan=False):
     match = re.search(r'netflix.reactContext\s*=\s*({.*?});\s*</script>', page, re.S)
     if not match:
         raise ValueError('Official title metadata unavailable')
@@ -50,7 +50,7 @@ def parse_official(page, title_id, now):
     meta = data['metaData']
     if str(meta['videoId']) != title_id:
         raise ValueError('Redirected to a different title')
-    if meta.get('type') != 'Show' or meta.get('isAvailable') is not True:
+    if meta.get('type') != 'Show' or (meta.get('isAvailable') is not True and not listed_in_taiwan):
         print('Excluded title', title_id, 'type=', meta.get('type'), 'available=', meta.get('isAvailable'), flush=True)
         return None
     genre = re.search(r'<h4[^>]*>類型</h4>\s*<span[^>]*>(.*?)</span>', page, re.S)
@@ -78,7 +78,9 @@ def parse_official(page, title_id, now):
             'description': synopsis, 'source': 'Netflix 台灣官方作品頁（自動核對）', 'url': url,
             'verified': True, 'verifiedAt': now.isoformat(timespec='seconds'), 'autoDiscovered': True,
             'releasePrecision': 'year', 'releaseWindow': str(year) + ' 年作品；確切上架日未核實',
-            'releaseStatus': 'available', 'releaseSourceUrl': url, 'catalogueYear': year}
+            'releaseStatus': 'catalogue-listed', 'releaseSourceUrl': url, 'catalogueYear': year,
+            'availabilityNote': 'Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認',
+            'platformAvailabilityVerified': False}
 
 
 def discover(previous, now, load=get):
@@ -98,7 +100,7 @@ def discover(previous, now, load=get):
     def verify(title_id):
         url = 'https://www.netflix.com/tw/title/' + title_id
         try:
-            return title_id, parse_official(load(url), title_id, now), None
+            return title_id, parse_official(load(url), title_id, now, listed_in_taiwan=True), None
         except Exception as exc:
             return title_id, None, str(exc)[:160]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
