@@ -553,16 +553,28 @@
   ],
   "cpblGames": [
     {
-      "id": "2026-CPBL-TS-2026-10-25",
-      "date": "2026-10-25",
-      "match": "季後挑戰賽晉級隊伍（客） vs 味全龍（主）",
-      "timeTW": "17:05",
-      "venue": "臺北大巨蛋",
-      "status": "如有需要才進行",
-      "series": "台灣大賽",
-      "source": "中華職棒公告／聯合新聞網",
-      "sourceUrl": "https://udn.com/news/story/7001/9795183",
-      "verifiedAt": "2026-10-09T09:55:00+08:00"
+      "id": "2026-C-6",
+      "date": "2026-10-26",
+      "match": "中信兄弟（客） vs 味全龍（主）",
+      "timeTW": "15:05",
+      "venue": "大巨蛋",
+      "status": "同步時進行中（非即時）",
+      "source": "中華職棒官方進階數據",
+      "sourceUrl": "https://stats.cpbl.com.tw/schedule/2026-C-6",
+      "series": "C",
+      "updatedAt": "2026-10-26T16:51:14+08:00"
+    },
+    {
+      "id": "2026-C-7",
+      "date": "2026-10-27",
+      "match": "中信兄弟（客） vs 味全龍（主）",
+      "timeTW": "18:35",
+      "venue": "樂天桃園",
+      "status": "官方預定賽程",
+      "source": "中華職棒官方進階數據",
+      "sourceUrl": "https://stats.cpbl.com.tw/schedule/2026-C-7",
+      "series": "C",
+      "updatedAt": "2026-10-26T16:51:14+08:00"
     }
   ],
   "sports": {
@@ -571,9 +583,9 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastSuccessAt": null,
-  "cpblSyncError": "中職官網自動連線未成功，以下為人工核對的預定賽程；比賽異動以官方公告為準",
-  "cpblDataMode": "reviewed",
+  "cpblLastSuccessAt": "2026-10-26T16:51:14+08:00",
+  "cpblSyncError": null,
+  "cpblDataMode": "official",
   "cpblReviewedAt": "2026-10-09T09:55:00+08:00",
   "chinaDramaNewTitles": {
     "checkedAt": "2026-10-26T12:52+08:00",
@@ -702,5 +714,8 @@
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
-  }
+  },
+  "cpblLastAttemptAt": "2026-10-26T16:51:14+08:00",
+  "cpblAsOfDate": "2026-10-26",
+  "cpblValidUntil": "2026-10-26T19:51:14+08:00"
 }
