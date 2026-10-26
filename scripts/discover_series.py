@@ -15,6 +15,7 @@ TZ = dt.timezone(dt.timedelta(hours=8))
 KINDS = ('台劇', '韓劇', '陸劇', '日劇', '歐美劇', '綜藝')
 CATALOGUES = ('https://www.netflix.com/tw/browse/genre/434295', 'https://www.netflix.com/tw/browse/genre/83')
 DISCOVERY = Path('public/series-discovery.json')
+MANGO_URL = 'https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1'
 
 
 def get(url):
@@ -97,9 +98,40 @@ def apply_release_evidence(item,evidence):
     return item
 
 
+def parse_mango(payload, now):
+    data=json.loads(payload)
+    if data.get('code')!=200 or not isinstance(data.get('data',{}).get('hitDocs'),list):
+        raise ValueError('Mango official catalogue layout unavailable')
+    result=[]
+    for row in data['data']['hitDocs']:
+        if str(row.get('fstlvlId'))!='1':
+            continue
+        match=re.fullmatch(r'(\d{4}-\d{2}-\d{2})期',row.get('updateInfo',''))
+        if not match:
+            continue
+        try:
+            episode=dt.date.fromisoformat(match.group(1))
+        except ValueError:
+            continue
+        if not 0 <= (now.date()-episode).days < 30:
+            continue
+        clip=str(row.get('clipId',''));part=str(row.get('playPartId',''))
+        title=text(row.get('title',''));description=text(row.get('story') or row.get('subtitle',''))
+        if not clip.isdigit() or not part.isdigit() or not title or not description:
+            continue
+        url=f'https://www.mgtv.com/b/{clip}/{part}.html'
+        result.append({'id':'mango-auto-'+clip,'title':title,'type':'綜藝','platform':'芒果TV',
+            'description':description,'cast':'請見官方節目頁','url':url,'source':'芒果TV 官方最新綜藝片庫',
+            'verified':True,'verifiedAt':now.isoformat(timespec='seconds'),'autoDiscovered':True,
+            'latestEpisodeDate':episode.isoformat(),'episodeSourceUrl':MANGO_URL,
+            'releasePrecision':'unknown','releaseStatus':'catalogue-listed',
+            'availabilityNote':'日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準'})
+    return result
+
+
 def discover(previous, now, load=get):
     stamp = now.isoformat(timespec='seconds')
-    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': '官方片庫每日發現並逐片核對；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
+    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
     ids = []
     for url in CATALOGUES:
         try:
@@ -110,7 +142,7 @@ def discover(previous, now, load=get):
             result['sources'].append({'url': url, 'status': 'error', 'checkedAt': stamp, 'error': str(exc)[:180]})
     ids = list(dict.fromkeys(ids))
     print('Official catalogue titles to check:', len(ids), flush=True)
-    old = {x['id'].removeprefix('netflix-auto-'): x for x in previous.get('verified', [])}
+    old = {x['id'].removeprefix('netflix-auto-'): x for x in previous.get('verified', []) if x['id'].startswith('netflix-auto-')}
     def verify(title_id):
         url = 'https://www.netflix.com/tw/title/' + title_id
         try:
@@ -133,6 +165,15 @@ def discover(previous, now, load=get):
             age = now - dt.datetime.fromisoformat(item['verifiedAt'])
             if age <= dt.timedelta(days=7) and not any(x['id'] == item['id'] for x in result['verified']):
                 result['verified'].append({**item, 'verificationStale': True})
+    try:
+        mango=parse_mango(load(MANGO_URL),now)
+        result['verified'].extend(mango)
+        result['sources'].append({'url':MANGO_URL,'status':'success','checkedAt':stamp,'titleCount':len(mango)})
+    except Exception as exc:
+        result['sources'].append({'url':MANGO_URL,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+        for item in previous.get('verified',[]):
+            if item['id'].startswith('mango-auto-') and dt.timedelta(0)<=now-dt.datetime.fromisoformat(item['verifiedAt'])<=dt.timedelta(days=7):
+                result['verified'].append({**item,'verificationStale':True})
     for kind in KINDS:
         query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR 芒果TV) when:7d'
         url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': query, 'hl': 'zh-TW', 'gl': 'TW', 'ceid': 'TW:zh-Hant'})
@@ -173,7 +214,7 @@ def merge(feed, discovery, now, reviewed=None):
     auto = []
     for item in discovery.get('verified', []):
         age = now - dt.datetime.fromisoformat(item['verifiedAt'])
-        if dt.timedelta(0) <= age <= dt.timedelta(days=7) and item.get('catalogueYear') == now.year and (item['title'], item['platform']) not in titles:
+        if dt.timedelta(0) <= age <= dt.timedelta(days=7) and (item.get('catalogueYear') == now.year or item['id'].startswith('mango-auto-')) and (item['title'], item['platform']) not in titles:
             auto.append(item)
     evidence=load_release_evidence()
     feed['recommendations'] = [apply_release_evidence(item,evidence.get(item['id'].removeprefix('netflix-auto-'))) for item in manual + auto]

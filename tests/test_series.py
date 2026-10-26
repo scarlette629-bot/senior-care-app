@@ -44,6 +44,7 @@ class SeriesTests(unittest.TestCase):
         with self.assertRaises(ValueError):s.official_ids('blocked')
     def test_success_empty_is_not_source_failure(self):
         def load(url):
+            if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
             if '/browse/' in url:return '<a href="https://www.netflix.com/tw/title/83124329">title</a>'
             if '/title/' in url:return page(kind='Movie')
             return '<rss><channel></channel></rss>'
@@ -51,6 +52,7 @@ class SeriesTests(unittest.TestCase):
         self.assertEqual(result['status'],'success');self.assertEqual(result['verified'],[])
     def test_discovered_title_automatically_enters_recommendations(self):
         def load(url):
+            if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
             if '/browse/' in url:return '<a href="https://www.netflix.com/tw/title/83124329">title</a>'
             if '/title/' in url:return page()
             return '<rss><channel></channel></rss>'
@@ -75,5 +77,22 @@ class SeriesTests(unittest.TestCase):
         self.assertEqual(len(out['recommendations']),1);self.assertEqual(out['cpblGames'],[{'id':'keep'}])
         out=s.merge({'recommendations':[]},{'verified':[item]},NOW+dt.timedelta(days=8),reviewed=[])
         self.assertEqual(out['recommendations'],[])
+
+class MangoTests(unittest.TestCase):
+    def test_latest_episode_is_not_premiere_and_old_episodes_excluded(self):
+        row={'clipId':'123','playPartId':'456','fstlvlId':'1','title':'官方綜藝','story':'節目介紹','updateInfo':'2026-10-25期'}
+        payload={'code':200,'data':{'hitDocs':[row,{**row,'updateInfo':'2026-09-26期'},{**row,'updateInfo':'2026-10-27期'},{**row,'updateInfo':'2026-02-31期'}]}}
+        items=s.parse_mango(json.dumps(payload),NOW)
+        self.assertEqual(len(items),1);self.assertNotIn('releaseDate',items[0])
+        self.assertEqual(items[0]['latestEpisodeDate'],'2026-10-25')
+        self.assertEqual(s.merge({'recommendations':[]},{'verified':items},NOW,reviewed=[])['recommendations'],items)
+    def test_mango_failure_does_not_refresh_old_timestamp(self):
+        item={'id':'mango-auto-123','verifiedAt':(NOW-dt.timedelta(days=1)).isoformat()}
+        def fail(url):raise OSError('unavailable')
+        result=s.discover({'verified':[item]},NOW,fail)
+        self.assertEqual(result['verified'][0]['verifiedAt'],item['verifiedAt'])
+        self.assertEqual(s.discover({'verified':[item]},NOW+dt.timedelta(days=8),fail)['verified'],[])
+    def test_invalid_mango_response_is_error_not_empty_success(self):
+        with self.assertRaises(ValueError):s.parse_mango('{"code":500}',NOW)
 
 if __name__=='__main__':unittest.main()
