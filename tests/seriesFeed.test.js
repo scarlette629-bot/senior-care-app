@@ -17,3 +17,10 @@ test('explicit category filters preserve valid empty states and can return to al
  assert.equal(selectDailySeries(feed,'mine',['台劇'],now).items[0].title,'新手上路');
  assert.equal(selectDailySeries(feed,'all',['陸劇'],now).items.length,2);
 });
+test('current-year manual titles join the unified list and title duplicates/news are removed',()=>{
+ const data={recommendations:[...feed.recommendations,{id:'manual',title:'陸劇作品',type:'陸劇',platform:'愛奇藝',description:'synopsis',verified:true,releaseWindow:'2026 年（日期待核對）'},{...feed.recommendations[0],id:'duplicate',platform:'其他平台'},{id:'old',title:'往年作品',type:'台劇',platform:'Netflix',description:'synopsis',verified:true,releaseDate:'2025-10-01'}],seriesDiscovery:{candidates:[{title:'新手上路',type:'台劇',publishedAt:'2026-10-26T16:00:00+08:00'},{title:'新片線索',type:'陸劇',publishedAt:'2026-10-26T16:00:00+08:00'}]}};
+ const result=selectDailySeries(data,'all',[],now);
+ assert.equal(result.items.length,3);assert.equal(result.items.filter(x=>x.title==='新手上路').length,1);
+ assert.equal(selectDailySeries(data,'陸劇',[],now).items.length,1);
+ assert.deepEqual(result.candidates.map(x=>x.title),['新片線索']);
+});
