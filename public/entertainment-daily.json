@@ -2370,27 +2370,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-27T03:22:11+08:00",
-    "updatedAt": "2026-10-27T03:22:11+08:00",
-    "lastSuccessfulAt": "2026-10-27T03:22:11+08:00",
+    "checkedAt": "2026-10-27T07:55:38+08:00",
+    "updatedAt": "2026-10-27T07:55:38+08:00",
+    "lastSuccessfulAt": "2026-10-27T07:55:38+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-27T03:22:11+08:00",
+        "checkedAt": "2026-10-27T07:55:38+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-27T03:22:11+08:00",
+        "checkedAt": "2026-10-27T07:55:38+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-27T03:22:11+08:00",
+        "checkedAt": "2026-10-27T07:55:38+08:00",
         "itemCount": 4
       }
     ],
@@ -2431,23 +2431,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-667eedfe73e63020",
+        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
+        "type": "綜藝",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
+        "observedAt": "2026-10-26T00:59:41+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-a7d71473ebaf3b6a",
         "title": "金鐘61／沈玉琳走過重病奪金鐘 謝醫護團隊守住台灣綜藝「最吵的嘴」 - 噓！星聞",
         "type": "綜藝",
         "source": "噓！星聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ac1U1WnBaOU04WkUtY0hZRWZBRmJ2Z2FQZTk0a0hKVVIweTVvOXlEWFJabnpybllqQlhxV3BPTEhhOUk2YU5zM09COE5VVHF2WGlfUlUwVjJwaVA1TXFsZjB6RW5rX0JUQ2hWWDd6Uk5sQXFLUzlVQ2530gFfQVVfeXFMT0FhSVQtX05oVGVNVllBVnJSWmxpNG0tSDlSSUZBaWVWdS1jR2FlamJYMWVxTXNZcjkxYTNGbkxIdVF2M3RlWkVTZnV6VG5rbkNPTGNKWlZLakNEc0EzVG8?oc=5",
         "observedAt": "2026-10-26T00:23:07+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-667eedfe73e63020",
-        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
-        "type": "綜藝",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
-        "observedAt": "2026-10-26T00:00:02+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
