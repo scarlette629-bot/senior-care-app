@@ -257,3 +257,5 @@
 :root[data-theme="night"] .streamingNews .streamingMeta span,
 :root[data-theme="night"] .message .streamingNews>.streamingIntro{color:#eee1d5}
 @media(max-width:360px){.streamingNews .streamingCard{padding:11px}.streamingNews>h2{font-size:18px}.streamingNews .streamingMeta{gap:3px 10px}}
+
+.seriesFilters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.seriesFilters button{width:auto;min-height:44px;padding:8px 12px;border:1px solid #aa7867;border-radius:12px;background:#fff;color:#563c35;font:inherit}.seriesFilters button[aria-pressed="true"]{background:#563c35;color:#fff}
