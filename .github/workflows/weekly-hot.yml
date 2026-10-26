@@ -1,0 +1,35 @@
+name: Refresh weekly Chinese topics
+on:
+  schedule:
+    - cron: '15 * * * *' # hourly, including every Taiwan morning
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: weekly-topic-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test date boundaries and failure handling
+        run: python -m unittest discover -s tests -p test_weekly_hot.py -v
+      - name: Fetch current-week reports (publish unavailable state on error)
+        id: fetch
+        continue-on-error: true
+        run: python scripts/weekly_hot.py
+      - name: Publish refreshed schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/entertainment-daily.json
+          git diff --cached --quiet || git commit -m "data: refresh current-week Chinese topics"
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - name: Report source failure after publishing safe state
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1

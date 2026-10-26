@@ -12,3 +12,9 @@
 - 原網址、localStorage 及 v1.05 封存內容不修改。
 
 測試：`python -m unittest discover -s tests -p test_series.py -v`；v1.06 分支 `node --test tests/seriesFeed.test.js`。每日工作成功後經既有 Pages 工作部署原網址。
+
+## 近期新片及本週報導修正
+
+每日新片僅列近30天有精確首播／上架日期與日期來源的作品；作品年份、新聞發布日、首次發現或最近核對時間均不代表新片。只有作品資訊但沒有日期證據時，保留在其他推薦或待核對線索。人工交叉核對的跨平台作品由 data/series-recent-reviewed.json 維護，日期證據由 data/series-release-evidence.json 維護。
+
+華語本週報導由 scripts/weekly_hot.py 每小時查詢，按台灣週一至週日判定新聞發布日期，依興趣篩選；不再以歷史週次補位。來源成功但無合格報導與來源失敗分開標示，不宣稱官方熱搜排名。

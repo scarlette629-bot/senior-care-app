@@ -1,0 +1,93 @@
+[
+  {
+    "id": "recent-kr-boundless",
+    "title": "不著邊際的你",
+    "platform": "friDay影音／愛奇藝",
+    "releaseDate": "2026-10-24",
+    "cast": "鄭容和、洪承希、李伊庚、朴柔娜",
+    "description": "帶有致命缺點的浪漫喜劇演員，遇見自認是劇中女主角的神祕女子，兩人展開難以預測的戀愛故事。",
+    "url": "https://video.friday.tw/drama/detail/5403",
+    "releaseSourceUrl": "https://hk.ulifestyle.com.hk/topic/detail/20113088",
+    "source": "friDay影音、愛奇藝官方作品頁；播出日依UHK報導",
+    "type": "韓劇",
+    "verified": true,
+    "releasePrecision": "day",
+    "releaseStatus": "released",
+    "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+    "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+  },
+  {
+    "id": "recent-kr-final-table",
+    "title": "最後一桌",
+    "platform": "Prime Video",
+    "releaseDate": "2026-10-24",
+    "cast": "安孝燮、洪華蓮、張栗、鄭釉珍",
+    "description": "一群各有故事的主廚投入頂尖料理競賽，為榮譽、餐廳與各自的人生而戰，也在競爭與合作中重新找到方向。",
+    "url": "https://www.primevideo.com/-/zh_TW/detail/0N3OHMS8K24DKH0IKMV9A7BS5U",
+    "releaseSourceUrl": "https://konggokhk.com/final_table_episode_1_prime_video_review/",
+    "source": "Prime Video官方作品頁；韓國首播日依首播報導",
+    "type": "韓劇",
+    "verified": true,
+    "releasePrecision": "day",
+    "releaseStatus": "released",
+    "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+    "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+  },
+  {
+    "id": "recent-kr-love-disguise",
+    "title": "偽裝戀愛（我的有罪之人）",
+    "aliases": [
+      "我的有罪之人",
+      "偽裝戀愛"
+    ],
+    "platform": "Prime Video",
+    "releaseDate": "2026-10-19",
+    "cast": "任時完、薛仁雅、金正賢、妍雨",
+    "description": "女刑警為追查命案，偽裝成男性隨行祕書潛入財閥繼承人身邊；兩人在猜疑、調查與貼身相處中產生感情。",
+    "url": "https://www.primevideo.com/-/zh_TW/detail/0INEYNSINLQC82ZUIFLK7VNV09",
+    "releaseSourceUrl": "https://woman.tvbs.com.tw/entertainment/67736",
+    "source": "Prime Video官方作品頁；首播日及演員依TVBS報導",
+    "type": "韓劇",
+    "verified": true,
+    "releasePrecision": "day",
+    "releaseStatus": "released",
+    "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+    "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+  },
+  {
+    "id": "recent-kr-make-tingle",
+    "title": "心動製造所",
+    "platform": "HBO Max／TVING",
+    "releaseDate": "2026-10-15",
+    "cast": "南志鉉、金宰永",
+    "description": "觀念保守的行銷人員與成人用品公司負責人因工作相遇，兩人對感情與人生的不同想法，逐漸轉化為彼此理解的契機。",
+    "url": "https://tv.apple.com/tw/show/%E5%BF%83%E5%8B%95%E8%A3%BD%E9%80%A0%E6%89%80/umc.cmc.hc114pl9ujereayp3ypyoweo",
+    "releaseSourceUrl": "https://hk.ulifestyle.com.hk/topic/detail/20110286",
+    "source": "Apple TV作品資訊、韓星網播出報導；首播日依UHK報導",
+    "type": "韓劇",
+    "verified": true,
+    "releasePrecision": "day",
+    "releaseStatus": "released",
+    "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+    "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+  },
+  {
+    "id": "recent-cn-mask",
+    "title": "嫁金釵",
+    "aliases": [
+      "嫁金钗"
+    ],
+    "type": "陸劇",
+    "platform": "Netflix",
+    "cast": "田曦薇、閆桉、王一楠",
+    "description": "出身卑微的阿丑與富家千金容貌相似，代替對方嫁給病重貴族後，捲入身分交換、家族秘密與充滿試探的婚姻。",
+    "url": "https://www.netflix.com/tw/title/83150089",
+    "source": "Netflix官方作品資訊；播出日期依TVBS與劇星傳媒交叉核對",
+    "verified": true,
+    "releasePrecision": "day",
+    "releaseDate": "2026-10-16",
+    "releaseSourceUrl": "https://news.tvbs.com.tw/entertainment/drama/4039672",
+    "releaseStatus": "released",
+    "availabilityNote": "首播及上架日依播出報導；實際播放狀態請開啟平台確認。"
+  }
+]

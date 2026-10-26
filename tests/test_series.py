@@ -32,6 +32,12 @@ class SeriesTests(unittest.TestCase):
         self.assertEqual(item['releaseStatus'],'catalogue-listed')
         self.assertIsNone(s.parse_official(page(kind='Movie',available=False),'83124329',NOW,listed_in_taiwan=True))
 
+    def test_release_evidence_requires_same_title_and_carries_date_source(self):
+        item=s.parse_official(page(),'83124329',NOW)
+        evidence={'title':'新手上路','releaseDate':'2026-10-18','releaseSourceUrl':'https://example.com/date'}
+        self.assertEqual(s.apply_release_evidence(item,evidence)['releasePrecision'],'day')
+        self.assertEqual(s.apply_release_evidence(item,{**evidence,'title':'別部作品'})['releasePrecision'],'year')
+
     def test_wrong_title_and_changed_layout_fail(self):
         for html,title_id in [(page(),'999'),('<html>blocked</html>','83124329')]:
             with self.assertRaises((ValueError,KeyError)):s.parse_official(html,title_id,NOW)
@@ -49,7 +55,7 @@ class SeriesTests(unittest.TestCase):
             if '/title/' in url:return page()
             return '<rss><channel></channel></rss>'
         result=s.discover({},NOW,load)
-        feed=s.merge({'recommendations':[]},result,NOW)
+        feed=s.merge({'recommendations':[]},result,NOW,reviewed=[])
         self.assertEqual([x['title'] for x in feed['recommendations']],['新手上路'])
         self.assertEqual(len(feed['recommendations']),1)
         self.assertEqual(result['status'],'success')
@@ -65,9 +71,9 @@ class SeriesTests(unittest.TestCase):
     def test_merge_deduplicates_and_does_not_lose_manual_or_other_data(self):
         item=s.parse_official(page(),'83124329',NOW)
         feed={'recommendations':[{'title':'新手上路','platform':'Netflix','id':'manual'}],'cpblGames':[{'id':'keep'}]}
-        out=s.merge(feed,{'verified':[item]},NOW)
+        out=s.merge(feed,{'verified':[item]},NOW,reviewed=[])
         self.assertEqual(len(out['recommendations']),1);self.assertEqual(out['cpblGames'],[{'id':'keep'}])
-        out=s.merge({'recommendations':[]},{'verified':[item]},NOW+dt.timedelta(days=8))
+        out=s.merge({'recommendations':[]},{'verified':[item]},NOW+dt.timedelta(days=8),reviewed=[])
         self.assertEqual(out['recommendations'],[])
 
 if __name__=='__main__':unittest.main()

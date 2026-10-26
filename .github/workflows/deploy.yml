@@ -7,7 +7,7 @@ on:
   # GITHUB_TOKEN pushes from scheduled refresh do not initiate other push workflows.
   # Trigger a Pages rebuild explicitly after a successful entertainment refresh.
   workflow_run:
-    workflows: ["Refresh entertainment news", "Refresh China drama daily titles", "Refresh official CPBL schedule", "Discover new series daily"]
+    workflows: ["Refresh entertainment news", "Refresh China drama daily titles", "Refresh official CPBL schedule", "Discover new series daily", "Refresh weekly Chinese topics"]
     types: [completed]
     branches: [main]
 permissions:
@@ -21,7 +21,7 @@ env:
   WECARE_STABLE_SHA: 1c7545150502fee79b90b562a86c6edbc2c346d7
 jobs:
   build:
-    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.name == 'Refresh official CPBL schedule' || github.event.workflow_run.name == 'Discover new series daily') }}
+    if: ${{ github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' || github.event.workflow_run.name == 'Refresh official CPBL schedule' || github.event.workflow_run.name == 'Discover new series daily' || github.event.workflow_run.name == 'Refresh weekly Chinese topics') }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,10 +36,12 @@ jobs:
           test "$actual" = "$WECARE_STABLE_SHA" || { echo "::error::Frozen v1.05 branch was modified"; exit 1; }
           while IFS= read -r file; do
             case "$file" in
-              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|scripts/discover_series.py|tests/test_series.py|public/series-discovery.json|.github/workflows/series-daily.yml|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/SERIES-DISCOVERY.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
+              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|scripts/discover_series.py|scripts/weekly_hot.py|data/series-release-evidence.json|data/series-recent-reviewed.json|tests/test_weekly_hot.py|.github/workflows/weekly-hot.yml|tests/test_series.py|public/series-discovery.json|.github/workflows/series-daily.yml|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/SERIES-DISCOVERY.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
               *) echo "::error::Refusing to deploy modification of frozen v1.05 application: $file"; exit 1 ;;
             esac
           done < <(git diff --name-only "$WECARE_STABLE_SHA" HEAD)
+      - name: Test current-week topics
+        run: python -m unittest discover -s tests -p test_weekly_hot.py -v
       - name: Test series discovery
         run: python -m unittest discover -s tests -p test_series.py -v
       - name: Test CPBL updater
@@ -115,7 +117,7 @@ jobs:
           # The recommendation lists must be computed before JSX rendering.
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); p=s.index("function Entertainment("); r=s.index("return <Page back={back} title=",p); assert p < s.index("const yearStart=",p) < r; assert "thisYearRecs" in s and "undatedRecs" in s'
           test -s "$RUNNER_TEMP/wecare-v106-source/public/weekly-hot-history.json"
-          python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "showingPriorWeek" in s and "weekly-hot-history.json" in s'
+          python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "currentWeeklyHot" in s; assert "showingPriorWeek" not in s and "weekly-hot-history.json" not in s'
           # Reuse the newest approved cloud data, not the older branch snapshot.
           cp public/entertainment-daily.json "$RUNNER_TEMP/wecare-v106-source/public/entertainment-daily.json"
           cp public/series-discovery.json "$RUNNER_TEMP/wecare-v106-source/public/series-discovery.json"

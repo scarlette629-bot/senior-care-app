@@ -46,96 +46,6 @@ if curated.exists():
         if len(entry["description"])<35: continue
         out["recommendations"].append(entry)
     # Keep all reviewed recommendations; the UI filters to the user’s selected interests.
-# Chinese-market weekly discussions are not lifetime recommendations. Freshness is checked
-# against the current Asia/Taipei ISO week. Weibo mentions take precedence
-# over other news; do not invent engagement totals or rank without an official rank.
-def update_weekly_hot(reviewed):
-    week_start=NOW.date()-datetime.timedelta(days=NOW.weekday())
-    week_end=week_start+datetime.timedelta(days=6)
-    minimum=datetime.datetime.combine(week_start,datetime.time.min,tzinfo=NOW.tzinfo)
-    news=[]
-    query="site:weibo.com 电视剧 综艺 热搜 本周 OR 电视剧 热播 微博 热议"
-    url="https://news.google.com/rss/search?"+urllib.parse.urlencode({
-        "q":query,"hl":"zh-CN","gl":"HK","ceid":"HK:zh-Hans"})
-    try:
-        if os.environ.get("WECARE_OFFLINE")=="1": raise RuntimeError("Offline check")
-        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 WECARE/1.0"})
-        with urllib.request.urlopen(req,timeout=18) as resp:
-            root=ET.fromstring(resp.read())
-        for item in root.findall("./channel/item"):
-            title=(item.findtext("title") or "").strip()
-            link=(item.findtext("link") or "").strip()
-            pub=(item.findtext("pubDate") or "").strip()
-            if not title or not link:continue
-            try:
-                stamp=email.utils.parsedate_to_datetime(pub).astimezone(NOW.tzinfo)
-            except Exception:continue
-            if stamp<minimum or stamp>NOW:continue
-            source=(item.findtext("source") or "").strip()
-            is_weibo=("微博" in title or "微博" in source or "weibo.com" in link)
-            news.append({"title":title,"url":link,"publishedAt":stamp.isoformat(timespec="minutes"),
-                         "source":source or "華語娛樂新聞","weiboMention":is_weibo})
-    except Exception as exc:
-        print("Weekly hot lookup unavailable:",exc)
-    matched=[]
-    for entry in reviewed:
-        if not entry.get("verified") or entry.get("type") not in ("台劇","陸劇","綜藝","韓劇","日劇","歐美劇"):continue
-        title=entry.get("title","")
-        signals=[n for n in news if title and title in n["title"]]
-        if not signals:continue
-        signals.sort(key=lambda x:(int(bool(x["weiboMention"])),x["publishedAt"]),reverse=True)
-        top=signals[0]
-        matched.append({"id":entry["id"],"title":title,"type":entry["type"],
-                        "platform":entry.get("platform"),"description":entry.get("description"),
-                        "cast":entry.get("cast"),"releaseDate":entry.get("releaseDate"),
-                        "source":top["source"],"sourceUrl":top["url"],"observedAt":top["publishedAt"],
-                        "isWeiboMention":top["weiboMention"],"evidenceType":"本週新聞／微博相關報導",
-                        "verified":True})
-    # Also show current-week entertainment reports for newly released titles not yet
-    # represented in the hand-reviewed catalogue. These are labeled as news only,
-    # not certified rankings or verified streaming premieres.
-    for kind,items in out["categories"].items():
-        for article in items:
-            try:
-                ts=email.utils.parsedate_to_datetime(article.get("published","")).astimezone(NOW.tzinfo)
-            except Exception:continue
-            if ts<minimum or ts>NOW:continue
-            title=article.get("title","").strip()
-            if not title:continue
-            if any(m["title"] in title for m in matched):continue
-            source=article.get("source") or "華語娛樂報導"
-            is_weibo=("微博" in title or "微博" in source)
-            matched.append({"id":"news-"+kind+"-"+ts.strftime("%Y%m%d%H%M")+"-"+str(len(matched)),
-                "title":title,"type":kind,"source":source,"sourceUrl":article.get("url"),
-                "observedAt":ts.isoformat(timespec="minutes"),"isWeiboMention":is_weibo,
-                "evidenceType":"本週新聞話題（非官方排行）","verified":False})
-    # Editorially reviewed, dated public reports are a fallback when Google RSS
-    # is unavailable on the Actions runner. They expire automatically on Monday
-    # and are NEVER recycled into a new week.
-    reviewed_hot=pathlib.Path("data/weekly-hot-reviewed.json")
-    if reviewed_hot.exists():
-        try:
-            seed=json.loads(reviewed_hot.read_text(encoding="utf-8"))
-            if seed.get("weekStart")==week_start.isoformat() and seed.get("weekEnd")==week_end.isoformat():
-                have={(x.get("title"),x.get("sourceUrl")) for x in matched}
-                for x in seed.get("items",[]):
-                    try: observed=datetime.datetime.fromisoformat(x["observedAt"]).astimezone(NOW.tzinfo)
-                    except (ValueError,KeyError):continue
-                    if not minimum<=observed<=NOW:continue
-                    if x.get("type") not in QUERIES or not x.get("sourceUrl","").startswith("https://"):continue
-                    if (x.get("title"),x["sourceUrl"]) in have:continue
-                    matched.append(x)
-                    have.add((x["title"],x["sourceUrl"]))
-        except (OSError,ValueError,TypeError) as exc:
-            print("Reviewed weekly topics unavailable:",exc)
-    # Highest confidence: a Weibo-specific news item this week. Chronological
-    # order within each tier, without inventing a numeric popularity score.
-    matched.sort(key=lambda x:(int(bool(x["isWeiboMention"])),x["observedAt"]),reverse=True)
-    return {"weekStart":week_start.isoformat(),"weekEnd":week_end.isoformat(),
-            "updatedAt":NOW.isoformat(timespec="minutes"),"market":"台灣及華語市場",
-            "method":"本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
-            "items":matched[:12]}
-
 # Daily discovery of recently mentioned Mainland-China drama titles. News mentions are
 # candidates, NEVER verified premiere dates or confirmed streaming availability.
 def discover_china_drama_titles():
@@ -183,7 +93,8 @@ series_path=pathlib.Path("public/series-discovery.json")
 if series_path.exists():
     out=merge_series(out,json.loads(series_path.read_text(encoding="utf-8")),NOW)
 
-out["weeklyHot"]=update_weekly_hot(out["recommendations"])
+from weekly_hot import refresh as refresh_weekly_hot
+out["weeklyHot"]=refresh_weekly_hot(previous.get("weeklyHot",{}),NOW)
 # Korean, Japanese and Western series: separate, sourced weekly platform updates.
 # This list is NOT a popularity ranking. RSS articles must have actual same-week
 # publication timestamps; curated premiere-date items automatically expire Sunday.

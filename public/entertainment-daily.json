@@ -551,6 +551,97 @@
       "verified": true
     },
     {
+      "id": "recent-kr-boundless",
+      "title": "不著邊際的你",
+      "platform": "friDay影音／愛奇藝",
+      "releaseDate": "2026-10-24",
+      "cast": "鄭容和、洪承希、李伊庚、朴柔娜",
+      "description": "帶有致命缺點的浪漫喜劇演員，遇見自認是劇中女主角的神祕女子，兩人展開難以預測的戀愛故事。",
+      "url": "https://video.friday.tw/drama/detail/5403",
+      "releaseSourceUrl": "https://hk.ulifestyle.com.hk/topic/detail/20113088",
+      "source": "friDay影音、愛奇藝官方作品頁；播出日依UHK報導",
+      "type": "韓劇",
+      "verified": true,
+      "releasePrecision": "day",
+      "releaseStatus": "released",
+      "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+      "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+    },
+    {
+      "id": "recent-kr-final-table",
+      "title": "最後一桌",
+      "platform": "Prime Video",
+      "releaseDate": "2026-10-24",
+      "cast": "安孝燮、洪華蓮、張栗、鄭釉珍",
+      "description": "一群各有故事的主廚投入頂尖料理競賽，為榮譽、餐廳與各自的人生而戰，也在競爭與合作中重新找到方向。",
+      "url": "https://www.primevideo.com/-/zh_TW/detail/0N3OHMS8K24DKH0IKMV9A7BS5U",
+      "releaseSourceUrl": "https://konggokhk.com/final_table_episode_1_prime_video_review/",
+      "source": "Prime Video官方作品頁；韓國首播日依首播報導",
+      "type": "韓劇",
+      "verified": true,
+      "releasePrecision": "day",
+      "releaseStatus": "released",
+      "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+      "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+    },
+    {
+      "id": "recent-kr-love-disguise",
+      "title": "偽裝戀愛（我的有罪之人）",
+      "aliases": [
+        "我的有罪之人",
+        "偽裝戀愛"
+      ],
+      "platform": "Prime Video",
+      "releaseDate": "2026-10-19",
+      "cast": "任時完、薛仁雅、金正賢、妍雨",
+      "description": "女刑警為追查命案，偽裝成男性隨行祕書潛入財閥繼承人身邊；兩人在猜疑、調查與貼身相處中產生感情。",
+      "url": "https://www.primevideo.com/-/zh_TW/detail/0INEYNSINLQC82ZUIFLK7VNV09",
+      "releaseSourceUrl": "https://woman.tvbs.com.tw/entertainment/67736",
+      "source": "Prime Video官方作品頁；首播日及演員依TVBS報導",
+      "type": "韓劇",
+      "verified": true,
+      "releasePrecision": "day",
+      "releaseStatus": "released",
+      "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+      "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+    },
+    {
+      "id": "recent-kr-make-tingle",
+      "title": "心動製造所",
+      "platform": "HBO Max／TVING",
+      "releaseDate": "2026-10-15",
+      "cast": "南志鉉、金宰永",
+      "description": "觀念保守的行銷人員與成人用品公司負責人因工作相遇，兩人對感情與人生的不同想法，逐漸轉化為彼此理解的契機。",
+      "url": "https://tv.apple.com/tw/show/%E5%BF%83%E5%8B%95%E8%A3%BD%E9%80%A0%E6%89%80/umc.cmc.hc114pl9ujereayp3ypyoweo",
+      "releaseSourceUrl": "https://hk.ulifestyle.com.hk/topic/detail/20110286",
+      "source": "Apple TV作品資訊、韓星網播出報導；首播日依UHK報導",
+      "type": "韓劇",
+      "verified": true,
+      "releasePrecision": "day",
+      "releaseStatus": "released",
+      "releaseEvidenceType": "官方作品資訊與播出報導交叉核對",
+      "availabilityNote": "日期為首播日；不同地區的平台上架與實際播放狀態請至平台確認。"
+    },
+    {
+      "id": "recent-cn-mask",
+      "title": "嫁金釵",
+      "aliases": [
+        "嫁金钗"
+      ],
+      "type": "陸劇",
+      "platform": "Netflix",
+      "cast": "田曦薇、閆桉、王一楠",
+      "description": "出身卑微的阿丑與富家千金容貌相似，代替對方嫁給病重貴族後，捲入身分交換、家族秘密與充滿試探的婚姻。",
+      "url": "https://www.netflix.com/tw/title/83150089",
+      "source": "Netflix官方作品資訊；播出日期依TVBS與劇星傳媒交叉核對",
+      "verified": true,
+      "releasePrecision": "day",
+      "releaseDate": "2026-10-16",
+      "releaseSourceUrl": "https://news.tvbs.com.tw/entertainment/drama/4039672",
+      "releaseStatus": "released",
+      "availabilityNote": "首播及上架日依播出報導；實際播放狀態請開啟平台確認。"
+    },
+    {
       "id": "netflix-auto-82706229",
       "title": "阿松與阿暖",
       "type": "台劇",
@@ -688,14 +779,17 @@
       "verified": true,
       "verifiedAt": "2026-10-26T17:20:13+08:00",
       "autoDiscovered": true,
-      "releasePrecision": "year",
+      "releasePrecision": "day",
       "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/83124329",
+      "releaseStatus": "released",
+      "releaseSourceUrl": "https://w3.gtv.com.tw/entertainmentNews.php?seqId=A1E81C55-80DA-3217-E672-24450C50DA1D",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+      "firstSeenAt": "2026-10-26T17:20:13+08:00",
+      "releaseDate": "2026-10-18",
+      "releaseEvidenceType": "電視台播出報導",
+      "releaseEvidenceNote": "報導明列10月18日晚間10點Netflix全集上線，民視同步首播"
     },
     {
       "id": "netflix-auto-82635638",
@@ -1374,10 +1468,67 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "updatedAt": "2026-10-26T12:52+08:00",
+    "checkedAt": "2026-10-26T20:40:19+08:00",
+    "updatedAt": "2026-10-26T20:40:19+08:00",
+    "lastSuccessfulAt": "2026-10-26T20:40:19+08:00",
+    "status": "success",
+    "sources": [
+      {
+        "type": "陸劇",
+        "status": "success",
+        "checkedAt": "2026-10-26T20:40:19+08:00",
+        "itemCount": 0
+      },
+      {
+        "type": "台劇",
+        "status": "success",
+        "checkedAt": "2026-10-26T20:40:19+08:00",
+        "itemCount": 0
+      },
+      {
+        "type": "綜藝",
+        "status": "success",
+        "checkedAt": "2026-10-26T20:40:19+08:00",
+        "itemCount": 3
+      }
+    ],
     "market": "台灣及華語市場",
-    "method": "本週報導提及作品，微博相關報導優先；不代表微博官方熱搜排名",
-    "items": []
+    "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
+    "items": [
+      {
+        "id": "weekly-2927dd019a946607",
+        "title": "高哲翰講座教授：「金鐘獎不等於收視率」堅守台灣綜藝魂優質作品 - 台灣華報",
+        "type": "綜藝",
+        "source": "台灣華報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qMWtTVkhBcmV6UktTM3hQSXYxSmRzcTJtYXphTzlDblZpd0tsWHlsYXhValB0SDM4WDR5WjgzV2hCcVY0a1pzNEpzcXlUZFFDRmJ3cHRLdk40UVpzZXMxRTB4Zm1WWXNiYzFV?oc=5",
+        "observedAt": "2026-10-26T10:47:10+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-6003892bd00afc2e",
+        "title": "金鐘61｜「節目類」2026金鐘獎得獎名單：沈玉琳、Melody奪主持人獎，《週末最強大》拿下大獎 - Harper's BAZAAR",
+        "type": "綜藝",
+        "source": "Harper's BAZAAR",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
+        "observedAt": "2026-10-26T04:12:06+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-667eedfe73e63020",
+        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
+        "type": "綜藝",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
+        "observedAt": "2026-10-26T00:00:02+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      }
+    ]
   },
   "weeklyStreaming": {
     "weekStart": "2026-10-26",

@@ -58,6 +58,9 @@ def parse_official(page, title_id, now, listed_in_taiwan=False):
     kind = next((v for k, v in [('台灣', '台劇'), ('韓國', '韓劇'), ('日本', '日劇'), ('中國', '陸劇'), ('美國', '歐美劇'), ('英國', '歐美劇'), ('加拿大', '歐美劇'), ('法國', '歐美劇'), ('德國', '歐美劇'), ('西班牙', '歐美劇')] if k in genres), None)
     if any(term in genres for term in ('實境', '綜藝', '競賽')):
         kind = '綜藝'
+    release_evidence=load_release_evidence().get(title_id,{})
+    if not kind and release_evidence.get('title')==data['copy']['title']:
+        kind=release_evidence.get('type')
     if not kind or '動漫' in genres or '動畫' in genres:
         print('Excluded title', title_id, 'genres=', genres, flush=True)
         return None
@@ -83,6 +86,17 @@ def parse_official(page, title_id, now, listed_in_taiwan=False):
             'platformAvailabilityVerified': False}
 
 
+def load_release_evidence():
+    path=Path(__file__).resolve().parents[1]/'data/series-release-evidence.json'
+    return json.loads(path.read_text()) if path.exists() else {}
+
+def apply_release_evidence(item,evidence):
+    if evidence and item.get('title')==evidence.get('title'):
+        dt.date.fromisoformat(evidence['releaseDate'])
+        return {**item,**evidence,'releasePrecision':'day','releaseStatus':'released'}
+    return item
+
+
 def discover(previous, now, load=get):
     stamp = now.isoformat(timespec='seconds')
     result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': '官方片庫每日發現並逐片核對；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
@@ -100,7 +114,8 @@ def discover(previous, now, load=get):
     def verify(title_id):
         url = 'https://www.netflix.com/tw/title/' + title_id
         try:
-            return title_id, parse_official(load(url), title_id, now, listed_in_taiwan=True), None
+            item=parse_official(load(url), title_id, now, listed_in_taiwan=True)
+            return title_id, apply_release_evidence(item,load_release_evidence().get(title_id)) if item else None, None
         except Exception as exc:
             return title_id, None, str(exc)[:160]
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
@@ -148,15 +163,20 @@ def discover(previous, now, load=get):
     return result
 
 
-def merge(feed, discovery, now):
+def merge(feed, discovery, now, reviewed=None):
     manual = [x for x in feed.get('recommendations', []) if not x.get('autoDiscovered')]
+    recent_path=Path(__file__).resolve().parents[1]/'data/series-recent-reviewed.json'
+    recent=reviewed if reviewed is not None else json.loads(recent_path.read_text()) if recent_path.exists() else []
+    recent_ids={x['id'] for x in recent}
+    manual=[x for x in manual if x['id'] not in recent_ids]+recent
     titles = {(x['title'], x['platform']) for x in manual}
     auto = []
     for item in discovery.get('verified', []):
         age = now - dt.datetime.fromisoformat(item['verifiedAt'])
         if dt.timedelta(0) <= age <= dt.timedelta(days=7) and item.get('catalogueYear') == now.year and (item['title'], item['platform']) not in titles:
             auto.append(item)
-    feed['recommendations'] = manual + auto
+    evidence=load_release_evidence()
+    feed['recommendations'] = [apply_release_evidence(item,evidence.get(item['id'].removeprefix('netflix-auto-'))) for item in manual + auto]
     feed['seriesDiscovery'] = {k: v for k, v in discovery.items() if k != 'verified'}
     feed['seriesDiscovery']['verifiedCount'] = len(auto)
     return feed

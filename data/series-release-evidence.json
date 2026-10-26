@@ -1,0 +1,22 @@
+{
+  "83124329": {
+    "title": "新手上路",
+    "type": "台劇",
+    "releaseDate": "2026-10-18",
+    "releaseSourceUrl": "https://w3.gtv.com.tw/entertainmentNews.php?seqId=A1E81C55-80DA-3217-E672-24450C50DA1D",
+    "releaseEvidenceType": "電視台播出報導",
+    "releaseEvidenceNote": "報導明列10月18日晚間10點Netflix全集上線，民視同步首播"
+  },
+  "83150089": {
+    "title": "嫁金釵",
+    "type": "陸劇",
+    "releaseDate": "2026-10-16",
+    "releaseSourceUrl": "https://news.tvbs.com.tw/entertainment/drama/4039672",
+    "releaseEvidenceType": "媒體播出報導，與Netflix官方作品頁交叉核對",
+    "releaseEvidenceNote": "TVBS明列2026年10月16日首播、Netflix同步上架；劇星傳媒10月12日定檔公告亦列10月16日優酷與央視播出",
+    "supportingSourceUrl": "https://www.visionstar.cn/hot-resources/detail?id=227",
+    "aliases": [
+      "嫁金钗"
+    ]
+  }
+}
