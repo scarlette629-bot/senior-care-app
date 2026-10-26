@@ -2370,33 +2370,44 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-26T20:45:24+08:00",
-    "updatedAt": "2026-10-26T20:45:24+08:00",
-    "lastSuccessfulAt": "2026-10-26T20:45:24+08:00",
+    "checkedAt": "2026-10-27T03:22:11+08:00",
+    "updatedAt": "2026-10-27T03:22:11+08:00",
+    "lastSuccessfulAt": "2026-10-27T03:22:11+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-26T20:45:24+08:00",
+        "checkedAt": "2026-10-27T03:22:11+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-26T20:45:24+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-10-27T03:22:11+08:00",
+        "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-26T20:45:24+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-10-27T03:22:11+08:00",
+        "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-909e71160ed9686b",
+        "title": "金鐘61／《乩身》奪創新獎！調光師周佳聖緊張喊「想退休」 盼台劇登國際 - 緯來新聞網",
+        "type": "台劇",
+        "source": "緯來新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHNBU2I2QkFIRnZWRmtaZkhFWjM0cUtwbklGdkxiZHRwRUFhYnh5QnR4eGFJZ3J0N3k2Rm8tQ184QTVzSVdmdGJGb2NISEVCS1hFNXVORDJZVVBqY3Z6eUdWMkhwSjlDeW9pVXk0Yl8ta0tYRzhRRDZuUlFaT3NKYTN4aEFOQQ?oc=5",
+        "observedAt": "2026-10-26T22:14:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-2927dd019a946607",
         "title": "高哲翰講座教授：「金鐘獎不等於收視率」堅守台灣綜藝魂優質作品 - 台灣華報",
@@ -2415,6 +2426,17 @@
         "source": "Harper's BAZAAR",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
         "observedAt": "2026-10-26T04:12:06+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-a7d71473ebaf3b6a",
+        "title": "金鐘61／沈玉琳走過重病奪金鐘 謝醫護團隊守住台灣綜藝「最吵的嘴」 - 噓！星聞",
+        "type": "綜藝",
+        "source": "噓！星聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ac1U1WnBaOU04WkUtY0hZRWZBRmJ2Z2FQZTk0a0hKVVIweTVvOXlEWFJabnpybllqQlhxV3BPTEhhOUk2YU5zM09COE5VVHF2WGlfUlUwVjJwaVA1TXFsZjB6RW5rX0JUQ2hWWDd6Uk5sQXFLUzlVQ2530gFfQVVfeXFMT0FhSVQtX05oVGVNVllBVnJSWmxpNG0tSDlSSUZBaWVWdS1jR2FlamJYMWVxTXNZcjkxYTNGbkxIdVF2M3RlWkVTZnV6VG5rbkNPTGNKWlZLakNEc0EzVG8?oc=5",
+        "observedAt": "2026-10-26T00:23:07+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
