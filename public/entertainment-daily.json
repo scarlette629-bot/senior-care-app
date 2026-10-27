@@ -2276,32 +2276,19 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     }
   ],
-  "cpblGames": [
-    {
-      "id": "2026-C-7",
-      "date": "2026-10-27",
-      "match": "中信兄弟（客） vs 味全龍（主）",
-      "timeTW": "18:35",
-      "venue": "樂天桃園",
-      "status": "官方預定賽程",
-      "source": "中華職棒官方進階數據",
-      "sourceUrl": "https://stats.cpbl.com.tw/schedule/2026-C-7",
-      "series": "C",
-      "updatedAt": "2026-10-27T21:07:49+08:00"
-    }
-  ],
+  "cpblGames": [],
   "sports": {
     "棒球": [],
     "籃球": [],
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-10-27T21:07:49+08:00",
-  "cpblAsOfDate": "2026-10-27",
-  "cpblLastSuccessAt": "2026-10-27T21:07:49+08:00",
+  "cpblLastAttemptAt": "2026-10-28T02:39:16+08:00",
+  "cpblAsOfDate": "2026-10-28",
+  "cpblLastSuccessAt": "2026-10-28T02:39:16+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-10-28T00:07:49+08:00",
+  "cpblValidUntil": "2026-10-28T05:39:16+08:00",
   "chinaDramaNewTitles": {
     "checkedAt": "2026-10-27T13:10+08:00",
     "items": [
