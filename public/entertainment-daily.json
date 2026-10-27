@@ -2840,33 +2840,44 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-27T18:40:26+08:00",
-    "updatedAt": "2026-10-27T18:40:26+08:00",
-    "lastSuccessfulAt": "2026-10-27T18:40:26+08:00",
+    "checkedAt": "2026-10-28T00:43:18+08:00",
+    "updatedAt": "2026-10-28T00:43:18+08:00",
+    "lastSuccessfulAt": "2026-10-28T00:43:18+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-27T18:40:26+08:00",
+        "checkedAt": "2026-10-28T00:43:18+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-27T18:40:26+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-10-28T00:43:18+08:00",
+        "itemCount": 2
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-27T18:40:26+08:00",
+        "checkedAt": "2026-10-28T00:43:18+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-aafc484b606f043d",
+        "title": "金鐘61風雨後兩天圓滿落幕！《週末最強大》奪綜藝節目獎掀收視高潮 楊貴媚封視后飆4.85 - 蕃新聞",
+        "type": "綜藝",
+        "source": "蕃新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tNVhjdjlsQVR2X25odjBKdm91azk2cTVMd2xqVWRXaE16SUlnRlBFcWhaRGxNa0VnUHp6Ui01Mjdma2RXelR3STRkNGlrMHlMVkE?oc=5",
+        "observedAt": "2026-10-27T18:58:45+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-c2eb744b1019f43f",
         "title": "金鐘61／風雨後圓滿落幕！胡瓜《最強大》抱回節目獎創高點 楊貴媚奪獎瞬間收視飆4.85 - 鏡報",
@@ -2901,17 +2912,6 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-469dd82e1f86b105",
-        "title": "《李寶安》收視報捷 帶挈黃金時段節目 阿慈加盟保安隊 (16:20) - 20261027 - 明報 Our Lifestyle",
-        "type": "綜藝",
-        "source": "明報 Our Lifestyle",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPaXI3ZHRZZi1qX2o5aGxiRm5PSDUwQTBSV0tWY3YtOUtTRldMYTBYQkhVZW8xaEpiWWpucDFuNS00ZWlFS2dQeUxZR2Q1RWhTdkZ2eTZKOTJrTGhLZEI1QVp1Y3o5RGRQYzJRUEMzYXVydHgxbXU5MG16MGd4QkxjVW5iXy1Nd3dpT213QXM1M2haOTZTOHYzeVQ2d21rMEd0NHA0b0ptLXpEdzhFUHhNdUh6Tk8tRlg2cVcxZzhQcUloa1RXd1VxNGQ2dnFzZDhwNkRVaE5VRWVIUjNjSmF1bUtDMEFpYW43cEktdWNMa21scGxKWFllSWNtY09fYmVtdEhpdk55dnZmU2Z0aTJYQlBtd1NGN0RsV28tOG5hZThQeFY0UnRkUGF1amIyeVZoSW92Tm1iVmtpWDkxR1BwQ19fbU5nVW40dHZScDFQV3ZfNFNuUllhREFJdUNqVl83emNhY3B0c1A3M1p3RXMtZUpibU5paHQtREZBMDVhb3pScElNajBocVh5cVdkQzVRaWVWWHJR?oc=5",
-        "observedAt": "2026-10-27T16:20:36+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-9f739a64d9e5b215",
         "title": "金鐘收視出爐！楊貴媚封后狂衝4.85 節目類最高點是「他們」 - 緯來新聞網",
         "type": "綜藝",
@@ -2934,34 +2934,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-9b6fb44e1719d709",
-        "title": "金鐘61風雨後兩天圓滿落幕！《週末最強大》奪綜藝節目獎掀收視高潮 楊貴媚封視后飆4.85 - ENews新聞網",
-        "type": "綜藝",
-        "source": "ENews新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE43OXdOSmIzd05hOXI3clZyZnl3T1lmMzFzMXhSWHczQTAyWnYzMEF4STNCMFdONWRIQVhCbHdVaHhNSmRwd3Fz?oc=5",
-        "observedAt": "2026-10-27T15:10:02+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-909e71160ed9686b",
         "title": "金鐘61／《乩身》奪創新獎！調光師周佳聖緊張喊「想退休」 盼台劇登國際 - 緯來新聞網",
         "type": "台劇",
         "source": "緯來新聞網",
         "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHNBU2I2QkFIRnZWRmtaZkhFWjM0cUtwbklGdkxiZHRwRUFhYnh5QnR4eGFJZ3J0N3k2Rm8tQ184QTVzSVdmdGJGb2NISEVCS1hFNXVORDJZVVBqY3Z6eUdWMkhwSjlDeW9pVXk0Yl8ta0tYRzhRRDZuUlFaT3NKYTN4aEFOQQ?oc=5",
         "observedAt": "2026-10-26T22:14:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-448b0b19eccf8c6a",
-        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
-        "type": "台劇",
-        "source": "中天新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
-        "observedAt": "2026-10-26T21:48:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -2984,6 +2962,17 @@
         "source": "Harper's BAZAAR",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
         "observedAt": "2026-10-26T04:12:06+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-667eedfe73e63020",
+        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
+        "type": "綜藝",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
+        "observedAt": "2026-10-26T00:59:41+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
