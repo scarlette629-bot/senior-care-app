@@ -2840,27 +2840,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-27T13:10:16+08:00",
-    "updatedAt": "2026-10-27T13:10:16+08:00",
-    "lastSuccessfulAt": "2026-10-27T13:10:16+08:00",
+    "checkedAt": "2026-10-27T13:11:44+08:00",
+    "updatedAt": "2026-10-27T13:11:44+08:00",
+    "lastSuccessfulAt": "2026-10-27T13:11:44+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-27T13:10:16+08:00",
+        "checkedAt": "2026-10-27T13:11:44+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-27T13:10:16+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-10-27T13:11:44+08:00",
+        "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-27T13:10:16+08:00",
+        "checkedAt": "2026-10-27T13:11:44+08:00",
         "itemCount": 3
       }
     ],
@@ -2874,17 +2874,6 @@
         "source": "緯來新聞網",
         "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHNBU2I2QkFIRnZWRmtaZkhFWjM0cUtwbklGdkxiZHRwRUFhYnh5QnR4eGFJZ3J0N3k2Rm8tQ184QTVzSVdmdGJGb2NISEVCS1hFNXVORDJZVVBqY3Z6eUdWMkhwSjlDeW9pVXk0Yl8ta0tYRzhRRDZuUlFaT3NKYTN4aEFOQQ?oc=5",
         "observedAt": "2026-10-26T22:14:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-448b0b19eccf8c6a",
-        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
-        "type": "台劇",
-        "source": "中天新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
-        "observedAt": "2026-10-26T21:48:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
