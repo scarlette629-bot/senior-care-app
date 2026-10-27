@@ -2840,33 +2840,110 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-27T13:11:44+08:00",
-    "updatedAt": "2026-10-27T13:11:44+08:00",
-    "lastSuccessfulAt": "2026-10-27T13:11:44+08:00",
+    "checkedAt": "2026-10-27T18:40:26+08:00",
+    "updatedAt": "2026-10-27T18:40:26+08:00",
+    "lastSuccessfulAt": "2026-10-27T18:40:26+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-27T13:11:44+08:00",
+        "checkedAt": "2026-10-27T18:40:26+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-27T13:11:44+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-10-27T18:40:26+08:00",
+        "itemCount": 3
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-27T13:11:44+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-10-27T18:40:26+08:00",
+        "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-c2eb744b1019f43f",
+        "title": "金鐘61／風雨後圓滿落幕！胡瓜《最強大》抱回節目獎創高點 楊貴媚奪獎瞬間收視飆4.85 - 鏡報",
+        "type": "綜藝",
+        "source": "鏡報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Zc19kVEdUSHR0TnlDdUphSWI0Q25TVUtjOF9YMlRSYmRDaXdrbTdjMTZCc2hUME1ldXFndS1sb0tNV1BPaERNcHo0RUJuYjVOb3c?oc=5",
+        "observedAt": "2026-10-27T17:14:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-3048f8b49b4201ab",
+        "title": "小S蔡康永都拿過！歷代金鐘綜藝主持得獎人盤點：沈玉琳抗癌成功霸氣封神、這組合當年「自己頒給自己」 太神奇 - 風傳媒",
+        "type": "綜藝",
+        "source": "風傳媒",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SaHlqWEpnM25oZVBFWjEwQzRvT3d0ZFJpWE5EX2xma3h3a1A2VE9LT2FRZmxoMkNHbmVSNENwVEdtd2hxbDhxSDZ6U3VHWGx5?oc=5",
+        "observedAt": "2026-10-27T17:13:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-021ed1bf8d114b86",
+        "title": "Netflix 11月上線必看片單出爐！《魔鬼的計謀：第3季》最強陣容登場、台劇《急診室的奇蹟》令人期待 - 遠見雜誌",
+        "type": "台劇",
+        "source": "遠見雜誌",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9INjlfOFVkbFd4WDNXbXZGa1VId2V3aUVFZkJyY3lnQ0lZSmZGaTZuSHZwS0poNWRxdFdKMFVZVVBIeWRFMEU3VTYyWDhwUQ?oc=5",
+        "observedAt": "2026-10-27T16:21:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-469dd82e1f86b105",
+        "title": "《李寶安》收視報捷 帶挈黃金時段節目 阿慈加盟保安隊 (16:20) - 20261027 - 明報 Our Lifestyle",
+        "type": "綜藝",
+        "source": "明報 Our Lifestyle",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilgNBVV95cUxPaXI3ZHRZZi1qX2o5aGxiRm5PSDUwQTBSV0tWY3YtOUtTRldMYTBYQkhVZW8xaEpiWWpucDFuNS00ZWlFS2dQeUxZR2Q1RWhTdkZ2eTZKOTJrTGhLZEI1QVp1Y3o5RGRQYzJRUEMzYXVydHgxbXU5MG16MGd4QkxjVW5iXy1Nd3dpT213QXM1M2haOTZTOHYzeVQ2d21rMEd0NHA0b0ptLXpEdzhFUHhNdUh6Tk8tRlg2cVcxZzhQcUloa1RXd1VxNGQ2dnFzZDhwNkRVaE5VRWVIUjNjSmF1bUtDMEFpYW43cEktdWNMa21scGxKWFllSWNtY09fYmVtdEhpdk55dnZmU2Z0aTJYQlBtd1NGN0RsV28tOG5hZThQeFY0UnRkUGF1amIyeVZoSW92Tm1iVmtpWDkxR1BwQ19fbU5nVW40dHZScDFQV3ZfNFNuUllhREFJdUNqVl83emNhY3B0c1A3M1p3RXMtZUpibU5paHQtREZBMDVhb3pScElNajBocVh5cVdkQzVRaWVWWHJR?oc=5",
+        "observedAt": "2026-10-27T16:20:36+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-9f739a64d9e5b215",
+        "title": "金鐘收視出爐！楊貴媚封后狂衝4.85 節目類最高點是「他們」 - 緯來新聞網",
+        "type": "綜藝",
+        "source": "緯來新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX29ELU9QZUY4MnFOQi1Xa1JpaGJTYmh0MlBiUWFxNmFsY05acWtpN0lFNTF0WEdoUGFBZWQwVTV4dkpmdjJNMlBLRGQtLW5oUEpvOEVNQ2F1OEQxTXFWdUZtclpyaGJ3Y19KZHJzRHVxcjAtWFpTMjJCamMxdlNRY0hpQzI2Zw?oc=5",
+        "observedAt": "2026-10-27T15:16:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-e5952e74821df3bf",
+        "title": "金鐘61／收視出爐！楊貴媚封視后飆出4.85最高點　胡瓜節目獲獎掀整晚高潮 | 娛樂 | CTWANT - CTWANT",
+        "type": "綜藝",
+        "source": "CTWANT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KUHJQQVV3QTBsaXZPWEo3SWJpbFVHUWVnR1J2eEpqeGdEOXB3OUY3X2lCOTFGODJXU1hCTUxQbTItQVlFQnRYX0RtUVlsRU3SAVRBVV95cUxQZmF0N3ZQVDlBczhIRHVUQlNVdEE2bGhrLTJCU1pOLUFTWTFWdTBPdVhjNXhBZzRIdXJiaTNZaXFaWllfSXdiQ1l0R29Sd0Z5MHI2djU?oc=5",
+        "observedAt": "2026-10-27T15:11:08+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-9b6fb44e1719d709",
+        "title": "金鐘61風雨後兩天圓滿落幕！《週末最強大》奪綜藝節目獎掀收視高潮 楊貴媚封視后飆4.85 - ENews新聞網",
+        "type": "綜藝",
+        "source": "ENews新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE43OXdOSmIzd05hOXI3clZyZnl3T1lmMzFzMXhSWHczQTAyWnYzMEF4STNCMFdONWRIQVhCbHdVaHhNSmRwd3Fz?oc=5",
+        "observedAt": "2026-10-27T15:10:02+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-909e71160ed9686b",
         "title": "金鐘61／《乩身》奪創新獎！調光師周佳聖緊張喊「想退休」 盼台劇登國際 - 緯來新聞網",
@@ -2879,23 +2956,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-448b0b19eccf8c6a",
+        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
+        "type": "台劇",
+        "source": "中天新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
+        "observedAt": "2026-10-26T21:48:37+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-2927dd019a946607",
         "title": "高哲翰講座教授：「金鐘獎不等於收視率」堅守台灣綜藝魂優質作品 - 台灣華報",
         "type": "綜藝",
         "source": "台灣華報",
         "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qMWtTVkhBcmV6UktTM3hQSXYxSmRzcTJtYXphTzlDblZpd0tsWHlsYXhValB0SDM4WDR5WjgzV2hCcVY0a1pzNEpzcXlUZFFDRmJ3cHRLdk40UVpzZXMxRTB4Zm1WWXNiYzFV?oc=5",
         "observedAt": "2026-10-26T10:47:10+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-0bd735e4cedf50ed",
-        "title": "金鐘61節目類頒獎典禮 我是陳派派橫掃3獎【涉己新聞】 - 你的公共電視",
-        "type": "綜藝",
-        "source": "你的公共電視",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MQmNPUzNfNW1aaURieS1CZmx3MnBkb2FZRkNDaksxZHhMZG5VY3MyWUkyZWpIMWlkdTJIenVIN0hIQ3BKM1JxZlBwaTZWUm8?oc=5",
-        "observedAt": "2026-10-26T08:18:44+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
