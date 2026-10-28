@@ -71,3 +71,12 @@ test('connect both candidate feeds, correct mixed-article category, keep 30 days
  assert.equal(selectDailySeries(data,'mine',['台劇'],now).candidates.length,0);
  assert.equal(selectDailySeries(data,'mine',[],now).candidates.length,0);
 });
+
+test('SBS translated official title replaces duplicate catalogue card only for Korean interests',()=>{
+ const title='Doctor X：白色黑手黨時代';
+ const base={title,type:'韓劇',description:'translated',verified:true,releaseDate:'2026-10-09'};
+ const feed={recommendations:[{...base,id:'netflix-auto-1',platform:'Netflix'},{...base,id:'sbs-auto-doctorx',platform:'SBS',originalTitle:'닥터X : 하얀 마피아의 시대'}]};
+ const result=selectDailySeries(feed,'mine',['韓劇'],Date.parse('2026-10-28T12:00:00+08:00'));
+ assert.equal(result.items.length,1);assert.equal(result.items[0].platform,'SBS');
+ assert.equal(selectDailySeries(feed,'mine',['陸劇'],Date.parse('2026-10-28T12:00:00+08:00')).items.length,0);
+});
