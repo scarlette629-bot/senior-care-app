@@ -15,6 +15,7 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
   const candidateMap=new Map();
   const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
   typeByTitle.set('尚公主','陸劇');
+  typeByTitle.set('小城良方','陸劇');
   typeByTitle.set('嫁金釵','陸劇');
   for(const raw of [...(feed?.seriesDiscovery?.candidates||[]),...(feed?.chinaDramaNewTitles?.items||[])]){
     if(!raw?.title)continue;
