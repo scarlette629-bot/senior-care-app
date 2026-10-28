@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 
 TZ = dt.timezone(dt.timedelta(hours=8))
 KINDS = ('台劇', '韓劇', '陸劇', '日劇', '歐美劇', '綜藝')
-TITLE_KINDS = {'尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
+TITLE_KINDS = {'小城良方': '陸劇', '尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
 
 
 def classify_candidates(items):
