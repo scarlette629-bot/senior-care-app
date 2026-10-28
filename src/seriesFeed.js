@@ -7,7 +7,7 @@ export function freshSeries(item, now=Date.now()) {
 export function selectDailySeries(feed, filter='mine', interests=[], now=Date.now()) {
   const eligible=(feed?.recommendations||[]).filter(x=>interests.includes(x?.type)&&x?.verified===true&&x.title&&x.platform&&x.description&&freshSeries(x,now)&&dailySeriesEligible(x,now));
   const unique=new Map();
-  for(const item of eligible){const key=item.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();if(!unique.has(key))unique.set(key,item);}
+  for(const item of eligible){const key=item.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();if(!unique.has(key)||item.platform==='SBS')unique.set(key,item);}
   const all=[...unique.values()];
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
