@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 
 TZ = dt.timezone(dt.timedelta(hours=8))
 KINDS = ('台劇', '韓劇', '陸劇', '日劇', '歐美劇', '綜藝')
-TITLE_KINDS = {'小城良方': '陸劇', '尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
+TITLE_KINDS = {'美人余': '陸劇', '美人餘': '陸劇', '小城良方': '陸劇', '尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
 
 
 def classify_candidates(items):
@@ -135,9 +135,83 @@ def parse_mango(payload, now):
     return result
 
 
+WETV_HOME = 'https://wetv.vip/zh-tw'
+WETV_SEEDS = ('3spckqfxno9qpkz',)
+
+
+def wetv_ids(page):
+    ids=list(dict.fromkeys(re.findall(r'(?:https://(?:v\.)?wetv\.vip)?/zh-tw/play/([a-zA-Z0-9]{10,20})(?=[/?"\s<\-])',html.unescape(page))))
+    if not ids:
+        raise ValueError('WeTV catalogue layout unavailable or empty')
+    return ids[:40]
+
+
+def parse_wetv(page, title_id, now):
+    nodes=[]
+    for payload in re.findall(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',page,re.S):
+        try:
+            data=json.loads(payload)
+            nodes.extend(data.get('@graph',[data]) if isinstance(data,dict) else data)
+        except (ValueError,TypeError):
+            continue
+    series=next((x for x in nodes if x.get('@type')=='TVSeries' and '/play/'+title_id in x.get('url','')),None)
+    episode=next((x for x in nodes if x.get('@type')=='TVEpisode' and '/play/'+title_id in x.get('url','')), {})
+    if not series:
+        raise ValueError('WeTV official series metadata unavailable or redirected')
+    region=episode.get('countryOfOrigin',{})
+    region=region.get('name','') if isinstance(region,dict) else str(region)
+    kind=next((v for k,v in [('內地','陸劇'),('中國','陸劇'),('台灣','台劇'),('臺灣','台劇'),('韓國','韓劇'),('日本','日劇')] if k in region),None)
+    if not kind:
+        return None  # Do not classify Thai series as Mainland drama.
+    title=text(series.get('name',''))
+    description=text(series.get('description','')).split(' | ')[0]
+    if not title or len(description)<15:
+        raise ValueError('WeTV title or synopsis missing')
+    match=re.search(r'class="play-info__text"[^>]*>\s*<span>\s*<span>(20\d{2})</span>',page)
+    if not match:
+        raise ValueError('WeTV catalogue year missing')
+    year=int(match.group(1))
+    if year!=now.year:
+        return None
+    url='https://wetv.vip/zh-tw/play/'+title_id
+    return {'id':'wetv-auto-'+title_id,'title':title,'aliases':['美人余'] if title=='美人餘' else [],
+        'type':kind,'platform':'WeTV','cast':'、'.join(x['name'] for x in episode.get('actor',[])[:5] if x.get('name')) or '請見官方作品頁',
+        'description':description,'url':url,'source':'WeTV 繁體中文官方作品頁（自動核對）',
+        'verified':True,'verifiedAt':now.isoformat(timespec='seconds'),'autoDiscovered':True,
+        'releasePrecision':'year','releaseWindow':str(year)+' 年作品；確切上架日未核實',
+        'releaseStatus':'catalogue-listed','catalogueYear':year,'releaseSourceUrl':url,
+        'platformAvailabilityVerified':False,'availabilityNote':'WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。'}
+
+
+def discover_wetv(previous, now, load=get):
+    stamp=now.isoformat(timespec='seconds')
+    sources=[];items=[];ids=list(WETV_SEEDS)
+    try:
+        found=wetv_ids(load(WETV_HOME));ids.extend(found)
+        sources.append({'url':WETV_HOME,'status':'success','checkedAt':stamp,'titleCount':len(found)})
+    except Exception as exc:
+        sources.append({'url':WETV_HOME,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+    for item in previous.get('verified',[]):
+        if item.get('id','').startswith('wetv-auto-'):
+            ids.append(item['id'].removeprefix('wetv-auto-'))
+    for title_id in dict.fromkeys(ids):
+        url='https://wetv.vip/zh-tw/play/'+title_id
+        try:
+            item=parse_wetv(load(url),title_id,now)
+            if item:
+                items.append(item)
+            sources.append({'url':url,'status':'success','checkedAt':stamp,'titleCount':int(item is not None)})
+        except Exception as exc:
+            sources.append({'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+            for old in previous.get('verified',[]):
+                if old.get('id')=='wetv-auto-'+title_id and dt.timedelta(0)<=now-dt.datetime.fromisoformat(old['verifiedAt'])<=dt.timedelta(days=7):
+                    items.append({**old,'verificationStale':True})
+    return items,sources
+
+
 def discover(previous, now, load=get):
     stamp = now.isoformat(timespec='seconds')
-    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
+    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
     ids = []
     for url in CATALOGUES:
         try:
@@ -180,8 +254,11 @@ def discover(previous, now, load=get):
         for item in previous.get('verified',[]):
             if item['id'].startswith('mango-auto-') and dt.timedelta(0)<=now-dt.datetime.fromisoformat(item['verifiedAt'])<=dt.timedelta(days=7):
                 result['verified'].append({**item,'verificationStale':True})
+    wetv,wetv_sources=discover_wetv(previous,now,load)
+    result['verified'].extend(wetv)
+    result['sources'].extend(wetv_sources)
     for kind in KINDS:
-        query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR 芒果TV) when:7d'
+        query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR WeTV OR 芒果TV) when:7d'
         url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': query, 'hl': 'zh-TW', 'gl': 'TW', 'ceid': 'TW:zh-Hant'})
         try:
             root = ET.fromstring(load(url))
@@ -244,4 +321,5 @@ if __name__ == '__main__':
         raise SystemExit(1)
     if result['status'] == 'partial':
         print('::warning::Some individual title or news sources could not be verified; see published source health.')
+
 
