@@ -2907,28 +2907,28 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-28T08:47:41+08:00",
-    "updatedAt": "2026-10-28T08:47:41+08:00",
-    "lastSuccessfulAt": "2026-10-28T08:47:41+08:00",
+    "checkedAt": "2026-10-28T09:26:07+08:00",
+    "updatedAt": "2026-10-28T09:26:07+08:00",
+    "lastSuccessfulAt": "2026-10-28T09:26:07+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-28T08:47:41+08:00",
+        "checkedAt": "2026-10-28T09:26:07+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-28T08:47:41+08:00",
+        "checkedAt": "2026-10-28T09:26:07+08:00",
         "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-28T08:47:41+08:00",
-        "itemCount": 7
+        "checkedAt": "2026-10-28T09:26:07+08:00",
+        "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
@@ -2973,6 +2973,17 @@
         "type": "綜藝",
         "source": "鏡報",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Zc19kVEdUSHR0TnlDdUphSWI0Q25TVUtjOF9YMlRSYmRDaXdrbTdjMTZCc2hUME1ldXFndS1sb0tNV1BPaERNcHo0RUJuYjVOb3c?oc=5",
+        "observedAt": "2026-10-27T17:14:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-bbca2009c171c857",
+        "title": "金鐘61／風雨後圓滿落幕！胡瓜《最強大》抱回節目獎創高點 楊貴媚奪獎瞬間收視飆4.85 - 鏡週刊Mirror Media",
+        "type": "綜藝",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1wWDltZm1ZYzVmWUhmaGxVUUc5Z0VScU1LQmZDUXhfLTVfUHdzai13aGZJcTZKVVVmQ2NmUW96ci1nUS1OcThfUGF1TzhHMDY5bHJlLVdJdDdoX0ZoSVZnMEthaUM?oc=5",
         "observedAt": "2026-10-27T17:14:00+08:00",
         "isWeiboMention": false,
         "verified": false,
