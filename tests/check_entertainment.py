@@ -42,7 +42,7 @@ for x in actual:
     assert x.get("verified") is True and x.get("title") and x.get("description") and x.get("source")
     assert x.get("url","").startswith("https://")
     if x.get("autoDiscovered"):
-        assert x.get("verifiedAt") and x["id"].startswith(("netflix-auto-","mango-auto-","wetv-auto-")),x["id"]
+        assert x.get("verifiedAt") and x["id"].startswith(("netflix-auto-","mango-auto-","wetv-auto-","sbs-auto-")),x["id"]
 assert isinstance(feed["cpblGames"],list), "CPBL games must be a list"
 assert feed.get("cpblDataMode") in {"reviewed","official","unavailable"}, "Feed must identify fixture mode"
 if feed["cpblDataMode"]=="reviewed":

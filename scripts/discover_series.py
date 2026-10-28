@@ -209,9 +209,83 @@ def discover_wetv(previous, now, load=get):
     return items,sources
 
 
+SBS_HOME = 'https://www.sbs.co.kr/'
+# Translations are reviewed against the original synopsis; changed source text
+# goes back to the translation queue rather than silently reusing an old summary.
+SBS_TRANSLATIONS = {
+    'doctorx': {
+        'title': 'Doctor X：白色黑手黨時代',
+        'originalTitle': '닥터X : 하얀 마피아의 시대',
+        'originalDescription': '하얀 가운을 입은 마피아들이 장악한 이곳에 다크히어로 천재의사가 등장한다. 오로지 실력으로 의사란 무엇인가를 증명하는 의사, 닥터X 계수정의 등장!',
+        'description': '天才外科醫師桂秀貞進入被利益與權力把持的醫療體系，以醫術對抗不合理的權威，重新證明醫師救人的本職。',
+        'cast': '金智媛、李姃垠、孫賢周',
+        'releaseDate': '2026-10-09',
+        'releaseSourceUrl': 'https://programs.sbs.co.kr/drama/doctorx/vod/88585/22000637949',
+    },
+}
+
+
+def sbs_program_ids(page):
+    ids=list(dict.fromkeys(re.findall(r'(?:https?:)?//programs\.sbs\.co\.kr/drama/([a-zA-Z0-9_-]+)/',html.unescape(page))))
+    if not ids:
+        raise ValueError('SBS drama links unavailable')
+    return ids[:20]
+
+
+def parse_sbs(page, slug, now):
+    from html.parser import HTMLParser
+    class Metadata(HTMLParser):
+        def __init__(self):
+            super().__init__();self.values={}
+        def handle_starttag(self, tag, attrs):
+            a=dict(attrs)
+            if tag=='meta':
+                self.values[a.get('property') or a.get('name')]=a.get('content','')
+    parser=Metadata();parser.feed(page)
+    title=parser.values.get('og:title','').strip()
+    synopsis=parser.values.get('description','').strip()
+    if not title or len(synopsis)<10 or not re.search(r'[\uac00-\ud7a3]',title):
+        raise ValueError('SBS official programme metadata unavailable')
+    url='https://programs.sbs.co.kr/drama/'+slug+'/main'
+    translation=SBS_TRANSLATIONS.get(slug)
+    if not translation or title!=translation['originalTitle'] or synopsis!=translation['originalDescription']:
+        return None,{'id':'sbs-'+slug,'originalTitle':title,'originalDescription':synopsis,
+            'type':'韓劇','source':'SBS 官方節目頁','sourceUrl':url,
+            'discoveredAt':now.isoformat(timespec='seconds'),'translationStatus':'待繁體中文翻譯核對'}
+    item={**translation,'id':'sbs-auto-'+slug,'type':'韓劇','platform':'SBS',
+        'aliases':[translation['originalTitle']],'url':url,'source':'SBS 官方節目介紹（繁體中文翻譯）',
+        'verified':True,'autoDiscovered':True,'verifiedAt':now.isoformat(timespec='seconds'),
+        'catalogueYear':int(translation['releaseDate'][:4]),'releasePrecision':'day','releaseStatus':'released',
+        'availabilityNote':'日期為韓國首播；台灣播放平台與上架日請依當地平台公告。'}
+    return item,None
+
+
+def discover_sbs(previous, now, load=get):
+    stamp=now.isoformat(timespec='seconds');sources=[];items=[];queue=[]
+    slugs=list(SBS_TRANSLATIONS)
+    try:
+        found=sbs_program_ids(load(SBS_HOME));slugs.extend(found)
+        sources.append({'url':SBS_HOME,'status':'success','checkedAt':stamp,'titleCount':len(found)})
+    except Exception as exc:
+        sources.append({'url':SBS_HOME,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+    for slug in dict.fromkeys(slugs):
+        url='https://programs.sbs.co.kr/drama/'+slug+'/main'
+        try:
+            item,pending=parse_sbs(load(url),slug,now)
+            if item:items.append(item)
+            if pending:queue.append(pending)
+            sources.append({'url':url,'status':'success','checkedAt':stamp,'translated':item is not None})
+        except Exception as exc:
+            sources.append({'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+            for old in previous.get('verified',[]):
+                if old.get('id')=='sbs-auto-'+slug and dt.timedelta(0)<=now-dt.datetime.fromisoformat(old['verifiedAt'])<=dt.timedelta(days=7):
+                    items.append({**old,'verificationStale':True})
+    return items,sources,queue
+
+
 def discover(previous, now, load=get):
     stamp = now.isoformat(timespec='seconds')
-    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
+    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV、SBS 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
     ids = []
     for url in CATALOGUES:
         try:
@@ -257,6 +331,10 @@ def discover(previous, now, load=get):
     wetv,wetv_sources=discover_wetv(previous,now,load)
     result['verified'].extend(wetv)
     result['sources'].extend(wetv_sources)
+    sbs,sbs_sources,translation_queue=discover_sbs(previous,now,load)
+    result['verified'].extend(sbs)
+    result['sources'].extend(sbs_sources)
+    result['translationQueue']=translation_queue
     for kind in KINDS:
         query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR WeTV OR 芒果TV) when:7d'
         url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': query, 'hl': 'zh-TW', 'gl': 'TW', 'ceid': 'TW:zh-Hant'})
@@ -321,5 +399,6 @@ if __name__ == '__main__':
         raise SystemExit(1)
     if result['status'] == 'partial':
         print('::warning::Some individual title or news sources could not be verified; see published source health.')
+
 
 
