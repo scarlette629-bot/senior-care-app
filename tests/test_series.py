@@ -11,6 +11,11 @@ def page(kind='Show', available=True, year=2026):
     data={'models':{'nmTitleGQL':{'data':{'metaData':{'videoId':83124329,'type':kind,'isAvailable':available},'copy':{'title':'新手上路','synopsis':'一位新手媽媽因寶寶遭挾持，與意想不到的夥伴一起展開救援任務。'},'persons':{'actors':[{'name':'陳意涵'}]}}}}}
     return '<script>netflix.reactContext = '+json.dumps(data)+';</script><li>'+str(year)+'</li><h4>類型</h4><span>台灣、喜劇節目和奇幻節目</span>'
 
+def wetv_page(region='內地', year=2026, title_id='3spckqfxno9qpkz'):
+    url='https://wetv.vip/zh-tw/play/'+title_id
+    graph=[{'@type':'TVSeries','url':url,'name':'美人餘','description':'富家女發現婚姻中的財產算計，與朋友攜手面對危機，重新取得生活的自主權。'}, {'@type':'TVEpisode','url':url+'/episode','countryOfOrigin':{'name':region},'actor':[{'name':'李一桐'}]}]
+    return '<script type="application/ld+json">'+json.dumps({'@graph':graph})+'</script><div class="play-info__text"><span><span>'+str(year)+'</span></span></div>'
+
 class SeriesTests(unittest.TestCase):
     def test_official_title_fields(self):
         item=s.parse_official(page(),'83124329',NOW)
@@ -44,6 +49,8 @@ class SeriesTests(unittest.TestCase):
         with self.assertRaises(ValueError):s.official_ids('blocked')
     def test_success_empty_is_not_source_failure(self):
         def load(url):
+            if url==s.WETV_HOME:return '<a href="/zh-tw/play/3spckqfxno9qpkz">series</a>'
+            if '/zh-tw/play/' in url:return wetv_page(region='泰國')
             if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
             if '/browse/' in url:return '<a href="https://www.netflix.com/tw/title/83124329">title</a>'
             if '/title/' in url:return page(kind='Movie')
@@ -52,6 +59,8 @@ class SeriesTests(unittest.TestCase):
         self.assertEqual(result['status'],'success');self.assertEqual(result['verified'],[])
     def test_discovered_title_automatically_enters_recommendations(self):
         def load(url):
+            if url==s.WETV_HOME:return '<a href="/zh-tw/play/3spckqfxno9qpkz">series</a>'
+            if '/zh-tw/play/' in url:return wetv_page(region='泰國')
             if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
             if '/browse/' in url:return '<a href="https://www.netflix.com/tw/title/83124329">title</a>'
             if '/title/' in url:return page()
@@ -95,4 +104,27 @@ class MangoTests(unittest.TestCase):
     def test_invalid_mango_response_is_error_not_empty_success(self):
         with self.assertRaises(ValueError):s.parse_mango('{"code":500}',NOW)
 
+class WeTVTests(unittest.TestCase):
+    def test_official_fields_alias_and_no_invented_premiere(self):
+        item=s.parse_wetv(wetv_page(),'3spckqfxno9qpkz',NOW)
+        self.assertEqual((item['title'],item['type'],item['platform']),('美人餘','陸劇','WeTV'))
+        self.assertIn('美人余',item['aliases']);self.assertNotIn('releaseDate',item)
+        self.assertEqual(s.merge({'recommendations':[]},{'verified':[item]},NOW,reviewed=[])['recommendations'],[item])
+    def test_country_year_redirect_and_broken_layout(self):
+        self.assertIsNone(s.parse_wetv(wetv_page(region='泰國'),'3spckqfxno9qpkz',NOW))
+        self.assertIsNone(s.parse_wetv(wetv_page(year=2025),'3spckqfxno9qpkz',NOW))
+        for page in ['blocked',wetv_page(title_id='wrongtitle123')]:
+            with self.assertRaises(ValueError):s.parse_wetv(page,'3spckqfxno9qpkz',NOW)
+        with self.assertRaises(ValueError):s.wetv_ids('blocked')
+    def test_discovery_and_failure_expiry(self):
+        def load(url):return '<a href="/zh-tw/play/3spckqfxno9qpkz">series</a>' if url==s.WETV_HOME else wetv_page()
+        items,sources=s.discover_wetv({},NOW,load)
+        self.assertEqual(len(items),1);self.assertTrue(all(x['status']=='success' for x in sources))
+        def fail(url):raise OSError('unavailable')
+        saved,_=s.discover_wetv({'verified':items},NOW+dt.timedelta(days=1),fail)
+        self.assertEqual(saved[0]['verifiedAt'],items[0]['verifiedAt']);self.assertTrue(saved[0]['verificationStale'])
+        expired,sources=s.discover_wetv({'verified':items},NOW+dt.timedelta(days=8),fail)
+        self.assertEqual(expired,[]);self.assertTrue(all(x['status']=='error' for x in sources))
+
 if __name__=='__main__':unittest.main()
+
