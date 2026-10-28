@@ -13,6 +13,12 @@ import xml.etree.ElementTree as ET
 
 TZ = dt.timezone(dt.timedelta(hours=8))
 KINDS = ('台劇', '韓劇', '陸劇', '日劇', '歐美劇', '綜藝')
+TITLE_KINDS = {'尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
+
+
+def classify_candidates(items):
+    # A mixed-title article or search category cannot override a known work.
+    return [{**item, 'type': TITLE_KINDS.get(item.get('title'), item.get('type'))} for item in items]
 CATALOGUES = ('https://www.netflix.com/tw/browse/genre/434295', 'https://www.netflix.com/tw/browse/genre/83')
 DISCOVERY = Path('public/series-discovery.json')
 MANGO_URL = 'https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1'
@@ -199,6 +205,7 @@ def discover(previous, now, load=get):
             result['sources'].append({'url': url, 'type': kind, 'status': 'success', 'checkedAt': stamp})
         except Exception as exc:
             result['sources'].append({'url': url, 'type': kind, 'status': 'error', 'checkedAt': stamp, 'error': str(exc)[:180]})
+    result['candidates'] = classify_candidates(result['candidates'])
     result['lastSuccessfulAt'] = stamp if result['sources'] and all(s['status'] == 'success' for s in result['sources']) else previous.get('lastSuccessfulAt')
     result['status'] = 'success' if result['lastSuccessfulAt'] == stamp else 'partial' if any(s['status'] == 'success' for s in result['sources']) else 'failed'
     return result
@@ -219,6 +226,7 @@ def merge(feed, discovery, now, reviewed=None):
     evidence=load_release_evidence()
     feed['recommendations'] = [apply_release_evidence(item,evidence.get(item['id'].removeprefix('netflix-auto-'))) for item in manual + auto]
     feed['seriesDiscovery'] = {k: v for k, v in discovery.items() if k != 'verified'}
+    feed['seriesDiscovery']['candidates'] = classify_candidates(discovery.get('candidates', []))
     feed['seriesDiscovery']['verifiedCount'] = len(auto)
     return feed
 
@@ -236,3 +244,4 @@ if __name__ == '__main__':
         raise SystemExit(1)
     if result['status'] == 'partial':
         print('::warning::Some individual title or news sources could not be verified; see published source health.')
+
