@@ -2297,6 +2297,30 @@
       "releaseSourceUrl": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
       "platformAvailabilityVerified": false,
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
+    },
+    {
+      "title": "Doctor X：白色黑手黨時代",
+      "originalTitle": "닥터X : 하얀 마피아의 시대",
+      "originalDescription": "하얀 가운을 입은 마피아들이 장악한 이곳에 다크히어로 천재의사가 등장한다. 오로지 실력으로 의사란 무엇인가를 증명하는 의사, 닥터X 계수정의 등장!",
+      "description": "天才外科醫師桂秀貞進入被利益與權力把持的醫療體系，以醫術對抗不合理的權威，重新證明醫師救人的本職。",
+      "cast": "金智媛、李姃垠、孫賢周",
+      "releaseDate": "2026-10-09",
+      "releaseSourceUrl": "https://programs.sbs.co.kr/drama/doctorx/vod/88585/22000637949",
+      "id": "sbs-auto-doctorx",
+      "type": "韓劇",
+      "platform": "SBS",
+      "aliases": [
+        "닥터X : 하얀 마피아의 시대"
+      ],
+      "url": "https://programs.sbs.co.kr/drama/doctorx/main",
+      "source": "SBS 官方節目介紹（繁體中文翻譯）",
+      "verified": true,
+      "autoDiscovered": true,
+      "verifiedAt": "2026-10-28T09:01:24+08:00",
+      "catalogueYear": 2026,
+      "releasePrecision": "day",
+      "releaseStatus": "released",
+      "availabilityNote": "日期為韓國首播；台灣播放平台與上架日請依當地平台公告。"
     }
   ],
   "cpblGames": [],
@@ -2562,6 +2586,18 @@
         "type": "綜藝",
         "status": "success",
         "checkedAt": "2026-10-27T09:32:27+08:00"
+      },
+      {
+        "url": "https://www.sbs.co.kr/",
+        "status": "success",
+        "checkedAt": "2026-10-28T09:01:24+08:00",
+        "titleCount": 4
+      },
+      {
+        "url": "https://programs.sbs.co.kr/drama/doctorx/main",
+        "status": "success",
+        "checkedAt": "2026-10-28T09:01:24+08:00",
+        "translated": true
       }
     ],
     "candidates": [

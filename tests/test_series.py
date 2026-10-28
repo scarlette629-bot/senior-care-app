@@ -49,6 +49,8 @@ class SeriesTests(unittest.TestCase):
         with self.assertRaises(ValueError):s.official_ids('blocked')
     def test_success_empty_is_not_source_failure(self):
         def load(url):
+            if url==s.SBS_HOME:return '<a href="https://programs.sbs.co.kr/drama/untitled/main">drama</a>'
+            if 'programs.sbs.co.kr' in url:return '<meta property="og:title" content="새 드라마"><meta name="description" content="새로운 드라마를 소개하는 공식 방송사 소개문입니다">'
             if url==s.WETV_HOME:return '<a href="/zh-tw/play/3spckqfxno9qpkz">series</a>'
             if '/zh-tw/play/' in url:return wetv_page(region='泰國')
             if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
@@ -59,6 +61,8 @@ class SeriesTests(unittest.TestCase):
         self.assertEqual(result['status'],'success');self.assertEqual(result['verified'],[])
     def test_discovered_title_automatically_enters_recommendations(self):
         def load(url):
+            if url==s.SBS_HOME:return '<a href="https://programs.sbs.co.kr/drama/untitled/main">drama</a>'
+            if 'programs.sbs.co.kr' in url:return '<meta property="og:title" content="새 드라마"><meta name="description" content="새로운 드라마를 소개하는 공식 방송사 소개문입니다">'
             if url==s.WETV_HOME:return '<a href="/zh-tw/play/3spckqfxno9qpkz">series</a>'
             if '/zh-tw/play/' in url:return wetv_page(region='泰國')
             if url==s.MANGO_URL:return json.dumps({'code':200,'data':{'hitDocs':[]}})
@@ -125,6 +129,30 @@ class WeTVTests(unittest.TestCase):
         self.assertEqual(saved[0]['verifiedAt'],items[0]['verifiedAt']);self.assertTrue(saved[0]['verificationStale'])
         expired,sources=s.discover_wetv({'verified':items},NOW+dt.timedelta(days=8),fail)
         self.assertEqual(expired,[]);self.assertTrue(all(x['status']=='error' for x in sources))
+
+class SBSTests(unittest.TestCase):
+    def fixture(self):
+        t=s.SBS_TRANSLATIONS['doctorx']
+        return '<meta property="og:title" content="'+t['originalTitle']+'"><meta name="description" content="'+t['originalDescription']+'">'
+    def test_translation_keeps_original_source_and_korean_release(self):
+        item,pending=s.parse_sbs(self.fixture(),'doctorx',NOW)
+        self.assertIsNone(pending);self.assertEqual(item['type'],'韓劇');self.assertEqual(item['platform'],'SBS')
+        self.assertEqual(item['releaseDate'],'2026-10-09');self.assertIn('韓國首播',item['availabilityNote'])
+        self.assertEqual(s.merge({'recommendations':[]},{'verified':[item]},NOW,reviewed=[])['recommendations'],[item])
+    def test_changed_original_requires_translation_review(self):
+        item,pending=s.parse_sbs(self.fixture().replace('하얀 가운','수정 가운'),'doctorx',NOW)
+        self.assertIsNone(item);self.assertEqual(pending['translationStatus'],'待繁體中文翻譯核對')
+        self.assertNotIn('publishedAt',pending)
+        with self.assertRaises(ValueError):s.parse_sbs('<html>blocked</html>','doctorx',NOW)
+        with self.assertRaises(ValueError):s.sbs_program_ids('blocked')
+    def test_failure_keeps_timestamp_then_expires(self):
+        def load(url):return '<a href="https://programs.sbs.co.kr/drama/doctorx/main">title</a>' if url==s.SBS_HOME else self.fixture()
+        items,sources,queue=s.discover_sbs({},NOW,load)
+        self.assertEqual(len(items),1);self.assertEqual(queue,[])
+        def fail(url):raise OSError('blocked')
+        saved,_,_=s.discover_sbs({'verified':items},NOW+dt.timedelta(days=1),fail)
+        self.assertEqual(saved[0]['verifiedAt'],items[0]['verifiedAt'])
+        self.assertEqual(s.discover_sbs({'verified':items},NOW+dt.timedelta(days=8),fail)[0],[])
 
 if __name__=='__main__':unittest.main()
 
