@@ -12,7 +12,19 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
   const items=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
-  const candidates=(feed?.seriesDiscovery?.candidates||[]).filter(x=>x&&matches(x)&&!knownTitles.has(String(x.title||'').normalize('NFKC').replace(/\s/g,'').toLowerCase())&&Number.isFinite(Date.parse(x.publishedAt))&&now-Date.parse(x.publishedAt)>=0&&now-Date.parse(x.publishedAt)<=7*86400000);
+  const candidateMap=new Map();
+  const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
+  typeByTitle.set('尚公主','陸劇');
+  typeByTitle.set('嫁金釵','陸劇');
+  for(const raw of [...(feed?.seriesDiscovery?.candidates||[]),...(feed?.chinaDramaNewTitles?.items||[])]){
+    if(!raw?.title)continue;
+    const x={...raw,type:typeByTitle.get(raw.title)||raw.type||'陸劇'};
+    const key=x.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();
+    const age=now-Date.parse(x.publishedAt);
+    if(!matches(x)||knownTitles.has(key)||!/^https:\/\//.test(x.sourceUrl||'')||!Number.isFinite(age)||age<0||age>30*86400000)continue;
+    if(!candidateMap.has(key)||x.publishedAt>candidateMap.get(key).publishedAt)candidateMap.set(key,x);
+  }
+  const candidates=[...candidateMap.values()].sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
   return {all,items,candidates};
 }
 export function recentPremiere(item,now=Date.now()) {
@@ -43,3 +55,4 @@ export function currentWeeklyHot(feed,interests=[],now=Date.now()) {
   if(hot?.weekStart!==start||hot?.weekEnd!==end)return [];
   return (hot.items||[]).filter(x=>interests.includes(x.type)&&x.sourceUrl&&Number.isFinite(Date.parse(x.observedAt))&&x.observedAt.slice(0,10)>=start&&x.observedAt.slice(0,10)<=end&&Date.parse(x.observedAt)<=now).sort((a,b)=>Number(!!b.isWeiboMention)-Number(!!a.isWeiboMention)||String(b.observedAt).localeCompare(String(a.observedAt)));
 }
+
