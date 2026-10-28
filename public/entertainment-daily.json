@@ -3362,33 +3362,44 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-28T16:38:25+08:00",
-    "updatedAt": "2026-10-28T16:38:25+08:00",
-    "lastSuccessfulAt": "2026-10-28T16:38:25+08:00",
+    "checkedAt": "2026-10-29T00:07:18+08:00",
+    "updatedAt": "2026-10-29T00:07:18+08:00",
+    "lastSuccessfulAt": "2026-10-29T00:07:18+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-28T16:38:25+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-10-29T00:07:18+08:00",
+        "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-28T16:38:25+08:00",
-        "itemCount": 5
+        "checkedAt": "2026-10-29T00:07:18+08:00",
+        "itemCount": 7
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-28T16:38:25+08:00",
+        "checkedAt": "2026-10-29T00:07:18+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-c939975f5a5ffea4",
+        "title": "網友狂讚「意外好看」！《新手上路》劉冠廷、黃冠智人鬼搭檔聯手育兒笑翻觀眾Netflix台灣排名第二、電視首播收視高點衝1.47 - 放言Fount Media",
+        "type": "台劇",
+        "source": "放言Fount Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2NHN0RUdNcGZicHVQajRPdEM2NlFvbG5oYTZJTjltY2x2N0ZENEkwam40aHRXWG5lUURFSW51aThDNWFiS0p1YXJYV3cteHVWRnc?oc=5",
+        "observedAt": "2026-10-28T17:52:32+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-ba834b236c56b84f",
         "title": "串流收視週榜／《嫁金釵》《南田南》雙破歷史紀錄！台劇《新手上路》排行超車 - ETtoday星光雲| ETtoday新聞雲",
@@ -3511,12 +3522,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-af16ecc5a07f9441",
-        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
-        "observedAt": "2026-10-26T15:00:00+08:00",
+        "id": "weekly-448b0b19eccf8c6a",
+        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
+        "type": "台劇",
+        "source": "中天新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
+        "observedAt": "2026-10-26T21:48:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
