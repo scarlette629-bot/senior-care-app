@@ -1,6 +1,6 @@
 import json,datetime,email.utils,urllib.parse,urllib.request,xml.etree.ElementTree as ET,pathlib,os
 NOW=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8)))
-QUERIES={"陸劇":"陸劇 微博 熱搜 新劇","台劇":"台劇 Netflix 愛奇藝 Disney+ 新劇","韓劇":"韓劇 Netflix Disney+ 新劇","綜藝":"綜藝 芒果TV 愛奇藝 騰訊視頻 Netflix 新節目","日劇":"日劇 Netflix 新劇","歐美劇":"歐美劇 Netflix 新劇"}
+QUERIES={"陸劇":"陸劇 WeTV 騰訊 微博 熱搜 新劇","台劇":"台劇 Netflix 愛奇藝 Disney+ 新劇","韓劇":"韓劇 Netflix Disney+ 新劇","綜藝":"綜藝 芒果TV 愛奇藝 騰訊視頻 Netflix 新節目","日劇":"日劇 Netflix 新劇","歐美劇":"歐美劇 Netflix 新劇"}
 previous_path=pathlib.Path("public/entertainment-daily.json")
 try:
     previous=json.loads(previous_path.read_text(encoding="utf-8"))
@@ -36,7 +36,7 @@ curated=pathlib.Path("data/entertainment-reviewed.json")
 if curated.exists():
     entries=json.loads(curated.read_text(encoding="utf-8"))
     if not isinstance(entries,list): raise ValueError("Reviewed recommendations must be a list")
-    allowed={"愛奇藝","騰訊視頻","芒果TV","Netflix"}
+    allowed={"愛奇藝","騰訊視頻","WeTV","芒果TV","Netflix"}
     for entry in entries:
         if not isinstance(entry,dict) or entry.get("verified") is not True: continue
         if entry.get("platform") not in allowed: continue
@@ -52,7 +52,7 @@ def discover_china_drama_titles():
     import re
     seen={}
     cutoff=NOW-datetime.timedelta(days=30)
-    searches=["陸劇 新劇 開播 愛奇藝 騰訊 優酷 芒果TV","國產劇 今日開播 定檔 新劇","陸劇 2026 十月 新劇 追劇"]
+    searches=["陸劇 新劇 開播 愛奇藝 騰訊 優酷 芒果TV","WeTV 陸劇 新劇 上架 when:30d","國產劇 今日開播 定檔 新劇","陸劇 2026 十月 新劇 追劇"]
     for query in searches:
         try:
             if os.environ.get("WECARE_OFFLINE")=="1":raise RuntimeError("offline")
@@ -167,3 +167,4 @@ if any(out["categories"].values()) or out["recommendations"] or out["cpblGames"]
     p.write_text(json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 else:
     raise RuntimeError("No news fetched; preserve previous published data")
+
