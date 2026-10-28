@@ -1899,12 +1899,35 @@
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "wetv-auto-3spckqfxno9qpkz",
+      "title": "美人餘",
+      "aliases": [
+        "美人余"
+      ],
+      "type": "陸劇",
+      "platform": "WeTV",
+      "cast": "王佳佳、李一桐、常華森、曾夢雪、馬聞遠",
+      "description": "江浙滬獨生女、互聯網博主餘夢是萬眾稱羨的“好命女人”。結婚五週年之際，她幸福完美的生活泡沫卻被一舉擊破，不僅和“模範贅婿”美滿的婚姻出現裂痕，還面臨被吸血“吃絕戶”的重重危機。在朋友們的幫助下，餘夢重新審視自己的人生，奪回主動權。",
+      "url": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
+      "source": "WeTV 繁體中文官方作品頁（自動核對）",
+      "verified": true,
+      "verifiedAt": "2026-10-28T08:19:06+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "catalogueYear": 2026,
+      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
+      "platformAvailabilityVerified": false,
+      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     }
   ],
   "candidates": [
     {
       "title": "尚公主",
-      "type": "台劇",
+      "type": "陸劇",
       "headline": "【颱風假追劇推薦】Netflix《嫁金釵》田曦薇衝TOP 1！陳意涵《新手上路》必看、Disney+《尚公主》新開播 - Yahoo新聞",
       "source": "Yahoo新聞",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgZBVV95cUxOa3ZnZC0zX0NVdDdMYTdTU21yZXRVQ3huMU5tdUFsMXdxZlZneU1WOUtGVDIwNThDakw4M2JNTlZLbHhrMWtUeXI4OFg0bXpPWU5fX1hEb2U4ZUxKbHpfSmhLd0VsdEVibldWbjU2TTRHd1RvSHl6MWhJSUQ4R3ZBM2N3N2V4Sm1CMzJHWEdKVXczOVNiMy0zeGFZUnhjNVRrc0RRZDVEQzJuSjVYVm1PWmpuNHcyRVhGLWhQYXBWbi1FdkFsNmtkaWVKLXRXZHJnaGVtREpmX2FHWkg4dVF6aEsyWEtZZGE4LXlPZmQyWDlVNndNOHloUnBjOUo2M3pkeE9NSnVCNVFROVlSRHJNNTNYbmxFMkduZ2tWWGxtTWhnRlU0cFIwMU54Z2pYSnkxRm0ybzRpS1RrYXRQLVViWEhjS29zUzk5ZFZscm9oV28yQXNmLVdjazdHSVY1WGV1b3FUQmZleVBaemlnTG9ZcUIxSVUwMzlsM3RqdldpMWZHMjg4WEtRMERGMW1Va0hRQWoyQldEMnR3TXJ3cHlVQzZmaGlFX0QtUDJBZXdpeHVjUTZwNkI0R0JrazZSbDhqWGlhSUVaMXJhS2JOUUcyUHZaTXhCdlh6OGNJbWNHT0FNdmNIZ0ZScHkzX1hrN3hRX0hBNTJZbGk2UHU3MU0teVJGLTVhdjlaWW9PUm4tUEc0VHRJdGxSbXJJYTh6N3p3U3FwSG05RXNKVng1X1h1SHZmQlhobGM3MUJzTkFIY1RSeWU2N181bzlaR2lTUXV6Q0VZVVFLMUVveUZLdVBIX0VIS2hyanJPYjFzTVNvS1cyUldBa0c0Z0V5ZGJkYXdsOEQ4SDZQRXpVRGctV3NJNTR3aGltWk45VllrNkRuSThyemFCWFQzdVg0eVVCZWt3QVZVY1duVWMxMXdKaWxIcEloN2RtanNYUzJINlFrMTM1OTZQRW1IYW5NTFRDdzFxMFZwSG51U1pYWWY0enJwQXRSQzIySjhXWldKSmN2OTdXZzUzZll1dkxZaVhPTmo2SGMzZF9hM3Nvdw?oc=5",
@@ -1913,7 +1936,7 @@
     },
     {
       "title": "小城良方",
-      "type": "台劇",
+      "type": "陸劇",
       "headline": "肖戰新劇《小城良方》首播獲28個廣告贊助超風光 破愛奇藝紀錄卻因3關鍵被抓包熱度造假 - 上報Up Media",
       "source": "上報Up Media",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tRWsyRjZaUDVYVFowWExQQ0tSVUlEa2U5UjhqbFhZTVZIbnh5VjdPNnJnekRGcmViTDVFSTJhUlA5QXJtcUFBMDY0QkdiOW9OWHl2UEdzUE9wMnlabnQ2N3EtdDU3WFU1dlE?oc=5",

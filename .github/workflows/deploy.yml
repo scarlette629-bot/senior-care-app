@@ -36,7 +36,7 @@ jobs:
           test "$actual" = "$WECARE_STABLE_SHA" || { echo "::error::Frozen v1.05 branch was modified"; exit 1; }
           while IFS= read -r file; do
             case "$file" in
-              .github/workflows/deploy.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|scripts/discover_series.py|scripts/weekly_hot.py|data/series-release-evidence.json|data/series-recent-reviewed.json|tests/test_weekly_hot.py|.github/workflows/weekly-hot.yml|tests/test_series.py|public/series-discovery.json|.github/workflows/series-daily.yml|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/SERIES-DISCOVERY.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
+              .github/workflows/deploy.yml|.github/workflows/verify-entertainment.yml|.github/workflows/refresh-china-drama.yml|scripts/prepare_v105_snapshot.py|scripts/update_entertainment.py|scripts/cpbl.py|scripts/discover_series.py|scripts/weekly_hot.py|data/series-release-evidence.json|data/series-recent-reviewed.json|tests/test_weekly_hot.py|.github/workflows/weekly-hot.yml|tests/test_series.py|tests/check_entertainment.py|public/series-discovery.json|.github/workflows/series-daily.yml|tests/test_cpbl.py|.github/workflows/cpbl-daily.yml|docs/CPBL-REPAIR.md|docs/SERIES-DISCOVERY.md|docs/VERSIONING.md|public/entertainment-daily.json) ;;
               *) echo "::error::Refusing to deploy modification of frozen v1.05 application: $file"; exit 1 ;;
             esac
           done < <(git diff --name-only "$WECARE_STABLE_SHA" HEAD)
