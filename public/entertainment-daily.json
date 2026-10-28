@@ -3362,27 +3362,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-28T13:46:47+08:00",
-    "updatedAt": "2026-10-28T13:46:47+08:00",
-    "lastSuccessfulAt": "2026-10-28T13:46:47+08:00",
+    "checkedAt": "2026-10-28T16:38:25+08:00",
+    "updatedAt": "2026-10-28T16:38:25+08:00",
+    "lastSuccessfulAt": "2026-10-28T16:38:25+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-28T13:46:47+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-10-28T16:38:25+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-28T13:46:47+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-10-28T16:38:25+08:00",
+        "itemCount": 5
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-28T13:46:47+08:00",
+        "checkedAt": "2026-10-28T16:38:25+08:00",
         "itemCount": 8
       }
     ],
@@ -3390,12 +3390,45 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
+        "id": "weekly-ba834b236c56b84f",
+        "title": "串流收視週榜／《嫁金釵》《南田南》雙破歷史紀錄！台劇《新手上路》排行超車 - ETtoday星光雲| ETtoday新聞雲",
+        "type": "台劇",
+        "source": "ETtoday星光雲| ETtoday新聞雲",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HN0FWdlZnRGFPLXlGS2ZvaVdMRDlxSUFITGxXT0NxX1NjRjNHRWdGWkVtZG5hUU5Oa1dMYTNBTmg2WTFlQkhwdFBfR0FrZ9IBTEFVX3lxTFBaQm1PNmo2UlRDQVJpYUpJMmlVMnVCempFRzBxQTlSQVJHZndGZFhFWkVYaExfTUoxdXBpTnBhWVBHV19EY1JreUZ4cEo?oc=5",
+        "observedAt": "2026-10-28T16:19:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-7a2f6ff30189090a",
+        "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
+        "type": "台劇",
+        "source": "NOWnews今日新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HV1FoWnh6MDk4R1QwcXVCbG1QOXY2OXBHNDNxRFJHV2I2aGlHSUdMSnBJSUVWbVZnYll3R2MzaGZQUXU0d3VjNi1EVjRYMkNEQ1HSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
+        "observedAt": "2026-10-28T14:08:41+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c62e4fbcf81e4534",
+        "title": "金鐘獎收視出爐 楊貴媚獲頒「戲劇節目女主角獎」最吸睛 - 世界新聞網",
+        "type": "綜藝",
+        "source": "世界新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xbGF4RjRab1VMeFBtc0VCNFd2RjdGNEJTQkVhVUF3UTdQZTd1WkVWcWxZdk83eE9LWWNNZGhpMXB4RzRjR3lhVzlKSzl5V0FPOXE0OE11RXdpaTQ0NEw4SHNVWGEtWXfSAWdBVV95cUxOcWxheEY0Wm9VTHhQbXNFQjRXdkY3RjRCU0JFYVVBd1E3UGU3dVpFVnFsWXZPN3hPS1ljTWRoaTFweEc0Y0d5YVc5Sks5eVdBTzlxNDhNdUV3aWk0NDRMOEhzVVhhLVl3?oc=5",
+        "observedAt": "2026-10-28T13:57:04+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-87f6ef537d5fba8e",
         "title": "金鐘61收視出爐！楊貴媚封后創最高點 節目類「他們」最吸睛 | Newtalk - LINE TODAY",
         "type": "綜藝",
         "source": "LINE TODAY",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Td1B0dzBUcGJmUkZCcjNLQzdPdEFxUUljVEYyTTQtbzVRNzV5bkhCWU9tRXRzcDlUQzVvM1F4TUppb2JKN0RIN1lTVk1xcVhQR0lPWm9B?oc=5",
-        "observedAt": "2026-10-28T10:07:36+08:00",
+        "observedAt": "2026-10-28T10:26:27+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3407,17 +3440,6 @@
         "source": "風傳媒",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5nQl9ZSmFCd1hFNzZPZ0phY01meF9aWDM0aktJRWV6U1RYbkN1UkZsSUJzczZPbng3SXdKd3l1ampRV1dQQ2J5dnkxZWh3TVFE?oc=5",
         "observedAt": "2026-10-28T08:15:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-aafc484b606f043d",
-        "title": "金鐘61風雨後兩天圓滿落幕！《週末最強大》奪綜藝節目獎掀收視高潮 楊貴媚封視后飆4.85 - 蕃新聞",
-        "type": "綜藝",
-        "source": "蕃新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tNVhjdjlsQVR2X25odjBKdm91azk2cTVMd2xqVWRXaE16SUlnRlBFcWhaRGxNa0VnUHp6Ui01Mjdma2RXelR3STRkNGlrMHlMVkE?oc=5",
-        "observedAt": "2026-10-27T18:58:45+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3489,12 +3511,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-448b0b19eccf8c6a",
-        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
-        "type": "台劇",
-        "source": "中天新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
-        "observedAt": "2026-10-26T21:48:37+08:00",
+        "id": "weekly-af16ecc5a07f9441",
+        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "observedAt": "2026-10-26T15:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
