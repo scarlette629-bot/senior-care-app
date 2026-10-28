@@ -2274,6 +2274,29 @@
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "wetv-auto-3spckqfxno9qpkz",
+      "title": "美人餘",
+      "aliases": [
+        "美人余"
+      ],
+      "type": "陸劇",
+      "platform": "WeTV",
+      "cast": "王佳佳、李一桐、常華森、曾夢雪、馬聞遠",
+      "description": "江浙滬獨生女、互聯網博主餘夢是萬眾稱羨的“好命女人”。結婚五週年之際，她幸福完美的生活泡沫卻被一舉擊破，不僅和“模範贅婿”美滿的婚姻出現裂痕，還面臨被吸血“吃絕戶”的重重危機。在朋友們的幫助下，餘夢重新審視自己的人生，奪回主動權。",
+      "url": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
+      "source": "WeTV 繁體中文官方作品頁（自動核對）",
+      "verified": true,
+      "verifiedAt": "2026-10-28T08:19:06+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "catalogueYear": 2026,
+      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
+      "platformAvailabilityVerified": false,
+      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     }
   ],
   "cpblGames": [],
