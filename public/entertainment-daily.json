@@ -3362,27 +3362,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-29T00:07:18+08:00",
-    "updatedAt": "2026-10-29T00:07:18+08:00",
-    "lastSuccessfulAt": "2026-10-29T00:07:18+08:00",
+    "checkedAt": "2026-10-29T05:08:41+08:00",
+    "updatedAt": "2026-10-29T05:08:41+08:00",
+    "lastSuccessfulAt": "2026-10-29T05:08:41+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-29T00:07:18+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-10-29T05:08:41+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-29T00:07:18+08:00",
-        "itemCount": 7
+        "checkedAt": "2026-10-29T05:08:41+08:00",
+        "itemCount": 6
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-29T00:07:18+08:00",
+        "checkedAt": "2026-10-29T05:08:41+08:00",
         "itemCount": 8
       }
     ],
@@ -3412,11 +3412,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-7a2f6ff30189090a",
+        "id": "weekly-c7ffe3bb59cbbc4e",
         "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
         "type": "台劇",
         "source": "NOWnews今日新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HV1FoWnh6MDk4R1QwcXVCbG1QOXY2OXBHNDNxRFJHV2I2aGlHSUdMSnBJSUVWbVZnYll3R2MzaGZQUXU0d3VjNi1EVjRYMkNEQ1HSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94eERlb1QwRU1Yd0ljSjZ2OHNTeTUtZzE5YjB5NmxHSFdmOHdjZkc2ZkJ1TGJQQV9abjREV3FVUEttUW9vamFHbGtKWTjSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
         "observedAt": "2026-10-28T14:08:41+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -3522,12 +3522,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-448b0b19eccf8c6a",
-        "title": "金鐘61/秦漢睽違24年回歸台劇奪迷你影帝 劉若英曝他缺席原因 - 中天新聞網",
-        "type": "台劇",
-        "source": "中天新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BbEtpMERlVTd4dHF3TVVURjU3TzdSWnZicFpJZGtzUEF4R2ZPNmZEUGE1MTBaNURuUkFPS05GZ2RfNzNOYm90WWNnMUg2cWE1eUF3?oc=5",
-        "observedAt": "2026-10-26T21:48:37+08:00",
+        "id": "weekly-af16ecc5a07f9441",
+        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "observedAt": "2026-10-26T15:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
