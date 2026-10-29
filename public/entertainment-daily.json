@@ -3362,27 +3362,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-29T05:08:41+08:00",
-    "updatedAt": "2026-10-29T05:08:41+08:00",
-    "lastSuccessfulAt": "2026-10-29T05:08:41+08:00",
+    "checkedAt": "2026-10-29T09:00:57+08:00",
+    "updatedAt": "2026-10-29T09:00:57+08:00",
+    "lastSuccessfulAt": "2026-10-29T09:00:57+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-29T05:08:41+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-10-29T09:00:57+08:00",
+        "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-29T05:08:41+08:00",
+        "checkedAt": "2026-10-29T09:00:57+08:00",
         "itemCount": 6
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-29T05:08:41+08:00",
+        "checkedAt": "2026-10-29T09:00:57+08:00",
         "itemCount": 8
       }
     ],
@@ -3461,7 +3461,7 @@
         "type": "綜藝",
         "source": "鏡報",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Zc19kVEdUSHR0TnlDdUphSWI0Q25TVUtjOF9YMlRSYmRDaXdrbTdjMTZCc2hUME1ldXFndS1sb0tNV1BPaERNcHo0RUJuYjVOb3c?oc=5",
-        "observedAt": "2026-10-27T17:14:00+08:00",
+        "observedAt": "2026-10-27T17:35:55+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3517,17 +3517,6 @@
         "source": "緯來新聞網",
         "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOHNBU2I2QkFIRnZWRmtaZkhFWjM0cUtwbklGdkxiZHRwRUFhYnh5QnR4eGFJZ3J0N3k2Rm8tQ184QTVzSVdmdGJGb2NISEVCS1hFNXVORDJZVVBqY3Z6eUdWMkhwSjlDeW9pVXk0Yl8ta0tYRzhRRDZuUlFaT3NKYTN4aEFOQQ?oc=5",
         "observedAt": "2026-10-26T22:14:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-af16ecc5a07f9441",
-        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
-        "observedAt": "2026-10-26T15:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
