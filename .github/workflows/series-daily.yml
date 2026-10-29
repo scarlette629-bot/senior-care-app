@@ -1,7 +1,7 @@
 name: Discover new series daily
 on:
   schedule:
-    - cron: '30 22 * * *' # 06:30 Asia/Taipei, every day
+    - cron: '30 22,0,2 * * *' # 06:30, 08:30, 10:30 Asia/Taipei; morning backup attempts
   workflow_dispatch:
 permissions:
   contents: write
