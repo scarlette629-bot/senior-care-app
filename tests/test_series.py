@@ -176,5 +176,22 @@ class NetworkRetryTests(unittest.TestCase):
             self.assertEqual(open_url.call_count,1)
 
 
+
+class ConcurrentPublicationTests(unittest.TestCase):
+    def test_merge_new_discovery_into_latest_feed_preserves_other_refreshes(self):
+        now=NOW
+        item=s.parse_official(page(),'83124329',now)
+        latest={'updatedAt':'2026-10-29T09:20:00+08:00','recommendations':[],
+            'categories':{'陸劇':[{'title':'最新娛樂新聞'}]},
+            'chinaDramaNewTitles':{'checkedAt':'2026-10-29T09:20:00+08:00','items':[{'title':'最新新片消息'}]},
+            'cpblGames':[{'id':'latest-game'}],'weeklyHot':{'checkedAt':'latest-weekly-check'}}
+        out=s.merge(latest,{'verified':[item],'checkedAt':now.isoformat()},now,reviewed=[])
+        self.assertEqual(out['categories']['陸劇'][0]['title'],'最新娛樂新聞')
+        self.assertEqual(out['chinaDramaNewTitles']['checkedAt'],'2026-10-29T09:20:00+08:00')
+        self.assertEqual(out['cpblGames'],[{'id':'latest-game'}])
+        self.assertEqual(out['weeklyHot']['checkedAt'],'latest-weekly-check')
+        self.assertEqual(out['recommendations'][0]['title'],'新手上路')
+
+
 if __name__=='__main__':unittest.main()
 
