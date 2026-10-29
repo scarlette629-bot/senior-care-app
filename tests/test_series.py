@@ -154,5 +154,27 @@ class SBSTests(unittest.TestCase):
         self.assertEqual(saved[0]['verifiedAt'],items[0]['verifiedAt'])
         self.assertEqual(s.discover_sbs({'verified':items},NOW+dt.timedelta(days=8),fail)[0],[])
 
+
+class NetworkRetryTests(unittest.TestCase):
+    def test_incomplete_read_is_retried_without_using_partial_html(self):
+        from unittest.mock import MagicMock, patch
+        import http.client
+        bad=MagicMock();bad.__enter__.return_value.read.side_effect=http.client.IncompleteRead(b'partial',10)
+        good=MagicMock();good.__enter__.return_value.read.return_value=b'complete response'
+        with patch.dict(s.os.environ,{'WECARE_OFFLINE':'0'}), patch.object(s.urllib.request,'urlopen',side_effect=[bad,good]) as open_url:
+            self.assertEqual(s.get('https://example.com'),'complete response')
+            self.assertEqual(open_url.call_count,2)
+    def test_retry_limit_and_permanent_http_errors(self):
+        from unittest.mock import patch
+        import http.client
+        with patch.dict(s.os.environ,{'WECARE_OFFLINE':'0'}), patch.object(s.urllib.request,'urlopen',side_effect=http.client.IncompleteRead(b'partial',10)) as open_url:
+            with self.assertRaises(http.client.IncompleteRead):s.get('https://example.com')
+            self.assertEqual(open_url.call_count,3)
+        error=s.urllib.error.HTTPError('https://example.com',404,'not found',None,None)
+        with patch.dict(s.os.environ,{'WECARE_OFFLINE':'0'}), patch.object(s.urllib.request,'urlopen',side_effect=error) as open_url:
+            with self.assertRaises(s.urllib.error.HTTPError):s.get('https://example.com')
+            self.assertEqual(open_url.call_count,1)
+
+
 if __name__=='__main__':unittest.main()
 

@@ -3,6 +3,8 @@ import concurrent.futures
 import datetime as dt
 import email.utils
 import html
+import http.client
+import urllib.error
 import json
 import os
 from pathlib import Path
@@ -27,9 +29,19 @@ MANGO_URL = 'https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platfor
 def get(url):
     if os.environ.get('WECARE_OFFLINE') == '1':
         raise OSError('Offline test')
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'zh-TW,zh;q=0.9'})
-    with urllib.request.urlopen(req, timeout=25) as response:
-        return response.read().decode('utf-8')
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0', 'Accept-Language': 'zh-TW,zh;q=0.9',
+        'Accept-Encoding': 'identity', 'Connection': 'close'})
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=25) as response:
+                return response.read().decode('utf-8')
+        except (http.client.IncompleteRead, urllib.error.URLError, TimeoutError) as error:
+            # Retry transient failures, never publish a truncated response.
+            if isinstance(error, urllib.error.HTTPError) and error.code < 500 and error.code != 429:
+                raise
+            if attempt == 2:
+                raise
 
 
 def text(value):
