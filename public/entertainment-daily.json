@@ -3183,33 +3183,66 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-29T09:20:23+08:00",
-    "updatedAt": "2026-10-29T09:20:23+08:00",
-    "lastSuccessfulAt": "2026-10-29T09:20:23+08:00",
+    "checkedAt": "2026-10-29T15:10:35+08:00",
+    "updatedAt": "2026-10-29T15:10:35+08:00",
+    "lastSuccessfulAt": "2026-10-29T15:10:35+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-29T09:20:23+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-10-29T15:10:35+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-29T09:20:23+08:00",
-        "itemCount": 6
+        "checkedAt": "2026-10-29T15:10:35+08:00",
+        "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-29T09:20:23+08:00",
+        "checkedAt": "2026-10-29T15:10:35+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-3f7bf19cfa6037e2",
+        "title": "黃冠智「的部分」成流行語！《新手上路》劉冠廷受封台版金凱瑞 - TVBS新聞網",
+        "type": "台劇",
+        "source": "TVBS新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aUzZDeS14UGlra1p1TGgwWF9XUkQ4UEkwLVE5Y0pCV1JtSEVYcEhuNjIwR01PMG13VlR1VkJtaE5yQm50NlhISGlFczlPajhPR2laNnJVbDY2TVpkdVpaLVpB?oc=5",
+        "observedAt": "2026-10-29T14:11:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-b5ade0bcbb0d6c38",
+        "title": "《新手上路》演什麼？陳意涵生女竟是鬼幫忙照顧　最後2集超好哭 - NOWnews今日新聞",
+        "type": "台劇",
+        "source": "NOWnews今日新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MmlnOGF5RXo0U1VUa0h0ODJKMW1nZ2Z0YXZ2Z3RyN2ptWlpoT25ReGc5Q1pIbVZEU0VMRVFDWTdpeFZGMXdvcjdNVHdZR21rT2fSAVJBVV95cUxOeDJpZzhheUV6NFNVVGtIdDgySjFtZ2dmdGF2dmd0cjdqbVpaaE9uUXhnOUNaSG1WRFNFTEVRQ1k3aXhWRjF3b3I3TVR3WUdta09n?oc=5",
+        "observedAt": "2026-10-29T13:38:37+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-d299253bbe5e1fb5",
+        "title": "「熬夜也要追」！又一陸劇《嫁金釵》「火」到台灣- 娛樂 - dotdotnews",
+        "type": "陸劇",
+        "source": "dotdotnews",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFQ1oyWTlDaUFzTS11bzZzbVc3X29KRERXaHAxSThNZmdrbXZtX29KczhkNGVvZHFaYkZnbEhkMjU0RlZvQnNGS1VrNU50TTZVcmtOTktxUk1PTlBHMmEwOHdRd3B4VnhfbmZiQnhSOXBWanVhdzVOTGRn?oc=5",
+        "observedAt": "2026-10-29T09:55:38+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-c939975f5a5ffea4",
         "title": "網友狂讚「意外好看」！《新手上路》劉冠廷、黃冠智人鬼搭檔聯手育兒笑翻觀眾Netflix台灣排名第二、電視首播收視高點衝1.47 - 放言Fount Media",
@@ -3233,11 +3266,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-c7ffe3bb59cbbc4e",
+        "id": "weekly-7a2f6ff30189090a",
         "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
         "type": "台劇",
         "source": "NOWnews今日新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94eERlb1QwRU1Yd0ljSjZ2OHNTeTUtZzE5YjB5NmxHSFdmOHdjZkc2ZkJ1TGJQQV9abjREV3FVUEttUW9vamFHbGtKWTjSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HV1FoWnh6MDk4R1QwcXVCbG1QOXY2OXBHNDNxRFJHV2I2aGlHSUdMSnBJSUVWbVZnYll3R2MzaGZQUXU0d3VjNi1EVjRYMkNEQ1HSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
         "observedAt": "2026-10-28T14:08:41+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -3255,12 +3288,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-87f6ef537d5fba8e",
-        "title": "金鐘61收視出爐！楊貴媚封后創最高點 節目類「他們」最吸睛 | Newtalk - LINE TODAY",
+        "id": "weekly-3369497529bd91ca",
+        "title": "金鐘61收視出爐！楊貴媚封后創最高點節目類「他們」最吸睛| 娛樂 - Newtalk新聞",
         "type": "綜藝",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Td1B0dzBUcGJmUkZCcjNLQzdPdEFxUUljVEYyTTQtbzVRNzV5bkhCWU9tRXRzcDlUQzVvM1F4TUppb2JKN0RIN1lTVk1xcVhQR0lPWm9B?oc=5",
-        "observedAt": "2026-10-28T10:26:27+08:00",
+        "source": "Newtalk新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyOG1SazUtd0thd29xWk5wZmFMdVpZWm1rc2RhSXg4RXJES0FmV3Y2Z0FubTgwd3dKTmVPQlk2R1RNWHlpdHd0ZFB5NllteXRaTF9zcEpsd2lwMjg?oc=5",
+        "observedAt": "2026-10-28T10:07:12+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
