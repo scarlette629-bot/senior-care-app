@@ -3264,33 +3264,44 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-30T15:12:36+08:00",
-    "updatedAt": "2026-10-30T15:12:36+08:00",
-    "lastSuccessfulAt": "2026-10-30T15:12:36+08:00",
+    "checkedAt": "2026-10-30T22:18:50+08:00",
+    "updatedAt": "2026-10-30T22:18:50+08:00",
+    "lastSuccessfulAt": "2026-10-30T22:18:50+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-30T15:12:36+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-10-30T22:18:50+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-30T15:12:36+08:00",
+        "checkedAt": "2026-10-30T22:18:50+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-30T15:12:36+08:00",
+        "checkedAt": "2026-10-30T22:18:50+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-5b976a158a5a828c",
+        "title": "Netflix 11月片單推薦Top10：年末最強台劇《急診室的奇蹟》、《魔鬼的計謀3》高手齊聚 - Bella.tw儂儂",
+        "type": "台劇",
+        "source": "Bella.tw儂儂",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNX1ZVVk9UVGNPbThTUFNHQmtnTDZKWmR4NjkxZDZEaGVsd2RnZkNzdHhGZkdTNWJGYlUzRTVZSkEwNUZfMEtpUVQtZGhiVFhrSHozaXFJMXlwQlNfZ2JUTjFpRktqTG5DNUQxaWZ2c1ZnVlJvN014TUNDT1lEeFBDbE1WLUc1Q0QzUHpaLWgzQUplUQ?oc=5",
+        "observedAt": "2026-10-30T17:10:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-26289ee11b8f81ce",
         "title": "【台劇推介】《急診室的奇蹟》 霍建華睽違20年回歸台劇楊謹華白袍下的傷痕與掙扎- 亞洲 - 明周娛樂 - Ming Pao Weekly",
@@ -3314,23 +3325,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-1899ab5f2fcae51e",
-        "title": "影／霍建華主演台劇上線到數 「急診室醫生們」花絮曝光 - 緯來新聞網",
+        "id": "weekly-3f7bf19cfa6037e2",
+        "title": "黃冠智「的部分」成流行語！《新手上路》劉冠廷受封台版金凱瑞 - TVBS新聞網",
         "type": "台劇",
-        "source": "緯來新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbE0yWUl0TF9MVkRsOHd5N1VRU0dXdzdsNUVXZkMyTnRBamdlTl93SXpRVDB6UzI5a3RnaUlUUG5ralUwY3Z2SGI2Wl9CTmFvTlhaU2E1MTdwVWQtUmd4VmdOanRpZHgyVVphWk1KeUF1Z0s5ODVtRmZRa0RKWDU4enZNTmVDdw?oc=5",
-        "observedAt": "2026-10-29T15:19:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-b5ade0bcbb0d6c38",
-        "title": "《新手上路》演什麼？陳意涵生女竟是鬼幫忙照顧　最後2集超好哭 - NOWnews今日新聞",
-        "type": "台劇",
-        "source": "NOWnews今日新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54MmlnOGF5RXo0U1VUa0h0ODJKMW1nZ2Z0YXZ2Z3RyN2ptWlpoT25ReGc5Q1pIbVZEU0VMRVFDWTdpeFZGMXdvcjdNVHdZR21rT2fSAVJBVV95cUxOeDJpZzhheUV6NFNVVGtIdDgySjFtZ2dmdGF2dmd0cjdqbVpaaE9uUXhnOUNaSG1WRFNFTEVRQ1k3aXhWRjF3b3I3TVR3WUdta09n?oc=5",
-        "observedAt": "2026-10-29T13:38:37+08:00",
+        "source": "TVBS新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9aUzZDeS14UGlra1p1TGgwWF9XUkQ4UEkwLVE5Y0pCV1JtSEVYcEhuNjIwR01PMG13VlR1VkJtaE5yQm50NlhISGlFczlPajhPR2laNnJVbDY2TVpkdVpaLVpB?oc=5",
+        "observedAt": "2026-10-29T14:11:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3369,12 +3369,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-b241c7ca3bc33b5a",
-        "title": "金鐘61收視出爐！楊貴媚封后創最高點 節目類「他們」最吸睛 | Newtalk - LINE TODAY",
+        "id": "weekly-3369497529bd91ca",
+        "title": "金鐘61收視出爐！楊貴媚封后創最高點節目類「他們」最吸睛| 娛樂 - Newtalk新聞",
         "type": "綜藝",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYbXFnY2hDS3pXa3RkME8zVThHRnJCOEJrV0ZTUzhrdWdSbk9QcmFaMS01SXNaSzR5bERfcEozcXFReGdhRXhrUEoxcWstWWpWSTlfdVVmWTJza2h3Zm8yVHlBbXJ0c2dIbjN4TERFUUVYTjZi?oc=5",
-        "observedAt": "2026-10-28T11:33:56+08:00",
+        "source": "Newtalk新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyOG1SazUtd0thd29xWk5wZmFMdVpZWm1rc2RhSXg4RXJES0FmV3Y2Z0FubTgwd3dKTmVPQlk2R1RNWHlpdHd0ZFB5NllteXRaTF9zcEpsd2lwMjg?oc=5",
+        "observedAt": "2026-10-28T10:07:12+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3468,23 +3468,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-af16ecc5a07f9441",
-        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
-        "observedAt": "2026-10-26T15:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-6003892bd00afc2e",
-        "title": "金鐘61｜「節目類」2026金鐘獎得獎名單：沈玉琳、Melody奪主持人獎，《週末最強大》拿下大獎 - Harper's BAZAAR",
+        "id": "weekly-667eedfe73e63020",
+        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
         "type": "綜藝",
-        "source": "Harper's BAZAAR",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
-        "observedAt": "2026-10-26T04:12:06+08:00",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
+        "observedAt": "2026-10-26T00:59:41+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
