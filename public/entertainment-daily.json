@@ -1,14 +1,8 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-10-29T16:35+08:00",
+  "updatedAt": "2026-10-30T09:24+08:00",
   "categories": {
     "陸劇": [
-      {
-        "title": "2026陸劇推薦50+片單！田曦薇《嫁金釵》、孟子義《尚公主》必看，播出平台與劇情整理 - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "published": "Fri, 23 Oct 2026 07:00:00 GMT",
-        "source": "ELLE"
-      },
       {
         "title": "10月必睇5部內地劇清單！肖戰轉型演基層醫生、田曦薇挑戰雙面女 - 香港01",
         "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOcXdvLS1JZnFIYlNJN0dvWmNhckV1WG4yMnd2ZGk2R216aFdiUmt1UlBwbkRwYWFqSkdGcnlSWjM4R2oxaG1XbmpPbWNMdklCdVdOVHJSdFlIX09OaXNYQU5qTDJhLTdMTF9WbUpHREJmYkNWSGZGRjVGVlVydDRSV2pDVVFzR3NrNnI4bWJOd1ZNeC1nY0hJcWZ5aWcxQkhqRllzVmFrVTZiSk9IaVdENWE5Y0RHTGZUX01sa2luaXQ4Nm9mSnQxUkVmOGlnUkttSHhLY0QyaEJPbTJRX1g1M3hETmJTWjNTRWVibExxdG1UMHJxS3d0LU5WLVdISzJ5c0NiaGdpdWtjQU1mQVBlSV9fblVQdV9Ld3YwVUFKUGFtXzAzQk1TaUZUTEZWSmdMbnVNSHJCcW9TdWNUUUtfdnB2NmtpWlB2RHVkaDhyTHR2NWt5a0ZCcWFFSEgxY0RzRXNfVEpoMDR4S2xDR28waF9OQUpPaFBTRzVBX2lKU0VjT0JNaEt3Vlp1V0t0VU9tQk9xaXFYNXBhQkRM?oc=5",
@@ -16,22 +10,28 @@
         "source": "香港01"
       },
       {
-        "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS新聞網",
+        "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JcUtaTVJaYkV4c3ptNzNpWHJkeWRkRlU4bEVkb1paY2VEVGtFUEtnV0Z3dXp1Q3B3QVhfME05SWZ3TlRxeWloWnY2ZnFfNDJsOFczZHNHdE44VlJuTm9zcUV3?oc=5",
         "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "source": "TVBS新聞網"
-      },
-      {
-        "title": "《逐玉》本週完結不怕劇荒！6部古裝陸劇接檔推薦 迪麗熱巴《白日提燈》衝上Disney+ 收視冠軍！ - Yahoo新聞",
-        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOMkU0dGRidVVKSUpINDNabWwyZW1RcDVSWWhHdmJsS0lORXJ6NXJ6aWNyZEkweHFvbkZTM1JNSUVhYlZzVGE1MGViRnFCa3BhSDlOTWVuTmJvMm9YR25FZk4yam1uN1hXZkgzcENMR2pzaGVLeDNNM3JBNzM2blpfcDZ2S0RBcGoxT3ZYelE1aDhUQmpnbEY3eWsyckNCSVhUZlduVHZyZjl6SFo0dWZrZVBYYzI1dl8tRHhxTzZRT1lxNmMyS1hkS1hxdHBlbENMQUZtWV9neHRVMWk3eDJ6ejEyNUhTRVE4VTBHMnNOYWJWMzVLS25FRGhVeXRxLXYxMVEzM1V2UDhtZGV4Vnh4elNEVUVVMDRuYnJ6ZzRVTDdjTk5PUlJGUFNxRkVDN2YyVFJReURUX0Nqc294RFZ1WHA2RFBzVGhZc0MwUHZ3TG9jMjVCUEVXbmJHLVdDRDVoaGY1cEZMdUFFcjQwOE5Ob3Q0R0NEcDFFOVdDRXpOZVYxWWtrdm4wQWZpMFV0VnpxbnUwcHdBZ0ZHOEdWNmM0NERyeDNJVWZwQ1BMZGlvU1VoYnlNLVlVdEJwUWFrZGhXYkNyanNxOW5pX1pKZ25rTG1fSG1YTFhmVzU1VXkzRTRyS0hDWVhSY3EzRmt2Skoyek03UDJ6WTNISlV0MF8tV1pnamd2Y091ZUFPdDg1WEdMSThDdC1aSmtwcVNVcnN2QWh2ZVJtQ3FkZ3Znc0Frd296SQ?oc=5",
-        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
-        "source": "Yahoo新聞"
+        "source": "TVBS"
       },
       {
         "title": "《蘭香如故》譚松韻千金淪丫鬟逆襲主母！Disney+線上看追劇日曆、演員角色與原著結局 - TVBS新聞網",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pYmhuRTRfTFc0N3ZFWERDS2hsR0M3YUU0Y3VWVnhHZ2pzdDZ0bzlKZmhxbWUyM1lKYWZRclBUZW9UVmx1dVhjb1NsWlpEWGF4SEJUeHc4UXhXTUxuRmJpUWtB?oc=5",
         "published": "Mon, 21 Sep 2026 07:00:00 GMT",
         "source": "TVBS新聞網"
+      },
+      {
+        "title": "2026陸劇推薦50+片單！田曦薇《嫁金釵》、孟子義《尚公主》必看，播出平台與劇情整理 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
+        "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+        "source": "ELLE"
+      },
+      {
+        "title": "《逐玉》本週完結不怕劇荒！6部古裝陸劇接檔推薦 迪麗熱巴《白日提燈》衝上Disney+ 收視冠軍！ - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOMkU0dGRidVVKSUpINDNabWwyZW1RcDVSWWhHdmJsS0lORXJ6NXJ6aWNyZEkweHFvbkZTM1JNSUVhYlZzVGE1MGViRnFCa3BhSDlOTWVuTmJvMm9YR25FZk4yam1uN1hXZkgzcENMR2pzaGVLeDNNM3JBNzM2blpfcDZ2S0RBcGoxT3ZYelE1aDhUQmpnbEY3eWsyckNCSVhUZlduVHZyZjl6SFo0dWZrZVBYYzI1dl8tRHhxTzZRT1lxNmMyS1hkS1hxdHBlbENMQUZtWV9neHRVMWk3eDJ6ejEyNUhTRVE4VTBHMnNOYWJWMzVLS25FRGhVeXRxLXYxMVEzM1V2UDhtZGV4Vnh4elNEVUVVMDRuYnJ6ZzRVTDdjTk5PUlJGUFNxRkVDN2YyVFJReURUX0Nqc294RFZ1WHA2RFBzVGhZc0MwUHZ3TG9jMjVCUEVXbmJHLVdDRDVoaGY1cEZMdUFFcjQwOE5Ob3Q0R0NEcDFFOVdDRXpOZVYxWWtrdm4wQWZpMFV0VnpxbnUwcHdBZ0ZHOEdWNmM0NERyeDNJVWZwQ1BMZGlvU1VoYnlNLVlVdEJwUWFrZGhXYkNyanNxOW5pX1pKZ25rTG1fSG1YTFhmVzU1VXkzRTRyS0hDWVhSY3EzRmt2Skoyek03UDJ6WTNISlV0MF8tV1pnamd2Y091ZUFPdDg1WEdMSThDdC1aSmtwcVNVcnN2QWh2ZVJtQ3FkZ3Znc0Frd296SQ?oc=5",
+        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Yahoo新聞"
       }
     ],
     "台劇": [
@@ -60,10 +60,10 @@
         "source": "自由娛樂"
       },
       {
-        "title": "4月份Yahoo戲劇排行榜Top 10！Disney+《21世紀大君夫人》接力《逐玉》成霸主！Netflix台劇《乩身》緊接在後！ - Yahoo新聞",
-        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxQMTdaWGdQcWRISUo2QXFrQ21pdmNYbWFIY0FQd2pKOTFTTzZycFE3QjBaVXp0RzMxMUNJZGFCU1VYQXExZHBBb2M5WGdzc1o0Z3Q5Y3FEUjU3WHB4ekpfVXI2Rnc1NGxOZmdJZWNNQXZoR1h1LXp5WF90bWVGZmppVkxSeEtvQWE1RHRfWDI3Nk5TclpsYTZTb3pubUk1UlNKX3NkZExOaTkwNk83RkpGbG1IOTFtbWlOOE9qN3ZXWmxHLXB0QUFQSnJlSm1WV25aSUZ2cW51NTZvc3p1NmczZGdRQl85ZVZmM2xobmJNelViZmllaGdycDFiQnF2WXRGb1NfMjlzdDREOFAyUUV5bGYxYkV1X2JmWjNmWFFFSGRzaUlPZjNVSmJIc0RwNTlxeVRpanduYVR5cDBnWFRkVnZBVTkxeHcweTRyVE96dTljai1ubHBRN0EzSTZDZmtobmVOZi01c2kzOXVPeGRRenFHMVRoSGVZdTQtZjYyOUQyZDhMTzBPeXRyUkdXUVo5VFZyMkNpLXJSX1lYM2oxSW1XY2Y2N3BJeUVBMDJ2MlQxR0JodGwxT09DZGRyRkRfdzMzclg0anZCVlZJdjFOVWtFSjhELU9fcFdfTFRTNk80cEJBRXA4a0xJMldUQ0FsakM4NGRXOFR0bUU2ZUdDTnFZdHVHYWl4X3YzODZtTGVhQzIwWDhwRkpRb19JYnhrNTVOYkNISXFhNkZsY2hLYXBCMA?oc=5",
-        "published": "Tue, 28 Apr 2026 07:00:00 GMT",
-        "source": "Yahoo新聞"
+        "title": "2026串流影音平台續約聰明省！電信整合超優惠，NRTFLIX、DISNEY+、HBO MAX、愛奇藝所有優惠價格一次整理清單都在這 - MilkX Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxOQ1dHR1lCVDJ1WDBVUHoxczU3RklWc2NTQUZQTjF5M0xDXzZidklGTFBsMzBIMTdSOUhuZTZ5VTdNSnQxMUVBZnY3Sk91bUFLYm5HYW8wVVR4ODVnY05mUHpQTTZvTXZleVZSaHlVT19rZDA1ZV9nVTB3MldxSXJXME5tUXk4Z3c3U3d0dmswamNBZXgzTDhPTnd2UlA4UENSUU5SWXdIdlFXTDRtNmxFdmQ4RzVWSDVwZXBIQng4NktNUGhBeFg1N3VyYU5WUGQ0ek9WdUZpekdTVUZkOGIyeEdkRDJzZ2JzcVhZZXhpQzhRMVZwaDdFV21YT1hnNEVHN0VSdV9IY3oxWnUwdTlOZTlJWUpKaVplbmppdFJqTDdsSnlkVWtvcjd3TkxYT3JKemRYdzdBVGkzQnBBYVJVX05ZcWpCYnZwbTJaS2FB?oc=5",
+        "published": "Tue, 18 Nov 2025 08:00:00 GMT",
+        "source": "MilkX Taiwan"
       }
     ],
     "韓劇": [
@@ -72,6 +72,12 @@
         "url": "https://news.google.com/rss/articles/CBMi1wVBVV95cUxOUXdaMHpJN0tmUWVFenZfRlhBTzQ4bndLQ01PYXRuaHVEeDNCT1M2SjhFWkJCSDd6TU1rVEFYV2NNbWdTdFRhMHQ1TE4yWWFYTFhuTlNPalY0NGxKOU91YjhYbk9ycVdHUnR4amNTWklhaG82clVLVFBuTklaMS1KSEo5WHlndlhySVdSWjNTMkhGa0w1NjJUazFnMldGcW0tV2hTU2FWY3EzQVBNRzdHaEM1U3dJZWhhUGJUbXFndkxmcnR0OXFyeEVpSHRZb3lONE1IY3VLczYwa3gxQTZhRGJmSl9lUEthOFhVVTZDZ1JxTTVWR2NNNUFtSTVXR3Jvd2diMWkwbzk0RGltOTFQNUI0S3NpNjl3NHRnb2xYVDZNcWZVSGo4M2I3dWpfakFmcXc5N05lelJjYTU3Yy1XTnFwZFlsTlBmMzB3c0lweGlEUF90d190cVB4N3cyYzg3Y3pjTnprWjNodXJZYjUtdXRBNjZIVGlrR0tIdXpCZGtqUzl5M0VDMEN2TV84X09vQ1NlRmNGTmZPUDdjSjA4WGlPaVI3WkJWWVhibUh2UDRHNDFRU256ZVgyMENuNFJCeDRIbzdQNWJFSVk4b2g0LTR4YjQwbTlWQlQwYUY3dEhQaFFIN1Qxd3MyMWd3MHAzZHhTVUoyLWhxWS1KRHVnOGJkVlZyR2R5elI3X2RkYnRMYXZFTUFqaHY2cE5sVDR1a0xwR0FtTTZ0TXRIak1aWWZ4dTh3R1JoR2pLTnN0LVpoRzZJMmV2WGVVTWhSb0Fld0xoc2oyV09hcHRsNWFWN0F6MEdvcGlQeXNmRjBRSjh1clRSUWlXNENsa3dUVnBsNmdjV1JfUUM4RnZEaTFXb2stWTRLT014RG9pY2RlZTNfazhVdVJtanJwQTl1LUkyQ3BPT2N6SXB5elAzNlB3bU5MY3pXTHFLakt4a2hYdk5CQ3h5UDBJ?oc=5",
         "published": "Mon, 26 Oct 2026 10:19:55 GMT",
         "source": "Yahoo新聞"
+      },
+      {
+        "title": "2026韓劇推薦！50部韓劇線上看片單：金裕貞《百日謊言》上線Netflix，金智媛《Doctor X》引爆期待 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVY5Z19fNHhnNnl3T3JzOWxIWG5TSmhOUW0wM0U5MWFVbnRNa081N2RIN01IT2IwZXltd0tVclNGMnJYaHVmeDZzaWpUSTNNeFRaRG1hRXJ6SGZ2Q09VUXpDTERtZkxOeHlnMENpcHJEd0kwVEdKellXc3A1dklUZ1NXVQ?oc=5",
+        "published": "Tue, 27 Oct 2026 07:00:00 GMT",
+        "source": "ELLE"
       },
       {
         "title": "2026韓劇推薦43部！最新韓劇線上看片單:Disney+必追申敏兒《再婚皇后》、秀智《魅惑》 - BEAUTY美人圈",
@@ -90,25 +96,19 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RNGlWcloyRkdOTmxKSTVuZXRpOHZwVGJQMDRqLWIydVREdzF6UzZER3RLNThVNnBJV1R1c2NwV25ZTVdBTkVSRm5QbFhseW5ra2RSakdJWWdMcFRYUjR0TVZVa3FEeVFHbC15ZUFiWENqWHNhMXEtR3R1WXA4ejA?oc=5",
         "published": "Sun, 20 Sep 2026 07:00:00 GMT",
         "source": "Harper's BAZAAR"
-      },
-      {
-        "title": "2026追劇片單！Netflix、Disney+強檔齊發，從《咒術迴戰3》到《百萬人推理》話題不掉線 - 迷誠品",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuczY4eF82X3ZCZHpBSmhHaE5kYkJta1dzLVZmaUx4czJVN2pONF9KS2JOcVFULTFpeGNVQ19yWnNRTUNRM092MUJsWnRXSlZwY1d5TVZYS2hiNzhVYldn?oc=5",
-        "published": "Fri, 13 Feb 2026 08:00:00 GMT",
-        "source": "迷誠品"
       }
     ],
     "綜藝": [
       {
         "title": "紅果短劇紅什麼？滑開中毒回不去 這優勢讓用戶退訂Netflix - TVBS新聞網",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXbmkwOFl4LU5BbXFpb01SdlVTbUYyOWp4dm1YdERPSE5DRm5FMHJwUkRld09JdzBoTVFadVk2SzNWTC1abHo4cjRQb3BsS3dfUnRUX2xDZXZ2bVVvQlVYV2xR?oc=5",
-        "published": "Wed, 21 Oct 2026 06:10:00 GMT",
+        "published": "Wed, 21 Oct 2026 07:00:00 GMT",
         "source": "TVBS新聞網"
       },
       {
         "title": "大陸短劇APP登榜雙平台榜首，台灣網友直呼“太上頭” - www.hkcna.hk",
         "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54LXJhX0VhSzRBZVlDVHluZ1M3NlRhT09xOXBQTEhUcEt5eHQtMi1Bd0w5eDN6T3VKWnpmR0R0MkZXdTA5UjV2UmxQeXJfMWNMSzdadldqRHNsbEtrLXVueWQxSGVGVFVVaFg3MVdwbw?oc=5",
-        "published": "Wed, 21 Oct 2026 01:38:00 GMT",
+        "published": "Wed, 21 Oct 2026 07:00:00 GMT",
         "source": "www.hkcna.hk"
       },
       {
@@ -118,10 +118,10 @@
         "source": "香港01"
       },
       {
-        "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS新聞網",
+        "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JcUtaTVJaYkV4c3ptNzNpWHJkeWRkRlU4bEVkb1paY2VEVGtFUEtnV0Z3dXp1Q3B3QVhfME05SWZ3TlRxeWloWnY2ZnFfNDJsOFczZHNHdE44VlJuTm9zcUV3?oc=5",
         "published": "Mon, 05 Oct 2026 07:00:00 GMT",
-        "source": "TVBS新聞網"
+        "source": "TVBS"
       },
       {
         "title": "OTT 列強入侵：中國視頻網登台之騰訊 WeTv 也來了，真正剉咧等是誰？ - 立報傳媒",
@@ -182,16 +182,16 @@
         "source": "ELLE"
       },
       {
+        "title": "Netflix 10月必看片單！12部必追新劇一次看　金裕貞×朴珍榮《百日謊言》、《亞森羅蘋4》回歸 - udn 女子漾",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43WlNyNmFfN2ZpUmdFUUFEX281NEx4X05BSDFBcS1pREdVT2VJSG1aQ21MZURlX3poY01fVzVyYTQ0M2tPbEFQNlJRWVBCY0tDTENaOFA1WkhGczFN0gFiQVVfeXFMTzg0OTlRWkpRNF9sbmxqZTZLeUljUnh1Sng0NW9JLUxmYWVZNkl0bUp4Tm9RZF9UYmxfUmJUb3Z3bFM2TFEtWHpobE5BUHJZY1BjWjdfVmRsM1JvV2ZmeE9zM2c?oc=5",
+        "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+        "source": "udn 女子漾"
+      },
+      {
         "title": "2026 上半年必追英美好劇：從得獎話題劇續集到令人驚喜的新劇 - VERSE",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TSk1ha01uMjZ6WHNuZVZCLUlyLXphNS1sSkxPVmNHN0JOSlMtcS0xZUdodnFKSmdpeHZDMUVkeVdmcjhSS3JZOWp1c25DUVFneUN3TmVUcU5ITVhfeEJnU2tmYw?oc=5",
         "published": "Wed, 08 Jul 2026 07:00:00 GMT",
         "source": "VERSE"
-      },
-      {
-        "title": "【12月美劇推薦】Netflix《怪奇物語》第五季第2輯、《艾蜜莉在巴黎》第五季、Disney+《波西傑克森》和《異塵餘生》第二季！｜上架時間、集數一次看 - Yahoo新聞",
-        "url": "https://news.google.com/rss/articles/CBMiuAZBVV95cUxPTnZGdWI4ek4ydTlJM0ViQTlNNlJVVHVnNzNPcGZnSXdQMU81UFZvaExhMS1MQjJZNTlCWXB3SGdIbUJ1d19RM1NsN2JRLW5oemV1cjZkMl94XzFxazZhVUlIQklyeW9aMk1hOTEwaDBWdS1Sc0pFS21QaWt3U1ZTaURBOE1DSC10ZnF5OGRxUG9ySDZ1VGRJYzhNTE95YktsQlQzYnpNX1pMWG5zWmxYQlhBak8yZTRxakZ6SGdvc0ZSTWVJbUgxa0ZFMEhKYnVtTFF1aVhuRmlOeGFaOUcwR1dfZ1d0UDZSWUhBQmpzeVRFS2VMWW92Q2ZlVllib1VzMzhFNlppWi1ZNmdWV21wNEMyQjBYb2UwMkpSVjItbzJYTnBqTmJzZGNIemJnY0tfcUo5OHBJSFlWR2dON3BwX1lncDNUUkljVlExYXUyY09xUjdqZmJVV1pqZlBfQUdsX0RxUlJ0MlVrUUVoLWFrYVFaWUpIUU82TFVXWmZObGM3THlQQUFHU0p2bWlNWFptZnAtaW1Sa3hVNnE3RS1IOXBEUlRxQWk0QkNudGRVOS1WVU9PWnF3NmVwazZ0LXVrVFB1RlZXVUVfRnhVdU5LOVZubU1IbmttRVlpdVhCczA4VFFxTHIwYjY1UXp1T19zZldrNzRYdElOUmFSb1RUVWVxTVRpTU5vMmNra0FURERDWlk5UUpKR00xS1UzSFJYVU1Xd3hsUEVfSzJjSG1XYmZINHk5ckpkaXNYSDk3RmdQQTh3RUlXbnRlbkFwT01CaU5Lcm1WM0dHZGRBdW9qU21EWGpoVzFjdkxrRUdRQjlvQjQwMWxWMkhNRmQ1OURnR2UzdkRJQmlLQXJKQ1I4OFo0YlFfRkVqcURmSTZNT0M1NkNTY1RoQ200MDFGbjVULWVjTWV5VVBSZkFpMDlRQ1V3eTVMMDM1MXhlS2VkdlFNTzhTR3BWYUJycGM3Y0Z3ZGdVeXpUMmt4YUJmejhmdWU3Q3Q5YldGRDlPSnhZWUtqZmg1SVk1RUpBWHpHTWtRVTdMRmlpWDRmX3dhZW1udTY1a0VVUW90b1VFaTJMbjExNWFoNVYwaA?oc=5",
-        "published": "Mon, 22 Dec 2025 08:00:00 GMT",
-        "source": "Yahoo新聞"
       }
     ]
   },
@@ -2523,24 +2523,38 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-10-30T07:54:06+08:00",
+  "cpblLastAttemptAt": "2026-10-30T09:24:39+08:00",
   "cpblAsOfDate": "2026-10-30",
-  "cpblLastSuccessAt": "2026-10-30T07:54:06+08:00",
+  "cpblLastSuccessAt": "2026-10-30T09:24:39+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-10-30T10:54:06+08:00",
+  "cpblValidUntil": "2026-10-30T12:24:39+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-10-29T16:35+08:00",
+    "checkedAt": "2026-10-30T09:24+08:00",
     "items": [
       {
-        "title": "尚公主",
-        "publishedAt": "2026-10-26T15:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "title": "鍍金年代",
+        "publishedAt": "2026-10-29T17:20+08:00",
+        "source": "Niusnews妞新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90dFRCNkIyODJ5MGpFUHg2cWZQeHFDT245N040b2dTODVUSjc5WmpISXBOOXFadVk0R3VDQkhsU2FDdHpHWWNJbEQtMA?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
         "title": "嫁金釵",
+        "publishedAt": "2026-10-27T15:00+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5hX2hDMTEzaWpUb0tGM0d1bDBqb3JkN1JVRjB5NkN5Q01fZ2oyeUxjN0FEckNxNFRDSDdPaUk3TUExM2FPZzFpMmxGdDhfamZCQ1hTLUdSX00wMVJjb2tDX04zUjI4b0lCb2pUdTB2V1JSak0?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "百日謊言",
+        "publishedAt": "2026-10-27T15:00+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVY5Z19fNHhnNnl3T3JzOWxIWG5TSmhOUW0wM0U5MWFVbnRNa081N2RIN01IT2IwZXltd0tVclNGMnJYaHVmeDZzaWpUSTNNeFRaRG1hRXJ6SGZ2Q09VUXpDTERtZkxOeHlnMENpcHJEd0kwVEdKellXc3A1dklUZ1NXVQ?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "尚公主",
         "publishedAt": "2026-10-26T15:00+08:00",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
@@ -2568,31 +2582,24 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "蘭香如故",
-        "publishedAt": "2026-10-09T15:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxNWmV5dmtvQkxpQm42bnM1ZUgxOG9fVHZOWDk4bW5SOUFnZ0pwbVdLd0xGOS1mX2wzbnY3RFJJYy1CZ1loRVkyQW9MZXZGTU1TOGhHX09xYmV5cDAzMFN2MU5MYUtwUGZWQXlRaUNWUXhTR1Q0NWN2U0ZjNTJMQnRlWGFVR1Zka0prUldobmltVWlycHRWVGVXdUtZWG1jNzlpai1HMWs0MTBYUzJxbDhxc1ZJamRKYjUxM2FfX2gwQnUweHRCYlBGZmVadjV5OUxtV1B6dG95Yk5IM0ZKRmh0Z1MzazduODlPSzg5bXA0WjhrNF9QV2FyaWlQQVdQcDdabzBlb2FfT01LdjJrLVRBdUZtZ2RXdHJYajUxakV3U0RqTWJvYWtETVlYNmVndWhMYjhyR0w0V25rV0xfVXlxTURfdUpkSmVlYmRGUGpkSjJLQk12ZHJBbTVXTmFZNnY1T2pZQ2g5SEhCRnA4RkRTMGpRbjRVcnRsTjN1R0NLRDJhN3RmTnB5dEVzSDJKUlBsVGx4SlVPOEFYcWhMZXNfelRpd1lsR2JBdkNGelJmSmNhdXY1LWZnYWtyRU8yaTg1b25tRF9BckZUYTFSdEFhNlNWai1PazFBSFBLUklsU2IxTTlPMVRmejVDRGg4ZUFfM3Ytb0xsdldaM1JxRWJxNzktMVpTTHBnYTdKTldQY1RDVXBzaWctRW85eUNxTUNkd3J4OEl0amFRTzhhdmJobERxMEpIT3ZJNlhjdUp1Vl9LVVdGczljaVNlal9PckFsYzJRRFZET1hPQ2F2eWo5NnlGRk5aeU9VU00zbWEzdnozdlZRcDhfNzEtdjFVc1FzbzFrWWpwbzBKMHlOUmg1dkRvN0s1QVVsXzBhZ25RYVZaM3VoMUx1MDg5VkJlSnZRYzFMN0lIUnBTbmswZnZnT3JHNWlhSWxtQ1htSC12MndOSmdiV1g2bXVjcjBvdEw1UTk5RzZCbUV4MmF2OHFz?oc=5",
+        "title": "小城良方",
+        "publishedAt": "2026-10-05T15:00+08:00",
+        "source": "TVBS",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JcUtaTVJaYkV4c3ptNzNpWHJkeWRkRlU4bEVkb1paY2VEVGtFUEtnV0Z3dXp1Q3B3QVhfME05SWZ3TlRxeWloWnY2ZnFfNDJsOFczZHNHdE44VlJuTm9zcUV3?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "莓好遇見你",
-        "publishedAt": "2026-10-09T15:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wVBVV95cUxNWmV5dmtvQkxpQm42bnM1ZUgxOG9fVHZOWDk4bW5SOUFnZ0pwbVdLd0xGOS1mX2wzbnY3RFJJYy1CZ1loRVkyQW9MZXZGTU1TOGhHX09xYmV5cDAzMFN2MU5MYUtwUGZWQXlRaUNWUXhTR1Q0NWN2U0ZjNTJMQnRlWGFVR1Zka0prUldobmltVWlycHRWVGVXdUtZWG1jNzlpai1HMWs0MTBYUzJxbDhxc1ZJamRKYjUxM2FfX2gwQnUweHRCYlBGZmVadjV5OUxtV1B6dG95Yk5IM0ZKRmh0Z1MzazduODlPSzg5bXA0WjhrNF9QV2FyaWlQQVdQcDdabzBlb2FfT01LdjJrLVRBdUZtZ2RXdHJYajUxakV3U0RqTWJvYWtETVlYNmVndWhMYjhyR0w0V25rV0xfVXlxTURfdUpkSmVlYmRGUGpkSjJLQk12ZHJBbTVXTmFZNnY1T2pZQ2g5SEhCRnA4RkRTMGpRbjRVcnRsTjN1R0NLRDJhN3RmTnB5dEVzSDJKUlBsVGx4SlVPOEFYcWhMZXNfelRpd1lsR2JBdkNGelJmSmNhdXY1LWZnYWtyRU8yaTg1b25tRF9BckZUYTFSdEFhNlNWai1PazFBSFBLUklsU2IxTTlPMVRmejVDRGg4ZUFfM3Ytb0xsdldaM1JxRWJxNzktMVpTTHBnYTdKTldQY1RDVXBzaWctRW85eUNxTUNkd3J4OEl0amFRTzhhdmJobERxMEpIT3ZJNlhjdUp1Vl9LVVdGczljaVNlal9PckFsYzJRRFZET1hPQ2F2eWo5NnlGRk5aeU9VU00zbWEzdnozdlZRcDhfNzEtdjFVc1FzbzFrWWpwbzBKMHlOUmg1dkRvN0s1QVVsXzBhZ25RYVZaM3VoMUx1MDg5VkJlSnZRYzFMN0lIUnBTbmswZnZnT3JHNWlhSWxtQ1htSC12MndOSmdiV1g2bXVjcjBvdEw1UTk5RzZCbUV4MmF2OHFz?oc=5",
+        "title": "蘭香如故",
+        "publishedAt": "2026-10-05T15:00+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3hZMzFmQllDa2RrOHBMZlVtSlMxalUyVkhmY1ZNVXpEYmxZVXFSS0UyajY2Sm5ESmVySWhHZVBVbmFuMng5TlhqLXFvUG9hY3UySktaZU5tcWlGOU9kbGN1ZnVDUlNkNmYzSFdORzdWZ2pOM3FkOTB1M3FqenF5T2I1bXFOMmM?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
         "title": "早春晴朗",
-        "publishedAt": "2026-10-06T15:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdzVZRHFSUVR2U0g1aVJxS1JRb0t1Q2p3SGh2VURFa0ZfdlduUEpHdjFjRXJOaEN0TENpbU5qN0Y5ZkhEQ0NfdHRQWDc2M1F1R2FWSlFub0Z6MFBfUUtVSGVPeEFFUVV2b0pPM0tWVk9Ra0hZVlZHamhGNzlvRjBZZjA3Wnl1a2xlSS0wel95ZnZiQQ?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "小城良方",
         "publishedAt": "2026-10-05T15:00+08:00",
-        "source": "TVBS新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9JcUtaTVJaYkV4c3ptNzNpWHJkeWRkRlU4bEVkb1paY2VEVGtFUEtnV0Z3dXp1Q3B3QVhfME05SWZ3TlRxeWloWnY2ZnFfNDJsOFczZHNHdE44VlJuTm9zcUV3?oc=5",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3hZMzFmQllDa2RrOHBMZlVtSlMxalUyVkhmY1ZNVXpEYmxZVXFSS0UyajY2Sm5ESmVySWhHZVBVbmFuMng5TlhqLXFvUG9hY3UySktaZU5tcWlGOU9kbGN1ZnVDUlNkNmYzSFdORzdWZ2pOM3FkOTB1M3FqenF5T2I1bXFOMmM?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -2624,7 +2631,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-10-29T16:35+08:00",
+    "lastSuccessfulAt": "2026-10-30T09:24+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -3220,27 +3227,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-30T09:05:46+08:00",
-    "updatedAt": "2026-10-30T09:05:46+08:00",
-    "lastSuccessfulAt": "2026-10-30T09:05:46+08:00",
+    "checkedAt": "2026-10-30T09:24:39+08:00",
+    "updatedAt": "2026-10-30T09:24:39+08:00",
+    "lastSuccessfulAt": "2026-10-30T09:24:39+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-30T09:05:46+08:00",
+        "checkedAt": "2026-10-30T09:24:39+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-30T09:05:46+08:00",
+        "checkedAt": "2026-10-30T09:24:39+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-30T09:05:46+08:00",
+        "checkedAt": "2026-10-30T09:24:39+08:00",
         "itemCount": 8
       }
     ],
@@ -3439,9 +3446,38 @@
   "weeklyStreaming": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "updatedAt": "2026-10-29T16:35+08:00",
+    "updatedAt": "2026-10-30T09:24+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
-    "items": []
+    "items": [
+      {
+        "id": "rss-韓劇-0-20261027",
+        "title": "2026韓劇推薦！50部韓劇線上看片單：金裕貞《百日謊言》上線Netflix，金智媛《Doctor X》引爆期待 - ELLE",
+        "type": "韓劇",
+        "interests": [
+          "韓劇"
+        ],
+        "platform": "Netflix",
+        "eventAt": "2026-10-27T15:00+08:00",
+        "eventLabel": "本週媒體消息（非官方熱度榜）",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVY5Z19fNHhnNnl3T3JzOWxIWG5TSmhOUW0wM0U5MWFVbnRNa081N2RIN01IT2IwZXltd0tVclNGMnJYaHVmeDZzaWpUSTNNeFRaRG1hRXJ6SGZ2Q09VUXpDTERtZkxOeHlnMENpcHJEd0kwVEdKellXc3A1dklUZ1NXVQ?oc=5",
+        "evidenceType": "本週新聞"
+      },
+      {
+        "id": "rss-韓劇-1-20261029",
+        "title": "HBO Max 2026 豪華 11 月片單：《鍍金年代》搭 MAMA 典禮追劇追不完| 影劇星聞 - Niusnews妞新聞",
+        "type": "韓劇",
+        "interests": [
+          "韓劇"
+        ],
+        "platform": "HBO Max",
+        "eventAt": "2026-10-29T17:20+08:00",
+        "eventLabel": "本週媒體消息（非官方熱度榜）",
+        "source": "Niusnews妞新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE90dFRCNkIyODJ5MGpFUHg2cWZQeHFDT245N040b2dTODVUSjc5WmpISXBOOXFadVk0R3VDQkhsU2FDdHpHWWNJbEQtMA?oc=5",
+        "evidenceType": "本週新聞"
+      }
+    ]
   }
 }
