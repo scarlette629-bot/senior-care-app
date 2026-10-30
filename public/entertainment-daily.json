@@ -3264,27 +3264,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-31T03:56:43+08:00",
-    "updatedAt": "2026-10-31T03:56:43+08:00",
-    "lastSuccessfulAt": "2026-10-31T03:56:43+08:00",
+    "checkedAt": "2026-10-31T07:51:37+08:00",
+    "updatedAt": "2026-10-31T07:51:37+08:00",
+    "lastSuccessfulAt": "2026-10-31T07:51:37+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-31T03:56:43+08:00",
+        "checkedAt": "2026-10-31T07:51:37+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-31T03:56:43+08:00",
+        "checkedAt": "2026-10-31T07:51:37+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-31T03:56:43+08:00",
+        "checkedAt": "2026-10-31T07:51:37+08:00",
         "itemCount": 8
       }
     ],
@@ -3304,7 +3304,7 @@
       },
       {
         "id": "weekly-26289ee11b8f81ce",
-        "title": "【台劇推介】《急診室的奇蹟》 霍建華睽違20年回歸台劇楊謹華白袍下的傷痕與掙扎- 亞洲 - 明周娛樂 - Ming Pao Weekly",
+        "title": "【台劇推介】《急診室的奇蹟》 霍建華睽違20年回歸台劇 楊謹華白袍下的傷痕與掙扎 - Ming Pao Weekly",
         "type": "台劇",
         "source": "Ming Pao Weekly",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOb2hmOGw1cXBKWlFUN3VvVFk4SmVRLTJ1M1BUQ1JDVDYzM2c5ZHl5YTZmMEVCVXBaVGlacGVpelJWa05NUnhjaDhTR1MzMktwQjlsaTFQb3FidzVqWlhRbTlMTW8xazR5OXhyU244dFNGcnVWVV9menRoRlZqYzhtX2NtOFFiWkN1dlEtWE5nZWtRT3VpRkozR003QWFQVVJhX21CU1BVTnVQY1RnMFh3aDJIWEJ5Szd1TzZWUF9HUTZ0ZVVpTFFUeGlkZ0JrYjA0VWdtcklHSVFuZ3ZoaEh6LWFfd3B0anF2NTBLSjhpQjU1ajFmMW1UcEZBUk5CSUNWMFBxT2k0bjkyZzFqOVdoeElYdGpYZERNbER4UmlPZzJVUm1aSmdiQjluNjFybFJOczhaMGJFZXVHdVVBTWhEOGg2a20zTjJTYXFNZm1HN050TDNneF9oT3V5Yw?oc=5",
@@ -3369,12 +3369,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-3369497529bd91ca",
-        "title": "金鐘61收視出爐！楊貴媚封后創最高點節目類「他們」最吸睛| 娛樂 - Newtalk新聞",
+        "id": "weekly-b241c7ca3bc33b5a",
+        "title": "金鐘61收視出爐！楊貴媚封后創最高點 節目類「他們」最吸睛 | Newtalk - LINE TODAY",
         "type": "綜藝",
-        "source": "Newtalk新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyOG1SazUtd0thd29xWk5wZmFMdVpZWm1rc2RhSXg4RXJES0FmV3Y2Z0FubTgwd3dKTmVPQlk2R1RNWHlpdHd0ZFB5NllteXRaTF9zcEpsd2lwMjg?oc=5",
-        "observedAt": "2026-10-28T10:07:12+08:00",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBYbXFnY2hDS3pXa3RkME8zVThHRnJCOEJrV0ZTUzhrdWdSbk9QcmFaMS01SXNaSzR5bERfcEozcXFReGdhRXhrUEoxcWstWWpWSTlfdVVmWTJza2h3Zm8yVHlBbXJ0c2dIbjN4TERFUUVYTjZi?oc=5",
+        "observedAt": "2026-10-28T11:33:56+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3468,12 +3468,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-667eedfe73e63020",
-        "title": "金鐘61｜沈玉琳奪綜藝節目主持人獎！自嘲「30年來最吵的嘴」 完整得獎名單一次看 | 太報 - LINE TODAY",
+        "id": "weekly-6003892bd00afc2e",
+        "title": "金鐘61｜「節目類」2026金鐘獎得獎名單：沈玉琳、Melody奪主持人獎，《週末最強大》拿下大獎 - Harper's BAZAAR",
         "type": "綜藝",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uS3Z1QklpRlhOa0VacVc5WWVob3ZyWV93UmhHMS1oVEttRmtWbEtubXFFSTNiY2YwYjB6SGhoMHN0cGhSR0xsODRYMXBGbWFfaGRGVUJn?oc=5",
-        "observedAt": "2026-10-26T00:59:41+08:00",
+        "source": "Harper's BAZAAR",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
+        "observedAt": "2026-10-26T04:12:06+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
