@@ -3200,27 +3200,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-30T13:55:03+08:00",
-    "updatedAt": "2026-10-30T13:55:03+08:00",
-    "lastSuccessfulAt": "2026-10-30T13:55:03+08:00",
+    "checkedAt": "2026-10-30T15:12:36+08:00",
+    "updatedAt": "2026-10-30T15:12:36+08:00",
+    "lastSuccessfulAt": "2026-10-30T15:12:36+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-30T13:55:03+08:00",
+        "checkedAt": "2026-10-30T15:12:36+08:00",
         "itemCount": 2
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-30T13:55:03+08:00",
+        "checkedAt": "2026-10-30T15:12:36+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-30T13:55:03+08:00",
+        "checkedAt": "2026-10-30T15:12:36+08:00",
         "itemCount": 8
       }
     ],
@@ -3239,23 +3239,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-02e1de3fa69033e1",
-        "title": "NETFLIX台劇《新手上路》評價＋6大彩蛋解析！陳意涵、劉冠廷爆笑育兒，結局雙胞胎藏伏筆- 文章 - Dream & Hunter",
-        "type": "台劇",
-        "source": "Dream & Hunter",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ydERsNEhQdkxyZVhjcVhHYkxtYlZxMEJ4Q0NTaFVma2xnclBQbEVaNjhPYnpfT0ZLRlI1QkhCTXVxc1h4UC1YXzdiZXBnUmwzQU1kektaaUYwdHBzRzBwMG1lX19uaXpZRXc?oc=5",
-        "observedAt": "2026-10-29T17:04:55+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-c7ffe3bb59cbbc4e",
         "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
         "type": "台劇",
         "source": "NOWnews今日新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE94eERlb1QwRU1Yd0ljSjZ2OHNTeTUtZzE5YjB5NmxHSFdmOHdjZkc2ZkJ1TGJQQV9abjREV3FVUEttUW9vamFHbGtKWTjSAVJBVV95cUxNR1dRaFp4ejA5OEdUMHF1QmxtUDl2NjlwRzQzcURSR1diNmhpR0lHTEpwSUlFVm1WZ2JZd0djM2hmUFF1NHd1YzYtRFY0WDJDRENR?oc=5",
         "observedAt": "2026-10-29T16:30:25+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-1899ab5f2fcae51e",
+        "title": "影／霍建華主演台劇上線到數 「急診室醫生們」花絮曝光 - 緯來新聞網",
+        "type": "台劇",
+        "source": "緯來新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbE0yWUl0TF9MVkRsOHd5N1VRU0dXdzdsNUVXZkMyTnRBamdlTl93SXpRVDB6UzI5a3RnaUlUUG5ralUwY3Z2SGI2Wl9CTmFvTlhaU2E1MTdwVWQtUmd4VmdOanRpZHgyVVphWk1KeUF1Z0s5ODVtRmZRa0RKWDU4enZNTmVDdw?oc=5",
+        "observedAt": "2026-10-29T15:19:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
