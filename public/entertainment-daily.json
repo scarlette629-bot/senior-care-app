@@ -3264,27 +3264,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-30T22:18:50+08:00",
-    "updatedAt": "2026-10-30T22:18:50+08:00",
-    "lastSuccessfulAt": "2026-10-30T22:18:50+08:00",
+    "checkedAt": "2026-10-31T03:56:43+08:00",
+    "updatedAt": "2026-10-31T03:56:43+08:00",
+    "lastSuccessfulAt": "2026-10-31T03:56:43+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-30T22:18:50+08:00",
+        "checkedAt": "2026-10-31T03:56:43+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-30T22:18:50+08:00",
+        "checkedAt": "2026-10-31T03:56:43+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-30T22:18:50+08:00",
+        "checkedAt": "2026-10-31T03:56:43+08:00",
         "itemCount": 8
       }
     ],
