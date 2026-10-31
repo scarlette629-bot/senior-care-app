@@ -3367,33 +3367,44 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-10-31T20:39:55+08:00",
-    "updatedAt": "2026-10-31T20:39:55+08:00",
-    "lastSuccessfulAt": "2026-10-31T20:39:55+08:00",
+    "checkedAt": "2026-11-01T01:47:23+08:00",
+    "updatedAt": "2026-11-01T01:47:23+08:00",
+    "lastSuccessfulAt": "2026-11-01T01:47:23+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-10-31T20:39:55+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-11-01T01:47:23+08:00",
+        "itemCount": 3
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-10-31T20:39:55+08:00",
+        "checkedAt": "2026-11-01T01:47:23+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-10-31T20:39:55+08:00",
+        "checkedAt": "2026-11-01T01:47:23+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-eb0a927a0bd510a7",
+        "title": "陸劇《嫁金釵》裡，女性在婚姻裡的兩道難題 - udn 女子漾",
+        "type": "陸劇",
+        "source": "udn 女子漾",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41RXNwNXNnay1uWlpvcGZrYjQyVUpKdEhlYTBYdWlKSEpjR1dxR0JrSVlsMWJIUlVudTJ5ZlZ0LXlfMFJWYm9uaEhwZGNqSEFYUGVieUV1NjFEa2tw0gFiQVVfeXFMTTJhcTE2Wi13OTR6TnB3Q0F4QUkzdXdPcEZmWWJsNXBnT3dtZUpaU2VVbGpwUDhId0pZVkFsYW1zU1dYMVhxcWR0ek91NTBPdm1vWlFMd3c2NmtpU2xSRUQtT2c?oc=5",
+        "observedAt": "2026-10-31T20:52:20+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-5b976a158a5a828c",
         "title": "Netflix 11月片單推薦Top10：年末最強台劇《急診室的奇蹟》、《魔鬼的計謀3》高手齊聚 - Bella.tw儂儂",
@@ -3417,6 +3428,17 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-02e1de3fa69033e1",
+        "title": "NETFLIX台劇《新手上路》評價＋6大彩蛋解析！陳意涵、劉冠廷爆笑育兒，結局雙胞胎藏伏筆- 文章 - Dream & Hunter",
+        "type": "台劇",
+        "source": "Dream & Hunter",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4ydERsNEhQdkxyZVhjcVhHYkxtYlZxMEJ4Q0NTaFVma2xnclBQbEVaNjhPYnpfT0ZLRlI1QkhCTXVxc1h4UC1YXzdiZXBnUmwzQU1kektaaUYwdHBzRzBwMG1lX19uaXpZRXc?oc=5",
+        "observedAt": "2026-10-29T17:04:55+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-c7ffe3bb59cbbc4e",
         "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
         "type": "台劇",
@@ -3434,17 +3456,6 @@
         "source": "dotdotnews",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBFQ1oyWTlDaUFzTS11bzZzbVc3X29KRERXaHAxSThNZmdrbXZtX29KczhkNGVvZHFaYkZnbEhkMjU0RlZvQnNGS1VrNU50TTZVcmtOTktxUk1PTlBHMmEwOHdRd3B4VnhfbmZiQnhSOXBWanVhdzVOTGRn?oc=5",
         "observedAt": "2026-10-29T09:55:38+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-c939975f5a5ffea4",
-        "title": "網友狂讚「意外好看」！《新手上路》劉冠廷、黃冠智人鬼搭檔聯手育兒笑翻觀眾Netflix台灣排名第二、電視首播收視高點衝1.47 - 放言Fount Media",
-        "type": "台劇",
-        "source": "放言Fount Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2NHN0RUdNcGZicHVQajRPdEM2NlFvbG5oYTZJTjltY2x2N0ZENEkwam40aHRXWG5lUURFSW51aThDNWFiS0p1YXJYV3cteHVWRnc?oc=5",
-        "observedAt": "2026-10-28T17:52:32+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3560,11 +3571,22 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-08267483ed6ee21c",
+        "id": "weekly-af16ecc5a07f9441",
+        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "observedAt": "2026-10-27T15:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c27e56e3b4e68dd5",
         "title": "Netflix《急診室的奇蹟》上線倒數！盤點11月熱播3大台劇，霍建華、邱澤、陳意涵強勢回歸！ - udn 女子漾",
         "type": "台劇",
         "source": "udn 女子漾",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BYUNrWl9neFhSVTJNbGJhU2t5QWJTcjdlM3c4YkxvTEQxMHFISVhsTzV6OExlY3VucV8wc3lfbXNwbjgtNkdxRXAwQW56eGNpSDV1U25mcDlsdHB3bmtUNG9n0gFiQVVfeXFMT0FhQ2taX2d4WFJVMk1sYmFTa3lBYlNyN2UzdzhiTG9MRDEwcUhJWGxPNXo4TGVjdW5xXzBzeV9tc3BuOC02R3FFcDBBbnp4Y2lINXVTbmZwOWx0cHdua1Q0b2c?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11ZXd4cjlzQW5SRkM3OVczQ3BDaEd4UTJZbnRfUVZuUlBwZDZMb0xVUzBNc2JwaEZlMmZLMkJXekFDWkIwZDgxd2hXZ0drQ2hEVUhKQ1B4NHpiMWRv0gFiQVVfeXFMT0FhQ2taX2d4WFJVMk1sYmFTa3lBYlNyN2UzdzhiTG9MRDEwcUhJWGxPNXo4TGVjdW5xXzBzeV9tc3BuOC02R3FFcDBBbnp4Y2lINXVTbmZwOWx0cHdua1Q0b2c?oc=5",
         "observedAt": "2026-10-27T01:45:07+08:00",
         "isWeiboMention": false,
         "verified": false,
