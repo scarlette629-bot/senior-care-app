@@ -46,7 +46,7 @@ jobs:
               if key in refreshed:
                   latest[key]=refreshed[key]
           latest["updatedAt"]=max(str(latest.get("updatedAt","")),str(refreshed.get("updatedAt","")))
-          current.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+          current.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           PY
             git add public/entertainment-daily.json
             if git diff --cached --quiet; then exit 0; fi
