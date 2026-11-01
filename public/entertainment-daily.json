@@ -3381,27 +3381,27 @@
   "weeklyHot": {
     "weekStart": "2026-10-26",
     "weekEnd": "2026-11-01",
-    "checkedAt": "2026-11-01T08:30:58+08:00",
-    "updatedAt": "2026-11-01T08:30:58+08:00",
-    "lastSuccessfulAt": "2026-11-01T08:30:58+08:00",
+    "checkedAt": "2026-11-01T09:15:54+08:00",
+    "updatedAt": "2026-11-01T09:15:54+08:00",
+    "lastSuccessfulAt": "2026-11-01T09:15:54+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-01T08:30:58+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-01T09:15:54+08:00",
+        "itemCount": 3
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-01T08:30:58+08:00",
+        "checkedAt": "2026-11-01T09:15:54+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-01T08:30:58+08:00",
+        "checkedAt": "2026-11-01T09:15:54+08:00",
         "itemCount": 8
       }
     ],
@@ -3442,6 +3442,17 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-26289ee11b8f81ce",
+        "title": "【台劇推介】《急診室的奇蹟》 霍建華睽違20年回歸台劇楊謹華白袍下的傷痕與掙扎- 亞洲 - Ming Pao Weekly",
+        "type": "台劇",
+        "source": "Ming Pao Weekly",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOb2hmOGw1cXBKWlFUN3VvVFk4SmVRLTJ1M1BUQ1JDVDYzM2c5ZHl5YTZmMEVCVXBaVGlacGVpelJWa05NUnhjaDhTR1MzMktwQjlsaTFQb3FidzVqWlhRbTlMTW8xazR5OXhyU244dFNGcnVWVV9menRoRlZqYzhtX2NtOFFiWkN1dlEtWE5nZWtRT3VpRkozR003QWFQVVJhX21CU1BVTnVQY1RnMFh3aDJIWEJ5Szd1TzZWUF9HUTZ0ZVVpTFFUeGlkZ0JrYjA0VWdtcklHSVFuZ3ZoaEh6LWFfd3B0anF2NTBLSjhpQjU1ajFmMW1UcEZBUk5CSUNWMFBxT2k0bjkyZzFqOVdoeElYdGpYZERNbER4UmlPZzJVUm1aSmdiQjluNjFybFJOczhaMGJFZXVHdVVBTWhEOGg2a20zTjJTYXFNZm1HN050TDNneF9oT3V5Yw?oc=5",
+        "observedAt": "2026-10-30T12:10:07+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-c7ffe3bb59cbbc4e",
         "title": "不輸《嫁金釵》！這部台劇空降Netflix熱播榜　Threads評價一面倒 - NOWnews今日新聞",
         "type": "台劇",
@@ -3464,17 +3475,6 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-c939975f5a5ffea4",
-        "title": "網友狂讚「意外好看」！《新手上路》劉冠廷、黃冠智人鬼搭檔聯手育兒笑翻觀眾Netflix台灣排名第二、電視首播收視高點衝1.47 - 放言Fount Media",
-        "type": "台劇",
-        "source": "放言Fount Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2NHN0RUdNcGZicHVQajRPdEM2NlFvbG5oYTZJTjltY2x2N0ZENEkwam40aHRXWG5lUURFSW51aThDNWFiS0p1YXJYV3cteHVWRnc?oc=5",
-        "observedAt": "2026-10-28T17:52:32+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-486b39ea26fb6be4",
         "title": "金鐘61收視出爐！楊貴媚封后創最高點 節目類「他們」最吸睛 | Newtalk - LINE TODAY",
         "type": "綜藝",
@@ -3492,17 +3492,6 @@
         "source": "ETtoday星光雲| ETtoday新聞雲",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HN0FWdlZnRGFPLXlGS2ZvaVdMRDlxSUFITGxXT0NxX1NjRjNHRWdGWkVtZG5hUU5Oa1dMYTNBTmg2WTFlQkhwdFBfR0FrZ9IBTEFVX3lxTFBaQm1PNmo2UlRDQVJpYUpJMmlVMnVCempFRzBxQTlSQVJHZndGZFhFWkVYaExfTUoxdXBpTnBhWVBHV19EY1JreUZ4cEo?oc=5",
         "observedAt": "2026-10-28T16:19:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-3369497529bd91ca",
-        "title": "金鐘61收視出爐！楊貴媚封后創最高點節目類「他們」最吸睛| 娛樂 - Newtalk新聞",
-        "type": "綜藝",
-        "source": "Newtalk新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyOG1SazUtd0thd29xWk5wZmFMdVpZWm1rc2RhSXg4RXJES0FmV3Y2Z0FubTgwd3dKTmVPQlk2R1RNWHlpdHd0ZFB5NllteXRaTF9zcEpsd2lwMjg?oc=5",
-        "observedAt": "2026-10-28T10:07:12+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -3602,6 +3591,28 @@
         "source": "udn 女子漾",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11ZXd4cjlzQW5SRkM3OVczQ3BDaEd4UTJZbnRfUVZuUlBwZDZMb0xVUzBNc2JwaEZlMmZLMkJXekFDWkIwZDgxd2hXZ0drQ2hEVUhKQ1B4NHpiMWRv0gFiQVVfeXFMT0FhQ2taX2d4WFJVMk1sYmFTa3lBYlNyN2UzdzhiTG9MRDEwcUhJWGxPNXo4TGVjdW5xXzBzeV9tc3BuOC02R3FFcDBBbnp4Y2lINXVTbmZwOWx0cHdua1Q0b2c?oc=5",
         "observedAt": "2026-10-27T01:45:07+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-af16ecc5a07f9441",
+        "title": "10月陸劇推薦！田曦薇《嫁金釵》、孟子義李昀銳《尚公主》開播，必追新劇清單 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbUpkWC1QQmNqcklXcjcwSEYzSlpRS2VILThqeEF6aXRnQlROYVhwU0J2aC1pcUtxSGIyN19EMnhubGdPOTMtUFVlUVhyaE96QTBfS1IycWdQelJKWG9NV0NUMzc1b0xnN19SOGo3cDVvd1NzWTZiazdPb2kzTjRIRWZ2c0RQM2wtdFhUVmkySnR2YTFzVFNN?oc=5",
+        "observedAt": "2026-10-26T15:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-6003892bd00afc2e",
+        "title": "金鐘61｜「節目類」2026金鐘獎得獎名單：沈玉琳、Melody奪主持人獎，《週末最強大》拿下大獎 - Harper's BAZAAR",
+        "type": "綜藝",
+        "source": "Harper's BAZAAR",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9pOHhqSnd3eG5FLVEzSUlpZ0NKaFRRQVRvVHdLUVlmOXVfeEg3ak1uM1VPeWd6UXZnaDNIQWxYWkIweVk0cmdhUkZQcy1EeFo3T09yNVV3R08wWlMydExNX200V2ZMMXBNUmVNSUJnTUtpU1lxOWF5aXZqckF1OXVNSU5wWTBGUmpWRnhPR3hRRkRkX2hJODdMRzBwZVRUVHc?oc=5",
+        "observedAt": "2026-10-26T04:12:06+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
