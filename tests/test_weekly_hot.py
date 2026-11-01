@@ -2,6 +2,8 @@ import datetime as dt
 import importlib.util
 from pathlib import Path
 import unittest
+from unittest.mock import patch
+from urllib.error import HTTPError
 spec=importlib.util.spec_from_file_location('weekly',Path(__file__).resolve().parents[1]/'scripts/weekly_hot.py');w=importlib.util.module_from_spec(spec);spec.loader.exec_module(w)
 NOW=dt.datetime(2026,10,26,20,tzinfo=w.TZ)
 def rss():
@@ -15,3 +17,18 @@ class Tests(unittest.TestCase):
   x=w.refresh(old,NOW,fail);self.assertEqual(x['items'],[]);self.assertEqual(x['status'],'failed');self.assertEqual(x['lastSuccessfulAt'],'old')
  def test_empty_success_differs_from_failure(self):
   x=w.refresh({},NOW,lambda url:'<rss><channel/></rss>');self.assertEqual(x['status'],'success');self.assertEqual(x['items'],[])
+
+class RetryTests(unittest.TestCase):
+ def test_503_retries_then_succeeds(self):
+  class Response:
+   def __enter__(self):return self
+   def __exit__(self,*args):return False
+   def read(self):return b'<rss><channel/></rss>'
+  with patch.object(w.urllib.request,'urlopen',side_effect=[HTTPError('rss',503,'unavailable',None,None),Response()]) as open_url, patch.object(w.time,'sleep') as sleep:
+   self.assertEqual(w.get('https://example.com/rss'),b'<rss><channel/></rss>')
+   self.assertEqual(open_url.call_count,2)
+   sleep.assert_called_once()
+ def test_permanent_503_raises_after_four_attempts(self):
+  with patch.object(w.urllib.request,'urlopen',side_effect=HTTPError('rss',503,'unavailable',None,None)) as open_url, patch.object(w.time,'sleep'):
+   with self.assertRaises(HTTPError):w.get('https://example.com/rss')
+   self.assertEqual(open_url.call_count,4)
