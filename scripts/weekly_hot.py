@@ -8,6 +8,8 @@ import re
 from pathlib import Path
 import urllib.parse
 import urllib.request
+import urllib.error
+import time
 import xml.etree.ElementTree as ET
 TZ=dt.timezone(dt.timedelta(hours=8))
 QUERIES={
@@ -17,7 +19,15 @@ QUERIES={
 
 def get(url):
  if os.environ.get('WECARE_OFFLINE')=='1':raise OSError('Offline test')
- with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=20) as r:return r.read()
+ request=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 WECARE/weekly-topics'})
+ for attempt in range(4):
+  try:
+   with urllib.request.urlopen(request,timeout=20) as r:return r.read()
+  except urllib.error.HTTPError as exc:
+   if exc.code not in (429,500,502,503,504) or attempt==3:raise
+  except (urllib.error.URLError,TimeoutError) :
+   if attempt==3:raise
+  time.sleep(min(2**attempt,4))
 
 def refresh(previous,now,load=get):
  start=now.astimezone(TZ).date()-dt.timedelta(days=now.astimezone(TZ).weekday());end=start+dt.timedelta(days=6)
