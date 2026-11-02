@@ -3748,33 +3748,45 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-02T09:05:28+08:00",
-    "updatedAt": "2026-11-02T09:05:28+08:00",
-    "lastSuccessfulAt": "2026-11-02T09:05:28+08:00",
+    "checkedAt": "2026-11-02T15:42:43+08:00",
+    "updatedAt": "2026-11-02T15:42:43+08:00",
+    "lastSuccessfulAt": "2026-11-02T15:42:43+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-02T09:05:28+08:00",
+        "checkedAt": "2026-11-02T15:42:43+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-02T09:05:28+08:00",
+        "checkedAt": "2026-11-02T15:42:43+08:00",
         "itemCount": 0
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-02T09:05:28+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-11-02T15:42:43+08:00",
+        "itemCount": 1
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
-    "items": []
+    "items": [
+      {
+        "id": "weekly-20ae93ce1db4e056",
+        "title": "myTV SUPER全新「每日TVB 熱播節目」專區登場一鍵重溫跨頻道話題作- 東張+ - myTV SUPER",
+        "type": "綜藝",
+        "source": "myTV SUPER",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNZ0JpRVd2dTdGVTQ5djdZeHM5bXRlTEpWcUw0aE9ZVGN5cF9GWWFlUFVPQ3FneTlxYjRZajZBc1VZSXRYVW5GWFBTZHZvS2lWQmpSTlZkSFdIMzd0aElUWWhwbXpHZ3pRb3drUFVMQ24wckJBV1RCdXVUMnZUMTZJLTZRWHdaMUVHSkMzN19ILU1CbzNFXzhSVzFjSjBZRUp3OVJubWRHbDBRalRqY2N0QkJtY3daZHdvVlRqRzFWS0NJX3VlaFpRZFBEQ0VMOUFMaktycDlGQ1VHaTJHMXc3SFlTdWdCUEk2enhqN0V1R0lJaE93anFBTlJmRG43QXJUTFd5Tzh5VmRGSDdlUkVsbzNzQ2ExSG1qVFFUYXRBLWNtelg0WklzY2ZkRkxwc01ZNHVscFkyM0VDd1FsM19lbW1lamhaOGJIMjNBc0RFald5cjJVRUt6WnNKX3JIVTlGSl9VTTZsZVV6YzdVbWg2dWE0QnB4YmlKWm9sQUF2RjltWjJsM1B4VTJwSGFIaTQxb1lObWUwc21sUzNmNnA2RGo4T1pOcm5tcmJibUVEMVV6OWdrd1FlaA?oc=5",
+        "observedAt": "2026-11-02T12:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      }
+    ]
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-02",
