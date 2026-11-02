@@ -4096,33 +4096,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-02T15:42:43+08:00",
-    "updatedAt": "2026-11-02T15:42:43+08:00",
-    "lastSuccessfulAt": "2026-11-02T15:42:43+08:00",
+    "checkedAt": "2026-11-03T02:27:15+08:00",
+    "updatedAt": "2026-11-03T02:27:15+08:00",
+    "lastSuccessfulAt": "2026-11-03T02:27:15+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-02T15:42:43+08:00",
+        "checkedAt": "2026-11-03T02:27:15+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-02T15:42:43+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-11-03T02:27:15+08:00",
+        "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-02T15:42:43+08:00",
+        "checkedAt": "2026-11-03T02:27:15+08:00",
         "itemCount": 1
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-c15844431477d25d",
+        "title": "Netflix 11月追劇片單！霍建華睽違20年回歸台劇《急診室的奇蹟》、孫錫求&永山瑛太雙男神首度合作 - Marie Claire 美麗佳人",
+        "type": "台劇",
+        "source": "Marie Claire 美麗佳人",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93VnlDTHdxT2VEdl9FUWJ2QUViWGd2YTI1ZXRVSlFYUENHNWpoQlpkaWwxYzV4SXhOYlVxcS1CRGlTN0dYTGVoTUdsZ2ZPZHViUFNQenJxQkh4LWJkdGtwd2tTWTFOUEEw?oc=5",
+        "observedAt": "2026-11-02T14:29:29+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-20ae93ce1db4e056",
         "title": "myTV SUPER全新「每日TVB 熱播節目」專區登場一鍵重溫跨頻道話題作- 東張+ - myTV SUPER",
