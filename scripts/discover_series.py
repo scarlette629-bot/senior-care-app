@@ -398,7 +398,7 @@ def merge(feed, discovery, now, reviewed=None):
     old_keys={(x.get('title'),x.get('platform')) for x in feed.get('seriesDiscoveryLastSnapshot', [])}
     current_snapshot=[{'title':x.get('title'),'platform':x.get('platform'),'type':x.get('type')} for x in auto]
     feed['seriesDiscovery']['newByInterest']={kind:sum(1 for x in current_snapshot if x['type']==kind and (x['title'],x['platform']) not in old_keys) for kind in ('台劇','韓劇','陸劇','日劇','歐美劇','綜藝')} if 'seriesDiscoveryLastSnapshot' in feed else None
-    feed['seriesDiscovery']['countByInterest'={kind:sum(1 for x in current_snapshot if x['type']==kind) for kind in ('台劇','韓劇','陸劇','日劇','歐美劇','綜藝')}
+    feed['seriesDiscovery']['countByInterest']={kind:sum(1 for x in current_snapshot if x['type']==kind) for kind in ('台劇','韓劇','陸劇','日劇','歐美劇','綜藝')}
     feed['seriesDiscoveryLastSnapshot']=current_snapshot
     return feed
 
