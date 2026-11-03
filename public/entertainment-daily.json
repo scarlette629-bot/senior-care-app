@@ -4787,33 +4787,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-04T01:52:48+08:00",
-    "updatedAt": "2026-11-04T01:52:48+08:00",
-    "lastSuccessfulAt": "2026-11-04T01:52:48+08:00",
+    "checkedAt": "2026-11-04T07:27:11+08:00",
+    "updatedAt": "2026-11-04T07:27:11+08:00",
+    "lastSuccessfulAt": "2026-11-04T07:27:11+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-04T01:52:48+08:00",
+        "checkedAt": "2026-11-04T07:27:11+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-04T01:52:48+08:00",
+        "checkedAt": "2026-11-04T07:27:11+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-04T01:52:48+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-04T07:27:11+08:00",
+        "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-07d22c9873f9fcd8",
+        "title": "沈伯洋旋風螢幕發燒 登謝震武節目收視飆1.96 - 自由娛樂",
+        "type": "綜藝",
+        "source": "自由娛樂",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUM2phR3BGcTlVZ2FKTXBsX3ZaaTlIYkZURmNYdzNYNXpoWHVZZC1uclU4dXBRLVBKWWdNbmx0Wm1MVGhQOEsyRmpQemp6R1VNUUFJ0gFYQVVfeXFMT296NDh4U2xRU1VnREd0dS01VlJtVmVMakowdFR6RmFpRHpJNFRvUWlzQ3BfR05oNG9GdS03STZFVHQ0Q1l0VnJCX1JVMG1laklpMlQ3am53Nw?oc=5",
+        "observedAt": "2026-11-04T05:30:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-1ce1add6a364f97e",
         "title": "快新聞／沈伯洋初登謝震武節目！上線不到一天破百萬觀看 名嘴曝收視高點 - 民視新聞網",
