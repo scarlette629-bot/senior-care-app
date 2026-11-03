@@ -4787,40 +4787,40 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-03T11:07:49+08:00",
-    "updatedAt": "2026-11-03T11:07:49+08:00",
-    "lastSuccessfulAt": "2026-11-03T11:07:49+08:00",
+    "checkedAt": "2026-11-03T17:38:09+08:00",
+    "updatedAt": "2026-11-03T17:38:09+08:00",
+    "lastSuccessfulAt": "2026-11-03T17:38:09+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-03T11:07:49+08:00",
+        "checkedAt": "2026-11-03T17:38:09+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-03T11:07:49+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-03T17:38:09+08:00",
+        "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-03T11:07:49+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-11-03T17:38:09+08:00",
+        "itemCount": 2
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-3f12a11a2e776650",
-        "title": "Netflix《新手上路》引媽媽共鳴！ 5件新手媽媽育兒崩潰事 易引起焦慮或成產後抑鬱觸發點 - 星島頭條",
-        "type": "台劇",
-        "source": "星島頭條",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxQTGx3UmFISjBHR1hCRHpJRVdHVm94OEllTDhOdExHYnFzWk5VMnZTc2JxNlAwYldBS0JKelFjVDJfQl9ydjE0R0lwYnBfN0ZQcE9GSkpUTmFOOFRQQ0c0MnpfRV9SQVRrVGNqemNqRktzT2liazZXNm9pWnJmaXhvMnFIZnBBajcxYnZHNWtOZVZ3dUtUX24ydjVBSHJPa2t3Vl9rSC1DWUxxMVRua21lYmNBLXZNdTg0a09mZ2tIcHNqQURJTDUzbDUxaklZYkdmYlMxMlM3LXhaNVRNWEtDWUhOalBJdHVIWUFSdXpmWHpJOHh4RXdsNExKSWtCU2hLSjQ3MmZEbUZnRjlFaUFUUUtVMkFlRDA5RlpheGwzaWdkU3dLMFptb2kxNHd5X2d3ZVFXQ19JWlJQNFVGa0l4NS1WSUtHSlVZMlZ6X1Fmai13Wk1FaGZ6X1ZBYnkyRlhnMTFuZGZBRzZjLW9ncE9ReDk4UVpKLU12RUVfVGhmQVo5RGxzUDEwaFN0XzIyWjJpSG0zNTFYT0Ezamlmb3B1VDNIZXowV0hYcTRldkRIa0pvdWFhYUxGWkl1WWVsVXhrc09UMHJyOXFueHVxYXdHQXZZN2FLSEo1d0RHOTZRV1pvRmRIODFCdDBpanYxZw?oc=5",
-        "observedAt": "2026-11-02T16:02:46+08:00",
+        "id": "weekly-1ce1add6a364f97e",
+        "title": "快新聞／沈伯洋初登謝震武節目！上線不到一天破百萬觀看 名嘴曝收視高點 - 民視新聞網",
+        "type": "綜藝",
+        "source": "民視新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGMVA4YjNldXJuTjFzUzlGRVFudnRxY1h4UnB5QWs3ZkU3UFlsMmpTclR1Y1hiZ0hJVUo4N1ZmSHJ5d2tDMEl5Y3hLX3lQeHY1OGdiUG8taVhvVWwzNDVrbg?oc=5",
+        "observedAt": "2026-11-03T16:17:38+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4837,12 +4837,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-20ae93ce1db4e056",
-        "title": "myTV SUPER全新「每日TVB 熱播節目」專區登場一鍵重溫跨頻道話題作- 東張+ - myTV SUPER",
+        "id": "weekly-2c16fe254e631bb1",
+        "title": "《尚公主》收視慘澹李昀銳合體孟子義錄真人秀放閃宣傳 他對她告白「這句話」有如求婚超感人 - 上報Up Media",
         "type": "綜藝",
-        "source": "myTV SUPER",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNZ0JpRVd2dTdGVTQ5djdZeHM5bXRlTEpWcUw0aE9ZVGN5cF9GWWFlUFVPQ3FneTlxYjRZajZBc1VZSXRYVW5GWFBTZHZvS2lWQmpSTlZkSFdIMzd0aElUWWhwbXpHZ3pRb3drUFVMQ24wckJBV1RCdXVUMnZUMTZJLTZRWHdaMUVHSkMzN19ILU1CbzNFXzhSVzFjSjBZRUp3OVJubWRHbDBRalRqY2N0QkJtY3daZHdvVlRqRzFWS0NJX3VlaFpRZFBEQ0VMOUFMaktycDlGQ1VHaTJHMXc3SFlTdWdCUEk2enhqN0V1R0lJaE93anFBTlJmRG43QXJUTFd5Tzh5VmRGSDdlUkVsbzNzQ2ExSG1qVFFUYXRBLWNtelg0WklzY2ZkRkxwc01ZNHVscFkyM0VDd1FsM19lbW1lamhaOGJIMjNBc0RFald5cjJVRUt6WnNKX3JIVTlGSl9VTTZsZVV6YzdVbWg2dWE0QnB4YmlKWm9sQUF2RjltWjJsM1B4VTJwSGFIaTQxb1lObWUwc21sUzNmNnA2RGo4T1pOcm5tcmJibUVEMVV6OWdrd1FlaA?oc=5",
-        "observedAt": "2026-11-02T12:00:00+08:00",
+        "source": "上報Up Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Tb2lDN2N4aGZMU0syTnE4QVVZeHVRdUFhQzJaNlVULUloZDFZV2pvY05rU1hnV2pRQ2RSWWExYXVsdHppVTBzN0pUc01wWHdtbTZFUnpvaHBBaHd0ZGRKeTRWNUZHa0p5Snc?oc=5",
+        "observedAt": "2026-11-02T10:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
