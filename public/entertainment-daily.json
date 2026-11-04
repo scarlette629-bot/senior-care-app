@@ -4793,27 +4793,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-04T23:28:25+08:00",
-    "updatedAt": "2026-11-04T23:28:25+08:00",
-    "lastSuccessfulAt": "2026-11-04T23:28:25+08:00",
+    "checkedAt": "2026-11-05T05:56:00+08:00",
+    "updatedAt": "2026-11-05T05:56:00+08:00",
+    "lastSuccessfulAt": "2026-11-05T05:56:00+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-04T23:28:25+08:00",
+        "checkedAt": "2026-11-05T05:56:00+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-04T23:28:25+08:00",
+        "checkedAt": "2026-11-05T05:56:00+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-04T23:28:25+08:00",
+        "checkedAt": "2026-11-05T05:56:00+08:00",
         "itemCount": 2
       }
     ],
@@ -4821,12 +4821,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-0ce8d6deed2cd452",
-        "title": "沈伯洋登綜藝隔空告白妻女！名嘴酸蔣萬安開盲盒 幕僚揭破圈關鍵 - Yahoo新聞",
+        "id": "weekly-20d0607797740893",
+        "title": "沈伯洋登綜藝隔空告白妻女！名嘴酸蔣萬安開盲盒　幕僚揭破圈關鍵 - 三立新聞",
         "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMipgNBVV95cUxNNEUyTjV3UzlURlVibnNrenFxekYxUTUxM0J5NnRRZ2RHTW5Gd0VjVHpzVHhnUk10M0kwbEVlUmJCNTZ4dnpFUlNMRnJCMzQ1Q2Z1QUpLUGw4WDd6eE9XR1VpdFZSZFZCQ0JIRER6SjRScHc3MlRjUW5DS21yempqYmlrV244TEpzYi1hVlJYLUUxbXM1U2JPRFl3aEVlNjVuWmV2WU9vN2JjczlBY2UtamtIcVZwMWoxbG1wUUxCaTdXaVhsdGpUZ1ZpU1dtQmFWZ256aXNoakJLRlhJMnFFQlBJa3BYSHNCdkpqVzhGRFcyY1MtamdTeVRZVWxDNmZITGlUTllQRG9jY0tsZXkwcWJqZ20yN295cHcwMUh6MGd5cHAyci1OUEFuOTQ4Sm9FLXVISWxqaHBpdE41N1NnNzgycUZnSTFSVUEzNEFsZ05GTGtFTURLMF9RRjJKM0pZTGxXRUdVWkVvTUhNeHNwc21HZE1nSjdkYXJDTzdGWER0V3h1c1psYW1SR3N6OTktQmFKQ0ZsZHBtd3VCekRiNzJMRFZHUQ?oc=5",
-        "observedAt": "2026-11-04T21:27:00+08:00",
+        "source": "三立新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fbHB0TmpwSF9Ha2dSMFE4OEk1UW14VlpnYzVXYnhMYWFuU0VJZnpyME5NTF9hYmZZVW1zeWZUYlhVZmZ2LURpcU5WMmTSAUxBVV95cUxOX2xwdE5qcEhfR2tnUjBRODhJNVFteFZaZ2M1V2J4TGFhblNFSWZ6cjBOTUxfYWJmWVVtc3lmVGJYVWZmdi1EaXFOVjJk?oc=5",
+        "observedAt": "2026-11-04T21:22:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
