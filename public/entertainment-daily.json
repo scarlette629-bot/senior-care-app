@@ -4793,33 +4793,55 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-04T09:44:24+08:00",
-    "updatedAt": "2026-11-04T09:44:24+08:00",
-    "lastSuccessfulAt": "2026-11-04T09:44:24+08:00",
+    "checkedAt": "2026-11-04T14:32:29+08:00",
+    "updatedAt": "2026-11-04T14:32:29+08:00",
+    "lastSuccessfulAt": "2026-11-04T14:32:29+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-04T09:44:24+08:00",
+        "checkedAt": "2026-11-04T14:32:29+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-04T09:44:24+08:00",
+        "checkedAt": "2026-11-04T14:32:29+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-04T09:44:24+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-04T14:32:29+08:00",
+        "itemCount": 6
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-c87b6c1621d83b38",
+        "title": "MLB》昔日宿敵化身收視保證：A-Rod、Ortiz 與 Jeter 聯手打造大聯盟季後賽最強節目- MLB - 棒球 - 運動視界Sports Vision",
+        "type": "綜藝",
+        "source": "運動視界Sports Vision",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBHaGIxTjUyZ3pNVlpOckxjR1Fic3RWUTUzeTEzVVNmVFRoUVlrVm00ZGZlbFNDTVhFVzlvQk1wOXZrX204UEJIRDBwNnhYbWNk?oc=5",
+        "observedAt": "2026-11-04T13:08:36+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c3ce63846b325b83",
+        "title": "霍建華登小S節目飆3秒落淚演技！哭著跟她聊月經：不好聞但我喜歡 - NOWnews今日新聞",
+        "type": "綜藝",
+        "source": "NOWnews今日新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9zV3ZCUHZIVGE2X2E5ZllMUVBCdTQzNlhMQm1sdWNkZ0NyemdzRGxlNXFISDlFd0hsXzVzZ0prZldFTENEZFBwcllaaWnSAVJBVV95cUxPZ0llWXpNY1YtbWk3aG5DWTE5SVhkaXhVZTI2SlZyZ1RWd0pOTmh5UGJ6SHNpa1RvZ0tGVEtSakdDdXZpLWItaF9RamZjeXNzMHV3?oc=5",
+        "observedAt": "2026-11-04T11:32:05+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-07d22c9873f9fcd8",
         "title": "沈伯洋旋風螢幕發燒 登謝震武節目收視飆1.96 - 自由娛樂",
@@ -4855,11 +4877,22 @@
       },
       {
         "id": "weekly-20ae93ce1db4e056",
-        "title": "myTV SUPER全新「每日 TVB 熱播節目」專區登場 一鍵重溫跨頻道話題作 - 東張+ - myTV SUPER",
+        "title": "myTV SUPER全新「每日TVB 熱播節目」專區登場一鍵重溫跨頻道話題作- 東張+ - myTV SUPER",
         "type": "綜藝",
         "source": "myTV SUPER",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiuANBVV95cUxNZ0JpRVd2dTdGVTQ5djdZeHM5bXRlTEpWcUw0aE9ZVGN5cF9GWWFlUFVPQ3FneTlxYjRZajZBc1VZSXRYVW5GWFBTZHZvS2lWQmpSTlZkSFdIMzd0aElUWWhwbXpHZ3pRb3drUFVMQ24wckJBV1RCdXVUMnZUMTZJLTZRWHdaMUVHSkMzN19ILU1CbzNFXzhSVzFjSjBZRUp3OVJubWRHbDBRalRqY2N0QkJtY3daZHdvVlRqRzFWS0NJX3VlaFpRZFBEQ0VMOUFMaktycDlGQ1VHaTJHMXc3SFlTdWdCUEk2enhqN0V1R0lJaE93anFBTlJmRG43QXJUTFd5Tzh5VmRGSDdlUkVsbzNzQ2ExSG1qVFFUYXRBLWNtelg0WklzY2ZkRkxwc01ZNHVscFkyM0VDd1FsM19lbW1lamhaOGJIMjNBc0RFald5cjJVRUt6WnNKX3JIVTlGSl9VTTZsZVV6YzdVbWg2dWE0QnB4YmlKWm9sQUF2RjltWjJsM1B4VTJwSGFIaTQxb1lObWUwc21sUzNmNnA2RGo4T1pOcm5tcmJibUVEMVV6OWdrd1FlaA?oc=5",
         "observedAt": "2026-11-02T12:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ce64c0c94bb4661d",
+        "title": "好勝心好強 #女神配對計劃2 #陳星妤 #陳若思 #綜藝 #電視節目 #am730 - Facebook",
+        "type": "綜藝",
+        "source": "Facebook",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxObVZWTERVOU9rbXJDdmc1ekU2VEMwOUFPNm9fR1ZaNnV2N1ltMXVkbkF6QzJTMGtBdkhYQldwX3gyTzZKQ05SbmtaN244YVptS1FjMWpOTEhhZVZJc2Q5VWl2Y05YVWo0dzBHUWpQbnlILUZmTHM5TGk0SUUxMzJvcGFrVlFkUnlDa1pwNjNNX3VyQk5DNURrUUI5eUZrY1RZRFFTdDI4aFFoT3BFcFpsVXV4WVNLM0g0Rjl6RUxNa0x3TjVPcU95eV8tTDdDVHRDQ1hjV2pjTXRvOXFlUDc1UzBZUVp3TkFKSU5BaG1OS0pQMTJqcnZjMnBOdDBtaUI4QzFObnA3X25RbVB3SEhva2pLRWxhcTF3RWxscEVFcXFFSmM5c3ktWHZjdWxGYTRJVnRvTzZpbmRiZnJzb3JNd3FfZ25nbU1abUttYTJvRm1rdGdDZXBJTUJObkpFeVVLcHZEWnlnZTdHWmJMT1UtT29leDNHdGRSaHJZN0FKb3ZrbFNNdDJkLWlNQQ?oc=5",
+        "observedAt": "2026-11-02T10:57:42+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
