@@ -4658,27 +4658,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-05T19:01:31+08:00",
-    "updatedAt": "2026-11-05T19:01:31+08:00",
-    "lastSuccessfulAt": "2026-11-05T19:01:31+08:00",
+    "checkedAt": "2026-11-06T02:47:40+08:00",
+    "updatedAt": "2026-11-06T02:47:40+08:00",
+    "lastSuccessfulAt": "2026-11-06T02:47:40+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-05T19:01:31+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-11-06T02:47:40+08:00",
+        "itemCount": 2
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-05T19:01:31+08:00",
+        "checkedAt": "2026-11-06T02:47:40+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-05T19:01:31+08:00",
+        "checkedAt": "2026-11-06T02:47:40+08:00",
         "itemCount": 2
       }
     ],
@@ -4708,12 +4708,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-1f1ada14f821cdd4",
+        "title": "11月陸劇推薦！佘詩曼《新聞女王2》霸氣回歸，林一甜寵《折月亮》7部必追 - TVBS新聞網",
+        "type": "陸劇",
+        "source": "TVBS新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOS1NN3RiX1Y3ekhxWGNGbjR3d2lJbXFsb3ZORGtHYnUzWUJ5UzM1WHo1VWFHSGNUcFRadlAtZW5kOG9iQWdLaWlyWHFLdHhRcVU2TXg1RTFCd0VPQkF5eFh3?oc=5",
+        "observedAt": "2026-11-02T17:38:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-70afc6f586f67648",
         "title": "2026陸劇推薦50+片單！田曦薇《嫁金釵》、孟子義《尚公主》必看，播出平台與劇情整理 - ELLE",
         "type": "陸劇",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "observedAt": "2026-11-03T16:00:00+08:00",
+        "observedAt": "2026-11-02T16:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
