@@ -4711,27 +4711,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-05T09:52:12+08:00",
-    "updatedAt": "2026-11-05T09:52:12+08:00",
-    "lastSuccessfulAt": "2026-11-05T09:52:12+08:00",
+    "checkedAt": "2026-11-05T10:30:15+08:00",
+    "updatedAt": "2026-11-05T10:30:15+08:00",
+    "lastSuccessfulAt": "2026-11-05T10:30:15+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-05T09:52:12+08:00",
+        "checkedAt": "2026-11-05T10:30:15+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-05T09:52:12+08:00",
+        "checkedAt": "2026-11-05T10:30:15+08:00",
         "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-05T09:52:12+08:00",
+        "checkedAt": "2026-11-05T10:30:15+08:00",
         "itemCount": 2
       }
     ],
@@ -4766,7 +4766,7 @@
         "type": "陸劇",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "observedAt": "2026-11-02T16:00:00+08:00",
+        "observedAt": "2026-11-03T16:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
