@@ -3167,12 +3167,12 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-11-05T18:43:23+08:00",
-  "cpblAsOfDate": "2026-11-05",
-  "cpblLastSuccessAt": "2026-11-05T18:43:23+08:00",
+  "cpblLastAttemptAt": "2026-11-06T02:40:11+08:00",
+  "cpblAsOfDate": "2026-11-06",
+  "cpblLastSuccessAt": "2026-11-06T02:40:11+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-11-05T21:43:23+08:00",
+  "cpblValidUntil": "2026-11-06T05:40:11+08:00",
   "chinaDramaNewTitles": {
     "checkedAt": "2026-11-05T14:55+08:00",
     "items": [
