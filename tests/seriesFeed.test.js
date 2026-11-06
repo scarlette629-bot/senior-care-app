@@ -80,3 +80,19 @@ test('SBS translated official title replaces duplicate catalogue card only for K
  assert.equal(result.items.length,1);assert.equal(result.items[0].platform,'SBS');
  assert.equal(selectDailySeries(feed,'mine',['陸劇'],Date.parse('2026-10-28T12:00:00+08:00')).items.length,0);
 });
+
+test('latest daily list is capped at fifteen and excludes dubbed editions',()=>{
+ const now=Date.parse('2026-11-06T10:00:00+08:00');
+ const entries=Array.from({length:20},(_,i)=>({
+  id:'drama-'+i,title:'陸劇新作'+i,type:'陸劇',platform:'WeTV',description:'synopsis',
+  verified:true,releasePrecision:'year',catalogueYear:2026,
+  firstSeenAt:new Date(now-(20-i)*60000).toISOString()
+ }));
+ entries.push({...entries[0],id:'dubbed',title:'陸劇新作配音版',firstSeenAt:new Date(now).toISOString()});
+ const result=selectDailySeries({recommendations:entries},'陸劇',['陸劇'],now);
+ assert.equal(result.items.length,15);
+ assert.equal(result.all.length,20);
+ assert.ok(result.items.every(x=>!x.title.includes('配音版')));
+ assert.equal(result.items[0].title,'陸劇新作19');
+ assert.equal(result.items[14].title,'陸劇新作5');
+});
