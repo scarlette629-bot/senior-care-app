@@ -15,12 +15,12 @@ import xml.etree.ElementTree as ET
 
 TZ = dt.timezone(dt.timedelta(hours=8))
 KINDS = ('台劇', '韓劇', '陸劇', '日劇', '歐美劇', '綜藝')
-TITLE_KINDS = {'美人余': '陸劇', '美人餘': '陸劇', '小城良方': '陸劇', '尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇'}
+TITLE_KINDS = {'美人余': '陸劇', '美人餘': '陸劇', '小城良方': '陸劇', '尚公主': '陸劇', '嫁金釵': '陸劇', '嫁金钗': '陸劇', '谷雨': '陸劇', '穀雨': '陸劇', '折月亮': '陸劇'}
 
 
 def classify_candidates(items):
     # A mixed-title article or search category cannot override a known work.
-    return [{**item, 'type': TITLE_KINDS.get(item.get('title'), item.get('type'))} for item in items]
+    return [{**item, 'type': TITLE_KINDS.get(item.get('title'), item.get('type')), 'aliases': ['穀雨'] if item.get('title') == '谷雨' else item.get('aliases', [])} for item in items]
 CATALOGUES = ('https://www.netflix.com/tw/browse/genre/434295', 'https://www.netflix.com/tw/browse/genre/83')
 DISCOVERY = Path('public/series-discovery.json')
 MANGO_URL = 'https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1'
