@@ -52,7 +52,7 @@ def discover_china_drama_titles():
     import re
     seen={}
     cutoff=NOW-datetime.timedelta(days=30)
-    searches=["陸劇 新劇 開播 愛奇藝 騰訊 優酷 芒果TV","WeTV 陸劇 新劇 上架 when:30d","國產劇 今日開播 定檔 新劇","陸劇 2026 十月 新劇 追劇"]
+    searches=["陸劇 新劇 開播 愛奇藝 騰訊 優酷 芒果TV","WeTV 陸劇 新劇 上架 when:30d","國產劇 今日開播 定檔 新劇","陸劇 2026 十一月 新劇 追劇","十一月 陸劇 即將開播 定檔 when:30d"]
     for query in searches:
         try:
             if os.environ.get("WECARE_OFFLINE")=="1":raise RuntimeError("offline")
@@ -76,16 +76,34 @@ def discover_china_drama_titles():
                             "source":source or "近期公開新聞","sourceUrl":link,
                             "status":"新聞提及（尚未核實正式開播）"}
         except Exception as exc:print("China drama discovery:",exc)
-    return sorted(seen.values(),key=lambda x:x["publishedAt"],reverse=True)[:18]
+    return sorted(seen.values(),key=lambda x:x["publishedAt"],reverse=True)[:60]
 
-new_china_titles=discover_china_drama_titles()
+# Keep recent source-backed discoveries when a future RSS search omits them.
+# Treat simplified/traditional names as aliases, not separate shows.
+def retain_recent_china_titles(discovered, old_items):
+    aliases={"穀雨":"谷雨"}
+    cutoff=NOW-datetime.timedelta(days=30)
+    merged={}
+    for item in list(old_items)+list(discovered):
+        if not isinstance(item,dict) or not item.get("title"): continue
+        title=aliases.get(item["title"],item["title"])
+        try: published=datetime.datetime.fromisoformat(item["publishedAt"])
+        except (KeyError,TypeError,ValueError): continue
+        if published<cutoff or published>NOW: continue
+        entry={**item,"title":title}
+        if title=="谷雨": entry["aliases"]=["穀雨"]
+        if title not in merged or published>datetime.datetime.fromisoformat(merged[title]["publishedAt"]):
+            merged[title]=entry
+    return sorted(merged.values(),key=lambda x:x["publishedAt"],reverse=True)[:60]
+
+new_china_titles=retain_recent_china_titles(discover_china_drama_titles(),previous.get("chinaDramaNewTitles",{}).get("items",[]))
 out["chinaDramaNewTitles"]={"checkedAt":NOW.isoformat(timespec="minutes"),"items":new_china_titles,
     "lastSuccessfulAt":NOW.isoformat(timespec="minutes") if new_china_titles else previous.get("chinaDramaNewTitles",{}).get("lastSuccessfulAt"),
     "method":"最近30天新聞提及的劇名，待官方核實後才能視為已開播"}
 if not new_china_titles:
     saved=previous.get("chinaDramaNewTitles",{}).get("items",[])
     cutoff=(NOW-datetime.timedelta(days=30)).date().isoformat()
-    out["chinaDramaNewTitles"]["items"]=[x for x in saved if x.get("publishedAt","")[:10]>=cutoff][:18]
+    out["chinaDramaNewTitles"]["items"]=[x for x in saved if x.get("publishedAt","")[:10]>=cutoff][:60]
 
 # Preserve automatically verified titles across independent entertainment refreshes.
 from discover_series import merge as merge_series
