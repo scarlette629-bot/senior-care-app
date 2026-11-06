@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-06T10:39+08:00",
+  "updatedAt": "2026-11-06T14:54+08:00",
   "categories": {
     "陸劇": [
       {
@@ -132,16 +132,16 @@
     ],
     "日劇": [
       {
-        "title": "石原聰美新劇《政界怪盜》5大亮點！化身「女魯邦」專偷政治黑金，架空國家竟以狸貓為國獸？ - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0ZoeHVGODFERGFNV3JQWTVKRzNtOWkyNEVTMjEwOEx3aXNvTjlCRGhWUEdxNWtzaEhqWFZjVjZLWDJ4RkpnQzhQOHJDa0xNbG4yTUVsNURTNkt1QS1GbGRobm1tQXBpVHlnMmtLcmkxOEtjdE5ZUU53WTZfblpEc0xKNHNPbkJoWkV1YktBRQ?oc=5",
-        "published": "Fri, 30 Oct 2026 13:00:08 GMT",
-        "source": "ELLE"
-      },
-      {
         "title": "Netflix日劇《有人剛好提起我嗎？》好看在哪？役所廣司× 宮藤官九郎打造話題喜劇，齊聚豪華卡司演繹笑中帶淚物語 - La Vie | 設計美學",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRLTBua2tEX2VXc3JIZTdweDR0ZWJ4eXcwaEZjdWtBdUpWNlEyZlRUMHo3a1NvdTN0NGVVSHd6N1AyVEVyVVJtVUVKSlA4c1lueFNrUA?oc=5",
         "published": "Wed, 28 Oct 2026 10:54:12 GMT",
         "source": "La Vie | 設計美學"
+      },
+      {
+        "title": "石原聰美新劇《政界怪盜》5大亮點！化身「女魯邦」專偷政治黑金，架空國家竟以狸貓為國獸？ - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0ZoeHVGODFERGFNV3JQWTVKRzNtOWkyNEVTMjEwOEx3aXNvTjlCRGhWUEdxNWtzaEhqWFZjVjZLWDJ4RkpnQzhQOHJDa0xNbG4yTUVsNURTNkt1QS1GbGRobm1tQXBpVHlnMmtLcmkxOEtjdE5ZUU53WTZfblpEc0xKNHNPbkJoWkV1YktBRQ?oc=5",
+        "published": "Fri, 30 Oct 2026 13:00:08 GMT",
+        "source": "ELLE"
       },
       {
         "title": "從《池袋西口公園》到Netflix新劇《有人剛好提起我嗎？》：宮藤官九郎如何成為日本最有趣的鬼才編劇？ - VERSE雜誌",
@@ -3313,8 +3313,15 @@
   "cpblDataMode": "official",
   "cpblValidUntil": "2026-11-06T17:24:29+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-06T10:39+08:00",
+    "checkedAt": "2026-11-06T14:54+08:00",
     "items": [
+      {
+        "title": "信號2",
+        "publishedAt": "2026-11-06T13:50+08:00",
+        "source": "鏡報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MZjNhTUlja3F3dlRvOWVzNEEwU3hlbUNkZW5IYmlTSlFCSnE3YUdQX0RBa0laOUdFc1RXZkZXSm51VEtPOVlRbzBQUzlVUHJFY1E?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
       {
         "title": "今天是太陽雨",
         "publishedAt": "2026-11-05T20:54+08:00",
@@ -3417,13 +3424,6 @@
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
-        "title": "信號2",
-        "publishedAt": "2026-10-25T15:00+08:00",
-        "source": "鏡報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iREpoNkhFSE1fbDJodmZsOWlPUXF1RFpZN1BldVVqRjNabnowNENLank1MlZZVDZRa2pMVk5BZ21hVnBvU191dHZIUDVHLWtiN2c?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
         "title": "逐玉",
         "publishedAt": "2026-10-22T15:00+08:00",
         "source": "udn 女子漾",
@@ -3452,7 +3452,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-06T10:39+08:00",
+    "lastSuccessfulAt": "2026-11-06T14:54+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -4989,7 +4989,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "updatedAt": "2026-11-06T10:39+08:00",
+    "updatedAt": "2026-11-06T14:54+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": [
