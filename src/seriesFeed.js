@@ -4,21 +4,25 @@ export function freshSeries(item, now=Date.now()) {
   const verified=Date.parse(item.verifiedAt);
   return Number.isFinite(verified)&&verified<=now&&now-verified<=7*86400000;
 }
+export function isDubbedEdition(item) {
+  // Alternate dubbed editions should not consume a slot in the daily list.
+  return /配音版|國語配音|中文配音|普通話配音|dubbed/i.test(String(item?.title||''));
+}
 export function selectDailySeries(feed, filter='mine', interests=[], now=Date.now()) {
-  const eligible=(feed?.recommendations||[]).filter(x=>interests.includes(x?.type)&&x?.verified===true&&x.title&&x.platform&&x.description&&freshSeries(x,now)&&dailySeriesEligible(x,now));
+  const eligible=(feed?.recommendations||[]).filter(x=>interests.includes(x?.type)&&x?.verified===true&&x.title&&!isDubbedEdition(x)&&x.platform&&x.description&&freshSeries(x,now)&&dailySeriesEligible(x,now));
   const unique=new Map();
   for(const item of eligible){const key=item.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();if(!unique.has(key)||item.platform==='SBS')unique.set(key,item);}
   const all=[...unique.values()];
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
-  const items=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
+  const items=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||''))).slice(0,15);
   const candidateMap=new Map();
   const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
   typeByTitle.set('尚公主','陸劇');
   typeByTitle.set('小城良方','陸劇');
   typeByTitle.set('嫁金釵','陸劇');
   for(const raw of [...(feed?.seriesDiscovery?.candidates||[]),...(feed?.chinaDramaNewTitles?.items||[])]){
-    if(!raw?.title)continue;
+    if(!raw?.title||isDubbedEdition(raw))continue;
     const x={...raw,type:typeByTitle.get(raw.title)||raw.type||'陸劇'};
     const key=x.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();
     const age=now-Date.parse(x.publishedAt);
