@@ -28,6 +28,15 @@ jobs:
           feed=data.get("chinaDramaNewTitles")
           assert isinstance(feed,dict) and isinstance(feed.get("items"),list), "China drama feed not created"
           assert feed.get("checkedAt"), "Missing refresh time"
+          assert all(isinstance(x.get("title"),str) and x.get("sourceUrl","").startswith("https://") for x in feed["items"]), "Invalid drama source"
+          import sys
+          sys.path.insert(0, "scripts")
+          from discover_series import classify_candidates
+          examples=classify_candidates([{"title":"谷雨","type":"台劇"},{"title":"折月亮","type":"台劇"}])
+          assert all(x["type"]=="陸劇" for x in examples), "Known mainland shows misclassified"
+          titles={x["title"] for x in feed["items"]}
+          assert len(titles)==len(feed["items"]), "Duplicate mainland drama names"
+          print("Known-title classification tests passed")
           print("China drama feed generated; titles:",len(feed["items"]))
           PY
       - name: Publish updated drama feed with concurrent-write retries
