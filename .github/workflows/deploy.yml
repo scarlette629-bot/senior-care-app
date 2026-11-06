@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Daily China drama title discovery rollout from develop/v1.06 (v1.05 untouched).
+# v1.06 daily list: latest 15 works, no dubbed editions, hide redundant WeTV disclaimer; v1.05 untouched.
 on:
   push:
     branches: [main]
