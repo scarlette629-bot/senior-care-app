@@ -4902,27 +4902,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-06T23:57:36+08:00",
-    "updatedAt": "2026-11-06T23:57:36+08:00",
-    "lastSuccessfulAt": "2026-11-06T23:57:36+08:00",
+    "checkedAt": "2026-11-07T05:32:50+08:00",
+    "updatedAt": "2026-11-07T05:32:50+08:00",
+    "lastSuccessfulAt": "2026-11-07T05:32:50+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-06T23:57:36+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-07T05:32:50+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-06T23:57:36+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-07T05:32:50+08:00",
+        "itemCount": 3
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-06T23:57:36+08:00",
+        "checkedAt": "2026-11-07T05:32:50+08:00",
         "itemCount": 2
       }
     ],
@@ -4930,12 +4930,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-7c37046eaad279bf",
-        "title": "台灣大雙11追劇、遊戲優惠齊發！Netflix影音雙享組月付399元起 - 三立新聞網SETN.com",
+        "id": "weekly-ae2675dcb5534942",
+        "title": "《Doctor X》、《新手上路》輸了！Netflix台灣11月最新收視排行榜出爐， 冠軍點開就停不下來 - 風傳媒",
         "type": "台劇",
-        "source": "三立新聞網SETN.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE80aFRjT3lxZmtXLUVKeEpIbVdmc1hPVmplOWo5V2VHczhKVERpX0otNHcxQmsxcHYwRGdEd0RrUlFnYXk1RmNGQ9IBTEFVX3lxTE9FVXVNUmxyM2lXelJsZWxhbU9HOHZVbFF5cGZNTUxQS1pHdTJfczdWVkFjRGE3SXBqQmw1MGwxeHZYQ09NQkRJUXVXdC0?oc=5",
-        "observedAt": "2026-11-06T18:03:00+08:00",
+        "source": "風傳媒",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zOGRLTzVBQlJMLXk1bzlBb3lvVWlrdHQ1dUIyWmlmUmZxZGRLTENSWEJJcEVvdWp2VVhCS0t3ZUZuZWlIRUF3TmpsZ3hpc2xa?oc=5",
+        "observedAt": "2026-11-05T15:33:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4953,7 +4953,7 @@
       },
       {
         "id": "weekly-68cb935ca4b287b3",
-        "title": "2026必追台劇TOP10+！霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
+        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
         "type": "台劇",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
@@ -4974,23 +4974,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-70afc6f586f67648",
-        "title": "2026陸劇推薦50+片單！田曦薇《嫁金釵》、孟子義《尚公主》必看，播出平台與劇情整理 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "observedAt": "2026-11-03T16:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-1f1ada14f821cdd4",
         "title": "11月陸劇推薦！佘詩曼《新聞女王2》霸氣回歸，林一甜寵《折月亮》7部必追 - TVBS新聞網",
         "type": "陸劇",
         "source": "TVBS新聞網",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOS1NN3RiX1Y3ekhxWGNGbjR3d2lJbXFsb3ZORGtHYnUzWUJ5UzM1WHo1VWFHSGNUcFRadlAtZW5kOG9iQWdLaWlyWHFLdHhRcVU2TXg1RTFCd0VPQkF5eFh3?oc=5",
         "observedAt": "2026-11-02T17:38:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c15844431477d25d",
+        "title": "Netflix 11月追劇片單！霍建華睽違20年回歸台劇《急診室的奇蹟》、孫錫求&永山瑛太雙男神首度合作 - Marie Claire 美麗佳人",
+        "type": "台劇",
+        "source": "Marie Claire 美麗佳人",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93VnlDTHdxT2VEdl9FUWJ2QUViWGd2YTI1ZXRVSlFYUENHNWpoQlpkaWwxYzV4SXhOYlVxcS1CRGlTN0dYTGVoTUdsZ2ZPZHViUFNQenJxQkh4LWJkdGtwd2tTWTFOUEEw?oc=5",
+        "observedAt": "2026-11-02T14:29:29+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
