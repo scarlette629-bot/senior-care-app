@@ -4858,33 +4858,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-07T16:51:14+08:00",
-    "updatedAt": "2026-11-07T16:51:14+08:00",
-    "lastSuccessfulAt": "2026-11-07T16:51:14+08:00",
+    "checkedAt": "2026-11-07T23:42:09+08:00",
+    "updatedAt": "2026-11-07T23:42:09+08:00",
+    "lastSuccessfulAt": "2026-11-07T23:42:09+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-07T16:51:14+08:00",
+        "checkedAt": "2026-11-07T23:42:09+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-07T16:51:14+08:00",
+        "checkedAt": "2026-11-07T23:42:09+08:00",
         "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-07T16:51:14+08:00",
-        "itemCount": 6
+        "checkedAt": "2026-11-07T23:42:09+08:00",
+        "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-4be922760d17861c",
+        "title": "綜藝《後會友期》帶火甘肅懸崖民宿 諮詢量暴增九倍 - 澳洲看新闻",
+        "type": "綜藝",
+        "source": "澳洲看新闻",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdkZLenE4bkJjY0xpVDc1NmlkeHFRVVN4YWdONjBLMmNwY0RKdzhRMHJlVnFCVDFfQWZPSW5OakdQb2NVNTkwSUhmOWRXa2JXLVNadE9tUENHZ1RKQk9fNUE3STU2X043Y0c0X3ZUeWw4RF9PU1c3QTFzbXRIUmZmbTB6M0NrNHFIVl9oaFhDaGduZ0hUZ3llSmlQWU9lR0NfN0R6R29OZUMzaF9iSVRoM1BNM3oyNFMyRFZ5eFRYMDFlNG9XZFFtNXpfekNYUDZlN3pSNmtoVzhzbjlfb2NIMk1NVm9ZeWgxc0Z3T0hSdF9sLXBwN3RaeHFubkJfNWpvNGZiajc1OEpsdHphRzVwS0VkSHJXal91WDdXRlFRYklyN3F5b29NUTRhTmxWbThVUmtpc0RGQVBiZEZxckg3TUpUUQ?oc=5",
+        "observedAt": "2026-11-07T17:27:16+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-b0fdadb2f5924571",
         "title": "阿妹終於上班了！台劇《藍調》預告驚喜聽見張惠妹　網激動朝聖 - ETtoday星光雲",
@@ -4892,6 +4903,17 @@
         "source": "ETtoday星光雲",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02N3l2M3A3d2JxSnBvN3pkTDRlb09qSzA3SjVOY0NEckEyQmphS2lNUlUwUEJ1QTNpeWprcVRfRnNxM2tPaUtYckllbUkzd9IBTEFVX3lxTFB5UkVIWldkLWlzUFNNd1lVV3pYbi1PRE9vbXZ1WV9remNORnJoYVlXWUUyYkRTUlVxUjVzSUNvQkZid3diTTREUVlZX2Y?oc=5",
         "observedAt": "2026-11-07T13:48:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c330a270c2f9d3c0",
+        "title": "【內地熱播】一檔綜藝帶起一隻股！《後會友期》收視登頂帶挈母企全周大漲56% - 香港經濟日報HKET",
+        "type": "綜藝",
+        "source": "香港經濟日報HKET",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxObDZnUjlIRmRqRXZlMU02VTRFcDJjZ1lEWmw3YlVZN0w0aF9jWjJnazlPRWt2cWNHSUo3X25NNFo0MVgyX2NPWTBqTGlvQXdZTjhpeV9KWXBfOW5Mci04TzR5dzloTVo4bXlTNGxSVFR5THJEOU1HWnY0eUhmU3N0T2hQQnRWQnp2b2ZCc0piVS1IdVd5aU54TmQtdHVXUnJmNUJ0U2JvbnYyb2RaQnJNMzU3Qkw2RU5MR0RDaVpiSzZwOWhzclhWeWVIbDdRWE9ueTFtQ0Z2ZDBCVUtVQVR0LU5YclFWSnh2djI2Q1ZnT3JiTmN0aWtMNmUzVTNzY1RRYXpTTTBFY1owZVhSN1c0d0VVV1VrVHY5aUZqMzFnY0lkUFBkYXNQVW1pWnpnUGk2dUs0SUJ0VUFGTnkzSjNud1N3VGp0ZldPSDZZTW45RjlRX1NNQzhNVEJ0eDVGYW0yUG9hNFdoUGdEZXZ6ekIwTXA3ZnNjZk1jdXcyLTZxYmpFa1R1QmI0OXdyOEFmQzA5OVhsSWo1QWpGS2pZMWxLb2txYWNkN2FOUHc0SmN3a1FsSGJEYWJnVGtNMERKbDFwNVBkODAyOTl3bjVvZ0F6cW82VGVnMHk1SXplZ0NURDNBSDV2djFVQ3JOZGU?oc=5",
+        "observedAt": "2026-11-07T09:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4941,11 +4963,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-fab5f73972448afc",
-        "title": "沈伯洋登綜藝破圈！幕僚揭洋流成形內幕 - 鏡週刊Mirror Media",
+        "id": "weekly-53e995decef44363",
+        "title": "沈伯洋登綜藝隔空告白妻女！名嘴酸蔣萬安開盲盒　幕僚揭破圈關鍵 - 三立新聞網SETN.com",
         "type": "綜藝",
-        "source": "鏡週刊Mirror Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ta3VrV1dhYzRRZmpWZ0gzTmhMZEVndWdraXdqNDVmV095ZzUtZDNFRHdEMWNrTjZjclp2OHM3dURXMWVoMHI2U243WF93Q0pqXzctYWJJTU80aElWX0pPNTRR0gFiQVVfeXFMTW1rdWtXV2FjNFFmalZnSDNOaExkRWd1Z2tpd2o0NWZXT3lnNS1kM0VEd0QxY2tONmNyWnY4czd1RFcxZWgwcjZTbjdYX3dDSmpfNy1hYklNTzRoSVZfSk81NFE?oc=5",
+        "source": "三立新聞網SETN.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5GR1REMHNvSk1ZWWRrZ2R1eE0xeUhrZm03MzItSDNwUVREaXo1SXJ1ODQ3NWxRWTR4Y29aV2hHVWRyMFIxclgxZtIBTEFVX3lxTE5fbHB0TmpwSF9Ha2dSMFE4OEk1UW14VlpnYzVXYnhMYWFuU0VJZnpyME5NTF9hYmZZVW1zeWZUYlhVZmZ2LURpcU5WMmQ?oc=5",
         "observedAt": "2026-11-04T21:22:00+08:00",
         "isWeiboMention": false,
         "verified": false,
