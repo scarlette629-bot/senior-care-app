@@ -4858,27 +4858,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-07T23:42:09+08:00",
-    "updatedAt": "2026-11-07T23:42:09+08:00",
-    "lastSuccessfulAt": "2026-11-07T23:42:09+08:00",
+    "checkedAt": "2026-11-08T04:15:48+08:00",
+    "updatedAt": "2026-11-08T04:15:48+08:00",
+    "lastSuccessfulAt": "2026-11-08T04:15:48+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-07T23:42:09+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-11-08T04:15:48+08:00",
+        "itemCount": 2
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-07T23:42:09+08:00",
+        "checkedAt": "2026-11-08T04:15:48+08:00",
         "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-07T23:42:09+08:00",
+        "checkedAt": "2026-11-08T04:15:48+08:00",
         "itemCount": 8
       }
     ],
@@ -4891,7 +4891,7 @@
         "type": "綜藝",
         "source": "澳洲看新闻",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdkZLenE4bkJjY0xpVDc1NmlkeHFRVVN4YWdONjBLMmNwY0RKdzhRMHJlVnFCVDFfQWZPSW5OakdQb2NVNTkwSUhmOWRXa2JXLVNadE9tUENHZ1RKQk9fNUE3STU2X043Y0c0X3ZUeWw4RF9PU1c3QTFzbXRIUmZmbTB6M0NrNHFIVl9oaFhDaGduZ0hUZ3llSmlQWU9lR0NfN0R6R29OZUMzaF9iSVRoM1BNM3oyNFMyRFZ5eFRYMDFlNG9XZFFtNXpfekNYUDZlN3pSNmtoVzhzbjlfb2NIMk1NVm9ZeWgxc0Z3T0hSdF9sLXBwN3RaeHFubkJfNWpvNGZiajc1OEpsdHphRzVwS0VkSHJXal91WDdXRlFRYklyN3F5b29NUTRhTmxWbThVUmtpc0RGQVBiZEZxckg3TUpUUQ?oc=5",
-        "observedAt": "2026-11-07T17:27:16+08:00",
+        "observedAt": "2026-11-08T00:45:52+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4930,6 +4930,28 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-bf795b19b79843b4",
+        "title": "田曦薇《嫁金釵》不是第一 ！十月份人氣陸劇排行榜公開，《蘭香如故》評價高，這部愛情劇意外成黑馬？ - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORWxYOHNhNVFUaE5uWmp5eHVCS19zWFRIbTRBV1FpUWpwUFIyV3hIdzRWSERWczVpWVQyam5TN1JpdnJKVEY5bS1ncUFOVnZ6aDVXRmJ1OTFrM0ZtclpVdGlBcEdIUFpjUjdTbVc3MDc0YXFpbWhjRHMyZWkxTkpTWE91bnlwRzZY?oc=5",
+        "observedAt": "2026-11-06T16:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-70afc6f586f67648",
+        "title": "2026陸劇推薦60部必追片單！田曦薇《嫁金釵》、井柏然《谷雨》必看，播出平台與劇情整理 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
+        "observedAt": "2026-11-06T16:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-01563bb18481c402",
         "title": "綜藝大哥節目遭嗆不忍了 徐乃麟錄影中突喊：明天要開記者會！ - Yahoo新聞",
         "type": "綜藝",
@@ -4947,6 +4969,17 @@
         "source": "PChome Online 新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMi0zUVRGUE1wa0RvX0NSZW1aZl8ydmRiZHpNV3JqeVA5Rng1WWF4eFUwalVoeUU1SFgwQ2lncWFBUlZLdGVRSEhpZzNsd0s4VnJLZ1l2TFc5QWtrY1MyVjNoWWI1Sjdnd1ZSSFdtcmdodUlGRmdkSVhhVjhzNDVVM2xNTFo4LXd1N0FVcmk5Yl9TQWM?oc=5",
         "observedAt": "2026-11-05T22:42:01+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-b4835cc3e4e9e635",
+        "title": "檸檬被封大膽王！主持《綜藝新時代》認了「容易發脾氣」 高壓內幕曝光 - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPZ0NPV3FHNThSM1RacllxNWhSNk5PVU9BN2tMRXJ6VkI2Nzh4b2M4b1p1a2JkZXljVDdXRk1OMm1HZHFHMjNqRXRUM0FjakZObVQ4cXpqRGs0N0hFamRKd0tmaF90Z3N4eGw2WEVRU01HTW5KMng3WHl2dk9oUmljdHhjekVJVDZhcUd3WDhpaWhURlhMN3VRZG95SjZrWTlvT3VRSGtPX1BSdklVcjBDWDZza2NhT2p1dnhrdVBxNzZkTzc5bFJWOHlKSVl0cUlSQjdTYkNlc3Q0T19LNW5uemx1MU5wNE9nSHZreTZJSXNrSUlBVEVQbC10TkpMRlB2dWxzSHBfMjRoYlpiR1o4LU40WFkwV3lkTDNOam1yMnRJbWM1cjM1WFZBLWMxY28weDhPOTJQbEtnQl9YY1FVRW40ajhTTXRDX3RETG0xdlZVY3ZW?oc=5",
+        "observedAt": "2026-11-05T19:23:44+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4996,34 +5029,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-1f1ada14f821cdd4",
-        "title": "11月陸劇推薦！佘詩曼《新聞女王2》霸氣回歸，林一甜寵《折月亮》7部必追 - TVBS新聞網",
-        "type": "陸劇",
-        "source": "TVBS新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOS1NN3RiX1Y3ekhxWGNGbjR3d2lJbXFsb3ZORGtHYnUzWUJ5UzM1WHo1VWFHSGNUcFRadlAtZW5kOG9iQWdLaWlyWHFLdHhRcVU2TXg1RTFCd0VPQkF5eFh3?oc=5",
-        "observedAt": "2026-11-02T17:38:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-c15844431477d25d",
         "title": "Netflix 11月追劇片單！霍建華睽違20年回歸台劇《急診室的奇蹟》、孫錫求&永山瑛太雙男神首度合作 - Marie Claire 美麗佳人",
         "type": "台劇",
         "source": "Marie Claire 美麗佳人",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93VnlDTHdxT2VEdl9FUWJ2QUViWGd2YTI1ZXRVSlFYUENHNWpoQlpkaWwxYzV4SXhOYlVxcS1CRGlTN0dYTGVoTUdsZ2ZPZHViUFNQenJxQkh4LWJkdGtwd2tTWTFOUEEw?oc=5",
         "observedAt": "2026-11-02T14:29:29+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-ce64c0c94bb4661d",
-        "title": "好勝心好強 #女神配對計劃2 #陳星妤 #陳若思 #綜藝 #電視節目 #am730 - Facebook",
-        "type": "綜藝",
-        "source": "Facebook",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxObVZWTERVOU9rbXJDdmc1ekU2VEMwOUFPNm9fR1ZaNnV2N1ltMXVkbkF6QzJTMGtBdkhYQldwX3gyTzZKQ05SbmtaN244YVptS1FjMWpOTEhhZVZJc2Q5VWl2Y05YVWo0dzBHUWpQbnlILUZmTHM5TGk0SUUxMzJvcGFrVlFkUnlDa1pwNjNNX3VyQk5DNURrUUI5eUZrY1RZRFFTdDI4aFFoT3BFcFpsVXV4WVNLM0g0Rjl6RUxNa0x3TjVPcU95eV8tTDdDVHRDQ1hjV2pjTXRvOXFlUDc1UzBZUVp3TkFKSU5BaG1OS0pQMTJqcnZjMnBOdDBtaUI4QzFObnA3X25RbVB3SEhva2pLRWxhcTF3RWxscEVFcXFFSmM5c3ktWHZjdWxGYTRJVnRvTzZpbmRiZnJzb3JNd3FfZ25nbU1abUttYTJvRm1rdGdDZXBJTUJObkpFeVVLcHZEWnlnZTdHWmJMT1UtT29leDNHdGRSaHJZN0FKb3ZrbFNNdDJkLWlNQQ?oc=5",
-        "observedAt": "2026-11-02T10:57:42+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
