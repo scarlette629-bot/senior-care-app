@@ -4797,33 +4797,77 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-07T09:57:56+08:00",
-    "updatedAt": "2026-11-07T09:57:56+08:00",
-    "lastSuccessfulAt": "2026-11-07T09:57:56+08:00",
+    "checkedAt": "2026-11-07T16:51:14+08:00",
+    "updatedAt": "2026-11-07T16:51:14+08:00",
+    "lastSuccessfulAt": "2026-11-07T16:51:14+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-07T09:57:56+08:00",
+        "checkedAt": "2026-11-07T16:51:14+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-07T09:57:56+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-07T16:51:14+08:00",
+        "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-07T09:57:56+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-07T16:51:14+08:00",
+        "itemCount": 6
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-b0fdadb2f5924571",
+        "title": "阿妹終於上班了！台劇《藍調》預告驚喜聽見張惠妹　網激動朝聖 - ETtoday星光雲",
+        "type": "台劇",
+        "source": "ETtoday星光雲",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02N3l2M3A3d2JxSnBvN3pkTDRlb09qSzA3SjVOY0NEckEyQmphS2lNUlUwUEJ1QTNpeWprcVRfRnNxM2tPaUtYckllbUkzd9IBTEFVX3lxTFB5UkVIWldkLWlzUFNNd1lVV3pYbi1PRE9vbXZ1WV9remNORnJoYVlXWUUyYkRTUlVxUjVzSUNvQkZid3diTTREUVlZX2Y?oc=5",
+        "observedAt": "2026-11-07T13:48:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-004bba9e90d21ade",
+        "title": "沈伯洋、蔣萬安上綜藝節目誰效果好？媒體人曝從「這1點」就看得出來！ - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMingNBVV95cUxObWxFSTQtcmE0QmNFQlZudVpnN3RQRGJ4b0w0YVBYcmxMV1JzLW1IYW9wT0J0ckJiQkN2X3pXSXREeTFiVVAxdldtaWNOLW9NTGQyU3RJOThQeEt1NWM3RVBQb2xzMXV4RmJwbV81c3A4R2g2cDJaQl96bFk4VFBCTTE0U21aTzU4aWxWdnl1eVMtaURlVHN1cFNQRTJIY0g0aHlBdkVWdEJtNnFmaHhSMFcwYkZUWmZWYUR3RjR4OWNiN0VOa3hTS0VjRi1EUWRHNEM3X2JvTDZvYTFtRTA1TEYydzlqVkVNUFc4T0ZXNEFxVzFicFdnOWY0UmZTN1ZjVFJLd2dBcExuZzctVGxUbWhEeGM5RkJjWlFiRFhYRkxIb3FneU5iZGdMZFYwRGxhSDBVeWFRSmFpZ0hfcVJnSlNPTmFpbllaS00waE85MTdESWZWcnJqQWNQZlItU0RZeVBacDQtZDBxX2lhS0toVWc2Um5aaFdDNkpqa2ZXMWVGTU10d2NJQnBidkdEaTVhWERYTUhwZkdtVkVkc1E?oc=5",
+        "observedAt": "2026-11-06T17:01:04+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-01563bb18481c402",
+        "title": "綜藝大哥節目遭嗆不忍了 徐乃麟錄影中突喊：明天要開記者會！ - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijgNBVV95cUxOdXBzTTNONVdxSGpxdkdiYmw3enk2eEp0cEtsWkNrMVpFMWlISW1rSUVnSjUyRTltTW9lclgwamN4ekVYcm9hc2FsUW9RV3pEN0lHeFl5aXlERm1rNjBuLW9Vd0Q3QUFyemJqei1PQ3hxbFJKNkYzWEIxYVJNMlVFR3F6WmRuWHo1UHA3ZWtCcHdSbVBleGlLY18xR0l3MGV4dENXRWtUSXJxQjhxajdCUFBSdmdfWjAzcXotZjZXVE53S0FwQ0VJbksxY0JlRlM4ZlJqUFVjNk5QZy1TeEpqSXNlS1JsLUdSdFItVzctRnk5NnJ5LTVHOHJ1QmRTR29vTUx6SEFKUkFpbUtUQkU0U3dtM0ZvZ0JEOU4wSlkzX29DMlJIdjM4VmhuOWtiWEQ0TXV6eGFiNy1UdjVnQk51YXhuRC1JaHNkMHFGZjItcDUwV3NXYUpYWjd5NFNEUHEyandiaXBtWGRyeVlWcmJNWXNxR29sMjNqaVdRbTRYNFNhQk5ZQ0F0M0tlcEU3dw?oc=5",
+        "observedAt": "2026-11-06T13:24:27+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-fb5108da7ba6ad27",
+        "title": "陳亞蘭率郭子乾莊凱勛挑戰戲班首部歌仔戲實境秀《女俠俱樂部》將登場- 娛樂新聞 - PChome Online 新聞",
+        "type": "綜藝",
+        "source": "PChome Online 新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMi0zUVRGUE1wa0RvX0NSZW1aZl8ydmRiZHpNV3JqeVA5Rng1WWF4eFUwalVoeUU1SFgwQ2lncWFBUlZLdGVRSEhpZzNsd0s4VnJLZ1l2TFc5QWtrY1MyVjNoWWI1Sjdnd1ZSSFdtcmdodUlGRmdkSVhhVjhzNDVVM2xNTFo4LXd1N0FVcmk5Yl9TQWM?oc=5",
+        "observedAt": "2026-11-05T22:42:01+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-ae2675dcb5534942",
         "title": "《Doctor X》、《新手上路》輸了！Netflix台灣11月最新收視排行榜出爐， 冠軍點開就停不下來 - 風傳媒",
@@ -4836,11 +4880,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-20d0607797740893",
-        "title": "沈伯洋登綜藝隔空告白妻女！名嘴酸蔣萬安開盲盒　幕僚揭破圈關鍵 - 三立新聞",
+        "id": "weekly-fab5f73972448afc",
+        "title": "沈伯洋登綜藝破圈！幕僚揭洋流成形內幕 - 鏡週刊Mirror Media",
         "type": "綜藝",
-        "source": "三立新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fbHB0TmpwSF9Ha2dSMFE4OEk1UW14VlpnYzVXYnhMYWFuU0VJZnpyME5NTF9hYmZZVW1zeWZUYlhVZmZ2LURpcU5WMmTSAUxBVV95cUxOX2xwdE5qcEhfR2tnUjBRODhJNVFteFZaZ2M1V2J4TGFhblNFSWZ6cjBOTUxfYWJmWVVtc3lmVGJYVWZmdi1EaXFOVjJk?oc=5",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ta3VrV1dhYzRRZmpWZ0gzTmhMZEVndWdraXdqNDVmV095ZzUtZDNFRHdEMWNrTjZjclp2OHM3dURXMWVoMHI2U243WF93Q0pqXzctYWJJTU80aElWX0pPNTRR0gFiQVVfeXFMTW1rdWtXV2FjNFFmalZnSDNOaExkRWd1Z2tpd2o0NWZXT3lnNS1kM0VEd0QxY2tONmNyWnY4czd1RFcxZWgwcjZTbjdYX3dDSmpfNy1hYklNTzRoSVZfSk81NFE?oc=5",
         "observedAt": "2026-11-04T21:22:00+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -4848,7 +4892,7 @@
       },
       {
         "id": "weekly-68cb935ca4b287b3",
-        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
+        "title": "2026必追台劇TOP10+！霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
         "type": "台劇",
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
@@ -4886,6 +4930,17 @@
         "source": "Marie Claire 美麗佳人",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93VnlDTHdxT2VEdl9FUWJ2QUViWGd2YTI1ZXRVSlFYUENHNWpoQlpkaWwxYzV4SXhOYlVxcS1CRGlTN0dYTGVoTUdsZ2ZPZHViUFNQenJxQkh4LWJkdGtwd2tTWTFOUEEw?oc=5",
         "observedAt": "2026-11-02T14:29:29+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ce64c0c94bb4661d",
+        "title": "好勝心好強 #女神配對計劃2 #陳星妤 #陳若思 #綜藝 #電視節目 #am730 - Facebook",
+        "type": "綜藝",
+        "source": "Facebook",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxObVZWTERVOU9rbXJDdmc1ekU2VEMwOUFPNm9fR1ZaNnV2N1ltMXVkbkF6QzJTMGtBdkhYQldwX3gyTzZKQ05SbmtaN244YVptS1FjMWpOTEhhZVZJc2Q5VWl2Y05YVWo0dzBHUWpQbnlILUZmTHM5TGk0SUUxMzJvcGFrVlFkUnlDa1pwNjNNX3VyQk5DNURrUUI5eUZrY1RZRFFTdDI4aFFoT3BFcFpsVXV4WVNLM0g0Rjl6RUxNa0x3TjVPcU95eV8tTDdDVHRDQ1hjV2pjTXRvOXFlUDc1UzBZUVp3TkFKSU5BaG1OS0pQMTJqcnZjMnBOdDBtaUI4QzFObnA3X25RbVB3SEhva2pLRWxhcTF3RWxscEVFcXFFSmM5c3ktWHZjdWxGYTRJVnRvTzZpbmRiZnJzb3JNd3FfZ25nbU1abUttYTJvRm1rdGdDZXBJTUJObkpFeVVLcHZEWnlnZTdHWmJMT1UtT29leDNHdGRSaHJZN0FKb3ZrbFNNdDJkLWlNQQ?oc=5",
+        "observedAt": "2026-11-02T10:57:42+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
