@@ -4858,27 +4858,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-08T04:15:48+08:00",
-    "updatedAt": "2026-11-08T04:15:48+08:00",
-    "lastSuccessfulAt": "2026-11-08T04:15:48+08:00",
+    "checkedAt": "2026-11-08T08:42:42+08:00",
+    "updatedAt": "2026-11-08T08:42:42+08:00",
+    "lastSuccessfulAt": "2026-11-08T08:42:42+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-08T04:15:48+08:00",
+        "checkedAt": "2026-11-08T08:42:42+08:00",
         "itemCount": 2
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-08T04:15:48+08:00",
+        "checkedAt": "2026-11-08T08:42:42+08:00",
         "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-08T04:15:48+08:00",
+        "checkedAt": "2026-11-08T08:42:42+08:00",
         "itemCount": 8
       }
     ],
@@ -4974,23 +4974,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-b4835cc3e4e9e635",
-        "title": "檸檬被封大膽王！主持《綜藝新時代》認了「容易發脾氣」 高壓內幕曝光 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPZ0NPV3FHNThSM1RacllxNWhSNk5PVU9BN2tMRXJ6VkI2Nzh4b2M4b1p1a2JkZXljVDdXRk1OMm1HZHFHMjNqRXRUM0FjakZObVQ4cXpqRGs0N0hFamRKd0tmaF90Z3N4eGw2WEVRU01HTW5KMng3WHl2dk9oUmljdHhjekVJVDZhcUd3WDhpaWhURlhMN3VRZG95SjZrWTlvT3VRSGtPX1BSdklVcjBDWDZza2NhT2p1dnhrdVBxNzZkTzc5bFJWOHlKSVl0cUlSQjdTYkNlc3Q0T19LNW5uemx1MU5wNE9nSHZreTZJSXNrSUlBVEVQbC10TkpMRlB2dWxzSHBfMjRoYlpiR1o4LU40WFkwV3lkTDNOam1yMnRJbWM1cjM1WFZBLWMxY28weDhPOTJQbEtnQl9YY1FVRW40ajhTTXRDX3RETG0xdlZVY3ZW?oc=5",
-        "observedAt": "2026-11-05T19:23:44+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-ae2675dcb5534942",
         "title": "《Doctor X》、《新手上路》輸了！Netflix台灣11月最新收視排行榜出爐， 冠軍點開就停不下來 - 風傳媒",
         "type": "台劇",
         "source": "風傳媒",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zOGRLTzVBQlJMLXk1bzlBb3lvVWlrdHQ1dUIyWmlmUmZxZGRLTENSWEJJcEVvdWp2VVhCS0t3ZUZuZWlIRUF3TmpsZ3hpc2xa?oc=5",
         "observedAt": "2026-11-05T15:33:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-455a8a3591b7e6fb",
+        "title": "陳亞蘭金鐘後再傳喜訊！全台首部歌仔戲實境秀《女俠俱樂部》率五星學徒插旗台視週日綜藝 - 鏡新聞",
+        "type": "綜藝",
+        "source": "鏡新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5QZHpfX0ptem1KcmVySVhpX3dBakxMSmV5c0xpUkdaSHQ0YmdwN091ancxMXBETm03NkFsSGU5N19RTmpteFQ1V2NQZXpGYjU3Q0NfczdzT0RVeTVjTkw3bk5n0gFnQVVfeXFMUDItQ21GZDRHSklRVFpldW1LdmtwNm1zb1A4dElnZ3JHQ2Izc0ttaG1yYVQ3VUxSZ1B4TWE5VDE2cnNzQXUtSlhXWXdVX20wQ203ZW1WamRCUWlkbW1jOW8tQmVWUkZTYw?oc=5",
+        "observedAt": "2026-11-05T12:20:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
