@@ -4776,33 +4776,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-02",
     "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-08T15:26:15+08:00",
-    "updatedAt": "2026-11-08T15:26:15+08:00",
-    "lastSuccessfulAt": "2026-11-08T15:26:15+08:00",
+    "checkedAt": "2026-11-08T23:18:16+08:00",
+    "updatedAt": "2026-11-08T23:18:16+08:00",
+    "lastSuccessfulAt": "2026-11-08T23:18:16+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-08T15:26:15+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-08T23:18:16+08:00",
+        "itemCount": 2
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-08T15:26:15+08:00",
-        "itemCount": 5
+        "checkedAt": "2026-11-08T23:18:16+08:00",
+        "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-08T15:26:15+08:00",
+        "checkedAt": "2026-11-08T23:18:16+08:00",
         "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-6ea013f45b0cf64f",
+        "title": "登劉在錫綜藝節目宣傳新劇 宋慧喬、孔劉鬥嘴笑翻眾人 - 壹電視",
+        "type": "綜藝",
+        "source": "壹電視",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd2N4TWZQc203ZkZrTWdSVWQ1WHVybmR5WTJNUjA3WTR1dTFKV2xlWjNiVl85OEdzdTFtbElEb3doQllUUjFyMWRmNFBadzVEU3FYOC1FR2Y5SXpsQVV6enl5QjFOWVZlZXJmaTFYQTNFejIwRTYzNWQ5UWVPVFY4cHBTcnlreG8?oc=5",
+        "observedAt": "2026-11-08T18:38:48+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-5c98c5e8725aa906",
         "title": "宋慧喬喊「我是前輩」壓制孔劉 上劉在錫綜藝爆料笑翻網 - Yahoo新聞",
@@ -4826,12 +4837,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-b0fdadb2f5924571",
-        "title": "阿妹終於上班了！台劇《藍調》預告驚喜聽見張惠妹　網激動朝聖 - ETtoday星光雲",
-        "type": "台劇",
-        "source": "ETtoday星光雲",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE02N3l2M3A3d2JxSnBvN3pkTDRlb09qSzA3SjVOY0NEckEyQmphS2lNUlUwUEJ1QTNpeWprcVRfRnNxM2tPaUtYckllbUkzd9IBTEFVX3lxTFB5UkVIWldkLWlzUFNNd1lVV3pYbi1PRE9vbXZ1WV9remNORnJoYVlXWUUyYkRTUlVxUjVzSUNvQkZid3diTTREUVlZX2Y?oc=5",
-        "observedAt": "2026-11-07T13:48:00+08:00",
+        "id": "weekly-4be922760d17861c",
+        "title": "綜藝《後會友期》帶火甘肅懸崖民宿 諮詢量暴增九倍 - 澳洲看新闻",
+        "type": "綜藝",
+        "source": "澳洲看新闻",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdkZLenE4bkJjY0xpVDc1NmlkeHFRVVN4YWdONjBLMmNwY0RKdzhRMHJlVnFCVDFfQWZPSW5OakdQb2NVNTkwSUhmOWRXa2JXLVNadE9tUENHZ1RKQk9fNUE3STU2X043Y0c0X3ZUeWw4RF9PU1c3QTFzbXRIUmZmbTB6M0NrNHFIVl9oaFhDaGduZ0hUZ3llSmlQWU9lR0NfN0R6R29OZUMzaF9iSVRoM1BNM3oyNFMyRFZ5eFRYMDFlNG9XZFFtNXpfekNYUDZlN3pSNmtoVzhzbjlfb2NIMk1NVm9ZeWgxc0Z3T0hSdF9sLXBwN3RaeHFubkJfNWpvNGZiajc1OEpsdHphRzVwS0VkSHJXal91WDdXRlFRYklyN3F5b29NUTRhTmxWbThVUmtpc0RGQVBiZEZxckg3TUpUUQ?oc=5",
+        "observedAt": "2026-11-08T00:45:52+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4854,17 +4865,6 @@
         "source": "Yahoo新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMingNBVV95cUxObWxFSTQtcmE0QmNFQlZudVpnN3RQRGJ4b0w0YVBYcmxMV1JzLW1IYW9wT0J0ckJiQkN2X3pXSXREeTFiVVAxdldtaWNOLW9NTGQyU3RJOThQeEt1NWM3RVBQb2xzMXV4RmJwbV81c3A4R2g2cDJaQl96bFk4VFBCTTE0U21aTzU4aWxWdnl1eVMtaURlVHN1cFNQRTJIY0g0aHlBdkVWdEJtNnFmaHhSMFcwYkZUWmZWYUR3RjR4OWNiN0VOa3hTS0VjRi1EUWRHNEM3X2JvTDZvYTFtRTA1TEYydzlqVkVNUFc4T0ZXNEFxVzFicFdnOWY0UmZTN1ZjVFJLd2dBcExuZzctVGxUbWhEeGM5RkJjWlFiRFhYRkxIb3FneU5iZGdMZFYwRGxhSDBVeWFRSmFpZ0hfcVJnSlNPTmFpbllaS00waE85MTdESWZWcnJqQWNQZlItU0RZeVBacDQtZDBxX2lhS0toVWc2Um5aaFdDNkpqa2ZXMWVGTU10d2NJQnBidkdEaTVhWERYTUhwZkdtVkVkc1E?oc=5",
         "observedAt": "2026-11-06T17:01:04+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-bf795b19b79843b4",
-        "title": "田曦薇《嫁金釵》不是第一 ！十月份人氣陸劇排行榜公開，《蘭香如故》評價高，這部愛情劇意外成黑馬？ - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORWxYOHNhNVFUaE5uWmp5eHVCS19zWFRIbTRBV1FpUWpwUFIyV3hIdzRWSERWczVpWVQyam5TN1JpdnJKVEY5bS1ncUFOVnZ6aDVXRmJ1OTFrM0ZtclpVdGlBcEdIUFpjUjdTbVc3MDc0YXFpbWhjRHMyZWkxTkpTWE91bnlwRzZY?oc=5",
-        "observedAt": "2026-11-06T16:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4925,34 +4925,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-f6091af7a4a534ad",
-        "title": "綜藝新敘事，做IP玩線下搞帶貨 - Moomoo",
-        "type": "綜藝",
-        "source": "Moomoo",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5M3BGRkRBT0tOU3U1LVNaVFFLUjBmRTQtOEJKMEFKOXFrcU9xc0tMeEh6SmoyZEhJcmNMZFhFZ2ZHYnJickczS2tJal8yVG9EMkdLOTJBRjhHMnFE?oc=5",
-        "observedAt": "2026-11-04T02:50:38+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-fa5d6c321ef6a7c9",
         "title": "洋流慧聚！明與沈伯洋上時尚美妝綜藝 蘇巧慧：期待特別橋段 - 自由時報",
         "type": "綜藝",
         "source": "自由時報",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sVnZocHB3TjNCZkpJMl9TR0ZhSGp6c2FyNm50R0JPbWc5ekcwazdKR180ZXVLMmJPeUphY2I1UU1MczNwenZiaTFfdVBsdVVackhGX3V4X2Vwa0lDdUZVYkRkbUYyZTNyMEHSAW9BVV95cUxNRnkyR2hkM2txdHRqMGZNU2hPeWMtd3k3UUZRSl90WkVPRmZoWkRhSnQ3eW9rT0dOd1h3SmVUaVNJMExwLW1zbXlTemJGTmxYNnlBOUh4Q3ZkX2tqSEFyaGpDN3g0UHczTzcxTlhRUFk?oc=5",
         "observedAt": "2026-11-03T17:34:59+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-2d747f02a86b0937",
-        "title": "沈伯洋首登綜藝！沈玉琳拱他談婚姻 機智神回「一句話」笑翻全場 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihANBVV95cUxQdGk3WnB0Z3E2bzBJdEM4MGZjbWhrSkZwQ0xpOTNrdEJfaERDWU50OWxKLUVZVE13VUFkRXdtYmhOVUpfbFJuQTh2bDZ2dG55MTdfa3ZKZE5uLUJCcE12b1U0QW5UU2cteHVDbHJBRm8wY0J6YmNCSFFZckhjMGRncEYtZTVyRGxUbS0wUm5nZllUYkRMR0V5Ny1jUjlPRUpsNkdWYlF6cHd1U0JUeG51blV3cW4tQ0w2SVY3NkQxalZINEpnMG1EQmUzYXpVZUxMSV8xdlJhcVR4Q25JaWE2N24wckZHMGxXQ1pmOXhDRWoyMFRRU0wzUVhNNktfWklILUt1Z2tMTXZLeVRqS1hXeDZHZU9CakZQMkZOYV9XdDBtbVVGYlRZWlVXbXdKa3o2MHBhOC0yYy1abWVqUm1GU2ZjcG5uUVFPV2JENXVKVFJyZHE2Rm1HcEVJWDJoaW1Gd0dYVHJlWUxwRUN2d0M0MFFMSjYtaDhXcmhDMEp3U2xKVksz?oc=5",
-        "observedAt": "2026-11-03T15:26:39+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
