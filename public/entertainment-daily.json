@@ -4774,190 +4774,35 @@
     }
   ],
   "weeklyHot": {
-    "weekStart": "2026-11-02",
-    "weekEnd": "2026-11-08",
-    "checkedAt": "2026-11-08T23:18:16+08:00",
-    "updatedAt": "2026-11-08T23:18:16+08:00",
-    "lastSuccessfulAt": "2026-11-08T23:18:16+08:00",
+    "weekStart": "2026-11-09",
+    "weekEnd": "2026-11-15",
+    "checkedAt": "2026-11-09T04:31:30+08:00",
+    "updatedAt": "2026-11-09T04:31:30+08:00",
+    "lastSuccessfulAt": "2026-11-09T04:31:30+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-08T23:18:16+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-09T04:31:30+08:00",
+        "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-08T23:18:16+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-11-09T04:31:30+08:00",
+        "itemCount": 0
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-08T23:18:16+08:00",
-        "itemCount": 8
+        "checkedAt": "2026-11-09T04:31:30+08:00",
+        "itemCount": 0
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
-    "items": [
-      {
-        "id": "weekly-6ea013f45b0cf64f",
-        "title": "登劉在錫綜藝節目宣傳新劇 宋慧喬、孔劉鬥嘴笑翻眾人 - 壹電視",
-        "type": "綜藝",
-        "source": "壹電視",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd2N4TWZQc203ZkZrTWdSVWQ1WHVybmR5WTJNUjA3WTR1dTFKV2xlWjNiVl85OEdzdTFtbElEb3doQllUUjFyMWRmNFBadzVEU3FYOC1FR2Y5SXpsQVV6enl5QjFOWVZlZXJmaTFYQTNFejIwRTYzNWQ5UWVPVFY4cHBTcnlreG8?oc=5",
-        "observedAt": "2026-11-08T18:38:48+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-5c98c5e8725aa906",
-        "title": "宋慧喬喊「我是前輩」壓制孔劉 上劉在錫綜藝爆料笑翻網 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxOSE1Ra0thMkVza1dVZndvOVkwakIxb28tTnZ3cUJ0MXA4MVVqeERaY2FKa1dZeGVTZ3pkeTJSc1VmS1c0RVpxUFExTGhwX3hqUjRjdW1ZdXQ0bkI4X183ZGVyUzdqVnpKVzh0UzVDbnMtbVNNMUQydjdMM0hGX0k1R183OXN2YTFzdEFtN2o3aG1haVo3WGJBSFB6V1NrQkFlLWJiTG14NUtBUXNoWHNqdXRDVzZNZElyU05IV2QtLTI0MWFuZ3hTaE5mdXpmbG01TWR0WmZyaXE3YWs5OUpDaVpKZ0ZNM21pby1qSGhjYzd6YTM4b2lWX3FlRHdMbk8yM1VVVjh3Vk9UTy01R3VDdnIwWGJtcjRUaHZSSWFaVm1WZ2FhYlZyVE9JQ0VDLVF5LUQ4X2p1VVRhV0lFRjEyak44ZU9GTjVUNXMxd1prM2l3VFFmSGNDQ3JGamIxTGxiU01HS3FBanl3c1U?oc=5",
-        "observedAt": "2026-11-08T12:42:06+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-ad4b9b603ef129ce",
-        "title": "霍建華重返台劇受矚目 監製曝接演內幕「辦公室大聲尖叫」 - 自由娛樂",
-        "type": "台劇",
-        "source": "自由娛樂",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fRWdqVE1uc2ZWZDF2UEFTSk9KSktPUElCR3ZPQVR5YnN0QkZYMmtzMG5INkRkSVNsM1B1MS1NRFFadEdQWmNXbFp0MWdVTkIxei1wM0haS2NyTDds0gFiQVVfeXFMUHFCN2NKQTJjcFBaeHZ6eC15UTR4aE5temhOS0FweEJRb0hMWFpMZnpDek0zeDA0UFBOcE5YcVBVODBxZGZuZjNHYWtBamE3ajBlLUZMQkhMUEFPaV9iNWZ2Vnc?oc=5",
-        "observedAt": "2026-11-08T11:39:56+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-4be922760d17861c",
-        "title": "綜藝《後會友期》帶火甘肅懸崖民宿 諮詢量暴增九倍 - 澳洲看新闻",
-        "type": "綜藝",
-        "source": "澳洲看新闻",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdkZLenE4bkJjY0xpVDc1NmlkeHFRVVN4YWdONjBLMmNwY0RKdzhRMHJlVnFCVDFfQWZPSW5OakdQb2NVNTkwSUhmOWRXa2JXLVNadE9tUENHZ1RKQk9fNUE3STU2X043Y0c0X3ZUeWw4RF9PU1c3QTFzbXRIUmZmbTB6M0NrNHFIVl9oaFhDaGduZ0hUZ3llSmlQWU9lR0NfN0R6R29OZUMzaF9iSVRoM1BNM3oyNFMyRFZ5eFRYMDFlNG9XZFFtNXpfekNYUDZlN3pSNmtoVzhzbjlfb2NIMk1NVm9ZeWgxc0Z3T0hSdF9sLXBwN3RaeHFubkJfNWpvNGZiajc1OEpsdHphRzVwS0VkSHJXal91WDdXRlFRYklyN3F5b29NUTRhTmxWbThVUmtpc0RGQVBiZEZxckg3TUpUUQ?oc=5",
-        "observedAt": "2026-11-08T00:45:52+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-c330a270c2f9d3c0",
-        "title": "【內地熱播】一檔綜藝帶起一隻股！《後會友期》收視登頂帶挈母企全周大漲56% - 香港經濟日報HKET",
-        "type": "綜藝",
-        "source": "香港經濟日報HKET",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7ANBVV95cUxObDZnUjlIRmRqRXZlMU02VTRFcDJjZ1lEWmw3YlVZN0w0aF9jWjJnazlPRWt2cWNHSUo3X25NNFo0MVgyX2NPWTBqTGlvQXdZTjhpeV9KWXBfOW5Mci04TzR5dzloTVo4bXlTNGxSVFR5THJEOU1HWnY0eUhmU3N0T2hQQnRWQnp2b2ZCc0piVS1IdVd5aU54TmQtdHVXUnJmNUJ0U2JvbnYyb2RaQnJNMzU3Qkw2RU5MR0RDaVpiSzZwOWhzclhWeWVIbDdRWE9ueTFtQ0Z2ZDBCVUtVQVR0LU5YclFWSnh2djI2Q1ZnT3JiTmN0aWtMNmUzVTNzY1RRYXpTTTBFY1owZVhSN1c0d0VVV1VrVHY5aUZqMzFnY0lkUFBkYXNQVW1pWnpnUGk2dUs0SUJ0VUFGTnkzSjNud1N3VGp0ZldPSDZZTW45RjlRX1NNQzhNVEJ0eDVGYW0yUG9hNFdoUGdEZXZ6ekIwTXA3ZnNjZk1jdXcyLTZxYmpFa1R1QmI0OXdyOEFmQzA5OVhsSWo1QWpGS2pZMWxLb2txYWNkN2FOUHc0SmN3a1FsSGJEYWJnVGtNMERKbDFwNVBkODAyOTl3bjVvZ0F6cW82VGVnMHk1SXplZ0NURDNBSDV2djFVQ3JOZGU?oc=5",
-        "observedAt": "2026-11-07T09:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-004bba9e90d21ade",
-        "title": "沈伯洋、蔣萬安上綜藝節目誰效果好？媒體人曝從「這1點」就看得出來！ - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMingNBVV95cUxObWxFSTQtcmE0QmNFQlZudVpnN3RQRGJ4b0w0YVBYcmxMV1JzLW1IYW9wT0J0ckJiQkN2X3pXSXREeTFiVVAxdldtaWNOLW9NTGQyU3RJOThQeEt1NWM3RVBQb2xzMXV4RmJwbV81c3A4R2g2cDJaQl96bFk4VFBCTTE0U21aTzU4aWxWdnl1eVMtaURlVHN1cFNQRTJIY0g0aHlBdkVWdEJtNnFmaHhSMFcwYkZUWmZWYUR3RjR4OWNiN0VOa3hTS0VjRi1EUWRHNEM3X2JvTDZvYTFtRTA1TEYydzlqVkVNUFc4T0ZXNEFxVzFicFdnOWY0UmZTN1ZjVFJLd2dBcExuZzctVGxUbWhEeGM5RkJjWlFiRFhYRkxIb3FneU5iZGdMZFYwRGxhSDBVeWFRSmFpZ0hfcVJnSlNPTmFpbllaS00waE85MTdESWZWcnJqQWNQZlItU0RZeVBacDQtZDBxX2lhS0toVWc2Um5aaFdDNkpqa2ZXMWVGTU10d2NJQnBidkdEaTVhWERYTUhwZkdtVkVkc1E?oc=5",
-        "observedAt": "2026-11-06T17:01:04+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-70afc6f586f67648",
-        "title": "2026陸劇推薦60部必追片單！田曦薇《嫁金釵》、井柏然《谷雨》必看，播出平台與劇情整理 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "observedAt": "2026-11-06T16:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-01563bb18481c402",
-        "title": "綜藝大哥節目遭嗆不忍了 徐乃麟錄影中突喊：明天要開記者會！ - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgNBVV95cUxOdXBzTTNONVdxSGpxdkdiYmw3enk2eEp0cEtsWkNrMVpFMWlISW1rSUVnSjUyRTltTW9lclgwamN4ekVYcm9hc2FsUW9RV3pEN0lHeFl5aXlERm1rNjBuLW9Vd0Q3QUFyemJqei1PQ3hxbFJKNkYzWEIxYVJNMlVFR3F6WmRuWHo1UHA3ZWtCcHdSbVBleGlLY18xR0l3MGV4dENXRWtUSXJxQjhxajdCUFBSdmdfWjAzcXotZjZXVE53S0FwQ0VJbksxY0JlRlM4ZlJqUFVjNk5QZy1TeEpqSXNlS1JsLUdSdFItVzctRnk5NnJ5LTVHOHJ1QmRTR29vTUx6SEFKUkFpbUtUQkU0U3dtM0ZvZ0JEOU4wSlkzX29DMlJIdjM4VmhuOWtiWEQ0TXV6eGFiNy1UdjVnQk51YXhuRC1JaHNkMHFGZjItcDUwV3NXYUpYWjd5NFNEUHEyandiaXBtWGRyeVlWcmJNWXNxR29sMjNqaVdRbTRYNFNhQk5ZQ0F0M0tlcEU3dw?oc=5",
-        "observedAt": "2026-11-06T13:24:27+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-68cb935ca4b287b3",
-        "title": "2026必追台劇TOP10+！霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
-        "type": "台劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
-        "observedAt": "2026-11-05T16:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-ae2675dcb5534942",
-        "title": "《Doctor X》、《新手上路》輸了！Netflix台灣11月最新收視排行榜出爐， 冠軍點開就停不下來 - 風傳媒",
-        "type": "台劇",
-        "source": "風傳媒",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zOGRLTzVBQlJMLXk1bzlBb3lvVWlrdHQ1dUIyWmlmUmZxZGRLTENSWEJJcEVvdWp2VVhCS0t3ZUZuZWlIRUF3TmpsZ3hpc2xa?oc=5",
-        "observedAt": "2026-11-05T15:33:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-53e995decef44363",
-        "title": "沈伯洋登綜藝隔空告白妻女！名嘴酸蔣萬安開盲盒　幕僚揭破圈關鍵 - 三立新聞網SETN.com",
-        "type": "綜藝",
-        "source": "三立新聞網SETN.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5GR1REMHNvSk1ZWWRrZ2R1eE0xeUhrZm03MzItSDNwUVREaXo1SXJ1ODQ3NWxRWTR4Y29aV2hHVWRyMFIxclgxZtIBTEFVX3lxTE5fbHB0TmpwSF9Ha2dSMFE4OEk1UW14VlpnYzVXYnhMYWFuU0VJZnpyME5NTF9hYmZZVW1zeWZUYlhVZmZ2LURpcU5WMmQ?oc=5",
-        "observedAt": "2026-11-04T21:22:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-fa5d6c321ef6a7c9",
-        "title": "洋流慧聚！明與沈伯洋上時尚美妝綜藝 蘇巧慧：期待特別橋段 - 自由時報",
-        "type": "綜藝",
-        "source": "自由時報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sVnZocHB3TjNCZkpJMl9TR0ZhSGp6c2FyNm50R0JPbWc5ekcwazdKR180ZXVLMmJPeUphY2I1UU1MczNwenZiaTFfdVBsdVVackhGX3V4X2Vwa0lDdUZVYkRkbUYyZTNyMEHSAW9BVV95cUxNRnkyR2hkM2txdHRqMGZNU2hPeWMtd3k3UUZRSl90WkVPRmZoWkRhSnQ3eW9rT0dOd1h3SmVUaVNJMExwLW1zbXlTemJGTmxYNnlBOUh4Q3ZkX2tqSEFyaGpDN3g0UHczTzcxTlhRUFk?oc=5",
-        "observedAt": "2026-11-03T17:34:59+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-1f1ada14f821cdd4",
-        "title": "11月陸劇推薦！佘詩曼《新聞女王2》霸氣回歸，林一甜寵《折月亮》7部必追 - TVBS新聞網",
-        "type": "陸劇",
-        "source": "TVBS新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOS1NN3RiX1Y3ekhxWGNGbjR3d2lJbXFsb3ZORGtHYnUzWUJ5UzM1WHo1VWFHSGNUcFRadlAtZW5kOG9iQWdLaWlyWHFLdHhRcVU2TXg1RTFCd0VPQkF5eFh3?oc=5",
-        "observedAt": "2026-11-02T17:38:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-c15844431477d25d",
-        "title": "Netflix 11月追劇片單！霍建華睽違20年回歸台劇《急診室的奇蹟》、孫錫求&永山瑛太雙男神首度合作 - Marie Claire 美麗佳人",
-        "type": "台劇",
-        "source": "Marie Claire 美麗佳人",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93VnlDTHdxT2VEdl9FUWJ2QUViWGd2YTI1ZXRVSlFYUENHNWpoQlpkaWwxYzV4SXhOYlVxcS1CRGlTN0dYTGVoTUdsZ2ZPZHViUFNQenJxQkh4LWJkdGtwd2tTWTFOUEEw?oc=5",
-        "observedAt": "2026-11-02T14:29:29+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      }
-    ]
+    "items": []
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-02",
