@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-10T11:51+08:00",
+  "updatedAt": "2026-11-10T15:25+08:00",
   "categories": {
     "陸劇": [
       {
@@ -170,12 +170,6 @@
         "source": "VERSE雜誌"
       },
       {
-        "title": "2025美劇推薦！30+影集線上看：Netflix《星期三》第3季黑暗再升級、Disney+《異形：地球》爛番茄高分驚悚 - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbEdzandzWkhRR1JMQ0E5Y2g1NnphT3oyOFF1MFlxRDlFcVg1a2xzN3VuRXVLbkZMaV9sUW50Vkx1OVNaSW1oWFBhNHRoY3M2d0ZSaEV5U0FmRFJURGlMM2RpS1hHZ1R2ZXlfVkNNNElkbG82RXZ4RTFCdWZxN1FWM1dZdGJhSlE?oc=5",
-        "published": "Fri, 15 Aug 2025 07:00:00 GMT",
-        "source": "ELLE"
-      },
-      {
         "title": "2025下半年必看歐美劇推薦｜Netflix HBO Apple TV 8部劇：《健力士王朝》《萬中選一》 - VERSE雜誌",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfdkszTU85RWtxSEQ1Nkc0SlJ5V014anZTS2pwaGxiMXMwNUNhdlVNTUVyTTZEQ3lWR3dBbzVSX24yUnJDWEpZYWU2UkEtQWFBVXBWMk5oSVlJZFNUblRZZg?oc=5",
         "published": "Thu, 20 Nov 2025 08:00:00 GMT",
@@ -186,6 +180,12 @@
         "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPaHBoUmpBSmNWTHdZLWhUYnA2ajFucHlsc3NILTVCaDQ2TGVtbzFqb0xDLWZLRzRESFFzckdNcTEzOXg1a1dpWDJqRkE5WEZYbTJMczN2Z2U5ZEtQQnRqdEhXWmctbEgtM2FVbWxBQ0UzUlBNZTFiODl0U1UxeHNyblBTdFRTajdBTk5TRTAwR3dPTTA1dWFHYWdwX2lSTWg5cUhodVJ3RWx6WXFvTzJlSldhRUIxN01TNFBWb2JLNVM4R3NFSFlQVVJqZGJ2S0FMV1pnNi11RGdUaUQ1MXdzSjl6UmlHdXA3R1d0RDlORmVyNXZPMUpKbTBpLUVYOGs0bkNfWGlMdzJFNEduZXhGRHdPeGFkaEJLZkdpdDhpdUdkSzJSMWNMejNPcWs0S19Fem42d3JSZ2xiR2I5S3Z6SlR5RUtlTDg2TTdNUzAwd3hJVDVfOFpQd1pLYmxVOWR2Wkhjd1FhQVFVaC00Nm8wUThuVkRBZF9FbThQZGpXSXhBVUNGZk9YMzAxT1JiazZpUjdHNGZRa1psLU9iOW8yWG9DNlNfWG0zRmppWFdiM2tBeks0MVFJYlItbmlLZnRHRkNOaE9lcEJGVGtQTi15LUFxZEk1X2VpMF9jOXN6YTVHdEFKYjJkMEJYa0xBZw?oc=5",
         "published": "Tue, 03 Nov 2026 04:38:57 GMT",
         "source": "Yahoo新聞"
+      },
+      {
+        "title": "Netflix 10月必看片單！12部必追新劇一次看　金裕貞×朴珍榮《百日謊言》、《亞森羅蘋4》回歸 - udn 女子漾",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43WlNyNmFfN2ZpUmdFUUFEX281NEx4X05BSDFBcS1pREdVT2VJSG1aQ21MZURlX3poY01fVzVyYTQ0M2tPbEFQNlJRWVBCY0tDTENaOFA1WkhGczFN0gFiQVVfeXFMTzg0OTlRWkpRNF9sbmxqZTZLeUljUnh1Sng0NW9JLUxmYWVZNkl0bUp4Tm9RZF9UYmxfUmJUb3Z3bFM2TFEtWHpobE5BUHJZY1BjWjdfVmRsM1JvV2ZmeE9zM2c?oc=5",
+        "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+        "source": "udn 女子漾"
       },
       {
         "title": "Netflix｜2022年十套不能錯過的新劇 恐怖懸疑喜劇艷情片樣樣齊 - 香港01",
@@ -3360,7 +3360,7 @@
   "cpblDataMode": "official",
   "cpblValidUntil": "2026-11-10T14:51:59+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-10T11:51+08:00",
+    "checkedAt": "2026-11-10T15:25+08:00",
     "items": [
       {
         "title": "重生密碼",
@@ -3548,7 +3548,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-10T11:51+08:00",
+    "lastSuccessfulAt": "2026-11-10T15:25+08:00",
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -5061,7 +5061,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "updatedAt": "2026-11-10T11:51+08:00",
+    "updatedAt": "2026-11-10T15:25+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
