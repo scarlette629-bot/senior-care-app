@@ -5007,27 +5007,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-11T01:54:11+08:00",
-    "updatedAt": "2026-11-11T01:54:11+08:00",
-    "lastSuccessfulAt": "2026-11-11T01:54:11+08:00",
+    "checkedAt": "2026-11-11T07:26:48+08:00",
+    "updatedAt": "2026-11-11T07:26:48+08:00",
+    "lastSuccessfulAt": "2026-11-11T07:26:48+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-11T01:54:11+08:00",
+        "checkedAt": "2026-11-11T07:26:48+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-11T01:54:11+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-11T07:26:48+08:00",
+        "itemCount": 3
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-11T01:54:11+08:00",
+        "checkedAt": "2026-11-11T07:26:48+08:00",
         "itemCount": 2
       }
     ],
@@ -5036,11 +5036,22 @@
     "items": [
       {
         "id": "weekly-542e3fd1194b7e4b",
-        "title": "霍建華回歸台劇《急診室的奇蹟》披白袍！攜手蔡凡熙詹子萱詮釋急診生死戰- 娛樂新聞 - PChome Online新聞",
+        "title": "霍建華回歸台劇《急診室的奇蹟》披白袍！攜手蔡凡熙詹子萱詮釋急診生死戰 - PChome Online 新聞",
         "type": "台劇",
-        "source": "PChome Online新聞",
+        "source": "PChome Online 新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEloV280ZkxZRmpscVp0cy0zOGVyRndTZDNwY1lRRHVYcWsxN19VMmFNU3l4R3FGZ1RNdE9ZZm5BSzdWV0FXQkowdWZ3bS1scHU1WFJhZEZCMTk3ckpqZDF4OWpYQ2dHSGdPZDVGVHRxdU5mdkc2YVczcVRLWkZ2eHdkbTJsa0N5WTM1Q0ZHdjZQV2s?oc=5",
         "observedAt": "2026-11-10T20:59:36+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-c949877aebfc6dbb",
+        "title": "Netflix 影集《急診室的奇蹟》5 大重點，制度跟權力前，還能回歸「人」嗎？首部急診室主題台劇！ - GQ Taiwan",
+        "type": "台劇",
+        "source": "GQ Taiwan",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihANBVV95cUxQelRnclczVjlraktxeV9paGZYaHZ3Zk5sZE8xUC1XWjFkUXNURmJVM1VzQUdnWElYRm01ckVzRFh6TUpacFUyODZPa205SmdlRFd2c2F1WEx5d0RleUJqUjk4eDEzanNBODNRQ2JkSGJMOXh4anVidF9xc0hqbjMwemwyNjN6OTRESVB0MFJMbG1ZTUlVTF9kaEExZVBGbjBKNS1QR3ZwN0Nia1VGaDFvQzhKTlFzV1ZFTmxZeWZ2MUFBeDVUaWRSMG9QV0FDRjdrWVVZRGd2cUVtRHNwMS0tSzg3VzhpaFBBcDdBSkRnU3k2NWp5VmZTNEk3ZlR6dzQxQUdzS3NKUFdLTEhkbE9FbGxUZVJkSUtBeDZYZkNMdHA1TXBWLWZaelB2aGpiSnVDSUgzeENMd2N2NEEwY1ZPSVI1bElraTJwYVg3aDFoNGt4SUt1YU9KbXBjN1diemppSXowakNYRWkzcVJJQzUtT1VMT2g0MlpTRkd3amJFYUk0ZWhH?oc=5",
+        "observedAt": "2026-11-10T19:49:29+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5068,11 +5079,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-d555562cc19d3a3c",
-        "title": "黃仁勳認婚外情「傷害相伴40年妻」！5個月前才上節目放閃 家人同場甜蜜畫面曝光 - 鏡報",
+        "id": "weekly-5ebadd9198f5f19d",
+        "title": "黃仁勳認婚外情「傷害相伴40年妻」！5個月前才上節目放閃　家人同場甜蜜畫面曝光 - 鏡週刊Mirror Media",
         "type": "綜藝",
-        "source": "鏡報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUUFiaV8zWlJzblVkSXRuVVR0LWFlN0dsV1ZTVEhfZHNLUmZadGxzSURMMmoybW1Ub29YVm4xN1NoVDRHajB1dGlGS0h4R2ZVNUE?oc=5",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FQlRHMU1PYm1jcWVxdkxiR05oZkpaejVfaEVYeGJiSGNhbVlFc3hLZU04WElBLTBFYVBIRVo5VzRlMkNfcTBKVEE3WWYydkRla003UjNZRFp0VHRldXlqT0ZMcU5zSTlv0gFoQVVfeXFMTkVCVEcxTU9ibWNxZXF2TGJHTmhmSlp6NV9oRVh4YmJIY2FtWUVzeEtlTThYSUEtMEVhUEhFWjlXNGUyQ19xMEpUQTdZZjJ2RGVrTTdSM1lEWnRUdGV1eWpPRkxxTnNJOW8?oc=5",
         "observedAt": "2026-11-09T07:57:00+08:00",
         "isWeiboMention": false,
         "verified": false,
