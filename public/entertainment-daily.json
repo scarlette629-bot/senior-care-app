@@ -5007,33 +5007,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-10T11:51:59+08:00",
-    "updatedAt": "2026-11-10T11:51:59+08:00",
-    "lastSuccessfulAt": "2026-11-10T11:51:59+08:00",
+    "checkedAt": "2026-11-10T17:58:05+08:00",
+    "updatedAt": "2026-11-10T17:58:05+08:00",
+    "lastSuccessfulAt": "2026-11-10T17:58:05+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-10T11:51:59+08:00",
+        "checkedAt": "2026-11-10T17:58:05+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-10T11:51:59+08:00",
+        "checkedAt": "2026-11-10T17:58:05+08:00",
         "itemCount": 0
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-10T11:51:59+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-10T17:58:05+08:00",
+        "itemCount": 3
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-b0aef1c88730c680",
+        "title": "TVB節目巡禮2027｜綜藝篇懶人包！香港回歸30周年+TVB60周年 15大重點綜藝節目大晒冷 - TVB",
+        "type": "綜藝",
+        "source": "TVB",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
+        "observedAt": "2026-11-10T17:01:06+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-4be922760d17861c",
         "title": "綜藝《後會友期》帶火甘肅懸崖民宿 諮詢量暴增九倍 - 澳洲看新闻",
