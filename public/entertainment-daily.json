@@ -5007,51 +5007,62 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-10T17:58:05+08:00",
-    "updatedAt": "2026-11-10T17:58:05+08:00",
-    "lastSuccessfulAt": "2026-11-10T17:58:05+08:00",
+    "checkedAt": "2026-11-11T01:54:11+08:00",
+    "updatedAt": "2026-11-11T01:54:11+08:00",
+    "lastSuccessfulAt": "2026-11-11T01:54:11+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-10T17:58:05+08:00",
+        "checkedAt": "2026-11-11T01:54:11+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-10T17:58:05+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-11-11T01:54:11+08:00",
+        "itemCount": 2
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-10T17:58:05+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-11T01:54:11+08:00",
+        "itemCount": 2
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-b0aef1c88730c680",
-        "title": "TVB節目巡禮2027｜綜藝篇懶人包！香港回歸30周年+TVB60周年 15大重點綜藝節目大晒冷 - TVB",
-        "type": "綜藝",
-        "source": "TVB",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
-        "observedAt": "2026-11-10T17:01:06+08:00",
+        "id": "weekly-542e3fd1194b7e4b",
+        "title": "霍建華回歸台劇《急診室的奇蹟》披白袍！攜手蔡凡熙詹子萱詮釋急診生死戰- 娛樂新聞 - PChome Online新聞",
+        "type": "台劇",
+        "source": "PChome Online新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeEloV280ZkxZRmpscVp0cy0zOGVyRndTZDNwY1lRRHVYcWsxN19VMmFNU3l4R3FGZ1RNdE9ZZm5BSzdWV0FXQkowdWZ3bS1scHU1WFJhZEZCMTk3ckpqZDF4OWpYQ2dHSGdPZDVGVHRxdU5mdkc2YVczcVRLWkZ2eHdkbTJsa0N5WTM1Q0ZHdjZQV2s?oc=5",
+        "observedAt": "2026-11-10T20:59:36+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-4be922760d17861c",
-        "title": "綜藝《後會友期》帶火甘肅懸崖民宿 諮詢量暴增九倍 - 澳洲看新闻",
+        "id": "weekly-cc1e57109a1fea12",
+        "title": "台劇《急診室的奇蹟》霍建華與楊謹華演技交鋒！Netflix獨家播出「9大亮點」一次看｜造咖追劇 - 造咖",
+        "type": "台劇",
+        "source": "造咖",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4Zms3OTNvRHcwb0ozMW1nSWVsNHRJZmp2d1hYRVZjMXpHdHI4VEdOTDBKSGVOUlhXM2JoWHB1NDdUOEtZblVNS0NsOTFvdDVjNFdUNzNWUlM?oc=5",
+        "observedAt": "2026-11-10T18:36:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-b0aef1c88730c680",
+        "title": "TVB節目巡禮2027｜綜藝篇懶人包！香港回歸30周年+TVB60周年 15大重點綜藝節目大晒冷 - TVB",
         "type": "綜藝",
-        "source": "澳洲看新闻",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQdkZLenE4bkJjY0xpVDc1NmlkeHFRVVN4YWdONjBLMmNwY0RKdzhRMHJlVnFCVDFfQWZPSW5OakdQb2NVNTkwSUhmOWRXa2JXLVNadE9tUENHZ1RKQk9fNUE3STU2X043Y0c0X3ZUeWw4RF9PU1c3QTFzbXRIUmZmbTB6M0NrNHFIVl9oaFhDaGduZ0hUZ3llSmlQWU9lR0NfN0R6R29OZUMzaF9iSVRoM1BNM3oyNFMyRFZ5eFRYMDFlNG9XZFFtNXpfekNYUDZlN3pSNmtoVzhzbjlfb2NIMk1NVm9ZeWgxc0Z3T0hSdF9sLXBwN3RaeHFubkJfNWpvNGZiajc1OEpsdHphRzVwS0VkSHJXal91WDdXRlFRYklyN3F5b29NUTRhTmxWbThVUmtpc0RGQVBiZEZxckg3TUpUUQ?oc=5",
-        "observedAt": "2026-11-09T13:53:17+08:00",
+        "source": "TVB",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
+        "observedAt": "2026-11-10T17:05:52+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
