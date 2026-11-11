@@ -210,13 +210,18 @@ class AdditionalPlatformChecks(unittest.TestCase):
     def test_official_pages_are_checked_without_claiming_premiere(self):
         samples={
           s.IQIYI_DRAMA_URL:'<a href="https://www.iq.com/album/new-drama-2026-abc">新劇甲</a><a href="/album/dubbed-abc">配音版</a>',
-          s.HBO_PRESS_URL:'<a href="/us/media-release/new-hbo-show">New HBO Series</a>',
+          s.HBO_PRESS_URL:'<a href="/tw/zh/series/new-hbo-show">New HBO Series</a>',
         }
         checks,updates=s.check_official_platforms(NOW,lambda url:samples[url])
         self.assertEqual({x['platform'] for x in checks if x['status']=='success'},{'愛奇藝','HBO Max'})
         self.assertEqual([x['title'] for x in updates],['新劇甲','New HBO Series'])
         self.assertTrue(all('首播日' in x['status'] for x in updates))
         self.assertTrue(all('releaseDate' not in x and 'verified' not in x for x in updates))
+    def test_iqiyi_image_card_links_without_visible_anchor_text(self):
+        markup='<a href="/album/2026-new-show?lang=zh_tw"><img alt="折月亮" src="/poster.webp"></a>'
+        rows=s.official_link_titles(markup,s.IQIYI_DRAMA_URL,'www.iq.com','/album/')
+        self.assertEqual(rows[0]['title'],'折月亮')
+        self.assertTrue(rows[0]['sourceUrl'].startswith('https://www.iq.com/album/'))
     def test_layout_or_source_failure_is_recorded_not_misreported_success(self):
         def load(url):
             if url==s.IQIYI_DRAMA_URL:return '<html>no catalogue anchors</html>'
