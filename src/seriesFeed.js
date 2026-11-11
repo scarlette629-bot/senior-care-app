@@ -15,7 +15,21 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
   const all=[...unique.values()];
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
-  const items=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||''))).slice(0,15);
+  const ranked=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
+  // A large batch from one platform must not hide other verified platforms.
+  // Reserve one slot per available platform, then fill by freshness.
+  const items=[];const usedIds=new Set();const coveredPlatforms=new Set();
+  for(const item of ranked){
+    if(items.length>=15)break;
+    if(coveredPlatforms.has(item.platform))continue;
+    items.push(item);usedIds.add(item.title);coveredPlatforms.add(item.platform);
+  }
+  for(const item of ranked){
+    if(items.length>=15)break;
+    if(usedIds.has(item.title))continue;
+    items.push(item);usedIds.add(item.title);
+  }
+  items.sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
   const candidateMap=new Map();
   const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
   typeByTitle.set('尚公主','陸劇');
