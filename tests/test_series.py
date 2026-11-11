@@ -194,6 +194,18 @@ class ConcurrentPublicationTests(unittest.TestCase):
 
 
 
+class MangoDramaCatalogueChecks(unittest.TestCase):
+    def test_official_drama_rows_have_no_unverified_release_dates(self):
+        payload={'code':200,'data':{'hitDocs':[{'title':'新芒果陸劇','clipId':123,'playPartId':456},
+          {'title':'新芒果陸劇配音版','clipId':124,'playPartId':457}]}}
+        rows=s.parse_mango_drama_catalogue(json.dumps(payload),NOW)
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['platform'],'芒果TV')
+        self.assertNotIn('releaseDate',rows[0])
+        self.assertNotIn('verified',rows[0])
+    def test_broken_mango_drama_catalogue_is_reported(self):
+        with self.assertRaises(ValueError):s.parse_mango_drama_catalogue('{"code":404}',NOW)
+
 class AdditionalPlatformChecks(unittest.TestCase):
     def test_official_pages_are_checked_without_claiming_premiere(self):
         samples={
