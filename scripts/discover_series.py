@@ -349,7 +349,8 @@ def parse_mango_drama_catalogue(payload,now):
 def check_official_platforms(now, load=get):
     stamp=now.isoformat(timespec='seconds')
     checks=[];updates=[]
-    # iQIYI: catalogue cards only. A catalogue appearance does not certify
+    # iQIYI: inspect the user-provided Taiwan Chinese catalogue every day.
+    # A catalogue appearance does not certify
     # mainland origin, availability in Taiwan or an initial release date.
     for platform,url,host,path in (
         ('愛奇藝',IQIYI_DRAMA_URL,'www.iq.com','/album/'),
