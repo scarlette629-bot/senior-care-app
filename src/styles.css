@@ -261,7 +261,7 @@
 .seriesFilters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.seriesFilters button{width:auto;min-height:44px;padding:8px 12px;border:1px solid #aa7867;border-radius:12px;background:#fff;color:#563c35;font:inherit}.seriesFilters button[aria-pressed="true"]{background:#563c35;color:#fff}
 
 /* v1.06: keep fresh entertainment content within the upper screen area. */
-.feature:has(.entertainmentPage)>h1{font-size:clamp(25px,5vw,36px);line-height:1.25;margin:12px 0 16px}
+.entertainmentFeature>h1{font-size:clamp(25px,5vw,36px);line-height:1.25;margin:12px 0 16px}
 .entertainmentPage.message{padding:16px 14px;text-align:left}
 .entertainmentPage.message>.sourceNote:first-child{font-size:14px;line-height:1.4;margin:0 0 10px;color:var(--muted)}
 .entertainmentPage .dailySeries{margin-top:6px}
