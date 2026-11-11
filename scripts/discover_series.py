@@ -308,7 +308,10 @@ def official_link_titles(page, base, allowed_host, required_path, max_items=24):
             super().__init__();self.href=None;self.parts=[];self.rows=[]
         def handle_starttag(self,tag,attrs):
             if tag=='a':
-                self.href=dict(attrs).get('href','');self.parts=[]
+                a=dict(attrs);self.href=a.get('href','');self.parts=[a.get('aria-label') or a.get('title') or '']
+            elif tag=='img' and self.href is not None:
+                alt=dict(attrs).get('alt')
+                if alt:self.parts.append(alt)
         def handle_data(self,data):
             if self.href is not None:self.parts.append(data)
         def handle_endtag(self,tag):
@@ -316,7 +319,7 @@ def official_link_titles(page, base, allowed_host, required_path, max_items=24):
                 url=urllib.parse.urljoin(base,self.href)
                 parsed=urllib.parse.urlparse(url)
                 title=' '.join(''.join(self.parts).split())
-                if parsed.scheme=='https' and parsed.hostname==allowed_host and required_path in parsed.path and 2<=len(title)<=100:
+                if parsed.scheme=='https' and parsed.hostname in (allowed_host,allowed_host.removeprefix('www.')) and required_path in parsed.path and 2<=len(title)<=100:
                     self.rows.append({'title':title,'sourceUrl':url})
                 self.href=None;self.parts=[]
     parser=Links();parser.feed(page)
