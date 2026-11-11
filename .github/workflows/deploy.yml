@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# v1.06 daily list balances verified platforms instead of filling all 15 slots from WeTV; frozen v1.05 unchanged.
+# v1.06 compact entertainment view: single timestamp and cross-platform series priority; v1.05 immutable.
 on:
   push:
     branches: [main]
