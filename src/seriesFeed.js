@@ -29,7 +29,8 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
     if(usedIds.has(item.title))continue;
     items.push(item);usedIds.add(item.title);
   }
-  items.sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
+  // Keep the reserved cross-platform titles at the top. Sorting again
+  // would bury them beneath a large batch of recently checked WeTV titles.
   const candidateMap=new Map();
   const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
   typeByTitle.set('尚公主','陸劇');
