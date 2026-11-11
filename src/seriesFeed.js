@@ -15,22 +15,20 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
   const all=[...unique.values()];
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
-  const ranked=all.filter(matches).sort((a,b)=>String(b.firstSeenAt||b.verifiedAt||b.releaseDate||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||a.releaseDate||'')));
-  // A large batch from one platform must not hide other verified platforms.
-  // Reserve one slot per available platform, then fill by freshness.
-  const items=[];const usedIds=new Set();const coveredPlatforms=new Set();
+  const ranked=all.filter(matches).sort((a,b)=>{
+    // Prefer a known premiere date; otherwise use the first observed listing.
+    const recent=x=>x.releasePrecision==='day'&&/^\d{4}-\d{2}-\d{2}$/.test(x.releaseDate||'')?x.releaseDate:String(x.firstSeenAt||x.verifiedAt||'').slice(0,10);
+    return recent(b).localeCompare(recent(a))||String(b.firstSeenAt||b.verifiedAt||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||''));
+  });
+  // Separate lists: at most five verified eligible titles from each platform.
+  // No global fifteen-title cap and no unverified catalogue cards.
+  const grouped=new Map();
   for(const item of ranked){
-    if(items.length>=15)break;
-    if(coveredPlatforms.has(item.platform))continue;
-    items.push(item);usedIds.add(item.title);coveredPlatforms.add(item.platform);
+    if(!grouped.has(item.platform))grouped.set(item.platform,[]);
+    if(grouped.get(item.platform).length<5)grouped.get(item.platform).push(item);
   }
-  for(const item of ranked){
-    if(items.length>=15)break;
-    if(usedIds.has(item.title))continue;
-    items.push(item);usedIds.add(item.title);
-  }
-  // Keep the reserved cross-platform titles at the top. Sorting again
-  // would bury them beneath a large batch of recently checked WeTV titles.
+  const platformGroups=[...grouped].map(([platform,items])=>({platform,items}));
+  const items=platformGroups.flatMap(group=>group.items);
   const candidateMap=new Map();
   const typeByTitle=new Map((feed?.recommendations||[]).map(x=>[x.title,x.type]));
   typeByTitle.set('尚公主','陸劇');
@@ -45,7 +43,7 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
     if(!candidateMap.has(key)||x.publishedAt>candidateMap.get(key).publishedAt)candidateMap.set(key,x);
   }
   const candidates=[...candidateMap.values()].sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
-  return {all,items,candidates};
+  return {all,items,platformGroups,candidates};
 }
 export function recentPremiere(item,now=Date.now()) {
   if(item?.releasePrecision!=='day'||!/^\d{4}-\d{2}-\d{2}$/.test(item.releaseDate||'')||!/^https:\/\//.test(item.releaseSourceUrl||''))return false;
