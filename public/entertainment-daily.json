@@ -5414,33 +5414,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-11T23:18:01+08:00",
-    "updatedAt": "2026-11-11T23:18:01+08:00",
-    "lastSuccessfulAt": "2026-11-11T23:18:01+08:00",
+    "checkedAt": "2026-11-12T06:44:06+08:00",
+    "updatedAt": "2026-11-12T06:44:06+08:00",
+    "lastSuccessfulAt": "2026-11-12T06:44:06+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-11T23:18:01+08:00",
+        "checkedAt": "2026-11-12T06:44:06+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-11T23:18:01+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-11-12T06:44:06+08:00",
+        "itemCount": 5
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-11T23:18:01+08:00",
+        "checkedAt": "2026-11-12T06:44:06+08:00",
         "itemCount": 2
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-3796e5bf98f89259",
+        "title": "討論牆| Netflix台劇《消失的裂痕》楊謹華、張孝全演技狂飆！破碎鏡面拉扯出的雙重人生，反轉直到最後一秒 - LINE TODAY",
+        "type": "台劇",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03TjZUMmNJSzBmVy0yb2s2LXlvYVYxV2E0LUQ5VkM4dkFEU3VJb0UyWF9WZEhaaURLbDM0X3pwcFQ0U082Rjl4SXdCZEdGc05UNFhzQkVCdFZXejA4clBSdGczZjY?oc=5",
+        "observedAt": "2026-11-12T05:51:34+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-70babe05664bbff9",
         "title": "討論牆| 台劇《急診室的奇蹟》霍建華與楊謹華演技交鋒！Netflix獨家播出「9大亮點」一次看｜造咖追劇 - LINE TODAY",
