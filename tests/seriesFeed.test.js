@@ -106,6 +106,7 @@ test('top 15 reserves a place for each verified platform without treating candid
  const result=selectDailySeries({recommendations:[...wetv,iqiyi,manga,candidate]},'陸劇',['陸劇'],now);
  assert.equal(result.items.length,15);
  assert.deepEqual(new Set(result.items.map(x=>x.platform)),new Set(['WeTV','愛奇藝','芒果TV']));
+ assert.deepEqual(result.items.slice(0,3).map(x=>x.platform),['WeTV','芒果TV','愛奇藝']);
  assert.ok(!result.items.some(x=>x.title==='HBO 未核實作品'));
  assert.equal(result.items.filter(x=>x.platform==='WeTV').length,13);
 });
