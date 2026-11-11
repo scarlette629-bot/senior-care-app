@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# v1.06 Korean-interest UI: China drama news gated and verified SBS catalogue shown; archive v1.05 unchanged.
+# v1.06 China drama manual reload now fetches cloud data with explicit status; v1.05 stays immutable.
 on:
   push:
     branches: [main]
