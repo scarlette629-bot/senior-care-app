@@ -298,7 +298,7 @@ def discover_sbs(previous, now, load=get):
 # Official platform watchlists are distinct from confirmed premieres. These
 # pages may advertise catalogued / upcoming works without a release date.
 IQIYI_DRAMA_URL='https://www.iq.com/drama?lang=zh_tw'
-HBO_PRESS_URL='https://press.wbd.com/us/brands/hbo-max'
+HBO_PRESS_URL='https://www.hbomax.com/tw/zh/series'
 MANGO_DRAMA_URL='https://pianku.api.mgtv.com/rider/list/pcweb/v3?platform=pcweb&channelId=2&pn=1&pc=80&sort=c2'
 
 def official_link_titles(page, base, allowed_host, required_path, max_items=24):
@@ -350,7 +350,7 @@ def check_official_platforms(now, load=get):
     # mainland origin, availability in Taiwan or an initial release date.
     for platform,url,host,path in (
         ('愛奇藝',IQIYI_DRAMA_URL,'www.iq.com','/album/'),
-        ('HBO Max',HBO_PRESS_URL,'press.wbd.com','/media-release/')):
+        ('HBO Max',HBO_PRESS_URL,'www.hbomax.com','/tw/zh/')):
         try:
             page=load(url)
             links=official_link_titles(page,url,host,path)
