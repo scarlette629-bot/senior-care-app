@@ -203,7 +203,7 @@ class AdditionalPlatformChecks(unittest.TestCase):
         checks,updates=s.check_official_platforms(NOW,lambda url:samples[url])
         self.assertEqual({x['platform'] for x in checks if x['status']=='success'},{'愛奇藝','HBO Max'})
         self.assertEqual([x['title'] for x in updates],['新劇甲','New HBO Series'])
-        self.assertTrue(all('上架' in x['status'] for x in updates))
+        self.assertTrue(all('首播日' in x['status'] for x in updates))
         self.assertTrue(all('releaseDate' not in x and 'verified' not in x for x in updates))
     def test_layout_or_source_failure_is_recorded_not_misreported_success(self):
         def load(url):
