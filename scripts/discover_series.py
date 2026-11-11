@@ -385,7 +385,14 @@ def check_official_platforms(now, load=get):
             if not links:raise ValueError('; '.join(errors) or 'No official title links')
             if platform=='HBO Max':
                 links=[row for row in links if row['sourceUrl'].split('?')[0].rstrip('/')!=url and
-                    not re.search(r'^(?:電影|劇集與節目|首頁|登入|會員|Movies|Series|Home)
+                    not re.fullmatch(r'(?:電影|劇集與節目|首頁|登入|會員|Movies|Series|Home)',row['title'],re.I)]
+                if not links:raise ValueError('Only navigation links found; no verified HBO series titles')
+            checks.append({'platform':platform,'url':checked_url,'status':'success','checkedAt':stamp,'titleCount':len(links)})
+            for row in links:
+                if platform=='愛奇藝' and ('配音版' in row['title'] or '粵語版' in row['title']):continue
+                updates.append({**row,'platform':platform,'checkedAt':stamp,'status':'官方片庫／官方消息列出；首播日及台灣供應情況尚未核實'})
+        except Exception as exc:
+            checks.append({'platform':platform,'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:500]})
     try:
         mango_drama=parse_mango_drama_catalogue(load(MANGO_DRAMA_URL),now)
         if not mango_drama:raise ValueError('Official drama catalogue returned no usable title links')
