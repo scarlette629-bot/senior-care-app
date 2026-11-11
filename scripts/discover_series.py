@@ -334,7 +334,7 @@ def official_link_titles(page, base, allowed_host, required_path, max_items=24):
             q=urllib.parse.urlparse(url)
             if q.scheme!='https' or q.hostname not in ('www.iq.com','iq.com'):continue
             nearby=decoded[max(0,match.start()-200):match.end()+200]
-            title=re.search(r'["\\'](?:title|albumName|name|displayName)["\\']\\s*:\\s*["\\']([^"\\']{2,70})',nearby)
+            title=re.search(r'"(?:title|albumName|name|displayName)"\s*:\s*"([^"]{2,70})"',nearby)
             if title:
                 parser.rows.append({'title':title.group(1),'sourceUrl':url})
     unique={}
