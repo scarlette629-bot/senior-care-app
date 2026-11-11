@@ -222,7 +222,7 @@ class AdditionalPlatformChecks(unittest.TestCase):
             if url==s.IQIYI_DRAMA_URL:return '<html>no catalogue anchors</html>'
             raise OSError('timeout')
         checks,updates=s.check_official_platforms(NOW,load)
-        self.assertEqual([x['status'] for x in checks],['error','error'])
+        self.assertEqual([x['status'] for x in checks],['error','error','error'])
         self.assertEqual(updates,[])
     def test_foreign_and_http_links_cannot_fake_official_titles(self):
         links=s.official_link_titles('<a href="https://evil.example/album/1">fake</a><a href="http://www.iq.com/album/2">http</a>',
