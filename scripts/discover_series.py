@@ -298,6 +298,7 @@ def discover_sbs(previous, now, load=get):
 # Official platform watchlists are distinct from confirmed premieres. These
 # pages may advertise catalogued / upcoming works without a release date.
 IQIYI_DRAMA_URL='https://www.iq.com/drama?lang=zh_tw'
+IQIYI_BACKUP_URLS=('https://www.iq.com/ranking?lang=zh_tw','https://www.iq.com/?lang=zh_tw')
 HBO_PRESS_URL='https://www.hbomax.com/tw/zh/series'
 MANGO_DRAMA_URL='https://pianku.api.mgtv.com/rider/list/pcweb/v3?platform=pcweb&channelId=2&pn=1&pc=80&sort=c2'
 
@@ -323,6 +324,19 @@ def official_link_titles(page, base, allowed_host, required_path, max_items=24):
                     self.rows.append({'title':title,'sourceUrl':url})
                 self.href=None;self.parts=[]
     parser=Links();parser.feed(page)
+    # Some official cards are hydrated from embedded JSON, which encodes
+    # album links as JSON strings rather than HTML anchors.
+    if not parser.rows:
+        decoded=html.unescape(page).replace('\\\\/','/').replace('\\u002F','/')
+        for match in re.finditer(r'(?:https?:)?//(?:www\\.)?iq\\.com/album/[^\\s"<>\\\\]{6,200}',decoded):
+            url=match.group(0).rstrip('.,;)')
+            if url.startswith('//'):url='https:'+url
+            q=urllib.parse.urlparse(url)
+            if q.scheme!='https' or q.hostname not in ('www.iq.com','iq.com'):continue
+            nearby=decoded[max(0,match.start()-200):match.end()+200]
+            title=re.search(r'["\\'](?:title|albumName|name|displayName)["\\']\\s*:\\s*["\\']([^"\\']{2,70})',nearby)
+            if title:
+                parser.rows.append({'title':title.group(1),'sourceUrl':url})
     unique={}
     for item in parser.rows:
         unique.setdefault(item['sourceUrl'].split('?')[0],item)
@@ -356,15 +370,167 @@ def check_official_platforms(now, load=get):
         ('愛奇藝',IQIYI_DRAMA_URL,'www.iq.com','/album/'),
         ('HBO Max',HBO_PRESS_URL,'www.hbomax.com','/tw/zh/')):
         try:
-            page=load(url)
-            links=official_link_titles(page,url,host,path)
-            if not links:raise ValueError('No official title links found; layout or access may have changed')
-            checks.append({'platform':platform,'url':url,'status':'success','checkedAt':stamp,'titleCount':len(links)})
+            urls=(url,*IQIYI_BACKUP_URLS) if platform=='愛奇藝' else (url,)
+            links=[];checked_url=url;errors=[]
+            for source_url in urls:
+                try:
+                    page=load(source_url)
+                    found=official_link_titles(page,source_url,host,path)
+                    if found:
+                        links=found;checked_url=source_url
+                        break
+                    errors.append(f'{urllib.parse.urlparse(source_url).path}: HTML {len(page)} chars; no official title links')
+                except Exception as source_error:
+                    errors.append(f'{urllib.parse.urlparse(source_url).path}: {source_error}')
+            if not links:raise ValueError('; '.join(errors) or 'No official title links')
+            if platform=='HBO Max':
+                links=[row for row in links if row['sourceUrl'].split('?')[0].rstrip('/')!=url and
+                    not re.search(r'^(?:電影|劇集與節目|首頁|登入|會員|Movies|Series|Home)
+    try:
+        mango_drama=parse_mango_drama_catalogue(load(MANGO_DRAMA_URL),now)
+        if not mango_drama:raise ValueError('Official drama catalogue returned no usable title links')
+        updates.extend(mango_drama)
+        checks.append({'platform':'芒果TV・電視劇','url':MANGO_DRAMA_URL,'status':'success','checkedAt':stamp,'titleCount':len(mango_drama)})
+    except Exception as exc:
+        checks.append({'platform':'芒果TV・電視劇','url':MANGO_DRAMA_URL,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+    return checks,updates
+
+def discover(previous, now, load=get):
+    stamp = now.isoformat(timespec='seconds')
+    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV、SBS、愛奇藝與 HBO Max 官方片庫／新聞頁，以及芒果TV 最新綜藝每日核對；官方片庫列示不等於已開播或台灣上架。'}
+    ids = []
+    for url in CATALOGUES:
+        try:
+            found = official_ids(load(url))
+            ids.extend(found)
+            result['sources'].append({'url': url, 'status': 'success', 'checkedAt': stamp, 'titleCount': len(found)})
+        except Exception as exc:
+            result['sources'].append({'url': url, 'status': 'error', 'checkedAt': stamp, 'error': str(exc)[:180]})
+    ids = list(dict.fromkeys(ids))
+    print('Official catalogue titles to check:', len(ids), flush=True)
+    old = {x['id'].removeprefix('netflix-auto-'): x for x in previous.get('verified', []) if x['id'].startswith('netflix-auto-')}
+    def verify(title_id):
+        url = 'https://www.netflix.com/tw/title/' + title_id
+        try:
+            item=parse_official(load(url), title_id, now, listed_in_taiwan=True)
+            return title_id, apply_release_evidence(item,load_release_evidence().get(title_id)) if item else None, None
+        except Exception as exc:
+            return title_id, None, str(exc)[:160]
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for index, (title_id, item, error) in enumerate(pool.map(verify, ids), 1):
+            if index % 50 == 0:
+                print('Checked', index, '/', len(ids), 'titles', flush=True)
+            if item:
+                item['firstSeenAt'] = old.get(title_id, {}).get('firstSeenAt', stamp)
+                result['verified'].append(item)
+            if error:
+                result['sources'].append({'url': 'https://www.netflix.com/tw/title/' + title_id, 'status': 'error', 'checkedAt': stamp, 'error': error})
+    # A failed source may retain a dated, clearly identified result for up to 7 days.
+    for title_id, item in old.items():
+        if title_id not in ids or any(s['status'] == 'error' and (s['url'].endswith('/' + title_id) or s['url'] in CATALOGUES) for s in result['sources']):
+            age = now - dt.datetime.fromisoformat(item['verifiedAt'])
+            if age <= dt.timedelta(days=7) and not any(x['id'] == item['id'] for x in result['verified']):
+                result['verified'].append({**item, 'verificationStale': True})
+    try:
+        mango=parse_mango(load(MANGO_URL),now)
+        result['verified'].extend(mango)
+        result['sources'].append({'url':MANGO_URL,'status':'success','checkedAt':stamp,'titleCount':len(mango)})
+    except Exception as exc:
+        result['sources'].append({'url':MANGO_URL,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+        for item in previous.get('verified',[]):
+            if item['id'].startswith('mango-auto-') and dt.timedelta(0)<=now-dt.datetime.fromisoformat(item['verifiedAt'])<=dt.timedelta(days=7):
+                result['verified'].append({**item,'verificationStale':True})
+    wetv,wetv_sources=discover_wetv(previous,now,load)
+    result['verified'].extend(wetv)
+    result['sources'].extend(wetv_sources)
+    sbs,sbs_sources,translation_queue=discover_sbs(previous,now,load)
+    result['verified'].extend(sbs)
+    result['sources'].extend(sbs_sources)
+    result['translationQueue']=translation_queue
+    platform_checks,platform_updates=check_official_platforms(now,load)
+    result['platformChecks']=platform_checks
+    result['platformUpdates']=platform_updates
+    result['platformChecks'].append({'platform':'芒果TV','url':MANGO_URL,'status':next((x['status'] for x in result['sources'] if x['url']==MANGO_URL),'error'),'checkedAt':stamp,'titleCount':len(mango) if any(x['url']==MANGO_URL and x['status']=='success' for x in result['sources']) else 0})
+    for kind in KINDS:
+        query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR WeTV OR 芒果TV) when:7d'
+        url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': query, 'hl': 'zh-TW', 'gl': 'TW', 'ceid': 'TW:zh-Hant'})
+        try:
+            root = ET.fromstring(load(url))
+            if root.tag != 'rss' or root.find('channel') is None:
+                raise ValueError('News source returned an invalid feed')
+            for story in root.findall('./channel/item'):
+                headline = story.findtext('title') or ''
+                link = story.findtext('link') or ''
+                try:
+                    published = email.utils.parsedate_to_datetime(story.findtext('pubDate') or '').astimezone(TZ)
+                except (ValueError, TypeError):
+                    continue
+                if not now - dt.timedelta(days=7) <= published <= now or not link.startswith('https://'):
+                    continue
+                if not any(t in headline for t in ('新劇', '上架', '開播', '首播', '定檔')) or any(t in headline for t in ('重播', '回顧', '經典老劇')):
+                    continue
+                for title in re.findall(r'《([^》]{2,40})》', headline):
+                    if any(x['title'] == title for x in result['verified'] + result['candidates']):
+                        continue
+                    result['candidates'].append({'title': title, 'type': kind, 'headline': headline, 'source': story.findtext('source') or '公開新聞', 'sourceUrl': link, 'publishedAt': published.isoformat(timespec='seconds'), 'status': '新聞提及，平台與上架日待核對'})
+            result['sources'].append({'url': url, 'type': kind, 'status': 'success', 'checkedAt': stamp})
+        except Exception as exc:
+            result['sources'].append({'url': url, 'type': kind, 'status': 'error', 'checkedAt': stamp, 'error': str(exc)[:180]})
+    result['candidates'] = classify_candidates(result['candidates'])
+    result['lastSuccessfulAt'] = stamp if result['sources'] and all(s['status'] == 'success' for s in result['sources']) else previous.get('lastSuccessfulAt')
+    result['status'] = 'success' if result['lastSuccessfulAt'] == stamp else 'partial' if any(s['status'] == 'success' for s in result['sources']) else 'failed'
+    return result
+
+
+def merge(feed, discovery, now, reviewed=None):
+    manual = [x for x in feed.get('recommendations', []) if not x.get('autoDiscovered')]
+    recent_path=Path(__file__).resolve().parents[1]/'data/series-recent-reviewed.json'
+    recent=reviewed if reviewed is not None else json.loads(recent_path.read_text()) if recent_path.exists() else []
+    recent_ids={x['id'] for x in recent}
+    manual=[x for x in manual if x['id'] not in recent_ids]+recent
+    titles = {(x['title'], x['platform']) for x in manual}
+    auto = []
+    for item in discovery.get('verified', []):
+        age = now - dt.datetime.fromisoformat(item['verifiedAt'])
+        if dt.timedelta(0) <= age <= dt.timedelta(days=7) and (item.get('catalogueYear') == now.year or item['id'].startswith('mango-auto-')) and (item['title'], item['platform']) not in titles:
+            auto.append(item)
+    evidence=load_release_evidence()
+    feed['recommendations'] = [apply_release_evidence(item,evidence.get(item['id'].removeprefix('netflix-auto-'))) for item in manual + auto]
+    feed['seriesDiscovery'] = {k: v for k, v in discovery.items() if k != 'verified'}
+    feed['seriesDiscovery']['candidates'] = classify_candidates(discovery.get('candidates', []))
+    feed['seriesDiscovery']['verifiedCount'] = len(auto)
+    old_keys={(x.get('title'),x.get('platform')) for x in feed.get('seriesDiscoveryLastSnapshot', [])}
+    current_snapshot=[{'title':x.get('title'),'platform':x.get('platform'),'type':x.get('type')} for x in auto]
+    feed['seriesDiscovery']['newByInterest']={kind:sum(1 for x in current_snapshot if x['type']==kind and (x['title'],x['platform']) not in old_keys) for kind in ('台劇','韓劇','陸劇','日劇','歐美劇','綜藝')} if 'seriesDiscoveryLastSnapshot' in feed else None
+    feed['seriesDiscovery']['countByInterest']={kind:sum(1 for x in current_snapshot if x['type']==kind) for kind in ('台劇','韓劇','陸劇','日劇','歐美劇','綜藝')}
+    feed['seriesDiscoveryLastSnapshot']=current_snapshot
+    return feed
+
+
+if __name__ == '__main__':
+    now = dt.datetime.now(TZ)
+    previous = json.loads(DISCOVERY.read_text()) if DISCOVERY.exists() else {}
+    result = discover(previous, now)
+    DISCOVERY.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+    path = Path('public/entertainment-daily.json')
+    feed = merge(json.loads(path.read_text()), result, now)
+    path.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + '\n')
+    print('Series discovery:', result['status'], 'verified:', len(result['verified']), 'candidates:', len(result['candidates']))
+    if result['status'] == 'failed' or not any(not x.get('verificationStale') for x in result['verified']) or any(x['status'] == 'error' and x['url'] in CATALOGUES for x in result['sources']):
+        raise SystemExit(1)
+    if result['status'] == 'partial':
+        print('::warning::Some individual title or news sources could not be verified; see published source health.')
+
+
+
+,row['title'],re.I)]
+                if not links:raise ValueError('Only navigation links found; no verified HBO series titles')
+            checks.append({'platform':platform,'url':checked_url,'status':'success','checkedAt':stamp,'titleCount':len(links)})
             for row in links:
                 if platform=='愛奇藝' and ('配音版' in row['title'] or '粵語版' in row['title']):continue
                 updates.append({**row,'platform':platform,'checkedAt':stamp,'status':'官方片庫／官方消息列出；首播日及台灣供應情況尚未核實'})
         except Exception as exc:
-            checks.append({'platform':platform,'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+            checks.append({'platform':platform,'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:500]})
     try:
         mango_drama=parse_mango_drama_catalogue(load(MANGO_DRAMA_URL),now)
         if not mango_drama:raise ValueError('Official drama catalogue returned no usable title links')
