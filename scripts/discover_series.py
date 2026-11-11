@@ -295,9 +295,58 @@ def discover_sbs(previous, now, load=get):
     return items,sources,queue
 
 
+# Official platform watchlists are distinct from confirmed premieres. These
+# pages may advertise catalogued / upcoming works without a release date.
+IQIYI_DRAMA_URL='https://www.iq.com/drama?lang=zh_tw'
+HBO_PRESS_URL='https://press.wbd.com/us/brands/hbo-max'
+
+def official_link_titles(page, base, allowed_host, required_path, max_items=24):
+    from html.parser import HTMLParser
+    class Links(HTMLParser):
+        def __init__(self):
+            super().__init__();self.href=None;self.parts=[];self.rows=[]
+        def handle_starttag(self,tag,attrs):
+            if tag=='a':
+                self.href=dict(attrs).get('href','');self.parts=[]
+        def handle_data(self,data):
+            if self.href is not None:self.parts.append(data)
+        def handle_endtag(self,tag):
+            if tag=='a' and self.href is not None:
+                url=urllib.parse.urljoin(base,self.href)
+                parsed=urllib.parse.urlparse(url)
+                title=' '.join(''.join(self.parts).split())
+                if parsed.scheme=='https' and parsed.hostname==allowed_host and required_path in parsed.path and 2<=len(title)<=100:
+                    self.rows.append({'title':title,'sourceUrl':url})
+                self.href=None;self.parts=[]
+    parser=Links();parser.feed(page)
+    unique={}
+    for item in parser.rows:
+        unique.setdefault(item['sourceUrl'].split('?')[0],item)
+    return list(unique.values())[:max_items]
+
+def check_official_platforms(now, load=get):
+    stamp=now.isoformat(timespec='seconds')
+    checks=[];updates=[]
+    # iQIYI: catalogue cards only. A catalogue appearance does not certify
+    # mainland origin, availability in Taiwan or an initial release date.
+    for platform,url,host,path in (
+        ('愛奇藝',IQIYI_DRAMA_URL,'www.iq.com','/album/'),
+        ('HBO Max',HBO_PRESS_URL,'press.wbd.com','/media-release/')):
+        try:
+            page=load(url)
+            links=official_link_titles(page,url,host,path)
+            if not links:raise ValueError('No official title links found; layout or access may have changed')
+            checks.append({'platform':platform,'url':url,'status':'success','checkedAt':stamp,'titleCount':len(links)})
+            for row in links:
+                if platform=='愛奇藝' and ('配音版' in row['title'] or '粵語版' in row['title']):continue
+                updates.append({**row,'platform':platform,'checkedAt':stamp,'status':'官方片庫／官方消息列出；首播日及台灣供應情況尚未核實'})
+        except Exception as exc:
+            checks.append({'platform':platform,'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+    return checks,updates
+
 def discover(previous, now, load=get):
     stamp = now.isoformat(timespec='seconds')
-    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV、SBS 官方片庫與芒果TV 最新綜藝每日更新；新聞候選不等於正式上架。公開來源無法保證涵蓋所有平台全部新劇。'}
+    result = {'checkedAt': stamp, 'sources': [], 'verified': [], 'candidates': [], 'method': 'Netflix、WeTV、SBS、愛奇藝與 HBO Max 官方片庫／新聞頁，以及芒果TV 最新綜藝每日核對；官方片庫列示不等於已開播或台灣上架。'}
     ids = []
     for url in CATALOGUES:
         try:
@@ -347,6 +396,10 @@ def discover(previous, now, load=get):
     result['verified'].extend(sbs)
     result['sources'].extend(sbs_sources)
     result['translationQueue']=translation_queue
+    platform_checks,platform_updates=check_official_platforms(now,load)
+    result['platformChecks']=platform_checks
+    result['platformUpdates']=platform_updates
+    result['platformChecks'].append({'platform':'芒果TV','url':MANGO_URL,'status':next((x['status'] for x in result['sources'] if x['url']==MANGO_URL),'error'),'checkedAt':stamp,'titleCount':len(mango) if any(x['url']==MANGO_URL and x['status']=='success' for x in result['sources']) else 0})
     for kind in KINDS:
         query = kind + ' (新劇 OR 新上架 OR 開播 OR 首播 OR 定檔) (Netflix OR Disney OR HBO OR 愛奇藝 OR 騰訊 OR WeTV OR 芒果TV) when:7d'
         url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({'q': query, 'hl': 'zh-TW', 'gl': 'TW', 'ceid': 'TW:zh-Hant'})
