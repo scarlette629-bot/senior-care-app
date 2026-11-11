@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# v1.06 China drama manual reload now fetches cloud data with explicit status; v1.05 stays immutable.
+# v1.06 daily list balances verified platforms instead of filling all 15 slots from WeTV; frozen v1.05 unchanged.
 on:
   push:
     branches: [main]
