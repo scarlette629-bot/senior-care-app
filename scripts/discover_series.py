@@ -299,6 +299,7 @@ def discover_sbs(previous, now, load=get):
 # pages may advertise catalogued / upcoming works without a release date.
 IQIYI_DRAMA_URL='https://www.iq.com/drama?lang=zh_tw'
 HBO_PRESS_URL='https://press.wbd.com/us/brands/hbo-max'
+MANGO_DRAMA_URL='https://pianku.api.mgtv.com/rider/list/pcweb/v3?platform=pcweb&channelId=2&pn=1&pc=80&sort=c2'
 
 def official_link_titles(page, base, allowed_host, required_path, max_items=24):
     from html.parser import HTMLParser
@@ -324,6 +325,24 @@ def official_link_titles(page, base, allowed_host, required_path, max_items=24):
         unique.setdefault(item['sourceUrl'].split('?')[0],item)
     return list(unique.values())[:max_items]
 
+def parse_mango_drama_catalogue(payload,now):
+    data=json.loads(payload)
+    rows=data.get('data',{}).get('hitDocs')
+    if data.get('code')!=200 or not isinstance(rows,list):
+        raise ValueError('Mango TV drama catalogue format invalid')
+    results=[];seen=set()
+    for row in rows:
+        title=text(str(row.get('title') or ''))
+        clip=str(row.get('clipId') or '')
+        part=str(row.get('playPartId') or '')
+        if not 2<=len(title)<=60 or not clip.isdigit() or not part.isdigit() or '配音版' in title:continue
+        if clip in seen:continue
+        seen.add(clip)
+        results.append({'title':title,'platform':'芒果TV','sourceUrl':f'https://www.mgtv.com/b/{clip}/{part}.html',
+            'checkedAt':now.isoformat(timespec='seconds'),
+            'status':'芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實'})
+    return results[:30]
+
 def check_official_platforms(now, load=get):
     stamp=now.isoformat(timespec='seconds')
     checks=[];updates=[]
@@ -342,6 +361,13 @@ def check_official_platforms(now, load=get):
                 updates.append({**row,'platform':platform,'checkedAt':stamp,'status':'官方片庫／官方消息列出；首播日及台灣供應情況尚未核實'})
         except Exception as exc:
             checks.append({'platform':platform,'url':url,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
+    try:
+        mango_drama=parse_mango_drama_catalogue(load(MANGO_DRAMA_URL),now)
+        if not mango_drama:raise ValueError('Official drama catalogue returned no usable title links')
+        updates.extend(mango_drama)
+        checks.append({'platform':'芒果TV・電視劇','url':MANGO_DRAMA_URL,'status':'success','checkedAt':stamp,'titleCount':len(mango_drama)})
+    except Exception as exc:
+        checks.append({'platform':'芒果TV・電視劇','url':MANGO_DRAMA_URL,'status':'error','checkedAt':stamp,'error':str(exc)[:180]})
     return checks,updates
 
 def discover(previous, now, load=get):
