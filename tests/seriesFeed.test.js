@@ -96,3 +96,16 @@ test('latest daily list is capped at fifteen and excludes dubbed editions',()=>{
  assert.equal(result.items[0].title,'陸劇新作19');
  assert.equal(result.items[14].title,'陸劇新作5');
 });
+
+test('top 15 reserves a place for each verified platform without treating candidates as premieres',()=>{
+ const now=Date.parse('2026-11-11T20:00:00+08:00');
+ const wetv=Array.from({length:22},(_,i)=>({id:'wetv-'+i,title:'WeTV 劇'+i,type:'陸劇',platform:'WeTV',description:'verified synopsis',verified:true,catalogueYear:2026,firstSeenAt:new Date(now-i*1000).toISOString()}));
+ const iqiyi={id:'iqiyi',title:'愛奇藝已核實新劇',type:'陸劇',platform:'愛奇藝',description:'verified synopsis',verified:true,releaseDate:'2026-11-01',firstSeenAt:'2026-11-01T12:00:00+08:00'};
+ const manga={id:'mango',title:'芒果TV已核實新劇',type:'陸劇',platform:'芒果TV',description:'verified synopsis',verified:true,releaseDate:'2026-11-02',firstSeenAt:'2026-11-02T12:00:00+08:00'};
+ const candidate={title:'HBO 未核實作品',platform:'HBO Max',type:'陸劇',description:'pending',verified:false};
+ const result=selectDailySeries({recommendations:[...wetv,iqiyi,manga,candidate]},'陸劇',['陸劇'],now);
+ assert.equal(result.items.length,15);
+ assert.deepEqual(new Set(result.items.map(x=>x.platform)),new Set(['WeTV','愛奇藝','芒果TV']));
+ assert.ok(!result.items.some(x=>x.title==='HBO 未核實作品'));
+ assert.equal(result.items.filter(x=>x.platform==='WeTV').length,13);
+});
