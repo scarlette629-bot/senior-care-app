@@ -259,3 +259,12 @@
 @media(max-width:360px){.streamingNews .streamingCard{padding:11px}.streamingNews>h2{font-size:18px}.streamingNews .streamingMeta{gap:3px 10px}}
 
 .seriesFilters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.seriesFilters button{width:auto;min-height:44px;padding:8px 12px;border:1px solid #aa7867;border-radius:12px;background:#fff;color:#563c35;font:inherit}.seriesFilters button[aria-pressed="true"]{background:#563c35;color:#fff}
+
+/* v1.06: keep fresh entertainment content within the upper screen area. */
+.feature:has(.entertainmentPage)>h1{font-size:clamp(25px,5vw,36px);line-height:1.25;margin:12px 0 16px}
+.entertainmentPage.message{padding:16px 14px;text-align:left}
+.entertainmentPage.message>.sourceNote:first-child{font-size:14px;line-height:1.4;margin:0 0 10px;color:var(--muted)}
+.entertainmentPage .dailySeries{margin-top:6px}
+.entertainmentPage .dailySeries>h2{font-size:clamp(21px,5vw,27px);margin:0 0 10px}
+.entertainmentPage .dailySeries>.sourceNote{font-size:14px;line-height:1.45;margin:6px 0}
+.entertainmentPage .dailySeries .programCard{margin-top:10px}
