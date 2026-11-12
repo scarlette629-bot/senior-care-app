@@ -5663,28 +5663,28 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-12T20:48:34+08:00",
-    "updatedAt": "2026-11-12T20:48:34+08:00",
-    "lastSuccessfulAt": "2026-11-12T20:48:34+08:00",
+    "checkedAt": "2026-11-13T04:51:29+08:00",
+    "updatedAt": "2026-11-13T04:51:29+08:00",
+    "lastSuccessfulAt": "2026-11-13T04:51:29+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-12T20:48:34+08:00",
+        "checkedAt": "2026-11-13T04:51:29+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-12T20:48:34+08:00",
+        "checkedAt": "2026-11-13T04:51:29+08:00",
         "itemCount": 6
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-12T20:48:34+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-11-13T04:51:29+08:00",
+        "itemCount": 5
       }
     ],
     "market": "台灣及華語市場",
@@ -5719,6 +5719,17 @@
         "source": "噓！星聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Bd3A4XzBWdU1lWjZpRnl1ZDctNlJQZkx5RUI2WERMV3kyR1NtbmhXdUZGSnc3cHdCWlJIc0pwMDhVbUt4S3I4OWtyQXg2aUMyZkt2c2tXa1Iyd9IBX0FVX3lxTE5LeUh3X18tSVpkMHRXSVZlMkM1cnpaVzdMQ3FpWkhUTUlOcnhyNnNTNWU3MGxaaU1NZVJ0SzF3S3o1dGFnanJSQ2VURUota1VtZWVjUHI0YWpZakdPSy1V?oc=5",
         "observedAt": "2026-11-12T10:57:28+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-5d5f483177578bba",
+        "title": "《新人教練金妍京2》獲2026廣播內容大賞非戲劇類最佳節目獎 - www.diarypoint.com",
+        "type": "綜藝",
+        "source": "www.diarypoint.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeWp2YUxNNjNTSG9McTdCRTdFTEtEQVlZSURKd3hmbGpVYm1tQU9aY3VfdUZVZ3QtXzFLcjhTSndKSUZaZnppNWRJSGREeVhMSk81NjBIQnc1UGl6aFVrNDgyLXo1THQwdVFrdHVWR1BBd0ZSbVNXWTJ5UVdBY1JYbXU4Vk1Oa2pqZEUyNk14WGxSUTNpVU5yQy0xdVEyWVJGaVZjOENDWHFLV3d2dmlVV01PRktzeEtmYUF5cThER09uSGM?oc=5",
+        "observedAt": "2026-11-12T05:54:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
