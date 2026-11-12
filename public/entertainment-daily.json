@@ -5663,33 +5663,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-12T10:34:42+08:00",
-    "updatedAt": "2026-11-12T10:34:42+08:00",
-    "lastSuccessfulAt": "2026-11-12T10:34:42+08:00",
+    "checkedAt": "2026-11-12T11:50:42+08:00",
+    "updatedAt": "2026-11-12T11:50:42+08:00",
+    "lastSuccessfulAt": "2026-11-12T11:50:42+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-12T10:34:42+08:00",
+        "checkedAt": "2026-11-12T11:50:42+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-12T10:34:42+08:00",
+        "checkedAt": "2026-11-12T11:50:42+08:00",
         "itemCount": 5
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-12T10:34:42+08:00",
+        "checkedAt": "2026-11-12T11:50:42+08:00",
         "itemCount": 2
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-4ee30a92fef31dc9",
+        "title": "巫啟賢首登「綜藝一級棒」 憶8歲母離世感慨哽咽 - 噓！星聞",
+        "type": "綜藝",
+        "source": "噓！星聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Bd3A4XzBWdU1lWjZpRnl1ZDctNlJQZkx5RUI2WERMV3kyR1NtbmhXdUZGSnc3cHdCWlJIc0pwMDhVbUt4S3I4OWtyQXg2aUMyZkt2c2tXa1Iyd9IBX0FVX3lxTE5LeUh3X18tSVpkMHRXSVZlMkM1cnpaVzdMQ3FpWkhUTUlOcnhyNnNTNWU3MGxaaU1NZVJ0SzF3S3o1dGFnanJSQ2VURUota1VtZWVjUHI0YWpZakdPSy1V?oc=5",
+        "observedAt": "2026-11-12T10:57:28+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-3796e5bf98f89259",
         "title": "討論牆| Netflix台劇《消失的裂痕》楊謹華、張孝全演技狂飆！破碎鏡面拉扯出的雙重人生，反轉直到最後一秒 - LINE TODAY",
@@ -5752,17 +5763,6 @@
         "source": "TVB",
         "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
         "observedAt": "2026-11-10T17:05:52+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-d555562cc19d3a3c",
-        "title": "黃仁勳認婚外情「傷害相伴40年妻」！5個月前才上節目放閃 家人同場甜蜜畫面曝光 - 鏡報",
-        "type": "綜藝",
-        "source": "鏡報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUUFiaV8zWlJzblVkSXRuVVR0LWFlN0dsV1ZTVEhfZHNLUmZadGxzSURMMmoybW1Ub29YVm4xN1NoVDRHajB1dGlGS0h4R2ZVNUE?oc=5",
-        "observedAt": "2026-11-09T07:57:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
