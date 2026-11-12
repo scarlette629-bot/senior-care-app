@@ -5663,33 +5663,55 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-12T11:50:42+08:00",
-    "updatedAt": "2026-11-12T11:50:42+08:00",
-    "lastSuccessfulAt": "2026-11-12T11:50:42+08:00",
+    "checkedAt": "2026-11-12T20:48:34+08:00",
+    "updatedAt": "2026-11-12T20:48:34+08:00",
+    "lastSuccessfulAt": "2026-11-12T20:48:34+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-12T11:50:42+08:00",
+        "checkedAt": "2026-11-12T20:48:34+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-12T11:50:42+08:00",
-        "itemCount": 5
+        "checkedAt": "2026-11-12T20:48:34+08:00",
+        "itemCount": 6
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-12T11:50:42+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-12T20:48:34+08:00",
+        "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-36ab5799d7d23d5c",
+        "title": "台劇《急診室的奇蹟》Netflix線上看7大亮點！霍建華時隔20年同框楊謹華，揭開藏在白袍之下的難題 - ELLE",
+        "type": "台劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qOFFFT28yTm4tTm1jSEgxZHRnTGp1Q1E4U24xWTJEbTJDMEJTSUpnQVBRWVNfZjZab3hsdWxrUE5GTTk2UVhjcm1FWFVHNGh4dVNrX0E3Tkd5UFJIeWV0d0JaM0VKWllzdkRNeVBnb0J6NEc0M0FrMTNINA?oc=5",
+        "observedAt": "2026-11-12T16:14:44+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-08b78ca2c700ef9e",
+        "title": "巫啟賢首登《綜藝一級棒》 自爆曾參加歌唱海選慘遭淘汰 - 鏡週刊Mirror Media",
+        "type": "綜藝",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0OENhZ2ZqSUNOSEF1NkN1VWd4am93TUhvZWxMUndFa2U0QkNuMVZMMnFGQ3JqNlZTd3FULUk5ZlVVUGprdUptemVrWXg3NVdINHdLZUJ3Yk1wTUhhNFppZ0lrSkRmQdIBa0FVX3lxTE1qMEV2QkJNSy15ckRobFFZbkxnN1VOYVdBODY4c3RLanMtakZhaDZqYUlvWlBQeHNoOGotM05aWUdNSkc4QWZFeFlBS1NkWi13dmp2VVp3YWhGTjhhTFc1c2JYcThQOHR5MUw0?oc=5",
+        "observedAt": "2026-11-12T11:59:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-4ee30a92fef31dc9",
         "title": "巫啟賢首登「綜藝一級棒」 憶8歲母離世感慨哽咽 - 噓！星聞",
@@ -5763,6 +5785,17 @@
         "source": "TVB",
         "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
         "observedAt": "2026-11-10T17:05:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-d555562cc19d3a3c",
+        "title": "黃仁勳認婚外情「傷害相伴40年妻」！5個月前才上節目放閃 家人同場甜蜜畫面曝光 - 鏡報",
+        "type": "綜藝",
+        "source": "鏡報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUUFiaV8zWlJzblVkSXRuVVR0LWFlN0dsV1ZTVEhfZHNLUmZadGxzSURMMmoybW1Ub29YVm4xN1NoVDRHajB1dGlGS0h4R2ZVNUE?oc=5",
+        "observedAt": "2026-11-09T07:57:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
