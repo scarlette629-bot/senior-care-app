@@ -5603,28 +5603,28 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-14T01:47:26+08:00",
-    "updatedAt": "2026-11-14T01:47:26+08:00",
-    "lastSuccessfulAt": "2026-11-14T01:47:26+08:00",
+    "checkedAt": "2026-11-14T07:37:12+08:00",
+    "updatedAt": "2026-11-14T07:37:12+08:00",
+    "lastSuccessfulAt": "2026-11-14T07:37:12+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-14T01:47:26+08:00",
+        "checkedAt": "2026-11-14T07:37:12+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-14T01:47:26+08:00",
+        "checkedAt": "2026-11-14T07:37:12+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-14T01:47:26+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-14T07:37:12+08:00",
+        "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
@@ -5637,6 +5637,17 @@
         "source": "BEAUTY美人圈",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aUmp4cFRYTnN4WlJJeTRlT2txSDZNVjVSd0JCbXBLNnZBSTVLalc1d0c2eE83RFlkbVFjRUhCYU9nN2hQdnZnZHd6eUNId1hJWlHSAVJBVV95cUxOWlJqeHBUWE5zeFpSSXk0ZU9rcUg2TVY1UndCQm1wSzZ2QUk1S2pXNXdHNnhPN0RZZG1RY0VIQmFPZzdoUHZ2Z2R3enlDSHdYSVpR?oc=5",
         "observedAt": "2026-11-13T19:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-139c7243df142051",
+        "title": "綜藝男星表態！「穿競選背心」陪他市場拜票 高喊：值得託付 - TVBS新聞網",
+        "type": "綜藝",
+        "source": "TVBS新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pNWgwNGVzbTJYRVcwWWJSWWsxYldsdlRZd2ZuQ3lFbVNWSnNraU8xT0RmdE9aMHl5TEdZak5QYTVBZnpBTVJOV3NPa2VZOENZaTlmNkctWGxMeUZyMFY4RS1xYmI?oc=5",
+        "observedAt": "2026-11-13T14:43:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
