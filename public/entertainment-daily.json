@@ -5603,33 +5603,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-13T10:12:34+08:00",
-    "updatedAt": "2026-11-13T10:12:34+08:00",
-    "lastSuccessfulAt": "2026-11-13T10:12:34+08:00",
+    "checkedAt": "2026-11-13T17:37:22+08:00",
+    "updatedAt": "2026-11-13T17:37:22+08:00",
+    "lastSuccessfulAt": "2026-11-13T17:37:22+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:12:34+08:00",
+        "checkedAt": "2026-11-13T17:37:22+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:12:34+08:00",
-        "itemCount": 7
+        "checkedAt": "2026-11-13T17:37:22+08:00",
+        "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-13T10:12:34+08:00",
+        "checkedAt": "2026-11-13T17:37:22+08:00",
         "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-b7aa90f78e0bd014",
+        "title": "Netflix 《Doctor X》大結局霍建華回歸台劇《急診室的奇蹟》一次上線！邱澤《重生密碼》愛奇藝預備起！追劇推薦 - Yahoo新聞",
+        "type": "台劇",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikgVBVV95cUxQdjMwMm9oRmY1UE4wR29waEpzSWZEbU1FalNUanMyTEpjYUJwd3ZQY1BYRlB1LVVQR3N3LW4wVHFUTzdWQWx3TzhMdHZCSlJyNzBqYmxEUGxiWlYxSWl5RGlQci05ajJSSHF6MTF0VEUwWDR4bTNxSzNfT094R2Q0TERIamszTWJ5cm1USTdlSndOVVBHMW5ESFl6X2dsQmhsVU9WMVN6TkhaaXAxa3VVVGhDYmcwRHRWMDd5MFZjWTNMdU5sZnRqeWRvbFh3UkxlQ1BUNU1EVHBJcmlvM2lOU1VhMWtDQUxOVVJ3V0l1MlA2LXdpWVVZRWcxWHpBbjlFc1c1MXBmcW9pcHJCTTM4ME1JdW5qOWkxdUpDTXN6UlFSemVTWlR2Y1ZBNVNsYTZBdGxOdnpnaDZ4bDJaV1kxMGlkbl9kM1lyQzZUZkhiNUhCYU1sOTc4Umk4akVaVlFTejBzTzhkNjI1cFQyWW9SN3VGSExrNjc1ZjEyVmZFLWd5TFJRRTRyNHdKQWgxUFBUSGs5OGtudnpOQ0tnaTRYYTdwOUlyLV9qaFR3UHdKcndJczQ3X2ZDaHg5dGRoaTZ6QzN2S0NSd3RIODBlR3k5dXY3d2RzeWRHbFBmMnJmckZ6M1hKRmRZOGtpYkRIRkFxcTFVb2VDOXF1NW0tNTV4aW9uVk1sNVhxbVFaZWxFWDVfYjdpTnRNTGtWd1FZOGJ6c3RYMkNpdktDS3RPajVBLVAxcUdMMm9SSm5UYzlaeW5aQUUySFpwcHFpUmFnVW1nVFlTN2h5OHBsRnhjZElzdVM5N0JBeWJYdUMwUUUxcnViaS1uZ2c1b1ZoT0ZmdWpvQUU4NzhJV05aejF4dkRHaFBR?oc=5",
+        "observedAt": "2026-11-13T12:38:07+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-62280c1becfe0747",
         "title": "Netflix影集11月收視排行！《百日謊言》第五、《新手上路》第二，「這部」奪冠不意外 - 造咖",
