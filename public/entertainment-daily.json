@@ -642,6 +642,48 @@
       "availabilityNote": "首播及上架日依播出報導；實際播放狀態請開啟平台確認。"
     },
     {
+      "id": "netflix-auto-82027980",
+      "title": "急診室的奇蹟",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "霍建華、楊謹華、蔡凡熙、詹子萱、彭千祐",
+      "description": "平凡的醫科畢業生受到優秀醫師青睞，他必須證明自己能和頂尖同儕平起平坐，並在混亂又充滿生死危機的急診室生存下來",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82027980",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82027980",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-13T10:48:16+08:00"
+    },
+    {
+      "id": "netflix-auto-82635638",
+      "title": "黑白清道夫",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "李銘順、婁峻碩、雷嘉汭、傅孟柏、庹宗華",
+      "description": "落魄的前幫派分子和油滑的政客之子聯手，替黑白兩道重要客戶處理骯髒的祕密。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82635638",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82635638",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+    },
+    {
       "id": "netflix-auto-83124329",
       "title": "新手上路",
       "type": "台劇",
@@ -651,7 +693,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/83124329",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "day",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -666,27 +708,6 @@
       "firstSeenAt": "2026-10-26T17:20:13+08:00"
     },
     {
-      "id": "netflix-auto-82027980",
-      "title": "急診室的奇蹟",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "霍建華、楊謹華、蔡凡熙、詹子萱、彭千祐",
-      "description": "平凡的醫科畢業生受到優秀醫師青睞，他必須證明自己能和頂尖同儕平起平坐，並在混亂又充滿生死危機的急診室生存下來",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82027980",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82027980",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-13T10:48:16+08:00"
-    },
-    {
       "id": "netflix-auto-81639911",
       "title": "嗨! 營業中",
       "type": "綜藝",
@@ -696,7 +717,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81639911",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -717,117 +738,12 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82687339",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "releaseSourceUrl": "https://www.netflix.com/tw/title/82687339",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
-    },
-    {
-      "id": "netflix-auto-82635638",
-      "title": "黑白清道夫",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "李銘順、婁峻碩、雷嘉汭、傅孟柏、庹宗華",
-      "description": "落魄的前幫派分子和油滑的政客之子聯手，替黑白兩道重要客戶處理骯髒的祕密。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82635638",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82635638",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
-    },
-    {
-      "id": "netflix-auto-82706229",
-      "title": "阿松與阿暖",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "柯叔元、韓瑜、白家綺、黃西田、楊子儀",
-      "description": "第四代紙藝師因神祕學徒而有了新目標，他不僅重拾熱情，也再次敞開心扉。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82706229",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82706229",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
-    },
-    {
-      "id": "netflix-auto-82698956",
-      "title": "聰明鎮",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "梁詠琪、陳姸霏、余杰恩、唐從聖、劉修甫",
-      "description": "一對母女來到以高升學率聞名的偏遠小鎮，卻發現這裡的學生們能夠成就非凡，是因為背後藏有黑暗駭人的祕密。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82698956",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82698956",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-13T10:48:16+08:00"
-    },
-    {
-      "id": "netflix-auto-82698976",
-      "title": "欠妳的那場婚禮",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "張孝全、朱軒洋、蘇慧倫、蒲禾菲、謝盈萱",
-      "description": "在這座充滿野心與街頭氣息的城市，竄紅的名聲讓音樂人和他的夥伴喘不過氣。當光鮮的人設撞上不堪的現實，他們的生活開始失控。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82698976",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82698976",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
-    },
-    {
-      "id": "netflix-auto-82835340",
-      "title": "消失的裂痕",
-      "type": "台劇",
-      "platform": "Netflix",
-      "cast": "楊謹華、張孝全、姚淳耀、魏蔓、陸弈靜",
-      "description": "李芸穿越鏡子來到平行世界，發現一名男孩與自己失蹤的兒子長得一模一樣。兩個家庭因慾望、欺騙和身分認同陷入衝突。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82835340",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82835340",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
@@ -843,12 +759,117 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/83089697",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "releaseSourceUrl": "https://www.netflix.com/tw/title/83089697",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+    },
+    {
+      "id": "netflix-auto-82706229",
+      "title": "阿松與阿暖",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "柯叔元、韓瑜、白家綺、黃西田、楊子儀",
+      "description": "第四代紙藝師因神祕學徒而有了新目標，他不僅重拾熱情，也再次敞開心扉。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82706229",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82706229",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+    },
+    {
+      "id": "netflix-auto-82698976",
+      "title": "欠妳的那場婚禮",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "張孝全、朱軒洋、蘇慧倫、蒲禾菲、謝盈萱",
+      "description": "在這座充滿野心與街頭氣息的城市，竄紅的名聲讓音樂人和他的夥伴喘不過氣。當光鮮的人設撞上不堪的現實，他們的生活開始失控。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82698976",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82698976",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+    },
+    {
+      "id": "netflix-auto-82166235",
+      "title": "何百芮的地獄戀曲",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "郭書瑤、姚淳耀、鍾瑶、孫可芳、林暐恆",
+      "description": "何百芮逐漸適應當網紅的日子，卻又在幫老闆拯救甜點店時愛上人家，害自己再度陷入棘手的境地。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82166235",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82166235",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-14T10:36:50+08:00"
+    },
+    {
+      "id": "netflix-auto-82698956",
+      "title": "聰明鎮",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "梁詠琪、陳姸霏、余杰恩、唐從聖、劉修甫",
+      "description": "一對母女來到以高升學率聞名的偏遠小鎮，卻發現這裡的學生們能夠成就非凡，是因為背後藏有黑暗駭人的祕密。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82698956",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82698956",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-13T10:48:16+08:00"
+    },
+    {
+      "id": "netflix-auto-82835340",
+      "title": "消失的裂痕",
+      "type": "台劇",
+      "platform": "Netflix",
+      "cast": "楊謹華、張孝全、姚淳耀、魏蔓、陸弈靜",
+      "description": "李芸穿越鏡子來到平行世界，發現一名男孩與自己失蹤的兒子長得一模一樣。兩個家庭因慾望、欺騙和身分認同陷入衝突。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82835340",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82835340",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
@@ -864,7 +885,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82682379",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -876,6 +897,27 @@
       "firstSeenAt": "2026-10-26T17:20:13+08:00"
     },
     {
+      "id": "netflix-auto-81653386",
+      "title": "魔鬼的計謀",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "金東載、Nucksal、XITSUH、張星銀、神童",
+      "description": "這是一場考驗機敏、謀略與智慧的遊戲，參賽者在 7 天 6 夜中捉對廝殺，最後會是誰登上冠軍寶座？",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81653386",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81653386",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-11T10:05:49+08:00"
+    },
+    {
       "id": "netflix-auto-82682433",
       "title": "百日謊言",
       "type": "韓劇",
@@ -885,7 +927,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/82682433",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -906,7 +948,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81997887",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -927,7 +969,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81947300",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -939,109 +981,46 @@
       "firstSeenAt": "2026-10-26T17:16:03+08:00"
     },
     {
-      "id": "netflix-auto-81521365",
-      "title": "愛在山林間",
-      "type": "綜藝",
+      "id": "netflix-auto-80994082",
+      "title": "亞森·羅蘋",
+      "type": "歐美劇",
       "platform": "Netflix",
-      "cast": "田村淳、貝琪",
-      "description": "這群單身男女年紀都超過 35 歲，來自各行各業，現在朝夕相處，一起翻修房子，想尋得再次怦然心動的機會。誰能順利找到真愛？誰只能隻身黯然離開？",
+      "cast": "歐馬·希、露迪芬·沙涅、可洛蒂德·艾姆、安托萬·古依、蘇飛安·葛哈",
+      "description": "本劇靈感取自亞森羅蘋的冒險故事，描述怪盜紳士亞森迪歐運用機靈頭腦和人格魅力智取敵手，保護所愛之人。",
       "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81521365",
+      "url": "https://www.netflix.com/tw/title/80994082",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81521365",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-27T09:32:27+08:00"
-    },
-    {
-      "id": "netflix-auto-82016402",
-      "title": "戀愛充電中",
-      "type": "韓劇",
-      "platform": "Netflix",
-      "cast": "金英光、蔡秀彬",
-      "description": "裝著人工心臟的大企業繼承人遇見了身上帶電的女人，為了讓他的心臟繼續跳動，兩人達成協議，但心臟的反應卻出乎他預期。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82016402",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82016402",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/80994082",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
       "firstSeenAt": "2026-10-26T17:16:03+08:00"
     },
     {
-      "id": "netflix-auto-81769466",
-      "title": "不良一族尋愛記",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "MEGUMI、永野、Awich、Taka",
-      "description": "這是日本第一個以叛逆小混混為主角的約會節目，看 11 位單身男女針鋒相對、培養感情，一起生活 14 天，全力尋找真愛。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81769466",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81769466",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
-    },
-    {
-      "id": "netflix-auto-81603806",
-      "title": "假面美顏",
+      "id": "netflix-auto-80113541",
+      "title": "深夜食堂",
       "type": "日劇",
       "platform": "Netflix",
-      "cast": "松岡茉優、仲里依紗、間宮祥太朗、田中美奈實、萩原利久",
-      "description": "天賦異稟的急診外科醫生被迫踏進整形醫界，和知名整形醫生起了衝突，揭露出藏在亮麗外表下的貪婪及慾望。",
+      "cast": "小林薰、不破萬作、綾田俊樹、安藤玉惠、宇野祥平",
+      "description": "一名帶有傷疤的男子，在新宿的後巷經營一間深夜食堂。沒人曉得他的名字或經歷，但每一位顧客都會和他分享自己的事。",
       "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81603806",
+      "url": "https://www.netflix.com/tw/title/80113541",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81603806",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/80113541",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T20:45:25+08:00"
-    },
-    {
-      "id": "netflix-auto-82682338",
-      "title": "金特務：本色回歸",
-      "type": "韓劇",
-      "platform": "Netflix",
-      "cast": "蘇志燮、崔大勳、尹敬浩、朱相昱、孫娜恩",
-      "description": "不起眼老爸的女兒失蹤，他拿出塵封的特務技能追查女兒下落，卻引來危險的關注。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82682338",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82682338",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+      "firstSeenAt": "2026-11-10T12:15:37+08:00"
     },
     {
       "id": "netflix-auto-81682935",
@@ -1053,7 +1032,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81682935",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -1065,6 +1044,69 @@
       "firstSeenAt": "2026-11-06T10:38:44+08:00"
     },
     {
+      "id": "netflix-auto-82682338",
+      "title": "金特務：本色回歸",
+      "type": "韓劇",
+      "platform": "Netflix",
+      "cast": "蘇志燮、崔大勳、尹敬浩、朱相昱、孫娜恩",
+      "description": "不起眼老爸的女兒失蹤，他拿出塵封的特務技能追查女兒下落，卻引來危險的關注。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82682338",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82682338",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00"
+    },
+    {
+      "id": "netflix-auto-80176931",
+      "title": "拜託冰箱",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "金成柱、安貞桓",
+      "description": "韓國頂尖主廚正面交鋒，利用在明星來賓的冰箱中找到的食材，即興創造出各種菜色。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/80176931",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/80176931",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-11T20:02:58+08:00"
+    },
+    {
+      "id": "netflix-auto-82016402",
+      "title": "戀愛充電中",
+      "type": "韓劇",
+      "platform": "Netflix",
+      "cast": "金英光、蔡秀彬",
+      "description": "裝著人工心臟的大企業繼承人遇見了身上帶電的女人，為了讓他的心臟繼續跳動，兩人達成協議，但心臟的反應卻出乎他預期。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82016402",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82016402",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:16:03+08:00"
+    },
+    {
       "id": "netflix-auto-81983578",
       "title": "青春共體",
       "type": "歐美劇",
@@ -1074,7 +1116,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81983578",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -1095,7 +1137,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/80996601",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -1107,25 +1149,67 @@
       "firstSeenAt": "2026-11-09T18:06:33+08:00"
     },
     {
-      "id": "netflix-auto-82791053",
-      "title": "Stokes Twins",
-      "type": "綜藝",
+      "id": "netflix-auto-81222923",
+      "title": "茜茜皇后",
+      "type": "歐美劇",
       "platform": "Netflix",
-      "cast": "艾倫陳史托克斯、亞歷克斯陳史托克斯",
-      "description": "這部合輯收錄 Stokes Twins 觀看次數最高的影片，從祕密房間到各種誇張惡作劇與挑戰，看他們將不可能化為現實。",
+      "cast": "黛芙姆林瑙伊斯蘭莫格魯、菲利浦·弗洛依桑特、梅莉卡·芙如坦、約翰尼斯·努斯鮑姆、伊莉莎·史洛特",
+      "description": "天生叛逆的伊莉莎白愛上法蘭茲皇帝，跌破眾人眼鏡成為皇后，一頭栽進維也納的皇室鉤心鬥角之中。",
       "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82791053",
+      "url": "https://www.netflix.com/tw/title/81222923",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82791053",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81222923",
       "catalogueYear": 2026,
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-09T18:06:33+08:00"
+      "firstSeenAt": "2026-11-14T10:36:50+08:00"
+    },
+    {
+      "id": "netflix-auto-83073030",
+      "title": "星級婚約：安娜蕾和布札",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "安娜蕾多達、「布札詹姆斯」布涅類拉穆嘎德瓦王子",
+      "description": "鏡頭跟著媒體紅人安娜蕾多達和她的王室未婚夫布札詹姆斯，記錄婚前慶祝活動、氣氛緊張的家庭聚會，還有期盼已久的婚禮宣誓時刻。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/83073030",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/83073030",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-14T10:36:50+08:00"
+    },
+    {
+      "id": "netflix-auto-81484461",
+      "title": "爆笑悲劇王：笑著笑著就哭了",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "阿信、大悟、劇團一人、小木博明、矢作兼",
+      "description": "喜劇演員聯袂演出這齣正規戲劇，有些場景卻沒劇本，而一旦搞笑失敗，就會被踢出節目。一場大亂鬥即將登場！",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81484461",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81484461",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-11T10:05:49+08:00"
     },
     {
       "id": "netflix-auto-81678020",
@@ -1137,7 +1221,7 @@
       "source": "Netflix 台灣官方作品頁（自動核對）",
       "url": "https://www.netflix.com/tw/title/81678020",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -1147,6 +1231,177 @@
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
       "firstSeenAt": "2026-11-10T12:15:37+08:00"
+    },
+    {
+      "id": "netflix-auto-82791053",
+      "title": "Stokes Twins",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "艾倫陳史托克斯、亞歷克斯陳史托克斯",
+      "description": "這部合輯收錄 Stokes Twins 觀看次數最高的影片，從祕密房間到各種誇張惡作劇與挑戰，看他們將不可能化為現實。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82791053",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82791053",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-09T18:06:33+08:00"
+    },
+    {
+      "id": "netflix-auto-83021610",
+      "title": "權欲 3：卡南崛起",
+      "type": "歐美劇",
+      "platform": "Netflix",
+      "cast": "梅凱柯提斯、帕蒂納·米勒、倫敦·布朗、麥爾坎 M 梅斯、惡男喬伊",
+      "description": "卡南史塔克在 1990 年代的皇后區成長。他一心想在母親的古柯鹼生意中證明自己，同時還得面對威脅家族地盤的敵對勢力。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/83021610",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/83021610",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-09T18:06:33+08:00"
+    },
+    {
+      "id": "netflix-auto-82023389",
+      "title": "枕邊殺局",
+      "type": "歐美劇",
+      "platform": "Netflix",
+      "cast": "崔斯坦·烏羅阿、卡洛斯布蘭科、費爾弗拉加、米格爾·博林內斯、路易莎·梅瑞拉斯",
+      "description": "一名女子在夜晚遇襲，警佐鍥而不捨追查，懷疑她的丈夫並不像表面上看來那麼清白。本劇取材自真人真事。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82023389",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82023389",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-14T10:36:50+08:00"
+    },
+    {
+      "id": "netflix-auto-81930079",
+      "title": "WWE Crown Jewel",
+      "type": "歐美劇",
+      "platform": "Netflix",
+      "cast": "官方尚未提供",
+      "description": "在這場跨國對決中，看《Raw》和《SmackDown》的 Superstar 一較高下，上演頂尖對戰，爭奪冠軍寶座。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81930079",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81930079",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-10T12:15:37+08:00"
+    },
+    {
+      "id": "netflix-auto-82988577",
+      "title": "India’s Got Latent",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "Samay Raina",
+      "description": "Samay Raina returns with a new season of his offbeat comedy competition, where contestants perform for celebrity judges and predict their own scores.",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/82988577",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/82988577",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-11-14T10:36:50+08:00"
+    },
+    {
+      "id": "netflix-auto-81521365",
+      "title": "愛在山林間",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "田村淳、貝琪",
+      "description": "這群單身男女年紀都超過 35 歲，來自各行各業，現在朝夕相處，一起翻修房子，想尋得再次怦然心動的機會。誰能順利找到真愛？誰只能隻身黯然離開？",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81521365",
+      "verified": true,
+      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81521365",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-27T09:32:27+08:00",
+      "verificationStale": true
+    },
+    {
+      "id": "netflix-auto-81769466",
+      "title": "不良一族尋愛記",
+      "type": "綜藝",
+      "platform": "Netflix",
+      "cast": "MEGUMI、永野、Awich、Taka",
+      "description": "這是日本第一個以叛逆小混混為主角的約會節目，看 11 位單身男女針鋒相對、培養感情，一起生活 14 天，全力尋找真愛。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81769466",
+      "verified": true,
+      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81769466",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T17:20:13+08:00",
+      "verificationStale": true
+    },
+    {
+      "id": "netflix-auto-81603806",
+      "title": "假面美顏",
+      "type": "日劇",
+      "platform": "Netflix",
+      "cast": "松岡茉優、仲里依紗、間宮祥太朗、田中美奈實、萩原利久",
+      "description": "天賦異稟的急診外科醫生被迫踏進整形醫界，和知名整形醫生起了衝突，揭露出藏在亮麗外表下的貪婪及慾望。",
+      "source": "Netflix 台灣官方作品頁（自動核對）",
+      "url": "https://www.netflix.com/tw/title/81603806",
+      "verified": true,
+      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "releaseSourceUrl": "https://www.netflix.com/tw/title/81603806",
+      "catalogueYear": 2026,
+      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
+      "platformAvailabilityVerified": false,
+      "firstSeenAt": "2026-10-26T20:45:25+08:00",
+      "verificationStale": true
     },
     {
       "id": "netflix-auto-82912092",
@@ -1193,94 +1448,6 @@
       "verificationStale": true
     },
     {
-      "id": "netflix-auto-83021610",
-      "title": "權欲 3：卡南崛起",
-      "type": "歐美劇",
-      "platform": "Netflix",
-      "cast": "梅凱柯提斯、帕蒂納·米勒、倫敦·布朗、麥爾坎 M 梅斯、惡男喬伊",
-      "description": "卡南史塔克在 1990 年代的皇后區成長。他一心想在母親的古柯鹼生意中證明自己，同時還得面對威脅家族地盤的敵對勢力。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/83021610",
-      "verified": true,
-      "verifiedAt": "2026-11-12T11:14:37+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/83021610",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-09T18:06:33+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-81930079",
-      "title": "WWE Crown Jewel",
-      "type": "歐美劇",
-      "platform": "Netflix",
-      "cast": "官方尚未提供",
-      "description": "在這場跨國對決中，看《Raw》和《SmackDown》的 Superstar 一較高下，上演頂尖對戰，爭奪冠軍寶座。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81930079",
-      "verified": true,
-      "verifiedAt": "2026-11-12T11:14:37+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81930079",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-10T12:15:37+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-80176931",
-      "title": "拜託冰箱",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "金成柱、安貞桓",
-      "description": "韓國頂尖主廚正面交鋒，利用在明星來賓的冰箱中找到的食材，即興創造出各種菜色。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/80176931",
-      "verified": true,
-      "verifiedAt": "2026-11-11T21:13:44+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/80176931",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-11T20:02:58+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-80113541",
-      "title": "深夜食堂",
-      "type": "日劇",
-      "platform": "Netflix",
-      "cast": "小林薰、不破萬作、綾田俊樹、安藤玉惠、宇野祥平",
-      "description": "一名帶有傷疤的男子，在新宿的後巷經營一間深夜食堂。沒人曉得他的名字或經歷，但每一位顧客都會和他分享自己的事。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/80113541",
-      "verified": true,
-      "verifiedAt": "2026-11-11T21:13:44+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/80113541",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-10T12:15:37+08:00",
-      "verificationStale": true
-    },
-    {
       "id": "netflix-auto-81444051",
       "title": "獵犬",
       "type": "韓劇",
@@ -1303,28 +1470,6 @@
       "verificationStale": true
     },
     {
-      "id": "netflix-auto-81653386",
-      "title": "魔鬼的計謀",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "金東載、Nucksal、XITSUH、張星銀、神童",
-      "description": "這是一場考驗機敏、謀略與智慧的遊戲，參賽者在 7 天 6 夜中捉對廝殺，最後會是誰登上冠軍寶座？",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81653386",
-      "verified": true,
-      "verifiedAt": "2026-11-11T21:13:44+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81653386",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-11T10:05:49+08:00",
-      "verificationStale": true
-    },
-    {
       "id": "netflix-auto-81764501",
       "title": "被奪走的女兒：娜塔莉霍洛威失蹤案",
       "type": "歐美劇",
@@ -1344,50 +1489,6 @@
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
       "firstSeenAt": "2026-11-06T10:38:44+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-81484461",
-      "title": "爆笑悲劇王：笑著笑著就哭了",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "阿信、大悟、劇團一人、小木博明、矢作兼",
-      "description": "喜劇演員聯袂演出這齣正規戲劇，有些場景卻沒劇本，而一旦搞笑失敗，就會被踢出節目。一場大亂鬥即將登場！",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81484461",
-      "verified": true,
-      "verifiedAt": "2026-11-11T21:13:44+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81484461",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-11T10:05:49+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-80994082",
-      "title": "亞森·羅蘋",
-      "type": "歐美劇",
-      "platform": "Netflix",
-      "cast": "歐馬·希、露迪芬·沙涅、可洛蒂德·艾姆、安托萬·古依、蘇飛安·葛哈",
-      "description": "本劇靈感取自亞森羅蘋的冒險故事，描述怪盜紳士亞森迪歐運用機靈頭腦和人格魅力智取敵手，保護所愛之人。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/80994082",
-      "verified": true,
-      "verifiedAt": "2026-11-11T21:13:44+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/80994082",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:16:03+08:00",
       "verificationStale": true
     },
     {
@@ -1545,48 +1646,148 @@
       "verificationStale": true
     },
     {
-      "id": "netflix-auto-82048302",
-      "title": "我的荒糖戀愛",
-      "type": "韓劇",
-      "platform": "Netflix",
-      "cast": "丁海寅、河瑛、許城泰",
-      "description": "野心勃勃的女檢察官意外失憶，住進一名拳擊教練家中，對方還自稱是她的男友。這段剪不斷理還亂的棘手關係，能發展成一段真愛嗎？",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82048302",
+      "id": "mango-auto-822501",
+      "title": "你好，星期六 2026",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《你好，星期六》节目以全新打造的好六街街区为背景，将平凡生活的烟火气搬进演播厅，展现市井生活人间百态。深度挖掘好6团和飞行嘉宾们的艺能，对当下最具热点的社会话题以及正能量价值观导向进行引导和输出。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/822501/24677145.html",
+      "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-07T10:11:57+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82048302",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-10-26T17:16:03+08:00",
-      "verificationStale": true
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "netflix-auto-82682323",
-      "title": "我的王室死對頭",
-      "type": "韓劇",
-      "platform": "Netflix",
-      "cast": "林知衍、許南俊、張昇造",
-      "description": "朝鮮時代的惡女難逃一死，再睜開眼卻來到了現代首爾。她隨即遇見一個性格冷酷的財閥繼承人，此人或許正是她改寫自己命運的最後機會。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/82682323",
+      "id": "mango-auto-910415",
+      "title": "佳佳的花园",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《佳佳的花园》是靳梦佳为自己、也为同路人打造的一座城市之外的“精神自留地”。每期她邀请一位女性同行者来到花园，以“轻劳作+深对谈”的沉浸形式，在泥土与植物的包裹下，卸下心防，自然交心。从身体感知到心灵共鸣，传递真实、松弛、不完美的治愈力量，陪伴当代女性找到属于自己的生长节奏。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/910415/24789087.html",
+      "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-07T10:11:57+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/82682323",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-07T10:11:57+08:00",
-      "verificationStale": true
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-906486",
+      "title": "六人定律",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《六人定律》是一档聚焦演艺领域创作者成长及文娱热点话题的漫谈类播客，“六人定律”指两个陌生人之间的距离不会超过六个人，大家总会以某种形式产生联系。而这档播客就是串起听众与创作者之间“六人定律”中的一环：大家在这个“小世界”里产生共鸣与连接。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/906486/24786337.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-916176",
+      "title": "后会友期 沉浸版",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《后会友期 沉浸版》是《后会友期》的官方衍生节目，完整展示四组真人秀嘉宾友情关系，沉浸式感受真实的友情困局。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/916176/24789539.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-916558",
+      "title": "和咨询师妈妈漫漫谈",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "聚焦当代年轻人在成长与生活中真实面对的困惑，内容涵盖自我成长、家庭关系、人际与亲密关系、情绪体验、人生选择等议题。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/916558/24740806.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-914227",
+      "title": "后会友期",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《后会友期》延续真实生活的叙事，针对当代人际疏离的普遍现象，拟邀请四组许久未见的朋友，进行集体旅行。在旅途中共同经历极致的美景，极限的体验，在不同的人生境遇中，重新面对友情的课题，找寻与朋友，与自我，与时间的相处，领悟友谊的价值和意义。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/914227/24786521.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-886210",
+      "title": "你好湖南",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《你好湖南》项目立足就业、创业、生活、成长四大维度，用接地气的方式解读“年轻人友好省份”。由芒果新生主持，以“建群加好友”搭建沟通桥梁，以通俗提问挖掘真实故事，以主持人手持设备为第一视角，贴身捕捉真实情感，打造沉浸式观感，呈现个体打拼、城市温暖、青年群像等多元内容。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/886210/24788341.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-896990",
+      "title": "不想睡的星期五",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/896990/24789302.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
       "id": "mango-auto-915682",
@@ -1598,7 +1799,25 @@
       "url": "https://www.mgtv.com/b/915682/24727473.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-13",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-893106",
+      "title": "花儿与少年2026",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《花儿与少年2026》集结7位跨越代际的嘉宾，踏上地球彼端的一场自助游学之旅。从墨西哥启程，穿行秘鲁，直抵阿根廷，沿途与当地民众温暖交汇，在别具一格的“自主探索”中，实地触摸中墨考古文化交流的脉动，见证高质量共建“一带一路”合作的鲜活成果。他们既追问世界的那头藏着怎样的风景，也在异乡的光影中重新凝视自我。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/893106/24789324.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-13",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1616,25 +1835,7 @@
       "url": "https://www.mgtv.com/b/900428/24785898.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-12",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-886210",
-      "title": "你好湖南",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《你好湖南》项目立足就业、创业、生活、成长四大维度，用接地气的方式解读“年轻人友好省份”。由芒果新生主持，以“建群加好友”搭建沟通桥梁，以通俗提问挖掘真实故事，以主持人手持设备为第一视角，贴身捕捉真实情感，打造沉浸式观感，呈现个体打拼、城市温暖、青年群像等多元内容。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/886210/24782506.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-12",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1652,7 +1853,7 @@
       "url": "https://www.mgtv.com/b/908442/24781849.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-12",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1670,61 +1871,7 @@
       "url": "https://www.mgtv.com/b/922465/24783395.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-12",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-914227",
-      "title": "后会友期",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《后会友期》延续真实生活的叙事，针对当代人际疏离的普遍现象，拟邀请四组许久未见的朋友，进行集体旅行。在旅途中共同经历极致的美景，极限的体验，在不同的人生境遇中，重新面对友情的课题，找寻与朋友，与自我，与时间的相处，领悟友谊的价值和意义。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/914227/24786521.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-12",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-919077",
-      "title": "自然公开课 第二季",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "中科院动物学博士陈睿将带领四位少年科考队员——好样、阿正、开心、好奇，走进“中华祖脉”——秦岭，开启一场全新的自然探索之旅。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/919077/24786260.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-12",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-893106",
-      "title": "花儿与少年2026",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《花儿与少年2026》集结7位跨越代际的嘉宾，踏上地球彼端的一场自助游学之旅。从墨西哥启程，穿行秘鲁，直抵阿根廷，沿途与当地民众温暖交汇，在别具一格的“自主探索”中，实地触摸中墨考古文化交流的脉动，见证高质量共建“一带一路”合作的鲜活成果。他们既追问世界的那头藏着怎样的风景，也在异乡的光影中重新凝视自我。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/893106/24773690.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-12",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1742,7 +1889,7 @@
       "url": "https://www.mgtv.com/b/915166/24782886.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-12",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1751,18 +1898,18 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "mango-auto-918236",
-      "title": "万物有生",
+      "id": "mango-auto-919077",
+      "title": "自然公开课 第二季",
       "type": "綜藝",
       "platform": "芒果TV",
-      "description": "聚焦各行各业顶尖青年的成长轨迹、挫折突围与人生感悟，以萨顶顶为核心探访者，怀揣着对世界、对生命的好奇、热爱、敬畏与探索，走入嘉宾真实的工作现场展开实地交流。",
+      "description": "中科院动物学博士陈睿将带领四位少年科考队员——好样、阿正、开心、好奇，走进“中华祖脉”——秦岭，开启一场全新的自然探索之旅。",
       "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/918236/24782304.html",
+      "url": "https://www.mgtv.com/b/919077/24786260.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-11",
+      "latestEpisodeDate": "2026-11-12",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -1778,7 +1925,25 @@
       "url": "https://www.mgtv.com/b/899811/24600219.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-11",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-918236",
+      "title": "万物有生",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "聚焦各行各业顶尖青年的成长轨迹、挫折突围与人生感悟，以萨顶顶为核心探访者，怀揣着对世界、对生命的好奇、热爱、敬畏与探索，走入嘉宾真实的工作现场展开实地交流。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/918236/24782304.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-11",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1796,7 +1961,7 @@
       "url": "https://www.mgtv.com/b/922046/24782509.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-11",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1814,25 +1979,7 @@
       "url": "https://www.mgtv.com/b/913972/24782758.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-11",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-896990",
-      "title": "不想睡的星期五",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《不想睡的星期五》解锁不同城市夜生活玩法，打造最具城市灵魂的夜间大事件，每一夜都有新发现！全新定义新奇五夜生活，打造可复制的“最夯青年夜生活图鉴”。拒绝白天社会人面具，直击当代青年集体共鸣——夜晚不是一天的终点，而是属于“我自己”的新起点！",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/896990/24773627.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-11",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1850,27 +1997,9 @@
       "url": "https://www.mgtv.com/b/901515/24780676.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-10",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-822501",
-      "title": "你好，星期六 2026",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《你好，星期六》节目以全新打造的好六街街区为背景，将平凡生活的烟火气搬进演播厅，展现市井生活人间百态。深度挖掘好6团和飞行嘉宾们的艺能，对当下最具热点的社会话题以及正能量价值观导向进行引导和输出。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/822501/24677145.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -1886,7 +2015,7 @@
       "url": "https://www.mgtv.com/b/899395/24777719.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1904,7 +2033,7 @@
       "url": "https://www.mgtv.com/b/908828/24778462.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1922,7 +2051,7 @@
       "url": "https://www.mgtv.com/b/899931/24773787.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1940,25 +2069,7 @@
       "url": "https://www.mgtv.com/b/912960/24777926.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-09",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-906524",
-      "title": "星动网球社",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "青少年网球运动竞技成长纪实真人秀，以“所有奔赴、皆为热爱”为核心主旨，面向8至14岁青少年网球爱好者，弱化高强度竞技对抗，主打轻松趣味的运动体验，让青少年在休闲氛围中感受网球运动的独特魅力。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/906524/24776217.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1976,7 +2087,7 @@
       "url": "https://www.mgtv.com/b/903403/24778177.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -1985,18 +2096,18 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "mango-auto-892774",
-      "title": "家乡美食大赛",
+      "id": "mango-auto-906524",
+      "title": "星动网球社",
       "type": "綜藝",
       "platform": "芒果TV",
-      "description": "《家乡美食大赛》由黄晓明担任首席掌勺官，李维嘉与沈梦辰担任掌勺主理人，与湖南、江苏、川渝、广东的特邀艺人掌勺官一起，品鉴家乡招牌菜，为各赛区家乡招牌菜选拔全国单菜品冠军，全方位展现中华美食的烟火气息与民间高手的烹饪智慧，同时深度挖掘美食背后的地域文化与传统艺术底蕴。",
+      "description": "青少年网球运动竞技成长纪实真人秀，以“所有奔赴、皆为热爱”为核心主旨，面向8至14岁青少年网球爱好者，弱化高强度竞技对抗，主打轻松趣味的运动体验，让青少年在休闲氛围中感受网球运动的独特魅力。",
       "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/892774/24777040.html",
+      "url": "https://www.mgtv.com/b/906524/24776217.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-08",
+      "latestEpisodeDate": "2026-11-09",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2012,7 +2123,7 @@
       "url": "https://www.mgtv.com/b/920978/24777651.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-08",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2021,16 +2132,16 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "mango-auto-896231",
-      "title": "披荆斩棘2026",
+      "id": "mango-auto-892774",
+      "title": "家乡美食大赛",
       "type": "綜藝",
       "platform": "芒果TV",
-      "description": "《披荆斩棘2026》以「点燃」为核心主题，诠释新时代披荆斩棘内核，结合户外试炼与舞台公演，“从一个人的点燃到一群人的共燃”，记录嘉宾点燃自我、彼此照亮、群体共燃的成长历程，向外传递破局勇气与正向暖意的积极价值观。",
+      "description": "《家乡美食大赛》由黄晓明担任首席掌勺官，李维嘉与沈梦辰担任掌勺主理人，与湖南、江苏、川渝、广东的特邀艺人掌勺官一起，品鉴家乡招牌菜，为各赛区家乡招牌菜选拔全国单菜品冠军，全方位展现中华美食的烟火气息与民间高手的烹饪智慧，同时深度挖掘美食背后的地域文化与传统艺术底蕴。",
       "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/896231/24757367.html",
+      "url": "https://www.mgtv.com/b/892774/24777040.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-08",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2048,7 +2159,7 @@
       "url": "https://www.mgtv.com/b/915931/24777522.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-08",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2057,18 +2168,18 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "mango-auto-895854",
-      "title": "伦敦合伙人",
+      "id": "mango-auto-896231",
+      "title": "披荆斩棘2026",
       "type": "綜藝",
       "platform": "芒果TV",
-      "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
+      "description": "《披荆斩棘2026》以「点燃」为核心主题，诠释新时代披荆斩棘内核，结合户外试炼与舞台公演，“从一个人的点燃到一群人的共燃”，记录嘉宾点燃自我、彼此照亮、群体共燃的成长历程，向外传递破局勇气与正向暖意的积极价值观。",
       "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/895854/24758855.html",
+      "url": "https://www.mgtv.com/b/896231/24757367.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-07",
+      "latestEpisodeDate": "2026-11-08",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2084,7 +2195,25 @@
       "url": "https://www.mgtv.com/b/910665/24773625.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-11-07",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-895854",
+      "title": "伦敦合伙人",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《伦敦合伙人》是由湖南卫视、芒果TV、小芒联合出品的青春合伙人开店创业真人秀。此次，合伙人们将进一步深入更全面真实的经营生态，全力助推国货出海，打造汇聚中国品牌的特色门店，从巴黎到伦敦，从深度筹备到实战经营，让东方美学跨越山海，向世界展现中国品牌的力量。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/895854/24758855.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-07",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2102,63 +2231,9 @@
       "url": "https://www.mgtv.com/b/902732/24775286.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-07",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-916558",
-      "title": "和咨询师妈妈漫漫谈",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "聚焦当代年轻人在成长与生活中真实面对的困惑，内容涵盖自我成长、家庭关系、人际与亲密关系、情绪体验、人生选择等议题。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/916558/24733921.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-06",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-910415",
-      "title": "佳佳的花园",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《佳佳的花园》是靳梦佳为自己、也为同路人打造的一座城市之外的“精神自留地”。每期她邀请一位女性同行者来到花园，以“轻劳作+深对谈”的沉浸形式，在泥土与植物的包裹下，卸下心防，自然交心。从身体感知到心灵共鸣，传递真实、松弛、不完美的治愈力量，陪伴当代女性找到属于自己的生长节奏。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/910415/24773697.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-06",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-916176",
-      "title": "后会友期 沉浸版",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《后会友期 沉浸版》是《后会友期》的官方衍生节目，完整展示四组真人秀嘉宾友情关系，沉浸式感受真实的友情困局。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/916176/24773756.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-11-06",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2174,7 +2249,7 @@
       "url": "https://www.mgtv.com/b/900397/24773673.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-06",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2192,7 +2267,7 @@
       "url": "https://www.mgtv.com/b/918293/24773007.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-05",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2210,7 +2285,7 @@
       "url": "https://www.mgtv.com/b/918510/24772773.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-05",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2228,7 +2303,7 @@
       "url": "https://www.mgtv.com/b/897453/24771464.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-05",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2246,7 +2321,7 @@
       "url": "https://www.mgtv.com/b/902528/24761964.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-11-02",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2264,27 +2339,9 @@
       "url": "https://www.mgtv.com/b/914178/24758860.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-31",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-907650",
-      "title": "现在正好·她的进行时",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "24个时代看见今天女性生活正在发生的变化，每一集都围绕一个现象，回答三个问题：它为什么会出现？它改变了女性什么？我们该如何理解它，而不是急着评判它。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/907650/24668475.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2300,7 +2357,7 @@
       "url": "https://www.mgtv.com/b/906326/24747460.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2309,16 +2366,16 @@
       "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
     },
     {
-      "id": "mango-auto-906486",
-      "title": "六人定律",
+      "id": "mango-auto-907650",
+      "title": "现在正好·她的进行时",
       "type": "綜藝",
       "platform": "芒果TV",
-      "description": "《六人定律》是一档聚焦演艺领域创作者成长及文娱热点话题的漫谈类播客，“六人定律”指两个陌生人之间的距离不会超过六个人，大家总会以某种形式产生联系。而这档播客就是串起听众与创作者之间“六人定律”中的一环：大家在这个“小世界”里产生共鸣与连接。",
+      "description": "24个时代看见今天女性生活正在发生的变化，每一集都围绕一个现象，回答三个问题：它为什么会出现？它改变了女性什么？我们该如何理解它，而不是急着评判它。",
       "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/906486/24749587.html",
+      "url": "https://www.mgtv.com/b/907650/24668475.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2336,7 +2393,7 @@
       "url": "https://www.mgtv.com/b/919189/24757272.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2354,7 +2411,7 @@
       "url": "https://www.mgtv.com/b/898209/24758372.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2372,7 +2429,7 @@
       "url": "https://www.mgtv.com/b/910416/24752299.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-30",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2390,7 +2447,7 @@
       "url": "https://www.mgtv.com/b/910587/24749508.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-29",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2408,27 +2465,9 @@
       "url": "https://www.mgtv.com/b/900426/24745370.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-28",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-912940",
-      "title": "去“湘”当有味的地方 第四季",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《去“湘”当有味的地方》第四季·世界山水季，汪涵携有味打卡团走进大张家界国际旅游区，深入山野寻访原生乡土风味，沉浸式领略壮阔峰林与山水盛景，挖掘湘味背后的人文故事，打造兼具烟火气与风光感的美食文旅体验。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/912940/24742085.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-10-27",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2444,7 +2483,25 @@
       "url": "https://www.mgtv.com/b/901183/24742148.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "latestEpisodeDate": "2026-10-27",
+      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
+      "releasePrecision": "unknown",
+      "releaseStatus": "catalogue-listed",
+      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
+    },
+    {
+      "id": "mango-auto-912940",
+      "title": "去“湘”当有味的地方 第四季",
+      "type": "綜藝",
+      "platform": "芒果TV",
+      "description": "《去“湘”当有味的地方》第四季·世界山水季，汪涵携有味打卡团走进大张家界国际旅游区，深入山野寻访原生乡土风味，沉浸式领略壮阔峰林与山水盛景，挖掘湘味背后的人文故事，打造兼具烟火气与风光感的美食文旅体验。",
+      "cast": "請見官方節目頁",
+      "url": "https://www.mgtv.com/b/912940/24742085.html",
+      "source": "芒果TV 官方最新綜藝片庫",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-27",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
@@ -2462,45 +2519,9 @@
       "url": "https://www.mgtv.com/b/897454/24729416.html",
       "source": "芒果TV 官方最新綜藝片庫",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "latestEpisodeDate": "2026-10-21",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-893741",
-      "title": "心动双重奏",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "《心动双重奏》首档代际交友真人秀，8位单身青年携长辈开启13天寻爱之旅。以青年心动为主线、长辈陪伴为辅线，纪实记录约会相处点滴，融合心动氛围感、家庭温情与现实婚恋视角，呈现兼具浪漫与烟火气的双向寻爱故事。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/893741/24692059.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-10-15",
-      "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
-      "releasePrecision": "unknown",
-      "releaseStatus": "catalogue-listed",
-      "availabilityNote": "日期為最新一期，非節目首播；播放地區與會員限制以芒果TV為準"
-    },
-    {
-      "id": "mango-auto-913872",
-      "title": "快乐老家2之直播聚会",
-      "type": "綜藝",
-      "platform": "芒果TV",
-      "description": "延续“老友抱团旅居养老”内核，聚焦上世纪末的资深艺人老友团，以“群居养老生活+外出旅居活动”形式记录老友团深度群居的真实日常，以老友间的真诚与松弛，续写有笑有泪的人间故事，呈现当代中年群体对于老去的真实态度，完成一场真实的50+养老价值创造实录。",
-      "cast": "請見官方節目頁",
-      "url": "https://www.mgtv.com/b/913872/24716506.html",
-      "source": "芒果TV 官方最新綜藝片庫",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "latestEpisodeDate": "2026-10-15",
       "episodeSourceUrl": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
       "releasePrecision": "unknown",
       "releaseStatus": "catalogue-listed",
@@ -2519,7 +2540,7 @@
       "url": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2540,7 +2561,7 @@
       "url": "https://wetv.vip/zh-tw/play/eun194q2fs065xo",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2561,34 +2582,13 @@
       "url": "https://wetv.vip/zh-tw/play/hw9ymzz69c97jrb",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "catalogueYear": 2026,
       "releaseSourceUrl": "https://wetv.vip/zh-tw/play/hw9ymzz69c97jrb",
-      "platformAvailabilityVerified": false,
-      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
-    },
-    {
-      "id": "wetv-auto-1qphq7kz3weuhd4",
-      "title": "予蒼龍",
-      "aliases": [],
-      "type": "陸劇",
-      "platform": "WeTV",
-      "cast": "李汶翰、胡連馨、黃思瑞、劉佳燁、霍茜嵐",
-      "description": "講述將門之女嶽望舒被獻祭龍淵，意外解封龍君離止，二人從敵對到相知，以“壓制離火”為交易結盟。她借龍君之力反擊岳家與齊王陰謀，他因她學會人間情愛。最終，離止留駐人間，成就一段曠世之戀。",
-      "url": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
-      "source": "WeTV 繁體中文官方作品頁（自動核對）",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "catalogueYear": 2026,
-      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
       "platformAvailabilityVerified": false,
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     },
@@ -2603,7 +2603,7 @@
       "url": "https://wetv.vip/zh-tw/play/94jt6sxiwsjw5n6",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2614,44 +2614,23 @@
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     },
     {
-      "id": "wetv-auto-orx5pvz4gfrzi9x",
-      "title": "舟寒知嫿意",
+      "id": "wetv-auto-1qphq7kz3weuhd4",
+      "title": "予蒼龍",
       "aliases": [],
       "type": "陸劇",
       "platform": "WeTV",
-      "cast": "趙廷義、梁雯晶、郝韻",
-      "description": "養女林嫿遭青梅顧徵為利拋棄，應閨蜜謝寶兒提議，與寶兒父親謝舟寒定下協議婚約。相處中謝舟寒默默守護，過往羈絆揭開，他年少受林嫿母親照拂，多年心繫她。林嫿掙脫前塵，看清真心，二人撕破協議，坦誠相愛，圓滿相守。",
-      "url": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
+      "cast": "李汶翰、胡連馨、黃思瑞、劉佳燁、霍茜嵐",
+      "description": "講述將門之女嶽望舒被獻祭龍淵，意外解封龍君離止，二人從敵對到相知，以“壓制離火”為交易結盟。她借龍君之力反擊岳家與齊王陰謀，他因她學會人間情愛。最終，離止留駐人間，成就一段曠世之戀。",
+      "url": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "catalogueYear": 2026,
-      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
-      "platformAvailabilityVerified": false,
-      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
-    },
-    {
-      "id": "wetv-auto-lyq6l6wc4nncrky",
-      "title": "花開錦繡",
-      "aliases": [],
-      "type": "陸劇",
-      "platform": "WeTV",
-      "cast": "丁禹兮、鄧恩熙、 尤靖茹、白澍、呂曉霖",
-      "description": "豪爽重情的私鹽販子趙凌雖出身草莽，卻心懷壯志，他結識了遭人誣陷私通的世家名媛小姐傅庭芸，被迫一起逃亡，二人歷經家族與朝廷的重重考驗，與命運抗爭，終成傳奇良緣。",
-      "url": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
-      "source": "WeTV 繁體中文官方作品頁（自動核對）",
-      "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "catalogueYear": 2026,
-      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
+      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
       "platformAvailabilityVerified": false,
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     },
@@ -2666,13 +2645,34 @@
       "url": "https://wetv.vip/zh-tw/play/t1wruyg0k6g9kai",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "catalogueYear": 2026,
       "releaseSourceUrl": "https://wetv.vip/zh-tw/play/t1wruyg0k6g9kai",
+      "platformAvailabilityVerified": false,
+      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
+    },
+    {
+      "id": "wetv-auto-lyq6l6wc4nncrky",
+      "title": "花開錦繡",
+      "aliases": [],
+      "type": "陸劇",
+      "platform": "WeTV",
+      "cast": "丁禹兮、鄧恩熙、 尤靖茹、白澍、呂曉霖",
+      "description": "豪爽重情的私鹽販子趙凌雖出身草莽，卻心懷壯志，他結識了遭人誣陷私通的世家名媛小姐傅庭芸，被迫一起逃亡，二人歷經家族與朝廷的重重考驗，與命運抗爭，終成傳奇良緣。",
+      "url": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
+      "source": "WeTV 繁體中文官方作品頁（自動核對）",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "catalogueYear": 2026,
+      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
       "platformAvailabilityVerified": false,
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     },
@@ -2687,13 +2687,34 @@
       "url": "https://wetv.vip/zh-tw/play/ve556gm7qv8l3yk",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
       "releaseStatus": "catalogue-listed",
       "catalogueYear": 2026,
       "releaseSourceUrl": "https://wetv.vip/zh-tw/play/ve556gm7qv8l3yk",
+      "platformAvailabilityVerified": false,
+      "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
+    },
+    {
+      "id": "wetv-auto-orx5pvz4gfrzi9x",
+      "title": "舟寒知嫿意",
+      "aliases": [],
+      "type": "陸劇",
+      "platform": "WeTV",
+      "cast": "趙廷義、梁雯晶、郝韻",
+      "description": "養女林嫿遭青梅顧徵為利拋棄，應閨蜜謝寶兒提議，與寶兒父親謝舟寒定下協議婚約。相處中謝舟寒默默守護，過往羈絆揭開，他年少受林嫿母親照拂，多年心繫她。林嫿掙脫前塵，看清真心，二人撕破協議，坦誠相愛，圓滿相守。",
+      "url": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
+      "source": "WeTV 繁體中文官方作品頁（自動核對）",
+      "verified": true,
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
+      "autoDiscovered": true,
+      "releasePrecision": "year",
+      "releaseWindow": "2026 年作品；確切上架日未核實",
+      "releaseStatus": "catalogue-listed",
+      "catalogueYear": 2026,
+      "releaseSourceUrl": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
       "platformAvailabilityVerified": false,
       "availabilityNote": "WeTV 官方作品頁列出；日期未明不代表近30天新片，地區及會員限制請見平台。"
     },
@@ -2708,7 +2729,7 @@
       "url": "https://wetv.vip/zh-tw/play/f0qvffvvcfay5iw",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2729,7 +2750,7 @@
       "url": "https://wetv.vip/zh-tw/play/3p20haaqwgcp5zb",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2750,7 +2771,7 @@
       "url": "https://wetv.vip/zh-tw/play/le1lbx64do19qal",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2771,7 +2792,7 @@
       "url": "https://wetv.vip/zh-tw/play/yywc8y26vidydql",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2792,7 +2813,7 @@
       "url": "https://wetv.vip/zh-tw/play/32maztptrunaqh5",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2813,7 +2834,7 @@
       "url": "https://wetv.vip/zh-tw/play/oh6lpqwogwntec9",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2834,7 +2855,7 @@
       "url": "https://wetv.vip/zh-tw/play/tzib6th47qj7rym",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2855,7 +2876,7 @@
       "url": "https://wetv.vip/zh-tw/play/rce25d0ktd2zcgs",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2876,7 +2897,7 @@
       "url": "https://wetv.vip/zh-tw/play/kgwxsqe6xll0yqv",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2897,7 +2918,7 @@
       "url": "https://wetv.vip/zh-tw/play/yx53msl0s38zpgf",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2918,7 +2939,7 @@
       "url": "https://wetv.vip/zh-tw/play/vksakjuqpqjm363",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2939,7 +2960,7 @@
       "url": "https://wetv.vip/zh-tw/play/1jpn4zchc9qmyoq",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2960,7 +2981,7 @@
       "url": "https://wetv.vip/zh-tw/play/y430y3icyk6s1w4",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -2981,7 +3002,7 @@
       "url": "https://wetv.vip/zh-tw/play/k9h26ej0edi5bx1",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3002,7 +3023,7 @@
       "url": "https://wetv.vip/zh-tw/play/pffhu3qswe4631q",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3023,7 +3044,7 @@
       "url": "https://wetv.vip/zh-tw/play/5w3t6sbozxs6wsb",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3044,7 +3065,7 @@
       "url": "https://wetv.vip/zh-tw/play/ikhv8rn7wiz3w7r",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3065,7 +3086,7 @@
       "url": "https://wetv.vip/zh-tw/play/prkp6vubbh1dlfz",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3086,7 +3107,7 @@
       "url": "https://wetv.vip/zh-tw/play/e0rxrxf8p3tnii9",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3107,7 +3128,7 @@
       "url": "https://wetv.vip/zh-tw/play/i1qghl9n9hbp46u",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3128,7 +3149,7 @@
       "url": "https://wetv.vip/zh-tw/play/j17mcypso9w3xay",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3149,7 +3170,7 @@
       "url": "https://wetv.vip/zh-tw/play/zfhs5j5mupnweu2",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3170,7 +3191,7 @@
       "url": "https://wetv.vip/zh-tw/play/idnu7b6klbkrzky",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3191,7 +3212,7 @@
       "url": "https://wetv.vip/zh-tw/play/n1ellvgvk227oq3",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3212,7 +3233,7 @@
       "url": "https://wetv.vip/zh-tw/play/j7vz5sx32orcz4s",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3233,7 +3254,7 @@
       "url": "https://wetv.vip/zh-tw/play/fkrk15ug28um4on",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3254,7 +3275,7 @@
       "url": "https://wetv.vip/zh-tw/play/7nykjqq64lu5gig",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3275,7 +3296,7 @@
       "url": "https://wetv.vip/zh-tw/play/0dqgynt7i88kasy",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3296,7 +3317,7 @@
       "url": "https://wetv.vip/zh-tw/play/97b5mjoy4ncymhz",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3317,7 +3338,7 @@
       "url": "https://wetv.vip/zh-tw/play/5xdfnepdfnnwj13",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3338,7 +3359,7 @@
       "url": "https://wetv.vip/zh-tw/play/63890fgj71voree",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3359,7 +3380,7 @@
       "url": "https://wetv.vip/zh-tw/play/h28s5m6p28bji0q",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3380,7 +3401,7 @@
       "url": "https://wetv.vip/zh-tw/play/i1rja22ai2xfz79",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3401,7 +3422,7 @@
       "url": "https://wetv.vip/zh-tw/play/4f473zqi1hmtq1y",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3422,7 +3443,7 @@
       "url": "https://wetv.vip/zh-tw/play/6uznj1tfx8madym",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3443,7 +3464,7 @@
       "url": "https://wetv.vip/zh-tw/play/4k07bqf0y57nfnl",
       "source": "WeTV 繁體中文官方作品頁（自動核對）",
       "verified": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "autoDiscovered": true,
       "releasePrecision": "year",
       "releaseWindow": "2026 年作品；確切上架日未核實",
@@ -3471,7 +3492,7 @@
       "source": "SBS 官方節目介紹（繁體中文翻譯）",
       "verified": true,
       "autoDiscovered": true,
-      "verifiedAt": "2026-11-13T10:48:16+08:00",
+      "verifiedAt": "2026-11-14T10:36:50+08:00",
       "catalogueYear": 2026,
       "releasePrecision": "day",
       "releaseStatus": "released",
@@ -3733,641 +3754,491 @@
     "method": "最近30天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
-    "checkedAt": "2026-11-13T10:48:16+08:00",
+    "checkedAt": "2026-11-14T10:36:50+08:00",
     "sources": [
       {
         "url": "https://www.netflix.com/tw/browse/genre/434295",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 64
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 63
       },
       {
         "url": "https://www.netflix.com/tw/browse/genre/83",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 70
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83077166",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2030707 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83077409",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2063475 bytes read)"
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 69
       },
       {
         "url": "https://www.netflix.com/tw/title/81766274",
         "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "error": "Title year missing"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/82143748",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(1997939 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83054875",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2030707 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83159335",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2063475 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83067197",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2030707 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81518991",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2145395 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83097271",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2014323 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83150252",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "IncompleteRead(2079859 bytes read)"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81653386",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81222923",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83020616",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81707977",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/82779947",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81484461",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81625053",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81622654",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/83021610",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81930079",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81616012",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "url": "https://www.netflix.com/tw/title/81106900",
         "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81639052",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/81712068",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/82031882",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "<urlopen error [Errno 101] Network is unreachable>"
-      },
-      {
-        "url": "https://www.netflix.com/tw/title/80994082",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "error": "<urlopen error [Errno 101] Network is unreachable>"
       },
       {
         "url": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 51
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 49
       },
       {
         "url": "https://wetv.vip/zh-tw",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 27
       },
       {
         "url": "https://wetv.vip/zh-tw/play/3spckqfxno9qpkz",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/eun194q2fs065xo",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/4w64qxojf3p58dw",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/z506bchzh793iok",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/hw9ymzz69c97jrb",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 1
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/94jt6sxiwsjw5n6",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/0qgqd4kcd9ajxrs",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/1qphq7kz3weuhd4",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 1
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/t1wruyg0k6g9kai",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/19q8yj9d3bzqfqk",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/l8u24vqut3sseql",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/tn57v4wrc6xihiz",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 1
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 1
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/pzk4qf2zu5td6gr",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/htdetzid62yh66y",
-        "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "error": "WeTV catalogue year missing"
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/feag2shxw6mx76l",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/z4ucwnxm3vrddoa",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/t1wruyg0k6g9kai",
+        "url": "https://wetv.vip/zh-tw/play/l8u24vqut3sseql",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/tn57v4wrc6xihiz",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/lyq6l6wc4nncrky",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/ve556gm7qv8l3yk",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/oesh7v03pj3v9ee",
+        "url": "https://wetv.vip/zh-tw/play/z506bchzh793iok",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/orx5pvz4gfrzi9x",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 1
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/pzk4qf2zu5td6gr",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/dcxhgvomupwckqd",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/feag2shxw6mx76l",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/1ci6pha8sn1tf5h",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 0
-      },
-      {
-        "url": "https://wetv.vip/zh-tw/play/obtd828nav226mm",
-        "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/wzl47su0dwgdwm9",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/f91rzffyi42pq6s",
+        "url": "https://wetv.vip/zh-tw/play/tal73arax7idkp7",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/d1z6o64bu16ncf3",
+        "url": "https://wetv.vip/zh-tw/play/oesh7v03pj3v9ee",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/7msgna7s8cg12hn",
+        "url": "https://wetv.vip/zh-tw/play/me58s2kxqbv0z13",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/xi5rkwzl3ytaphi",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
-        "url": "https://wetv.vip/zh-tw/play/7oylb1l52637d6e",
+        "url": "https://wetv.vip/zh-tw/play/5otuxjhuyyf07zc",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/f0qvffvvcfay5iw",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
+      },
+      {
+        "url": "https://wetv.vip/zh-tw/play/d1z6o64bu16ncf3",
+        "status": "success",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 0
       },
       {
         "url": "https://wetv.vip/zh-tw/play/3p20haaqwgcp5zb",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/le1lbx64do19qal",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/yywc8y26vidydql",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/32maztptrunaqh5",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/oh6lpqwogwntec9",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/tzib6th47qj7rym",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/rce25d0ktd2zcgs",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/kgwxsqe6xll0yqv",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/yx53msl0s38zpgf",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/vksakjuqpqjm363",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/1jpn4zchc9qmyoq",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/y430y3icyk6s1w4",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/k9h26ej0edi5bx1",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/pffhu3qswe4631q",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/5w3t6sbozxs6wsb",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/ikhv8rn7wiz3w7r",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/prkp6vubbh1dlfz",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/e0rxrxf8p3tnii9",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/i1qghl9n9hbp46u",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/j17mcypso9w3xay",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/zfhs5j5mupnweu2",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/idnu7b6klbkrzky",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/n1ellvgvk227oq3",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/j7vz5sx32orcz4s",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/fkrk15ug28um4on",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/7nykjqq64lu5gig",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/0dqgynt7i88kasy",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/97b5mjoy4ncymhz",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/5xdfnepdfnnwj13",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/63890fgj71voree",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/h28s5m6p28bji0q",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/i1rja22ai2xfz79",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/4f473zqi1hmtq1y",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/6uznj1tfx8madym",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://wetv.vip/zh-tw/play/4k07bqf0y57nfnl",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 1
       },
       {
         "url": "https://www.sbs.co.kr/",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 3
       },
       {
         "url": "https://programs.sbs.co.kr/drama/doctorx/main",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "translated": true
       },
       {
         "url": "https://programs.sbs.co.kr/drama/awakening/main",
         "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "error": "SBS official programme metadata unavailable"
       },
       {
         "url": "https://programs.sbs.co.kr/drama/nightmare/main",
         "status": "error",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "error": "SBS official programme metadata unavailable"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E5%8F%B0%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E9%9F%93%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "韓劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E9%99%B8%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E6%97%A5%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "日劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E6%AD%90%E7%BE%8E%E5%8A%87+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "歐美劇",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       },
       {
         "url": "https://news.google.com/rss/search?q=%E7%B6%9C%E8%97%9D+%28%E6%96%B0%E5%8A%87+OR+%E6%96%B0%E4%B8%8A%E6%9E%B6+OR+%E9%96%8B%E6%92%AD+OR+%E9%A6%96%E6%92%AD+OR+%E5%AE%9A%E6%AA%94%29+%28Netflix+OR+Disney+OR+HBO+OR+%E6%84%9B%E5%A5%87%E8%97%9D+OR+%E9%A8%B0%E8%A8%8A+OR+WeTV+OR+%E8%8A%92%E6%9E%9CTV%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00"
+        "checkedAt": "2026-11-14T10:36:50+08:00"
       }
     ],
     "candidates": [
       {
-        "title": "今天是太陽雨",
+        "title": "夢響年代",
         "type": "台劇",
-        "headline": "Netflix《今天是太陽雨》好看嗎？楊超越戀上學霸董思成 首播口碑爆棚 - Yahoo新聞",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirgNBVV95cUxPNVRQMkVLRGdlc0IxQ0RMWWJxRjR3WGU4M0xiXzBvajdlZU9EMy1vN21SVkN2VWdOQnFNNFJ0bnRET1NLOXBJUDR2TmFiRlBVX0wwSVNVc0lqLVp0OGRwU01VZzJoaWFTbWNPLWhTYjAtNlpQNHpXeF82dHRLMnhYZE14Y3ZhOGVPdTFMY0Zhc1plNkkwQ2xtQzlTVlhxM01GQmRiQmlBOWtlaGpaLUR1VE11YVY0Yy1hYjhMMUluNmprTjVPRm9JZkoway12QTk5THRNajd6UHlpcXFmdlFwUVBRS1NnVXl6Um53QTJzMHhoY1lyMVFKSzZDVncyWUVNYXFBcFo0VUpUcVQ1ZlhsS1JGcjF5bElqNFU2VGpadGxTQm5ZRWZNejhpTDFZSXJuOUxfRWg2ZGM4SFR1Tmx2b3NTNXdGSFQwR0lKYzdnSndxUmoyZVRud1NJVmllYmRPRmJXTUs2N2xzaWRnaGllNWJ1cmx5Uk41UFFsVnRkZk0xdUR0Wk1yT0dmZlNQd0hiRldaaGwwdmNhU0NnQWpKbkQxZEI0OWRab2ZIRGhB?oc=5",
-        "publishedAt": "2026-11-09T16:25:19+08:00",
+        "headline": "Netflix《夢響年代》12.11開播！宋慧喬孔劉首合作 盤點4大看點 - 香港01",
+        "source": "香港01",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQRGxGZUR6UGlwM3NwUmJzUGVBb2lMZ0JuWllQbzVMLUU5QmFWRWJmb1JCaHRsNFlfOXdxbUFHOVc3ZV94WVZKbk1oYmEtYlktbEw3WVN4MjAtc1VDLUhNcWlrM2lsZEEzYVJONjFQZmFlZGY1Y1h6S2xrNkpoT3JMZ19DT3ZKYW5lYTUxbXIwaE1qQ2o1MjZLY2U1ZmNKSEI5QnQteXJEX0pwN3JwWW5ZUmJONk11MWxnaWdURUZEUUMwa3N1dkRyVTJxalV0UmpTdGNTODJycGNFZkkwU0RVV0l2WmlOc0ZnY00tYm5QZDQ5Z29VRk85enBXcE1QOHBmYlBkUXhQaDR5aUVYV2h0S1dNTWNvajVqN3pENVRyekRvZXdNS09TcUZjNXBwbV9rNXRUMG9maExOZmNzQlRpQVNQWWR5bzY1TTZ1dFg5Wl9oYTB2ek5ndA?oc=5",
+        "publishedAt": "2026-11-13T19:15:54+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4376,8 +4247,8 @@
         "type": "台劇",
         "headline": "姜棟元、金高銀合作Netflix新劇！《苦盡柑來遇見你》導演、《淚之女王》編劇打造《婚：三角的時間》劇情曝光| 韓星網 - LINE TODAY",
         "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BX2xodVdRdnNVRkJEUFpfT3c3VG92MlRVTHZtLTVlcHFMU1poNWg3R2pRSEJ5OHFzcUhNcmpyUWJkWVJ0ZFoyNmYtTkUtYUxVSmh0X053?oc=5",
-        "publishedAt": "2026-11-12T10:03:27+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4c1E1alBfMEVPSE5hZzZUbThreE9CdEMya2pZRXFPZnpqOEhLeUpZTGNoQnlhLVAteEQ5ZnZienFzX2JEb3puZXBRaXhuNlhraVlOUlYtVHJGZTcyekozSFRTM3VIZ1FyUGprREx2MGI0ZXNTcVY0?oc=5",
+        "publishedAt": "2026-11-13T08:56:56+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4386,8 +4257,8 @@
         "type": "台劇",
         "headline": "姜棟元、金高銀合作Netflix新劇！《苦盡柑來遇見你》導演、《淚之女王》編劇打造《婚：三角的時間》劇情曝光| 韓星網 - LINE TODAY",
         "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BX2xodVdRdnNVRkJEUFpfT3c3VG92MlRVTHZtLTVlcHFMU1poNWg3R2pRSEJ5OHFzcUhNcmpyUWJkWVJ0ZFoyNmYtTkUtYUxVSmh0X053?oc=5",
-        "publishedAt": "2026-11-12T10:03:27+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4c1E1alBfMEVPSE5hZzZUbThreE9CdEMya2pZRXFPZnpqOEhLeUpZTGNoQnlhLVAteEQ5ZnZienFzX2JEb3puZXBRaXhuNlhraVlOUlYtVHJGZTcyekozSFRTM3VIZ1FyUGprREx2MGI0ZXNTcVY0?oc=5",
+        "publishedAt": "2026-11-13T08:56:56+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4396,48 +4267,18 @@
         "type": "台劇",
         "headline": "姜棟元、金高銀合作Netflix新劇！《苦盡柑來遇見你》導演、《淚之女王》編劇打造《婚：三角的時間》劇情曝光| 韓星網 - LINE TODAY",
         "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BX2xodVdRdnNVRkJEUFpfT3c3VG92MlRVTHZtLTVlcHFMU1poNWg3R2pRSEJ5OHFzcUhNcmpyUWJkWVJ0ZFoyNmYtTkUtYUxVSmh0X053?oc=5",
-        "publishedAt": "2026-11-12T10:03:27+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4c1E1alBfMEVPSE5hZzZUbThreE9CdEMya2pZRXFPZnpqOEhLeUpZTGNoQnlhLVAteEQ5ZnZienFzX2JEb3puZXBRaXhuNlhraVlOUlYtVHJGZTcyekozSFRTM3VIZ1FyUGprREx2MGI0ZXNTcVY0?oc=5",
+        "publishedAt": "2026-11-13T08:56:56+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
       {
-        "title": "再婚皇后",
+        "title": "刺棠",
         "type": "台劇",
-        "headline": "2026 韓劇推薦｜11 月最新片單：《再婚皇后》、《罪藍之路》到《好搭檔2》，5 部必看新劇 - GQ Hong Kong",
-        "source": "GQ Hong Kong",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
-        "publishedAt": "2026-11-06T16:00:00+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
-        "title": "罪藍之路",
-        "type": "台劇",
-        "headline": "2026 韓劇推薦｜11 月最新片單：《再婚皇后》、《罪藍之路》到《好搭檔2》，5 部必看新劇 - GQ Hong Kong",
-        "source": "GQ Hong Kong",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
-        "publishedAt": "2026-11-06T16:00:00+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
-        "title": "好搭檔2",
-        "type": "台劇",
-        "headline": "2026 韓劇推薦｜11 月最新片單：《再婚皇后》、《罪藍之路》到《好搭檔2》，5 部必看新劇 - GQ Hong Kong",
-        "source": "GQ Hong Kong",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82U2pYTTRFMkN0cmNRR0gtZnoxOERlclNOWU40akw2Ny1yQ2loWEVtWGZWNV92M29wajVmVkpJbnVSaVJvM0J6YV9ndl92V2hwenVNejBISEl0ZDRUcng1V0luSFZQaXlENFE?oc=5",
-        "publishedAt": "2026-11-06T16:00:00+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
-        "title": "玫瑰戰爭",
-        "type": "台劇",
-        "headline": "台慶劇《玫瑰戰爭》今晚開播 楊茜堯解構娛樂圈黑幕 陳豪飾演娛樂公司老闆 - 橙新聞",
-        "source": "橙新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxOWDVBcWtLdG9FQUZYRmhDTDk0S2ZRXzZDSW0tQWEyN1M4c3BuM3dlVWc0SlR0WXA5N3pVcUE1eUwzMFZtWHk2QnI2aFdyRUVvYktJWVJfOEl1Sy13MHd2YlNyTy16Q0lPTk9idXQ0SllwWHA1andMZUlfZ2V3TFlBWUwxY1dfUEVwSm1qWG5RQmFEQUNFNWs0V2lFZzhLZDRUWjdYV1hwUjdBaG13YUVucDBubmtyOHk5WHhjVVBiY0dHSENDZ1ZfSHB4QXdjVng5VE01bU5aa24yNERqVnRkX2ZITXdsNVBESF9fWDc1UFRackZ0SU9xRGpxS1k3SjJOdHJkTjFPWG9ZMU9PUkVvOVJuc3JRU0lPMUxtODFGUlZEdTZhWkEyUjFELXpxdkpBS3dIS1VEd0h1ZmdLdmpfVGE3eHhiUTBQaU1WcnhYbWpiamxOell4bU5EQS1Ea0xvQVdicnhVNERKT0ZfNDR2Q2tFV1g4UF9LVU02R09HSDNXRUtSVXNObjV3VTdaODgwLTlTVzBET2hqSUdqTUpGaHJtUThXQzFfSnNhR1ppNFEzemFLZ3pNZ3kwQ1FTbkE1V3FCZVAzYWNja2pyemo0TTJNeEdDQkxq?oc=5",
-        "publishedAt": "2026-11-09T17:32:38+08:00",
+        "headline": "張凌赫新劇《刺棠》片場花絮瘋傳！臉上脖子全是紅唇印，騎馬戲遇馬匹失控！ - JUKSY 街星",
+        "source": "JUKSY 街星",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9jR1ZYUWxER3pnWk5fdzUtVUc2N0VwZ05QSGN2eVhwZUV3cUR0TTl2dUtzVk5qQzNZcnpCY1ZFV0tHQUhheXBlRS1kUmo?oc=5",
+        "publishedAt": "2026-11-13T18:00:51+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4452,22 +4293,12 @@
         "aliases": []
       },
       {
-        "title": "夢響年代",
+        "title": "今天是太陽雨",
         "type": "台劇",
-        "headline": "宋慧喬、孔劉新劇《夢響年代》開播前合體《藉口Go》！宋慧喬霸氣喊「我才是前輩」，孔劉秒變乖巧後輩XD | 韓星網 - LINE TODAY",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RTzNmMjBfWGVzaFZfa0Y2eWM5VngzLWJtZW1MUXctdHp5YUMzTkZJT1hjRWxETjBZVmcxVUFqdVUwZ2dQQWhBQTlmazF1Y29EcTVNdGxn?oc=5",
-        "publishedAt": "2026-11-08T11:38:06+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
-        "title": "藉口Go",
-        "type": "台劇",
-        "headline": "宋慧喬、孔劉新劇《夢響年代》開播前合體《藉口Go》！宋慧喬霸氣喊「我才是前輩」，孔劉秒變乖巧後輩XD | 韓星網 - LINE TODAY",
-        "source": "LINE TODAY",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RTzNmMjBfWGVzaFZfa0Y2eWM5VngzLWJtZW1MUXctdHp5YUMzTkZJT1hjRWxETjBZVmcxVUFqdVUwZ2dQQWhBQTlmazF1Y29EcTVNdGxn?oc=5",
-        "publishedAt": "2026-11-08T11:38:06+08:00",
+        "headline": "Netflix《今天是太陽雨》衝上 Top 2！楊超越戀上學霸董思成 首播口碑爆棚 - Yahoo新聞",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMirgNBVV95cUxPNVRQMkVLRGdlc0IxQ0RMWWJxRjR3WGU4M0xiXzBvajdlZU9EMy1vN21SVkN2VWdOQnFNNFJ0bnRET1NLOXBJUDR2TmFiRlBVX0wwSVNVc0lqLVp0OGRwU01VZzJoaWFTbWNPLWhTYjAtNlpQNHpXeF82dHRLMnhYZE14Y3ZhOGVPdTFMY0Zhc1plNkkwQ2xtQzlTVlhxM01GQmRiQmlBOWtlaGpaLUR1VE11YVY0Yy1hYjhMMUluNmprTjVPRm9JZkoway12QTk5THRNajd6UHlpcXFmdlFwUVBRS1NnVXl6Um53QTJzMHhoY1lyMVFKSzZDVncyWUVNYXFBcFo0VUpUcVQ1ZlhsS1JGcjF5bElqNFU2VGpadGxTQm5ZRWZNejhpTDFZSXJuOUxfRWg2ZGM4SFR1Tmx2b3NTNXdGSFQwR0lKYzdnSndxUmoyZVRud1NJVmllYmRPRmJXTUs2N2xzaWRnaGllNWJ1cmx5Uk41UFFsVnRkZk0xdUR0Wk1yT0dmZlNQd0hiRldaaGwwdmNhU0NnQWpKbkQxZEI0OWRab2ZIRGhB?oc=5",
+        "publishedAt": "2026-11-12T16:00:00+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4482,12 +4313,22 @@
         "aliases": []
       },
       {
-        "title": "怪奇物語",
-        "type": "台劇",
-        "headline": "塔麻可吉推出《怪奇物語》聯動款商品，Netflix新劇「異世界：怪奇物語大冒險」預計2028年上線 - 宅宅新聞",
-        "source": "宅宅新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DajlvM0pJNzZhX3NtaU5kdW1feGxnaDdCNGpCMVpzVXNLMHdlMC1BaUdWQXNNTEJzZE93czY4TDVmcjFpNW9qVw?oc=5",
-        "publishedAt": "2026-11-10T18:45:00+08:00",
+        "title": "再婚皇后",
+        "type": "韓劇",
+        "headline": "《再婚皇后》首播即成「世一」榮登Disney+ 史上全球首播觀看次數冠軍韓劇 - 巴士的報",
+        "source": "巴士的報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQb2I3MXI1bWpxTVQyZzRjdV82WE0xbXlEQ1otT3dza0ZXdXl3blVjblQtLVpMLVdlTGpSaXh3VXhEMlMwSUUxckxHZFAzd3F4Mm53dDBQVkJpWFl5RE9QeUJ1QWJVRVBTbnhZTlhmYUEzMTdlVDNwNjMwN3Q0bi1DenJmbGVPYTJ5YXRCZGpXalJvUHUyM20xbXA2SVBoaHNZSmhsZmd2QnJZOVFkVmpuRktMcHF4ZmNVc1FXS2MtSWFOZGprZ29rNnNDTXV4TW9ndE1EVDlDY2xJYVNQaWxsS2FzQWNXNGF6VU5UTG1SSE1CbGZHWFNpaUoxZFFvcTJKZDJXcXFYQnRUUGtFS2ZtenJJTEdXWDlTNlo2WFNjSndZUHhqWnZTWHBtcjlhTlBLM3M5bnd4YkxlS05qYmVhREtLTGdyNU5jSU5YLUFHMko1Q1JGVVZfM2VrZllVQXN6YkJxLW9VSm5Hdw?oc=5",
+        "publishedAt": "2026-11-10T21:30:04+08:00",
+        "status": "新聞提及，平台與上架日待核對",
+        "aliases": []
+      },
+      {
+        "title": "好搭檔2",
+        "type": "韓劇",
+        "headline": "韓劇《好搭檔2》11.20首播！張娜拉自立門戶 迎戰網紅律師朴海鎮 - 香港01",
+        "source": "香港01",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPb01LMVFSblJrY0JxVWdZZ0FzdE5CVlowTGxuSFBGR0hCeTdpa1JjakZVeHNiYTQxb1BXZm1OZjludWtnSEVjbE1veFlPOHl2ZUFrdkFZRlZ4Mi0wMmRMNFdHUmx2QmNESC1DWExLdHNUdjdmcmNyOWdRRmcwRnJDVlJIRXdQc1NJQXg2X1c4RTlZOUk1WlY2SXFFenRYaDloLU1oQzRENWJhYVNWbkUyY3FSa045RjdwbkZ5cFN4dG1nUERoSlNkenhKaW5YYXdjNU1SUWhWbXdfSHBTSEtScm5Qb2ZDSlp0MDdXTkgwbXc4MzVOeUs1NXFoR1hwaS1qYlUxTXAzMlF3aXdObWJ2QW1pZDVId3dsSU5JRk42RnZjWU1jWWllVElLSlVpc3RmbjgtclFvUVJDblJZTVFzempBNmZnTkhCWnF1ZzVRZHFQTDFDTTU2UDJzWmNUQlpRZWRqYlNpaWZac0pRUUgyWUJqWkJCUGZ5dkRhQ1djNA?oc=5",
+        "publishedAt": "2026-11-11T08:30:39+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4502,16 +4343,6 @@
         "aliases": []
       },
       {
-        "title": "信號",
-        "type": "韓劇",
-        "headline": "韓劇《信號》第二季確定12月7日首播 男主趙震雄捲犯罪爭議戲份「一刀未剪」內幕曝光 - 上報Up Media",
-        "source": "上報Up Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tQll3X2xubVBHMXZOZ2hqclo5REJIQlNyamQzZmR6dGNWQ1dzU0VsVXlQbFhUVmVjRmRUc2E2Mm5OZ3c1cVdnbzFDVDFDNmdUSDV2SkRjTXMxMkxqZlNna0FqNFY3X1FhZlE?oc=5",
-        "publishedAt": "2026-11-06T17:58:00+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
         "title": "魔鬼的計謀3",
         "type": "韓劇",
         "headline": "《魔鬼的計謀3》11/10開播！線上看16成員IG＆播出時間及賽制 - TVBS新聞網",
@@ -4522,22 +4353,42 @@
         "aliases": []
       },
       {
-        "title": "折月亮",
-        "type": "陸劇",
-        "headline": "《嫁金釵》田曦薇新劇擠走《折月亮》盧昱曉奪女一 二搭《逐玉》導演扮鄉下少女勇闖京城 - 上報Up Media",
-        "source": "上報Up Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZMFFuNW5keDlSN2pQaVppWDJCdEhiN3BENElxeHd5S2dxbmtxSHozWnhXZG9PQmhDLVVWaW52eEE4ZS1md25EWGFpYkg1a3NmSTkxenFiLXZYSjhUaXJENnQ3aEthWWl4UFE?oc=5",
-        "publishedAt": "2026-11-07T10:40:00+08:00",
-        "status": "新聞提及，平台與上架日待核對",
-        "aliases": []
-      },
-      {
         "title": "等風熱吻你",
         "type": "陸劇",
         "headline": "《等風熱吻你》7亮點！楊洋、陳都靈新劇「清冷法醫x明艷女星」，台灣導演瞿友寧、李青蓉聯手操刀再創「現偶天花板」 - 女人我最大",
         "source": "女人我最大",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mQTZ5eEdiQ2tyejl3bURaYmlURF9qeUI1RC14N05uWkVPa0p0ZUJWcU80VHowazRNS0hSU0xleWwxbTVUWnFUV0pfSE94Vm5qWlNKODNyTXE?oc=5",
         "publishedAt": "2026-11-10T16:53:00+08:00",
+        "status": "新聞提及，平台與上架日待核對",
+        "aliases": []
+      },
+      {
+        "title": "折月亮",
+        "type": "陸劇",
+        "headline": "《折月亮》開播掀熱議！關於新生代「陸劇男神」林一6件事 - Bella.tw儂儂",
+        "source": "Bella.tw儂儂",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vVHdqVVVVZWV3T3NQelF1MHplY0hnam80U2lfbWhuNGowb0JKLVBBcW1XWDRpbDlqVGdaWVloazFERmJXelhBYmpTbDBtdURJQzhaUzgxRDF0Y0tzQk1tQTVrTXZpQTBybW92ZzgzTTFyR05ydmNFWg?oc=5",
+        "publishedAt": "2026-11-13T00:27:50+08:00",
+        "status": "新聞提及，平台與上架日待核對",
+        "aliases": []
+      },
+      {
+        "title": "怪奇物語",
+        "type": "歐美劇",
+        "headline": "塔麻可吉推出《怪奇物語》聯動款商品，Netflix新劇「異世界：怪奇物語大冒險」預計2028年上線 - 宅宅新聞",
+        "source": "宅宅新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9DajlvM0pJNzZhX3NtaU5kdW1feGxnaDdCNGpCMVpzVXNLMHdlMC1BaUdWQXNNTEJzZE93czY4TDVmcjFpNW9qVw?oc=5",
+        "publishedAt": "2026-11-10T18:45:00+08:00",
+        "status": "新聞提及，平台與上架日待核對",
+        "aliases": []
+      },
+      {
+        "title": "藉口Go",
+        "type": "綜藝",
+        "headline": "宋慧喬、孔劉新劇《夢響年代》開播前合體《藉口Go》！宋慧喬霸氣喊「我才是前輩」，孔劉秒變乖巧後輩 XD - KSD 韓星網",
+        "source": "KSD 韓星網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNVWQ2N3ltaTVyeWJQRXpTb2duNFdvbHZpbklmUGNiODRlU2VmLWo2S01RWjBFT0oySFVReEtQNWJkSVh6TnY3U216NGRxODhZajY2N0VZS2PSAVdBVV95cUxPZXBkMFhRNWJnU28tcld5aEhveHdMVGY2d0Nfc0J0MVBUVzJNck9kYWRiZlViWGppYmhMcE9Wd1lzVTBzTFdOT3BueXZ5T0RmbTBEX2ZxVXc?oc=5",
+        "publishedAt": "2026-11-08T10:17:00+08:00",
         "status": "新聞提及，平台與上架日待核對",
         "aliases": []
       },
@@ -4559,29 +4410,29 @@
         "platform": "愛奇藝",
         "url": "https://www.iq.com/?lang=zh_tw",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 7
       },
       {
         "platform": "HBO Max",
         "url": "https://www.hbomax.com/tw/zh/series",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 4
       },
       {
         "platform": "芒果TV・電視劇",
         "url": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?platform=pcweb&channelId=2&pn=1&pc=80&sort=c2",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "titleCount": 30
       },
       {
         "platform": "芒果TV",
         "url": "https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1",
         "status": "success",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "titleCount": 51
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "titleCount": 49
       }
     ],
     "platformUpdates": [
@@ -4589,311 +4440,323 @@
         "title": "線上看 錦月如歌 帶字幕 中文配音，國語版線上看 錦月如歌 帶字幕 中文配音，國語版36集全TOP 1",
         "sourceUrl": "https://www.iq.com/album/%E9%8C%A6%E6%9C%88%E5%A6%82%E6%AD%8C-2025-1n94gjc5391?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "線上看 與晉長安 帶字幕 中文配音，國語版線上看 與晉長安 帶字幕 中文配音，國語版38集全TOP 2",
         "sourceUrl": "https://www.iq.com/album/%E8%88%87%E6%99%89%E9%95%B7%E5%AE%89-2025-25yg24w617x?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "線上看 御廷謠 帶字幕 中文配音，國語版線上看 御廷謠 帶字幕 中文配音，國語版32集全TOP 3",
         "sourceUrl": "https://www.iq.com/album/%E5%BE%A1%E5%BB%B7%E8%AC%A0-2026-1a7b4mgl9ph?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "線上看 軋戲 帶字幕 中文配音，國語版線上看 軋戲 帶字幕 中文配音，國語版28集全TOP 4",
         "sourceUrl": "https://www.iq.com/album/%E8%BB%8B%E6%88%B2-2026-1seo7569g7t?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "線上看 燦如繁星 帶字幕 中文配音，國語版線上看 燦如繁星 帶字幕 中文配音，國語版32集全TOP 5",
         "sourceUrl": "https://www.iq.com/album/%E7%87%A6%E5%A6%82%E7%B9%81%E6%98%9F-2026-2f3498mxwyx?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
-        "title": "線上看 鋼鐵森林 帶字幕 中文配音，國語版線上看 鋼鐵森林 帶字幕 中文配音，國語版28集全TOP 6",
-        "sourceUrl": "https://www.iq.com/album/%E9%8B%BC%E9%90%B5%E6%A3%AE%E6%9E%97-2026-1r60y5kmafx?lang=zh_tw",
-        "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
-      },
-      {
-        "title": "線上看 歸路 帶字幕 中文配音，國語版線上看 歸路 帶字幕 中文配音，國語版30集全TOP 7",
+        "title": "線上看 歸路 帶字幕 中文配音，國語版線上看 歸路 帶字幕 中文配音，國語版30集全TOP 6",
         "sourceUrl": "https://www.iq.com/album/%E6%AD%B8%E8%B7%AF-2023-2aumbcs193p?lang=zh_tw",
         "platform": "愛奇藝",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
+      },
+      {
+        "title": "線上看 鋼鐵森林 帶字幕 中文配音，國語版線上看 鋼鐵森林 帶字幕 中文配音，國語版28集全TOP 7",
+        "sourceUrl": "https://www.iq.com/album/%E9%8B%BC%E9%90%B5%E6%A3%AE%E6%9E%97-2026-1r60y5kmafx?lang=zh_tw",
+        "platform": "愛奇藝",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "品牌",
         "sourceUrl": "https://www.hbomax.com/tw/zh/channel",
         "platform": "HBO Max",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "親子",
         "sourceUrl": "https://www.hbomax.com/tw/zh/collections/genre/kids-family",
         "platform": "HBO Max",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "探索內容",
         "sourceUrl": "https://www.hbomax.com/tw/zh/sitemap",
         "platform": "HBO Max",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "公司資訊",
         "sourceUrl": "https://www.hbomax.com/tw/zh/corp-info",
         "platform": "HBO Max",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "官方片庫／官方消息列出；首播日及台灣供應情況尚未核實"
       },
       {
         "title": "虚颜",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/457600/17508836.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "爱的勘探法",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/480359/19339472.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "陪你到世界之巅",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/329692/5796752.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "我的人间烟火",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/509691/19399551.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "良陈美锦",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/749276/24387028.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "凤栖",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/875855/24717829.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "水龙吟",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/613743/23762072.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "以家人之名",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/333900/9578912.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "以爱为营",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/510466/20062252.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "天命·成凰",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/919355/24753501.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "凤栖",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/875855/24717829.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "水龙吟",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/613743/23762072.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "以爱为营",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/510466/20062252.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "以家人之名",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/333900/9578912.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "韶华若锦",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/648984/22974172.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "夜色将烬",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/908834/24677085.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "完美先生和差不多小姐",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/340201/10105357.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "长乐曲",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/642790/21699444.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "夜色将烬",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/908834/24677085.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "着迷",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/857348/24330429.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "落花时节又逢君",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/373402/22876347.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "草莽枭雄",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/909293/24684538.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "19层",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/465095/20473625.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "夜色暗涌时",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/360759/15041403.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "装腔启示录",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/525991/19653816.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "深情眼",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/730633/23286474.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
-        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
-      },
-      {
-        "title": "欢乐家长群2",
-        "platform": "芒果TV",
-        "sourceUrl": "https://www.mgtv.com/b/685612/23581159.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "我的哈士奇男友",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/364664/11442215.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
+        "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
+      },
+      {
+        "title": "欢乐家长群2",
+        "platform": "芒果TV",
+        "sourceUrl": "https://www.mgtv.com/b/685612/23581159.html",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "私藏浪漫",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/625757/21561195.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "好好的时光",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/743674/24243379.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "我在他乡挺好的",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/362723/13052354.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "锦衣之下",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/321474/7330195.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "妻子的秘密世界",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/457354/17731154.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "少年派2",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/419629/17173456.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       },
       {
         "title": "欢乐家长群",
         "platform": "芒果TV",
         "sourceUrl": "https://www.mgtv.com/b/601001/20552681.html",
-        "checkedAt": "2026-11-13T10:48:16+08:00",
+        "checkedAt": "2026-11-14T10:36:50+08:00",
         "status": "芒果TV 電視劇官方片庫列出；實際首播、台灣上架日期待核實"
       }
     ],
     "lastSuccessfulAt": "2026-10-26T17:16:03+08:00",
     "status": "partial",
-    "verifiedCount": 141,
-    "newByInterest": null,
+    "verifiedCount": 142,
+    "newByInterest": {
+      "台劇": 1,
+      "韓劇": 0,
+      "陸劇": 0,
+      "日劇": 0,
+      "歐美劇": 2,
+      "綜藝": 2
+    },
     "countByInterest": {
-      "台劇": 9,
-      "韓劇": 10,
+      "台劇": 10,
+      "韓劇": 8,
       "陸劇": 45,
       "日劇": 2,
-      "歐美劇": 15,
+      "歐美劇": 17,
       "綜藝": 60
     }
   },
   "seriesDiscoveryLastSnapshot": [
     {
-      "title": "新手上路",
+      "title": "急診室的奇蹟",
       "platform": "Netflix",
       "type": "台劇"
     },
     {
-      "title": "急診室的奇蹟",
+      "title": "黑白清道夫",
+      "platform": "Netflix",
+      "type": "台劇"
+    },
+    {
+      "title": "新手上路",
       "platform": "Netflix",
       "type": "台劇"
     },
@@ -4908,17 +4771,12 @@
       "type": "台劇"
     },
     {
-      "title": "黑白清道夫",
+      "title": "開火開伙",
       "platform": "Netflix",
-      "type": "台劇"
+      "type": "綜藝"
     },
     {
       "title": "阿松與阿暖",
-      "platform": "Netflix",
-      "type": "台劇"
-    },
-    {
-      "title": "聰明鎮",
       "platform": "Netflix",
       "type": "台劇"
     },
@@ -4928,19 +4786,29 @@
       "type": "台劇"
     },
     {
+      "title": "何百芮的地獄戀曲",
+      "platform": "Netflix",
+      "type": "台劇"
+    },
+    {
+      "title": "聰明鎮",
+      "platform": "Netflix",
+      "type": "台劇"
+    },
+    {
       "title": "消失的裂痕",
       "platform": "Netflix",
       "type": "台劇"
     },
     {
-      "title": "開火開伙",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
       "title": "Doctor X：白色黑手黨時代",
       "platform": "Netflix",
       "type": "韓劇"
+    },
+    {
+      "title": "魔鬼的計謀",
+      "platform": "Netflix",
+      "type": "綜藝"
     },
     {
       "title": "百日謊言",
@@ -4958,24 +4826,19 @@
       "type": "韓劇"
     },
     {
-      "title": "愛在山林間",
+      "title": "亞森·羅蘋",
       "platform": "Netflix",
-      "type": "綜藝"
+      "type": "歐美劇"
     },
     {
-      "title": "戀愛充電中",
-      "platform": "Netflix",
-      "type": "韓劇"
-    },
-    {
-      "title": "不良一族尋愛記",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
-      "title": "假面美顏",
+      "title": "深夜食堂",
       "platform": "Netflix",
       "type": "日劇"
+    },
+    {
+      "title": "黑鴿",
+      "platform": "Netflix",
+      "type": "歐美劇"
     },
     {
       "title": "金特務：本色回歸",
@@ -4983,9 +4846,14 @@
       "type": "韓劇"
     },
     {
-      "title": "黑鴿",
+      "title": "拜託冰箱",
       "platform": "Netflix",
-      "type": "歐美劇"
+      "type": "綜藝"
+    },
+    {
+      "title": "戀愛充電中",
+      "platform": "Netflix",
+      "type": "韓劇"
     },
     {
       "title": "青春共體",
@@ -4998,7 +4866,17 @@
       "type": "綜藝"
     },
     {
-      "title": "Stokes Twins",
+      "title": "茜茜皇后",
+      "platform": "Netflix",
+      "type": "歐美劇"
+    },
+    {
+      "title": "星級婚約：安娜蕾和布札",
+      "platform": "Netflix",
+      "type": "綜藝"
+    },
+    {
+      "title": "爆笑悲劇王：笑著笑著就哭了",
       "platform": "Netflix",
       "type": "綜藝"
     },
@@ -5006,6 +4884,46 @@
       "title": "嘟吉的狗狗屋",
       "platform": "Netflix",
       "type": "歐美劇"
+    },
+    {
+      "title": "Stokes Twins",
+      "platform": "Netflix",
+      "type": "綜藝"
+    },
+    {
+      "title": "權欲 3：卡南崛起",
+      "platform": "Netflix",
+      "type": "歐美劇"
+    },
+    {
+      "title": "枕邊殺局",
+      "platform": "Netflix",
+      "type": "歐美劇"
+    },
+    {
+      "title": "WWE Crown Jewel",
+      "platform": "Netflix",
+      "type": "歐美劇"
+    },
+    {
+      "title": "India’s Got Latent",
+      "platform": "Netflix",
+      "type": "綜藝"
+    },
+    {
+      "title": "愛在山林間",
+      "platform": "Netflix",
+      "type": "綜藝"
+    },
+    {
+      "title": "不良一族尋愛記",
+      "platform": "Netflix",
+      "type": "綜藝"
+    },
+    {
+      "title": "假面美顏",
+      "platform": "Netflix",
+      "type": "日劇"
     },
     {
       "title": "成名在望",
@@ -5018,47 +4936,12 @@
       "type": "歐美劇"
     },
     {
-      "title": "權欲 3：卡南崛起",
-      "platform": "Netflix",
-      "type": "歐美劇"
-    },
-    {
-      "title": "WWE Crown Jewel",
-      "platform": "Netflix",
-      "type": "歐美劇"
-    },
-    {
-      "title": "拜託冰箱",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
-      "title": "深夜食堂",
-      "platform": "Netflix",
-      "type": "日劇"
-    },
-    {
       "title": "獵犬",
       "platform": "Netflix",
       "type": "韓劇"
     },
     {
-      "title": "魔鬼的計謀",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
       "title": "被奪走的女兒：娜塔莉霍洛威失蹤案",
-      "platform": "Netflix",
-      "type": "歐美劇"
-    },
-    {
-      "title": "爆笑悲劇王：笑著笑著就哭了",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
-      "title": "亞森·羅蘋",
       "platform": "Netflix",
       "type": "歐美劇"
     },
@@ -5098,14 +4981,44 @@
       "type": "歐美劇"
     },
     {
-      "title": "我的荒糖戀愛",
-      "platform": "Netflix",
-      "type": "韓劇"
+      "title": "你好，星期六 2026",
+      "platform": "芒果TV",
+      "type": "綜藝"
     },
     {
-      "title": "我的王室死對頭",
-      "platform": "Netflix",
-      "type": "韓劇"
+      "title": "佳佳的花园",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "六人定律",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "后会友期 沉浸版",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "和咨询师妈妈漫漫谈",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "后会友期",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "你好湖南",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
+      "title": "不想睡的星期五",
+      "platform": "芒果TV",
+      "type": "綜藝"
     },
     {
       "title": "肉菜的心理餐桌",
@@ -5113,12 +5026,12 @@
       "type": "綜藝"
     },
     {
-      "title": "娜就聊姐姐",
+      "title": "花儿与少年2026",
       "platform": "芒果TV",
       "type": "綜藝"
     },
     {
-      "title": "你好湖南",
+      "title": "娜就聊姐姐",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5133,7 +5046,7 @@
       "type": "綜藝"
     },
     {
-      "title": "后会友期",
+      "title": "爱的修学旅行 第二季",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5143,22 +5056,12 @@
       "type": "綜藝"
     },
     {
-      "title": "花儿与少年2026",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "爱的修学旅行 第二季",
+      "title": "舞蹈新风暴",
       "platform": "芒果TV",
       "type": "綜藝"
     },
     {
       "title": "万物有生",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "舞蹈新风暴",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5173,17 +5076,7 @@
       "type": "綜藝"
     },
     {
-      "title": "不想睡的星期五",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
       "title": "东方纹样·有点东西",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "你好，星期六 2026",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5208,17 +5101,12 @@
       "type": "綜藝"
     },
     {
-      "title": "星动网球社",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
       "title": "博物馆夜行指“楠”",
       "platform": "芒果TV",
       "type": "綜藝"
     },
     {
-      "title": "家乡美食大赛",
+      "title": "星动网球社",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5228,7 +5116,7 @@
       "type": "綜藝"
     },
     {
-      "title": "披荆斩棘2026",
+      "title": "家乡美食大赛",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5238,7 +5126,7 @@
       "type": "綜藝"
     },
     {
-      "title": "伦敦合伙人",
+      "title": "披荆斩棘2026",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5248,22 +5136,12 @@
       "type": "綜藝"
     },
     {
+      "title": "伦敦合伙人",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
       "title": "背后2",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "和咨询师妈妈漫漫谈",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "佳佳的花园",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "后会友期 沉浸版",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5298,17 +5176,12 @@
       "type": "綜藝"
     },
     {
-      "title": "现在正好·她的进行时",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
       "title": "一个县城女人，有啥了不起？",
       "platform": "芒果TV",
       "type": "綜藝"
     },
     {
-      "title": "六人定律",
+      "title": "现在正好·她的进行时",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5338,27 +5211,17 @@
       "type": "綜藝"
     },
     {
-      "title": "去“湘”当有味的地方 第四季",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
       "title": "飞行嘉宾",
       "platform": "芒果TV",
       "type": "綜藝"
     },
     {
+      "title": "去“湘”当有味的地方 第四季",
+      "platform": "芒果TV",
+      "type": "綜藝"
+    },
+    {
       "title": "披荆斩棘2026 训练室全纪录",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "心动双重奏",
-      "platform": "芒果TV",
-      "type": "綜藝"
-    },
-    {
-      "title": "快乐老家2之直播聚会",
       "platform": "芒果TV",
       "type": "綜藝"
     },
@@ -5378,22 +5241,12 @@
       "type": "陸劇"
     },
     {
-      "title": "予蒼龍",
-      "platform": "WeTV",
-      "type": "陸劇"
-    },
-    {
       "title": "蘭香如故",
       "platform": "WeTV",
       "type": "陸劇"
     },
     {
-      "title": "舟寒知嫿意",
-      "platform": "WeTV",
-      "type": "陸劇"
-    },
-    {
-      "title": "花開錦繡",
+      "title": "予蒼龍",
       "platform": "WeTV",
       "type": "陸劇"
     },
@@ -5403,7 +5256,17 @@
       "type": "陸劇"
     },
     {
+      "title": "花開錦繡",
+      "platform": "WeTV",
+      "type": "陸劇"
+    },
+    {
       "title": "富閨可期",
+      "platform": "WeTV",
+      "type": "陸劇"
+    },
+    {
+      "title": "舟寒知嫿意",
       "platform": "WeTV",
       "type": "陸劇"
     },
