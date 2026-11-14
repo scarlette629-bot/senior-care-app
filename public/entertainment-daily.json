@@ -5459,51 +5459,51 @@
   "weeklyHot": {
     "weekStart": "2026-11-09",
     "weekEnd": "2026-11-15",
-    "checkedAt": "2026-11-14T09:53:05+08:00",
-    "updatedAt": "2026-11-14T09:53:05+08:00",
-    "lastSuccessfulAt": "2026-11-14T09:53:05+08:00",
+    "checkedAt": "2026-11-14T14:32:20+08:00",
+    "updatedAt": "2026-11-14T14:32:20+08:00",
+    "lastSuccessfulAt": "2026-11-14T14:32:20+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-14T09:53:05+08:00",
+        "checkedAt": "2026-11-14T14:32:20+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-14T09:53:05+08:00",
+        "checkedAt": "2026-11-14T14:32:20+08:00",
         "itemCount": 8
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-14T09:53:05+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-11-14T14:32:20+08:00",
+        "itemCount": 5
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-e9f0b2c31f8eb919",
-        "title": "10部2026「錯過可惜」超好看台劇！霍建華《急診室的奇蹟》必追，這部不紅但一面倒好評 - BEAUTY美人圈",
-        "type": "台劇",
-        "source": "BEAUTY美人圈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aUmp4cFRYTnN4WlJJeTRlT2txSDZNVjVSd0JCbXBLNnZBSTVLalc1d0c2eE83RFlkbVFjRUhCYU9nN2hQdnZnZHd6eUNId1hJWlHSAVJBVV95cUxOWlJqeHBUWE5zeFpSSXk0ZU9rcUg2TVY1UndCQm1wSzZ2QUk1S2pXNXdHNnhPN0RZZG1RY0VIQmFPZzdoUHZ2Z2R3enlDSHdYSVpR?oc=5",
-        "observedAt": "2026-11-13T19:00:00+08:00",
+        "id": "weekly-b30a9c45ce3d1ca7",
+        "title": "高庚杓酒駕風波炸鍋！21日粉絲見面會恐喊卡　朴寶劍新綜藝也慘遭牽連 - 三立新聞網SETN.com",
+        "type": "綜藝",
+        "source": "三立新聞網SETN.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOeURTdW5iTGU4aTBRUHA2OXplUnhuWUJkYXJoYU1JMHF1ZDlFeURfUEd0YUNJQlh6VlFUT1NNZ0txZDZLdzJjdNIBTEFVX3lxTFBmSDhzbGQ3eVNwSGpjdHRzMVRqNFhWSHlrYVNXUkJtYWwwSnFjWUtDRFRLel93RkNEeEl3TXNUOXhZdmIwVmpWcG9USm8?oc=5",
+        "observedAt": "2026-11-14T12:48:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-139c7243df142051",
-        "title": "綜藝男星表態！「穿競選背心」陪他市場拜票 高喊：值得託付 - TVBS新聞網",
-        "type": "綜藝",
-        "source": "TVBS新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5pNWgwNGVzbTJYRVcwWWJSWWsxYldsdlRZd2ZuQ3lFbVNWSnNraU8xT0RmdE9aMHl5TEdZak5QYTVBZnpBTVJOV3NPa2VZOENZaTlmNkctWGxMeUZyMFY4RS1xYmI?oc=5",
-        "observedAt": "2026-11-13T14:43:00+08:00",
+        "id": "weekly-4d3eb848f7af9aa9",
+        "title": "10部2026「錯過可惜」超好看台劇！霍建華《急診室的奇蹟》必追，這部不紅但一面倒好評 - BEAUTY美人圈",
+        "type": "台劇",
+        "source": "BEAUTY美人圈",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1iTHNCMkZ5Y2VfWWhtRzNVVG1NbUtIbnBJcXZKcEx6Qlk1djVwY1dQNHgwYjlVcF8wYnNNVWFPRzVpYU5ROWxHOXBzQkrSAVJBVV95cUxOWlJqeHBUWE5zeFpSSXk0ZU9rcUg2TVY1UndCQm1wSzZ2QUk1S2pXNXdHNnhPN0RZZG1RY0VIQmFPZzdoUHZ2Z2R3enlDSHdYSVpR?oc=5",
+        "observedAt": "2026-11-13T19:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5614,6 +5614,17 @@
         "source": "TVB",
         "sourceUrl": "https://news.google.com/rss/articles/CBMivwNBVV95cUxQY24yWnVJaTJGeFNzR1JFYTRUR3hpWE05NG9vZWpnNUdDYTJ5TlB4dng5M2lkR3BoajVQRmROTVlmU01iR29IWWg1RHRoUlRnQUYzWXc4ZEtHVFQ1ZmVKUk9ncmh4ZjZ1aEE1YjR0ak5iTmZRc016WWlNQnl0Z2h6WUd4ek1qV3VhYVg1NHNXc2NfYVAxQmFqMGNOampBcEIxTkR0SUMwcnhwWk9raXR4ajFpaUtDR2hXa0VSWGJsX2NwUk9ndmoyVU85UkhXVEVlNy1IRnVZeWRhMXBpU1FmVzJXLTAxaGdHNGhoUXB3ZEZ0eEtWamU2RldNVFctUVZ4Tm9QZEp0WjJMOG1OSk9vdFl3SGZqMm9YZHcwRWN6SUhtZlYxQWoxUnhJbmNIVy1rUW5xTW00UmRZVU5xbklYaDBvM2NXTExJeUJjNDR6ajFaNFJtNXFxQkJHZ3JycWE0MzgyVHdzS0ZQOW16YWFSLUs1SmdLYmZEQURSd3RfZ0d0Nm40ZkwwMGJxekJuT2tCUklndUF3R2p1clVZMFdVb1NyRUpxYy1WVjM2dFg1RU1IbG5JWWQwTUtuYkNXUG8?oc=5",
         "observedAt": "2026-11-10T17:05:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-285d480b22484a23",
+        "title": "討論牆 | 沈伯洋、蔣萬安上綜藝節目誰效果好？媒體人曝從「這1點」就看得出來！ - LINE TODAY",
+        "type": "綜藝",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA5SFkwemJTdW1oa0tvSkg3VHZuWEFySEI4RUdsT25zTUttNnlQMExGc1h2LWxwbmRQa2ZLS2NFLWJGRkdLSTduY3hwUVQ3REZZVGx4djMzb1RYd2JiUHkxREk1Szc?oc=5",
+        "observedAt": "2026-11-09T03:55:44+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
