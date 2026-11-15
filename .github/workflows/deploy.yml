@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# v1.06 daily new titles grouped by platform: at most 5 verified eligible series each; v1.05 immutable.
+# v1.06 five-platform Mainland drama list: top two from each platform, then remaining three; v1.05 immutable.
 on:
   push:
     branches: [main]
@@ -117,6 +117,10 @@ jobs:
           # The recommendation lists must be computed before JSX rendering.
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); p=s.index("function Entertainment("); r=s.index("return <Page back={back} title=",p); assert p < s.index("const yearStart=",p) < r; assert "thisYearRecs" in s and "undatedRecs" in s'
           grep -q '陸劇・近期新劇動態' "$RUNNER_TEMP/wecare-v106-source/src/App.jsx"
+          # Verify the requested five-platform priority display is included.
+          grep -q 'chinaPriority.map' "$RUNNER_TEMP/wecare-v106-source/src/App.jsx"
+          grep -q 'chinaRemaining.map' "$RUNNER_TEMP/wecare-v106-source/src/App.jsx"
+          grep -q 'HBO Max' "$RUNNER_TEMP/wecare-v106-source/src/App.jsx"
           grep -q '立即重新讀取陸劇資料' "$RUNNER_TEMP/wecare-v106-source/src/App.jsx"
           test -s "$RUNNER_TEMP/wecare-v106-source/public/weekly-hot-history.json"
           python -c 'from pathlib import Path; s=Path("'"$RUNNER_TEMP"'/wecare-v106-source/src/App.jsx").read_text(); assert "currentWeeklyHot" in s; assert "showingPriorWeek" not in s and "weekly-hot-history.json" not in s'
