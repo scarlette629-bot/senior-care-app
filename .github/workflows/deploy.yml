@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Deploy v1.06: My Entertainment News displays only seven-day articles, no archive fallback; v1.05 remains immutable.
+# Publish v1.06 without My Entertainment News descriptions; retain a single update time and frozen v1.05.
 on:
   push:
     branches: [main]
