@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Publish v1.06 five-platform drama visibility repair; v1.05 remains immutable.
+# Publish v1.06 with empty platform status labels removed; keep v1.05 immutable.
 on:
   push:
     branches: [main]
