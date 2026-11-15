@@ -8,6 +8,16 @@ export function isDubbedEdition(item) {
   // Alternate dubbed editions should not consume a slot in the daily list.
   return /配音版|國語配音|中文配音|普通話配音|dubbed/i.test(String(item?.title||''));
 }
+// A search made for Taiwan dramas is NOT evidence that every title in its
+// results was produced in Taiwan. Reject mixed Korean/Hong Kong/Mainland items.
+export function isTaiwanDramaCandidate(item) {
+  if(item?.type!=='台劇')return true;
+  if(item.originVerified===true && ['TW','Taiwan','台灣','臺灣'].includes(item.originCountry))return true;
+  const headline=String(item.headline||'');
+  return /台劇|臺劇|台灣(原創)?(劇|影集|戲劇)|臺灣(原創)?(劇|影集|戲劇)/.test(headline)
+    && !/韓劇|韓星|韓國|韓幣|港劇|台慶劇|TVB|陸劇|中國大陸/.test(headline)
+    && headline.includes('《'+item.title+'》');
+}
 export function selectDailySeries(feed, filter='mine', interests=[], now=Date.now()) {
   const eligible=(feed?.recommendations||[]).filter(x=>interests.includes(x?.type)&&x?.verified===true&&x.title&&!isDubbedEdition(x)&&x.platform&&x.description&&freshSeries(x,now)&&dailySeriesEligible(x,now));
   const unique=new Map();
@@ -45,7 +55,7 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
     const x={...raw,type:typeByTitle.get(raw.title)||raw.type||'陸劇'};
     const key=x.title.normalize('NFKC').replace(/\s/g,'').toLowerCase();
     const age=now-Date.parse(x.publishedAt);
-    if(!matches(x)||knownTitles.has(key)||!/^https:\/\//.test(x.sourceUrl||'')||!Number.isFinite(age)||age<0||age>30*86400000)continue;
+    if(!matches(x)||!isTaiwanDramaCandidate(x)||knownTitles.has(key)||!/^https:\/\//.test(x.sourceUrl||'')||!Number.isFinite(age)||age<0||age>30*86400000)continue;
     if(!candidateMap.has(key)||x.publishedAt>candidateMap.get(key).publishedAt)candidateMap.set(key,x);
   }
   const candidates=[...candidateMap.values()].sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt));
