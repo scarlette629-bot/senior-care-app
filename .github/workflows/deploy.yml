@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Publish v1.06 without redundant platform captions or empty-result labels; preserve v1.05 archive.
+# Rebuild v1.06 with bottom navigation viewport and safe-area fix; v1.05 archive remains immutable.
 on:
   push:
     branches: [main]
