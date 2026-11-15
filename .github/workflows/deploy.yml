@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Publish v1.06 without My Entertainment News descriptions; retain a single update time and frozen v1.05.
+# Deploy v1.06 Taiwan-drama origin validation and cleaner news candidates; v1.05 immutable.
 on:
   push:
     branches: [main]
