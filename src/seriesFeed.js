@@ -16,9 +16,15 @@ export function selectDailySeries(feed, filter='mine', interests=[], now=Date.no
   const knownTitles=new Set(all.flatMap(item=>[item.title,...(item.aliases||[])]).map(title=>title.normalize("NFKC").replace(/\s/g,"").toLowerCase()));
   const matches=x=>interests.includes(x.type)&&(!interests.includes(filter)||x.type===filter);
   const ranked=all.filter(matches).sort((a,b)=>{
-    // Prefer a known premiere date; otherwise use the first observed listing.
-    const recent=x=>x.releasePrecision==='day'&&/^\d{4}-\d{2}-\d{2}$/.test(x.releaseDate||'')?x.releaseDate:String(x.firstSeenAt||x.verifiedAt||'').slice(0,10);
-    return recent(b).localeCompare(recent(a))||String(b.firstSeenAt||b.verifiedAt||'').localeCompare(String(a.firstSeenAt||a.verifiedAt||''));
+    // An official dated premiere takes priority over catalogue-only titles.
+    // verifiedAt is a refresh/check timestamp, never a release timestamp.
+    const dated=x=>x.releasePrecision==='day'&&recentPremiere(x,now);
+    if(dated(a)!==dated(b))return dated(b)-dated(a);
+    if(dated(a))return b.releaseDate.localeCompare(a.releaseDate);
+    // Undated catalogue works retain their original discovery order instead
+    // of jumping to the top every time they are reverified.
+    return String(b.firstSeenAt||'').localeCompare(String(a.firstSeenAt||''))
+      ||String(a.title).localeCompare(String(b.title),'zh-TW');
   });
   // Separate lists: at most five verified eligible titles from each platform.
   // No global fifteen-title cap and no unverified catalogue cards.
