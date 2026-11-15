@@ -206,11 +206,16 @@ def discover_wetv(previous, now, load=get):
     for item in previous.get('verified',[]):
         if item.get('id','').startswith('wetv-auto-'):
             ids.append(item['id'].removeprefix('wetv-auto-'))
+    old_by_id={x['id']:x for x in previous.get('verified',[]) if x.get('id','').startswith('wetv-auto-')}
     for title_id in dict.fromkeys(ids):
         url='https://wetv.vip/zh-tw/play/'+title_id
         try:
             item=parse_wetv(load(url),title_id,now)
             if item:
+                old_item=old_by_id.get(item['id'],{})
+                # Keep the first discovery time stable. Rechecking the same
+                # catalogue page does not make this series a new release.
+                item['firstSeenAt']=old_item.get('firstSeenAt') or old_item.get('verifiedAt') or stamp
                 items.append(item)
             sources.append({'url':url,'status':'success','checkedAt':stamp,'titleCount':int(item is not None)})
         except Exception as exc:
