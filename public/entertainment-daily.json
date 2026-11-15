@@ -5768,33 +5768,44 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-16T01:46:20+08:00",
-    "updatedAt": "2026-11-16T01:46:20+08:00",
-    "lastSuccessfulAt": "2026-11-16T01:46:20+08:00",
+    "checkedAt": "2026-11-16T06:54:05+08:00",
+    "updatedAt": "2026-11-16T06:54:05+08:00",
+    "lastSuccessfulAt": "2026-11-16T06:54:05+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-16T01:46:20+08:00",
+        "checkedAt": "2026-11-16T06:54:05+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-16T01:46:20+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-11-16T06:54:05+08:00",
+        "itemCount": 1
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-16T01:46:20+08:00",
+        "checkedAt": "2026-11-16T06:54:05+08:00",
         "itemCount": 1
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-86dc87482d2fe4a7",
+        "title": "Netflix TOP1台劇《急診室的奇蹟》結局&醫療行為惹議？霍建華、楊謹華端「巔峰演技」5大噴淚情節必看！ - Yahoo新聞",
+        "type": "台劇",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQRk5YVWtVb3lVbDdBSGpSSzczRExmVEc4eUcyY3oxR2xmVzVoY2ZZelJfeXh4UHZwU2tUN3hwTWY4bzJ5cXBCXzhsUVFmcVNIU2tmQUgtTEVGYm9BUGNWdDVTZ25nWHg2dVVEOXNaczlBOG4zTEFBODRJeWdwQ3NsT3cxTGk4cFZ1TmlfeWlrSUdnNGwxdmhsSUR6cy1pQmFUelNIYUlvMjJUY1N5WXNuM2tPeEF3MTQxblVtQ0ZoN3ZFSXpUTlhLT2ZPMWM1ZW44RHJCUGk1WGVJVDhtTy11Ml95WW9GMnc3UnNZUG56S0dmTTZNZUZUNXh3MlVpZ3BOeGZqOHhFdU5aRmZqc0pHemNKcnhzVmNkWk1Oc2JQTWNfQ3FxRmZPX2pZRlZVVnZOaFdSRjYzXy05WmtxVmJIanVLbVRTazQzVG0ybGgxVzQxVUJQMGhSLW9MWmZ2NE01SWpwTDRicGY1ajhvZDMzejZvaHFoaTJJczJGS1dFbFc2UU41aWJXekFfMVhfWVc1eVRYN2l5NzFtVmdGcDBfMnBzNm9LbEwxcHB5LTJOQ2hRd1B1dW8wUzZCZjduZzlyTjAwSFlWcTUybnlrVVkxa2lwQlhDZTZIckhKWmxpSjNLSGJQOWZrSUdtRFVIaDVBa1FvcXRtd1BYY3dqZGtrVkFoZlV5Q3pORWdpZ0V2OVVtWXp2aDI1d2puRmltQlQ5LThiREhTWU50ZWV3ZHd0Zm02RUl4ajk0Q2dkTGt2cFhXdWN0SllxTjc1RXpnbHhp?oc=5",
+        "observedAt": "2026-11-16T01:45:17+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-4111598b22aecd6c",
         "title": "外景綜藝精隨：答錯也要有氣勢！【Yahoo車的試煉】 - Yahoo - 汽機車",
