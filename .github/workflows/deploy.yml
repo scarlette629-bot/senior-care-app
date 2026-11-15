@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# v1.06 five-platform Mainland drama display: keep ordering, remove explanatory labels, retain one update time; v1.05 archive immutable.
+# Publish v1.06 five-platform drama visibility repair; v1.05 remains immutable.
 on:
   push:
     branches: [main]
