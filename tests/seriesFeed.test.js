@@ -108,7 +108,27 @@ test('five per platform without admitting unverified catalogue candidates',()=>{
  const result=selectDailySeries({recommendations:[...wetv,iqiyi,manga,candidate]},'陸劇',['陸劇'],now);
  assert.equal(result.items.length,7);
  assert.deepEqual(new Set(result.items.map(x=>x.platform)),new Set(['WeTV','愛奇藝','芒果TV']));
- assert.deepEqual(result.platformGroups.map(x=>x.platform),['WeTV','芒果TV','愛奇藝']);
+ assert.deepEqual(result.platformGroups.map(x=>x.platform),['芒果TV','愛奇藝','WeTV']);
  assert.ok(!result.items.some(x=>x.title==='HBO 未核實作品'));
  assert.equal(result.items.filter(x=>x.platform==='WeTV').length,5);
+});
+
+test('evidenced release dates precede undated titles regardless of daily verification time',()=>{
+ const now=Date.parse('2026-11-16T06:30:00+08:00');
+ const base={type:'陸劇',platform:'WeTV',description:'verified synopsis',verified:true,autoDiscovered:true,verifiedAt:'2026-11-16T06:25:00+08:00',catalogueYear:2026};
+ const titles=[
+  {...base,id:'old-undated',title:'美人餘',firstSeenAt:'2026-10-28T10:00:00+08:00'},
+  {...base,id:'new-undated',title:'新發現作品',firstSeenAt:'2026-11-14T10:00:00+08:00'},
+  {...base,id:'dated',title:'正式首播新劇',releasePrecision:'day',releaseDate:'2026-11-15',releaseSourceUrl:'https://example.com/official'}
+ ];
+ const list=selectDailySeries({recommendations:titles},'陸劇',['陸劇'],now).items;
+ assert.deepEqual(list.map(x=>x.title),['正式首播新劇','新發現作品','美人餘']);
+});
+
+test('same drama can appear once on each verified platform',()=>{
+ const now=Date.parse('2026-11-16T06:30:00+08:00');
+ const base={title:'兩平台同步新劇',type:'陸劇',description:'verified synopsis',verified:true,
+ releasePrecision:'day',releaseDate:'2026-11-15',releaseSourceUrl:'https://example.com/official'};
+ const result=selectDailySeries({recommendations:[{...base,id:'a',platform:'WeTV'},{...base,id:'b',platform:'愛奇藝'}]},'陸劇',['陸劇'],now);
+ assert.deepEqual(result.items.map(x=>x.platform),['WeTV','愛奇藝']);
 });
