@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Deploy v1.06 China-drama news limited to the past 14 days; preserve immutable v1.05.
+# Deploy v1.06 mobile shell: scrollable content pane and bottom navigation in its own row; frozen v1.05 unchanged.
 on:
   push:
     branches: [main]
