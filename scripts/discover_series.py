@@ -19,8 +19,28 @@ TITLE_KINDS = {'美人余': '陸劇', '美人餘': '陸劇', '小城良方': '�
 
 
 def classify_candidates(items):
-    # A mixed-title article or search category cannot override a known work.
-    return [{**item, 'type': TITLE_KINDS.get(item.get('title'), item.get('type')), 'aliases': ['穀雨'] if item.get('title') == '谷雨' else item.get('aliases', [])} for item in items]
+    # A search query for 台劇 can return Korean, Hong Kong and Mainland titles.
+    # Search categories are not proof of production origin.
+    taiwan_evidence = re.compile(r'台劇|臺劇|台灣(?:原創)?(?:劇|影集|戲劇)|臺灣(?:原創)?(?:劇|影集|戲劇)')
+    foreign_evidence = re.compile(r'韓劇|韓星|韓國|韓幣|港劇|台慶劇|TVB|陸劇|中國大陸')
+    result = []
+    for item in items:
+        title = item.get('title')
+        kind = TITLE_KINDS.get(title, item.get('type'))
+        headline = item.get('headline') or ''
+        if kind == '台劇' and not (
+            item.get('originVerified') is True
+            and item.get('originCountry') in ('TW', 'Taiwan', '台灣', '臺灣')
+        ) and not (
+            taiwan_evidence.search(headline)
+            and not foreign_evidence.search(headline)
+            and '《' + str(title) + '》' in headline
+        ):
+            # Preserve the lead as uncategorized rather than falsely claiming 台劇.
+            kind = '待核對'
+        result.append({**item, 'type': kind,
+                       'aliases': ['穀雨'] if title == '谷雨' else item.get('aliases', [])})
+    return result
 CATALOGUES = ('https://www.netflix.com/tw/browse/genre/434295', 'https://www.netflix.com/tw/browse/genre/83')
 DISCOVERY = Path('public/series-discovery.json')
 MANGO_URL = 'https://pianku.api.mgtv.com/rider/list/pcweb/v3?allowedRC=1&platform=pcweb&channelId=1&pn=1&pc=80&hudong=1&_support=10000000&kind=a1&chargeInfo=a1&sort=c1'
