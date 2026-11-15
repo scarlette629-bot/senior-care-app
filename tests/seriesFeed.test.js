@@ -132,3 +132,17 @@ test('same drama can appear once on each verified platform',()=>{
  const result=selectDailySeries({recommendations:[{...base,id:'a',platform:'WeTV'},{...base,id:'b',platform:'愛奇藝'}]},'陸劇',['陸劇'],now);
  assert.deepEqual(result.items.map(x=>x.platform),['WeTV','愛奇藝']);
 });
+
+test('Taiwan drama news rejects Korean, Mainland and Hong Kong titles mislabeled by search',()=>{
+ const now=Date.parse('2026-11-16T10:00:00+08:00');
+ const sample=(title,headline)=>({title,type:'台劇',headline,sourceUrl:'https://example.com/news',publishedAt:'2026-11-14T07:30:00+08:00'});
+ const feed={seriesDiscovery:{candidates:[
+   sample('夢響年代','砸800億韓幣！宋慧喬、孔劉《夢響年代》定檔12月'),
+   sample('淚之女王','韓星網：金高銀新劇《淚之女王》編劇'),
+   sample('今天是太陽雨','楊超越主演《今天是太陽雨》登Netflix'),
+   sample('玫瑰戰爭','台慶劇《玫瑰戰爭》今晚開播'),
+   sample('真正台灣新劇','台灣原創影集《真正台灣新劇》正式開播')
+ ]}};
+ assert.deepEqual(selectDailySeries(feed,'台劇',['台劇'],now).candidates.map(x=>x.title),['真正台灣新劇']);
+ assert.equal(selectDailySeries(feed,'台劇',['韓劇'],now).candidates.length,0);
+});
