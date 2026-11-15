@@ -1,5 +1,5 @@
 name: Deploy WECARE current release and immutable v1.05 archive
-# Deploy v1.06 mobile shell: scrollable content pane and bottom navigation in its own row; frozen v1.05 unchanged.
+# Deploy v1.06: My Entertainment News displays only seven-day articles, no archive fallback; v1.05 remains immutable.
 on:
   push:
     branches: [main]
