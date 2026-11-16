@@ -5610,33 +5610,66 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-16T10:47:05+08:00",
-    "updatedAt": "2026-11-16T10:47:05+08:00",
-    "lastSuccessfulAt": "2026-11-16T10:47:05+08:00",
+    "checkedAt": "2026-11-16T19:31:33+08:00",
+    "updatedAt": "2026-11-16T19:31:33+08:00",
+    "lastSuccessfulAt": "2026-11-16T19:31:33+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-16T10:47:05+08:00",
+        "checkedAt": "2026-11-16T19:31:33+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-16T10:47:05+08:00",
+        "checkedAt": "2026-11-16T19:31:33+08:00",
         "itemCount": 2
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-16T10:47:05+08:00",
-        "itemCount": 1
+        "checkedAt": "2026-11-16T19:31:33+08:00",
+        "itemCount": 4
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-3df5eed1cf5aed1e",
+        "title": "TVB收視｜台慶月劇集綜藝雙雙報喜！玫瑰戰爭首播22.6點踞冠軍 首周吸145萬觀眾 - UHK 港生活",
+        "type": "綜藝",
+        "source": "UHK 港生活",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNbENyclp4NTRkUGhIN2JGcWhGeUpvNTM0TmZBT1VmYzFLS2o3aWFNemdzUDdoXzFjNkdXQjVmYURFR0tVMjFpLWlFM0R3UEQzdjVWNXI0UTY5dEhzOXdZZ3V1WkppdHM5WGtkM3MwbTBXY0dDTjFTTXpLdHhvN0pmRmd2Z1I5bmhlZTNNaThzaWZWaktvb18ydm84TjhIZnJlZGxSZWpoRjJvT3dqVGNZeEp3THFZdXp0R0E1WHlsdjdIN0thSzVRaG1kU20weGR2M1pGOHMtQ2lKbm03dVEyemxNVVo3ajBld1ZhSWhDQThuWEp4ancySlNGcWZZZGVyalFrek85MXY4aW5zbUFvTWNBVl92NTd6a0R5WFFheFNEZjFfcGxMZ2xhY1pZejNmc19iZUJVY3hMSnJuQzJ2alFnNno0Q3ViUDZra1RYbjRKNHoxcU1lT3FYVGxKb1Fzc2xJQ3pzRWV4SFV4TmJvWmhEaFVHa2VrTGZuaG51WTYzcEFmRWl5Q3FJclAxSTNoZWtUcTFLbzZQeU5VWXRNVDBNQXlaSEZaT3Z5ajU2Z3hmUHZsczc0UHNUUVo2OERFSm9NN2lwZw?oc=5",
+        "observedAt": "2026-11-16T18:26:48+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ad586d688c884162",
+        "title": "白冰冰率冰冰家族登宜蘭！「蘭燈之星藝術嘉年華」12/6登場 首創藝術結合綜藝 - LIFE 生活網",
+        "type": "綜藝",
+        "source": "LIFE 生活網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPX19LSDNhOHYzMnNqRS0tbnBibHhhSVB2SGxUeFZ1OVAxS21UTVNfa2FfbVA5WTNla3BNQzdXMS12ajVGRGRJRXQ0Q0pGcHVVemxuek9XM2JYQURFYi1Vb0M1OUdzMXM1ZXhHcG5FYUlxdEJKck92MHo3MVZaMWwybnpKampOdkdGeHZieU44NlFSU2NYTkgwdzJrdDd0UC1fSmVaSk9ZVjRKTXdUYXFnWVdZOXBkbG9MN0FmVXFCdzgtYV8ybWt5N2NBdThHbFBhSVBnTk9BSnk3MFI1eUEyWFZBcEhpMlhUcFFYS3ljZF94VFktY2llXzd1dkJGWUVQbFRWZ2lldGM1aVdrbXhNNmdSQXplUUMyN2ZLdkk3RHRyZnVkdm9hOVRKNV9BSWlJR2VmYS1BZTRWZ3RONmJUbVNDOER4am5HczhBZmpPT25LMzBoaWFRc3lsaUdGNDFQaHp6bzBzclVpV1hoNnE0?oc=5",
+        "observedAt": "2026-11-16T12:32:20+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-a9a588e00c5e954f",
+        "title": "「我不想（和你）做朋友了」　陸實境節目揭「長大後」交友有多難 - ETtoday新聞雲",
+        "type": "綜藝",
+        "source": "ETtoday新聞雲",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyZXQzbk1MdjRTQTExaGthcGZwU1liMXZDc0hUN2UyaTJoeXNHUE8tb2I3WkN6Z3NsYjJwSnp0X0pRZlo3N0wzWWRjeFp6em1QLWMtdXhXRDFtVEg5bmfSAUtBVV95cUxQaEhxUlNDZDdPYU9hUkNmWGJiNThjMkxIaUVFeUptNk5tUU8yUWdwenlncE9LVjVWRDRMdkpfN1JyRVcwbTlwZUw2Ymc?oc=5",
+        "observedAt": "2026-11-16T11:10:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-1e282688118bef25",
         "title": "Netflix台劇《急診室的奇蹟》5大亮點！霍建華睽違多年披白袍搭檔楊謹華，《火神的眼淚》團隊打造首部急診室職人劇 - PChome Online 新聞",
@@ -5654,7 +5687,7 @@
         "type": "台劇",
         "source": "Yahoo新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQRk5YVWtVb3lVbDdBSGpSSzczRExmVEc4eUcyY3oxR2xmVzVoY2ZZelJfeXh4UHZwU2tUN3hwTWY4bzJ5cXBCXzhsUVFmcVNIU2tmQUgtTEVGYm9BUGNWdDVTZ25nWHg2dVVEOXNaczlBOG4zTEFBODRJeWdwQ3NsT3cxTGk4cFZ1TmlfeWlrSUdnNGwxdmhsSUR6cy1pQmFUelNIYUlvMjJUY1N5WXNuM2tPeEF3MTQxblVtQ0ZoN3ZFSXpUTlhLT2ZPMWM1ZW44RHJCUGk1WGVJVDhtTy11Ml95WW9GMnc3UnNZUG56S0dmTTZNZUZUNXh3MlVpZ3BOeGZqOHhFdU5aRmZqc0pHemNKcnhzVmNkWk1Oc2JQTWNfQ3FxRmZPX2pZRlZVVnZOaFdSRjYzXy05WmtxVmJIanVLbVRTazQzVG0ybGgxVzQxVUJQMGhSLW9MWmZ2NE01SWpwTDRicGY1ajhvZDMzejZvaHFoaTJJczJGS1dFbFc2UU41aWJXekFfMVhfWVc1eVRYN2l5NzFtVmdGcDBfMnBzNm9LbEwxcHB5LTJOQ2hRd1B1dW8wUzZCZjduZzlyTjAwSFlWcTUybnlrVVkxa2lwQlhDZTZIckhKWmxpSjNLSGJQOWZrSUdtRFVIaDVBa1FvcXRtd1BYY3dqZGtrVkFoZlV5Q3pORWdpZ0V2OVVtWXp2aDI1d2puRmltQlQ5LThiREhTWU50ZWV3ZHd0Zm02RUl4ajk0Q2dkTGt2cFhXdWN0SllxTjc1RXpnbHhp?oc=5",
-        "observedAt": "2026-11-16T01:45:17+08:00",
+        "observedAt": "2026-11-16T01:47:07+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
