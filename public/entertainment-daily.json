@@ -5438,27 +5438,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-16T09:27:08+08:00",
-    "updatedAt": "2026-11-16T09:27:08+08:00",
-    "lastSuccessfulAt": "2026-11-16T09:27:08+08:00",
+    "checkedAt": "2026-11-16T10:47:05+08:00",
+    "updatedAt": "2026-11-16T10:47:05+08:00",
+    "lastSuccessfulAt": "2026-11-16T10:47:05+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-16T09:27:08+08:00",
+        "checkedAt": "2026-11-16T10:47:05+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-16T09:27:08+08:00",
+        "checkedAt": "2026-11-16T10:47:05+08:00",
         "itemCount": 2
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-16T09:27:08+08:00",
+        "checkedAt": "2026-11-16T10:47:05+08:00",
         "itemCount": 1
       }
     ],
@@ -5466,12 +5466,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-17fb0cff49f8f989",
-        "title": "Netflix台劇《急診室的奇蹟》5大亮點！霍建華睽違多年披白袍搭檔楊謹華，《火神的眼淚》團隊打造首部急診室職人劇 | 漂亮 | CTWANT - CTWANT",
+        "id": "weekly-1e282688118bef25",
+        "title": "Netflix台劇《急診室的奇蹟》5大亮點！霍建華睽違多年披白袍搭檔楊謹華，《火神的眼淚》團隊打造首部急診室職人劇 - PChome Online 新聞",
         "type": "台劇",
-        "source": "CTWANT",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IcFZXNjNoZjhyZmI2UGNLYy1iU21tOXYzajNJb3N4Q3JEbFhqUGxRS3BWbnJpMk16TTRLei1vaGJhOThtdXBvQ1FMbFZSZEXSAVRBVV95cUxON1RRa0NCUmxEZUR6ai1MN1B1d2R1a1Y3TGNNeWk5MWxrS0prOVBsVFBrUzlMWWMyZVExTVpSSjJpald0ZzVKaUhFNmZyNDBRdWs3QWI?oc=5",
-        "observedAt": "2026-11-16T08:50:26+08:00",
+        "source": "PChome Online 新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR3NiSm1pR1F0eXkxTzlwRk04ZWNXYzNZSEVtcUEwOEtjWmk4TVVKMnhIRWg5ZHZfaEozMHo0Z18tcDJ3aUU5dWVKc0J3TkpfQWxYVmN2ZVBydGNOVWpjNXBvY2xXSHZSclJIVTZjNUxMT0pMWnI1OWpFX3BZSVJSRk9yUEhIZEtkbkE?oc=5",
+        "observedAt": "2026-11-16T08:50:52+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
