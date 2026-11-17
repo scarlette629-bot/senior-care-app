@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-16T14:38+08:00",
+  "updatedAt": "2026-11-17T12:13+08:00",
   "categories": {
     "陸劇": [
       {
@@ -36,12 +36,6 @@
     ],
     "台劇": [
       {
-        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
-        "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-        "source": "ELLE"
-      },
-      {
         "title": "張孝全自己打自己？Netflix《消失的裂痕》對決Disney+《郵票與舒芙蕾》、愛奇藝《一甌春》衝TOP 1｜追劇推薦 - Yahoo新聞",
         "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxQdXlVZ3E2MlZJMm5BRmhTblROVEF5aWloaC1PcmxKSk5ST0RIRTlfWFcyeFliWHNsa0RNYnJHbndGT1FWSVRxQjBnOXQ4dFFCZkNwcHRSeHRfbnNTVWswX24xZ1l1Rzc2RFI2YWRLTGFQMzNUdDVwN0JoUlFXcE5VeU14WUlRbzRwV19FNEZJVlVRbVMtU252OVR2NmVHRVhWbXFpUzNYYmQ1Q0g1cENUcjhfdUVOa2NnOVBZMUpmZU5vS0xyRDRTZ1BNU0R4dlUwbERJc2ctR21EbmNnVUlKblkyVVg0QmVDWl9RZVQ2QzlWQS1MSzlSa3l6a1VWajBnN29qejRUX3hYaG5lT3JWU0hXYWt1WFZIV2VuNXN5OGxGck91VmJVQ25wTWNROEdwWER1R2RUbVAxd0E1MzhFWFhqMmZXVVJBREFsZlJmWFRneHJZdnFVdkROSlREbkthVldTZnhxOThYMzRJNWVMN0NEMmN5Skhta0NPemNPMHlRWkUwdUlMY1ZnUmlEbnZKZThNbl9oZDBlZmpZcDZGVnNxMGpaNkZVa01JcUN4Tm9NazVxeGthUG5oV0NvUThTTWFyTURrOW1BcmRtS0F5NmdZNGkxZmUxY2lLUWszZDdmOGtVb1VPTXk1VFpDT1FGTW1vZmpENE1NS2tHZlhkbVU0QmVvWkl1ZUNyRUQ0Qm54NjJnNnlMLWo5RnNTRW9xdkVwT3F0T2NaampncTVoUHB2dXAtRnBOQmhhamVNUGFXSElkOUlpcHFwS3Q0LWhPaFRMbnk0SDNOc2ZtVnhzTVBodUxMdldkdU02ZUFR?oc=5",
         "published": "Thu, 24 Sep 2026 07:00:00 GMT",
@@ -58,6 +52,12 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUZtalpEd25pZUZiUU1vOFFZYl95aUhOLW9lcjZRd1Bnbm9oTkswTE9QcV9uMmpNME5TOGNVcFQ0U0hMdEY2bzd1ZXp6dHcwWjhJZE1ZZ2NNdUVnRmdkVDFHenZJTllhY2dtQnZZR3RSaTZOb0dmSjhsRWlaR3ZJcXFqMnZmZEMzQ3pDNEV5ckUzVmFWSE95dFFMcnhxM0ZXdVREcndhZ2UyXzBoakE?oc=5",
         "published": "Fri, 27 Dec 2024 08:00:00 GMT",
         "source": "MilkX Taiwan"
+      },
+      {
+        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
+        "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "source": "ELLE"
       },
       {
         "title": "2025串流付費平台人氣TOP 10 這平台成黑馬闖進前三 - TVBS新聞網",
@@ -124,24 +124,24 @@
         "source": "鉅亨號"
       },
       {
-        "title": "《中國有嘻哈》是如何爆紅的？還原今夏最火網綜的商業秘密 - TechOrange 科技報橘",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIME5xa1FPc3EtanZCNERaN2RHSEcya0g4T0E3SWxOWVV5OFZTRnNMR1lxZVBIN3lTS2l5ckd2WW5mYUVEWEVyb1VleThJbi1rZUx4V2h1UQ?oc=5",
-        "published": "Fri, 25 Aug 2017 07:00:00 GMT",
-        "source": "TechOrange 科技報橘"
+        "title": "陸劇推薦2026》10+部必看排行榜！《逐玉》、《玫瑰叢生》古裝現代一次看 - TVBS新聞網",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yR0NuR2VfekYtNnllb3ZyMVg4R1M0TldBMWtkTGRvcXdsbTc5RmpXa1BPelYxNVRuTDA3VXRoWlYxQ0kzUEZPODZwOW9pUlFiNFlBRVNTN3lIc3oxa0ZyQUZ3?oc=5",
+        "published": "Tue, 03 Feb 2026 08:00:00 GMT",
+        "source": "TVBS新聞網"
       }
     ],
     "日劇": [
-      {
-        "title": "Netflix日劇《有人剛好提起我嗎？》好看在哪？役所廣司× 宮藤官九郎打造話題喜劇，齊聚豪華卡司演繹笑中帶淚物語 - La Vie | 設計美學",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRLTBua2tEX2VXc3JIZTdweDR0ZWJ4eXcwaEZjdWtBdUpWNlEyZlRUMHo3a1NvdTN0NGVVSHd6N1AyVEVyVVJtVUVKSlA4c1lueFNrUA?oc=5",
-        "published": "Wed, 28 Oct 2026 10:54:12 GMT",
-        "source": "La Vie | 設計美學"
-      },
       {
         "title": "石原聰美新劇《政界怪盜》5大亮點！化身「女魯邦」專偷政治黑金，架空國家竟以狸貓為國獸？ - ELLE",
         "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0ZoeHVGODFERGFNV3JQWTVKRzNtOWkyNEVTMjEwOEx3aXNvTjlCRGhWUEdxNWtzaEhqWFZjVjZLWDJ4RkpnQzhQOHJDa0xNbG4yTUVsNURTNkt1QS1GbGRobm1tQXBpVHlnMmtLcmkxOEtjdE5ZUU53WTZfblpEc0xKNHNPbkJoWkV1YktBRQ?oc=5",
         "published": "Fri, 30 Oct 2026 07:00:00 GMT",
         "source": "ELLE"
+      },
+      {
+        "title": "Netflix日劇《有人剛好提起我嗎？》好看在哪？役所廣司× 宮藤官九郎打造話題喜劇，齊聚豪華卡司演繹笑中帶淚物語 - La Vie | 設計美學",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRLTBua2tEX2VXc3JIZTdweDR0ZWJ4eXcwaEZjdWtBdUpWNlEyZlRUMHo3a1NvdTN0NGVVSHd6N1AyVEVyVVJtVUVKSlA4c1lueFNrUA?oc=5",
+        "published": "Wed, 28 Oct 2026 10:54:12 GMT",
+        "source": "La Vie | 設計美學"
       },
       {
         "title": "從《池袋西口公園》到Netflix新劇《有人剛好提起我嗎？》：宮藤官九郎如何成為日本最有趣的鬼才編劇？ - VERSE雜誌",
@@ -182,16 +182,16 @@
         "source": "VERSE雜誌"
       },
       {
+        "title": "Netflix 10月必看片單！12部必追新劇一次看　金裕貞×朴珍榮《百日謊言》、《亞森羅蘋4》回歸 - udn 女子漾",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE43WlNyNmFfN2ZpUmdFUUFEX281NEx4X05BSDFBcS1pREdVT2VJSG1aQ21MZURlX3poY01fVzVyYTQ0M2tPbEFQNlJRWVBCY0tDTENaOFA1WkhGczFN0gFiQVVfeXFMTzg0OTlRWkpRNF9sbmxqZTZLeUljUnh1Sng0NW9JLUxmYWVZNkl0bUp4Tm9RZF9UYmxfUmJUb3Z3bFM2TFEtWHpobE5BUHJZY1BjWjdfVmRsM1JvV2ZmeE9zM2c?oc=5",
+        "published": "Thu, 24 Sep 2026 07:00:00 GMT",
+        "source": "udn 女子漾"
+      },
+      {
         "title": "Netflix｜2022年十套不能錯過的新劇 恐怖懸疑喜劇艷情片樣樣齊 - 香港01",
         "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPeUNfZk9IYnkwNXg1NktoaDVUSFBtTUpTd1NwTEUxelllWXdzcUhfcFJHOGNLUkp4MUhwd0pibnAteTRjUVl0bmxpUTdjbnZaSXdRbjJONkJidTBNVnEtcTliSDhNenBRa282djBvRmNjSXZkRWRZXzlacmNoQnU3N2YtUGFfdGRpQ1EzVWJITmlCR2ZVRFRibTJIZ2Y3SFFaeU5KS29XVnJUa1FNNl9xU0xPVmcxajJUWmt0R0N0MllRWXNMdk8xS3QtQ2pqZFRaVnlPM3JUU2ZPMkpuX1VWMkFoQ0ZEY25qOF9pSEh0QkdPYmt6VExLakg0dnRXdklmbVZUTDlUXzd3RHBoMkJwMWFsRE4wUnNnb1A5S0dQRGhjRXRMaF9SaFFvbUczSy03UzlBLW9yakxiTlBPQWNyOTBnT2ZneVo0bC05VFJNZDVSNnpBcFNkc0pjSF9EcTN2NUZIVUQycTRhLW5hY2hNVk52NGU?oc=5",
         "published": "Wed, 02 Mar 2022 08:00:00 GMT",
         "source": "香港01"
-      },
-      {
-        "title": "【美劇推薦】安娜坎卓克新劇《愛情生活》大受好評「好像身邊朋友的愛情故事」！6部美劇線上看精選 - Cosmopolitan",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVExSSHhTc1pIUGFfbDZKM3NRQTA1azRkWDRvWlBtdWk0NkgxTGNxbTFSVVJBY3ppaG1zNUxXM3dpaW1uMTFHZHI3eDBzTjF1YlN2WGhTcU13S25BTnNBOEVSdTl6RHc4Z0plSVFXYnlSTjdGMG5WSkFNeXotWVVYMXFWZWwzaDZ4T2VYRW5NRkJHWFh2SW94S09WRUp0SXFS?oc=5",
-        "published": "Sun, 28 Jun 2020 07:00:00 GMT",
-        "source": "Cosmopolitan"
       }
     ]
   },
@@ -3685,15 +3685,22 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-11-17T11:41:34+08:00",
+  "cpblLastAttemptAt": "2026-11-17T12:13:43+08:00",
   "cpblAsOfDate": "2026-11-17",
-  "cpblLastSuccessAt": "2026-11-17T11:41:34+08:00",
+  "cpblLastSuccessAt": "2026-11-17T12:13:43+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-11-17T14:41:34+08:00",
+  "cpblValidUntil": "2026-11-17T15:13:43+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-16T14:38+08:00",
+    "checkedAt": "2026-11-17T12:13+08:00",
     "items": [
+      {
+        "title": "寶珠",
+        "publishedAt": "2026-11-16T16:33+08:00",
+        "source": "少女心文室 NEWS ROOM",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rYkpiQW1QVU9CVUUzQm83UU42UE91NTYtbUY4VEI4UVNuUHl4VVRCemJMQUpYbFB5Q2VWN0wzQ0t5N3diWWExVk9BWEZ4YWxKVmQzNUU4dEJtQQ?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
       {
         "title": "嫁金釵",
         "publishedAt": "2026-11-13T16:00+08:00",
@@ -3794,79 +3801,9 @@
         "source": "ELLE",
         "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1lUM2o2ODFES1gwd2R2SVFHTGV2aWFLNHczNjFWU0NQMG9RY1ZUME5LeDVIdjFxMEVNampZUkY4TmxWX0x5bnJqZVZXTmVEemsxa2ZicWYyZGozYmVDSzIzaTN3Q0xjTFlwOHNIc2VUMDR0UUdsS3V6T1lTcmxwWXAxVi1zRkQwbVY3bURqZzJFYkpheTc2U3hjUTNrc1FR?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "有用的人",
-        "publishedAt": "2026-11-03T00:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWW1DTmxpLW9CYThtX1dWNjFMZ2RmbXFZTnprNElkcFoxdEVfSk1faG1TLXI2czZINS1tQnJLdUR5aDNmZnA5NUhWVnlmWm82VVJkUWtFUHpCa3F0YmVUQ1JBM0FaalpsdTR5UDNfZWl2LVhZamRDRzRYMFhqcHFoRW9IeWRDeUVBS0dRT3VlRQ?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "罪藍之路",
-        "publishedAt": "2026-11-02T18:13+08:00",
-        "source": "Kdaily 韓粉日常",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckJSYUxEUEczV3ZOS19PMGpDU0lxcFhyMGxHbF9VQzRqWGhNbi04TGFTVmpvYmtuM3JwNUM1cUtla2s5bGZqdTM4NWd6NW5xUGxWMXZ6SE9IVHJtMXRJRTR5YS1iVlQyMG1yOXczaC1faEhGekh5eWFEd1F6am5wTHNUWmpHcFdQRGh2M3NOU01OQTYyY2V0V01Od050NTdGUjlDaXJZQkc0Y2xsa0JF?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "好搭檔2",
-        "publishedAt": "2026-11-02T18:13+08:00",
-        "source": "Kdaily 韓粉日常",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckJSYUxEUEczV3ZOS19PMGpDU0lxcFhyMGxHbF9VQzRqWGhNbi04TGFTVmpvYmtuM3JwNUM1cUtla2s5bGZqdTM4NWd6NW5xUGxWMXZ6SE9IVHJtMXRJRTR5YS1iVlQyMG1yOXczaC1faEhGekh5eWFEd1F6am5wTHNUWmpHcFdQRGh2M3NOU01OQTYyY2V0V01Od050NTdGUjlDaXJZQkc0Y2xsa0JF?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "假如愛有如果",
-        "publishedAt": "2026-11-02T18:13+08:00",
-        "source": "Kdaily 韓粉日常",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckJSYUxEUEczV3ZOS19PMGpDU0lxcFhyMGxHbF9VQzRqWGhNbi04TGFTVmpvYmtuM3JwNUM1cUtla2s5bGZqdTM4NWd6NW5xUGxWMXZ6SE9IVHJtMXRJRTR5YS1iVlQyMG1yOXczaC1faEhGekh5eWFEd1F6am5wTHNUWmpHcFdQRGh2M3NOU01OQTYyY2V0V01Od050NTdGUjlDaXJZQkc0Y2xsa0JF?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "新聞女王2",
-        "publishedAt": "2026-11-02T17:38+08:00",
-        "source": "TVBS新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0wOS1NN3RiX1Y3ekhxWGNGbjR3d2lJbXFsb3ZORGtHYnUzWUJ5UzM1WHo1VWFHSGNUcFRadlAtZW5kOG9iQWdLaWlyWHFLdHhRcVU2TXg1RTFCd0VPQkF5eFh3?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "有愛我們床上談",
-        "publishedAt": "2026-11-02T16:26+08:00",
-        "source": "女人我最大",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zLVlNd2pqQ3N3c2ZkNU5qUVhZSDRETHhZWXE5aGNYZ3pRM0lXY3N1RDZrcW5Eb0JVZFJPb1ZGbTVkLXZ3c1pKbWUtQVN0SHRkaTJqVVp2Unc?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "尚公主",
-        "publishedAt": "2026-11-02T16:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "黑鴿2",
-        "publishedAt": "2026-11-02T16:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPaHBoUmpBSmNWTHdZLWhUYnA2ajFucHlsc3NILTVCaDQ2TGVtbzFqb0xDLWZLRzRESFFzckdNcTEzOXg1a1dpWDJqRkE5WEZYbTJMczN2Z2U5ZEtQQnRqdEhXWmctbEgtM2FVbWxBQ0UzUlBNZTFiODl0U1UxeHNyblBTdFRTajdBTk5TRTAwR3dPTTA1dWFHYWdwX2lSTWg5cUhodVJ3RWx6WXFvTzJlSldhRUIxN01TNFBWb2JLNVM4R3NFSFlQVVJqZGJ2S0FMV1pnNi11RGdUaUQ1MXdzSjl6UmlHdXA3R1d0RDlORmVyNXZPMUpKbTBpLUVYOGs0bkNfWGlMdzJFNEduZXhGRHdPeGFkaEJLZkdpdDhpdUdkSzJSMWNMejNPcWs0S19Fem42d3JSZ2xiR2I5S3Z6SlR5RUtlTDg2TTdNUzAwd3hJVDVfOFpQd1pLYmxVOWR2Wkhjd1FhQVFVaC00Nm8wUThuVkRBZF9FbThQZGpXSXhBVUNGZk9YMzAxT1JiazZpUjdHNGZRa1psLU9iOW8yWG9DNlNfWG0zRmppWFdiM2tBeks0MVFJYlItbmlLZnRHRkNOaE9lcEJGVGtQTi15LUFxZEk1X2VpMF9jOXN6YTVHdEFKYjJkMEJYa0xBZw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "波西傑克森3",
-        "publishedAt": "2026-11-02T16:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPaHBoUmpBSmNWTHdZLWhUYnA2ajFucHlsc3NILTVCaDQ2TGVtbzFqb0xDLWZLRzRESFFzckdNcTEzOXg1a1dpWDJqRkE5WEZYbTJMczN2Z2U5ZEtQQnRqdEhXWmctbEgtM2FVbWxBQ0UzUlBNZTFiODl0U1UxeHNyblBTdFRTajdBTk5TRTAwR3dPTTA1dWFHYWdwX2lSTWg5cUhodVJ3RWx6WXFvTzJlSldhRUIxN01TNFBWb2JLNVM4R3NFSFlQVVJqZGJ2S0FMV1pnNi11RGdUaUQ1MXdzSjl6UmlHdXA3R1d0RDlORmVyNXZPMUpKbTBpLUVYOGs0bkNfWGlMdzJFNEduZXhGRHdPeGFkaEJLZkdpdDhpdUdkSzJSMWNMejNPcWs0S19Fem42d3JSZ2xiR2I5S3Z6SlR5RUtlTDg2TTdNUzAwd3hJVDVfOFpQd1pLYmxVOWR2Wkhjd1FhQVFVaC00Nm8wUThuVkRBZF9FbThQZGpXSXhBVUNGZk9YMzAxT1JiazZpUjdHNGZRa1psLU9iOW8yWG9DNlNfWG0zRmppWFdiM2tBeks0MVFJYlItbmlLZnRHRkNOaE9lcEJGVGtQTi15LUFxZEk1X2VpMF9jOXN6YTVHdEFKYjJkMEJYa0xBZw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "魔戒：力量之戒3",
-        "publishedAt": "2026-11-02T16:00+08:00",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPaHBoUmpBSmNWTHdZLWhUYnA2ajFucHlsc3NILTVCaDQ2TGVtbzFqb0xDLWZLRzRESFFzckdNcTEzOXg1a1dpWDJqRkE5WEZYbTJMczN2Z2U5ZEtQQnRqdEhXWmctbEgtM2FVbWxBQ0UzUlBNZTFiODl0U1UxeHNyblBTdFRTajdBTk5TRTAwR3dPTTA1dWFHYWdwX2lSTWg5cUhodVJ3RWx6WXFvTzJlSldhRUIxN01TNFBWb2JLNVM4R3NFSFlQVVJqZGJ2S0FMV1pnNi11RGdUaUQ1MXdzSjl6UmlHdXA3R1d0RDlORmVyNXZPMUpKbTBpLUVYOGs0bkNfWGlMdzJFNEduZXhGRHdPeGFkaEJLZkdpdDhpdUdkSzJSMWNMejNPcWs0S19Fem42d3JSZ2xiR2I5S3Z6SlR5RUtlTDg2TTdNUzAwd3hJVDVfOFpQd1pLYmxVOWR2Wkhjd1FhQVFVaC00Nm8wUThuVkRBZF9FbThQZGpXSXhBVUNGZk9YMzAxT1JiazZpUjdHNGZRa1psLU9iOW8yWG9DNlNfWG0zRmppWFdiM2tBeks0MVFJYlItbmlLZnRHRkNOaE9lcEJGVGtQTi15LUFxZEk1X2VpMF9jOXN6YTVHdEFKYjJkMEJYa0xBZw?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-16T14:38+08:00",
+    "lastSuccessfulAt": "2026-11-17T12:13+08:00",
     "method": "最近14天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -4848,14 +4785,7 @@
     "lastSuccessfulAt": "2026-10-26T17:16:03+08:00",
     "status": "partial",
     "verifiedCount": 148,
-    "newByInterest": {
-      "台劇": 0,
-      "韓劇": 0,
-      "陸劇": 0,
-      "日劇": 0,
-      "歐美劇": 0,
-      "綜藝": 1
-    },
+    "newByInterest": null,
     "countByInterest": {
       "台劇": 10,
       "韓劇": 13,
@@ -5610,33 +5540,55 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-17T06:11:46+08:00",
-    "updatedAt": "2026-11-17T06:11:46+08:00",
-    "lastSuccessfulAt": "2026-11-16T19:31:33+08:00",
-    "status": "failed",
+    "checkedAt": "2026-11-17T12:13:43+08:00",
+    "updatedAt": "2026-11-17T12:13:43+08:00",
+    "lastSuccessfulAt": "2026-11-17T12:13:43+08:00",
+    "status": "success",
     "sources": [
       {
         "type": "陸劇",
-        "status": "error",
-        "checkedAt": "2026-11-17T06:11:46+08:00",
-        "error": "HTTP Error 429: Too Many Requests"
+        "status": "success",
+        "checkedAt": "2026-11-17T12:13:43+08:00",
+        "itemCount": 0
       },
       {
         "type": "台劇",
-        "status": "error",
-        "checkedAt": "2026-11-17T06:11:46+08:00",
-        "error": "HTTP Error 503: Service Unavailable"
+        "status": "success",
+        "checkedAt": "2026-11-17T12:13:43+08:00",
+        "itemCount": 2
       },
       {
         "type": "綜藝",
-        "status": "error",
-        "checkedAt": "2026-11-17T06:11:46+08:00",
-        "error": "HTTP Error 503: Service Unavailable"
+        "status": "success",
+        "checkedAt": "2026-11-17T12:13:43+08:00",
+        "itemCount": 6
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-e95099a5d74784fc",
+        "title": "專訪／曾落魄唱歌台下沒人理！蕭玉芬談演藝遇低潮心境主持《綜藝一級棒》喜收監獄獄友親筆信 - ENews新聞網",
+        "type": "綜藝",
+        "source": "ENews新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MejFBZVUyVXF4Ty1EaHhPbmZNdEdfZ2t3czhMY1dhNXl3QzViRWdQQVNSZEwtOV9DZkROS3l3dVdzajlQM0RZ?oc=5",
+        "observedAt": "2026-11-17T12:10:04+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-bf6d646cd1d3ab02",
+        "title": "專訪／曾落魄唱歌台下沒人理！蕭玉芬談演藝遇低潮心境主持《綜藝一級棒》喜收監獄獄友親筆信 - LIFE 生活網",
+        "type": "綜藝",
+        "source": "LIFE 生活網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPQk1na1g5VkdXR0R5VktjNDZtSEJNdGJfY3IwUkpJdUxXRDRPVDBVTEtzdE5RamI3NXluSkkyZ2hXWVVoY0RYYk9NWGtKdUQ1T2R5dGx2cTFxTm92N3QteXQ3VHVoNEZPRUhwU1FPNHNZY2NocU11T0VUb2ZXQWdNMzJudHkyUzhPZDFXU1h1aXg0c1A2em54UDU5M2VZamNGR2JJUm5NSi14dEt1UG0wTmNXMGtzMjl4OTh2NzBsbXpndFdMTlhGanlGWUFiRWpZMzhMVVFDNEJzNEVlZWgwX3VGcDZNYjl5VTJYTFBySWNLRnBSOHNQUkF4NzNEaWV5bUxSLTBfUGVfdkdVR2toM3QzQUFiWkRoNUlTWWNjay14M2lMSVY3Rmsya2tDYVBrRmhGUnJVN3dCazJ1anV2dDdTLS14UU1uMDFCRURCT0tyTGljWFNHak9NRlZLRlVMR0dRU3VWMXFHNWhvLTczY19qQTI5b2hKRVFTd2dodXdMZHd5bHNQRjRZTEU3eUU?oc=5",
+        "observedAt": "2026-11-17T11:54:04+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-3df5eed1cf5aed1e",
         "title": "TVB收視｜台慶月劇集綜藝雙雙報喜！玫瑰戰爭首播22.6點踞冠軍 首周吸145萬觀眾 - UHK 港生活",
@@ -5708,7 +5660,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "updatedAt": "2026-11-16T14:38+08:00",
+    "updatedAt": "2026-11-17T12:13+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
