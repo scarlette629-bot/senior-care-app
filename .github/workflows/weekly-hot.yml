@@ -1,7 +1,7 @@
 name: Refresh weekly Chinese topics
 on:
   schedule:
-    - cron: '15 * * * *' # hourly, including every Taiwan morning
+    - cron: '15 0,10 * * *' # 08:15 and 18:15 Taiwan time; reduce RSS rate-limit pressure
   workflow_dispatch:
 permissions:
   contents: write
