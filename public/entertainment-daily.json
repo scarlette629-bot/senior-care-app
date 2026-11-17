@@ -5582,51 +5582,84 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-17T12:13:43+08:00",
-    "updatedAt": "2026-11-17T12:13:43+08:00",
-    "lastSuccessfulAt": "2026-11-17T12:13:43+08:00",
+    "checkedAt": "2026-11-18T03:10:29+08:00",
+    "updatedAt": "2026-11-18T03:10:29+08:00",
+    "lastSuccessfulAt": "2026-11-18T03:10:29+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-17T12:13:43+08:00",
-        "itemCount": 0
+        "checkedAt": "2026-11-18T03:10:29+08:00",
+        "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-17T12:13:43+08:00",
-        "itemCount": 2
+        "checkedAt": "2026-11-18T03:10:29+08:00",
+        "itemCount": 3
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-17T12:13:43+08:00",
-        "itemCount": 6
+        "checkedAt": "2026-11-18T03:10:29+08:00",
+        "itemCount": 5
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-e95099a5d74784fc",
-        "title": "專訪／曾落魄唱歌台下沒人理！蕭玉芬談演藝遇低潮心境主持《綜藝一級棒》喜收監獄獄友親筆信 - ENews新聞網",
+        "id": "weekly-41988b6c5a8d11cf",
+        "title": "《請回答1988》善宇濾鏡碎裂！高庚杓酒駕超標 3大綜藝火速割席 - 香港01",
         "type": "綜藝",
-        "source": "ENews新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9MejFBZVUyVXF4Ty1EaHhPbmZNdEdfZ2t3czhMY1dhNXl3QzViRWdQQVNSZEwtOV9DZkROS3l3dVdzajlQM0RZ?oc=5",
-        "observedAt": "2026-11-17T12:10:04+08:00",
+        "source": "香港01",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilANBVV95cUxOWE1nbzhCWmRHZ1ZMXzZ1SEo1QUkyODdSOG10Ni1yNDd2SF9VMG4tZ2JtaFdTbXZwSlNPRldXNzlOU0tGMHVieVFoYjVSbW9jbWxUMzM5RnN4b0Y1aDFiRTdobmNaVWNEd0IzVVVaWi1IMl96N3lkSGhMUnlEdE90akFkcEpYTWJoNDRCc2p1UXloM0pJbFhPeUY5NjFlSXd5c2JkU3hwS2QyRm1lWGlrenVzYjZWajBvbEp6eHVhemVCaTgtVkZGVG9IaG1GSVZZZlN1bzI1eHJPa2NIakpScFVBUjZKc1p1dDdCNGs4ZUdLY1RqZ01xSlhMVHUyMkhyeVhoWXhWd0pYYlpSX3VQVUdKZXdQN3pWR3FndklhaGlhZkxfd1E3Z3F3c0F6X0FIaTJ2cnZGSFFfS3FSMEdnZWRGR3dYQ2M2V1BWTS1kTVM1Yk9JLVJLTzM5dVNxN2x6UTBnaXpmZldKRVZzdTI1b0N4ZHo3ckowdURYSHdyUWlEclBMeTliTjNPSFFDWWxZaFF4eA?oc=5",
+        "observedAt": "2026-11-17T18:45:20+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-bf6d646cd1d3ab02",
-        "title": "專訪／曾落魄唱歌台下沒人理！蕭玉芬談演藝遇低潮心境主持《綜藝一級棒》喜收監獄獄友親筆信 - LIFE 生活網",
+        "id": "weekly-dbf4cfdfdf5e689c",
+        "title": "侯明昊音樂事業全面衝刺！《歌手2026》後再接新節目　SEVENTEEN文俊輝也加入 - 鏡週刊Mirror Media",
         "type": "綜藝",
-        "source": "LIFE 生活網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPQk1na1g5VkdXR0R5VktjNDZtSEJNdGJfY3IwUkpJdUxXRDRPVDBVTEtzdE5RamI3NXluSkkyZ2hXWVVoY0RYYk9NWGtKdUQ1T2R5dGx2cTFxTm92N3QteXQ3VHVoNEZPRUhwU1FPNHNZY2NocU11T0VUb2ZXQWdNMzJudHkyUzhPZDFXU1h1aXg0c1A2em54UDU5M2VZamNGR2JJUm5NSi14dEt1UG0wTmNXMGtzMjl4OTh2NzBsbXpndFdMTlhGanlGWUFiRWpZMzhMVVFDNEJzNEVlZWgwX3VGcDZNYjl5VTJYTFBySWNLRnBSOHNQUkF4NzNEaWV5bUxSLTBfUGVfdkdVR2toM3QzQUFiWkRoNUlTWWNjay14M2lMSVY3Rmsya2tDYVBrRmhGUnJVN3dCazJ1anV2dDdTLS14UU1uMDFCRURCT0tyTGljWFNHak9NRlZLRlVMR0dRU3VWMXFHNWhvLTczY19qQTI5b2hKRVFTd2dodXdMZHd5bHNQRjRZTEU3eUU?oc=5",
-        "observedAt": "2026-11-17T11:54:04+08:00",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uWXNyemd1WDd4ZW5Ua2htTGJZcS0yYWFrZi1YUnZlSGFCY3lSUFN2ZUtRZTRTWE8wZEM5dy1fVVVKVDN6VXBwZC1WclhHcHNNUVdMSVNjQ3daMHRLU2tiZ3VEc9IBaEFVX3lxTE13Y2pMdjVpMWhKbVVkQm96TGFmUUtfZXhjYWg0Zm9MdmlTNk5wLUFJbTA2TndZZUl0Y21POHZURXlYRTdZRHlEa0xqdTVPaWwxeWZOaHJxMllicENlZXp5QU8xUWM1d3lW?oc=5",
+        "observedAt": "2026-11-17T15:18:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-973ad732bf7428f6",
+        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈- 國際新聞 - PChome Online 新聞",
+        "type": "綜藝",
+        "source": "PChome Online 新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPODczd05ncmx0YjZXMXZVQ0hpVS1jdlZfbXkzUjlMTVhzY2w1T0lGRjNKU0gzS041cmpheEFQNmk2MGNzWnUzeE1zX0hWY2x4WC0wNUwwc3hLZHRxeE5qaW10S1prUFFnOWZYaXF3dnFyYmF5SnBMOGdzbHNLQjZPN0pGc2d6ZS1SOGlF?oc=5",
+        "observedAt": "2026-11-17T14:01:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-b972455d1cf78a43",
+        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 星島頭條",
+        "type": "台劇",
+        "source": "星島頭條",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQWWhxdXlVcGE0bERIUEpvYXhRVzNORTM4MW5FWFNYVFhHNnZkWGlvOXBVZEZpLXZQVkxmY0RJeDBaZG02RU1fa2ZlSDRmV0RCYV9zV1N5MERlb1NZV2tHbTc0THljQjdFRFVEdHJmZXVfUENXa1BXY3I4MmdBbGRFckRHbVVxN08wLUNTcVZFNktNS3R0aWRLdTAtemM1RXQ4eGlmbndNV3NrUmFKU0FRMktjVkxSOGFJX0JXSXYwQWtEbGVDenhjcGFvd3puSUxmOFJGbUM4bWotSDJnQzNBU2V6ai1rdGViRUVxV0FXWFl3MHhrUFhmWVV0Y2lVUlY4MFRIdUc2MzllNDUwWjVFQU55cGtlajhEOVA0UnBlOF9FU2cwTi1sSG5vUUt5dWp0LXdGc0ZzOGdNRE5kVDdUdFBENHMxRVl2ZFI0T1dmZjZtT0VPanpJV3haR1N6ZWRaLUZsbUJ1NlpPN29XaFRmcTRpY1k0RmRmSjV3Yk9DU1doOUJvVk9WOU5FZ3RSUFIyMnFCV2k5MGJvZTlGMzdLMWNRSzBReVYzWjg5UUh0Yk5OaFRWd3dwTF84RGJxS3M4UHVOaHdVcw?oc=5",
+        "observedAt": "2026-11-17T14:00:47+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-da9a4619e791adc3",
+        "title": "《Doctor X》結局未破紀錄 仍稱霸上周節目收視 - Singtaousa",
+        "type": "綜藝",
+        "source": "Singtaousa",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWlzZEhYNFY0OGtVdGZ5Vi1jY3FHby1OTXFpQUpXWVROM0VhLXdSaU10ZlVZU0hEOS1xX1h2MFd2dWQydHZKQ1hYY0JGY24ySEw5SWJSdlFzSFpzeldPbWx5S2xneWVJVjVGY1p6UDR1TFBzcVUzc01ZVnM5ZGYyeENB?oc=5",
+        "observedAt": "2026-11-17T08:00:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5643,23 +5676,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-ad586d688c884162",
-        "title": "白冰冰率冰冰家族登宜蘭！「蘭燈之星藝術嘉年華」12/6登場 首創藝術結合綜藝 - LIFE 生活網",
-        "type": "綜藝",
-        "source": "LIFE 生活網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi7wJBVV95cUxPX19LSDNhOHYzMnNqRS0tbnBibHhhSVB2SGxUeFZ1OVAxS21UTVNfa2FfbVA5WTNla3BNQzdXMS12ajVGRGRJRXQ0Q0pGcHVVemxuek9XM2JYQURFYi1Vb0M1OUdzMXM1ZXhHcG5FYUlxdEJKck92MHo3MVZaMWwybnpKampOdkdGeHZieU44NlFSU2NYTkgwdzJrdDd0UC1fSmVaSk9ZVjRKTXdUYXFnWVdZOXBkbG9MN0FmVXFCdzgtYV8ybWt5N2NBdThHbFBhSVBnTk9BSnk3MFI1eUEyWFZBcEhpMlhUcFFYS3ljZF94VFktY2llXzd1dkJGWUVQbFRWZ2lldGM1aVdrbXhNNmdSQXplUUMyN2ZLdkk3RHRyZnVkdm9hOVRKNV9BSWlJR2VmYS1BZTRWZ3RONmJUbVNDOER4am5HczhBZmpPT25LMzBoaWFRc3lsaUdGNDFQaHp6bzBzclVpV1hoNnE0?oc=5",
-        "observedAt": "2026-11-16T12:32:20+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-a9a588e00c5e954f",
-        "title": "「我不想（和你）做朋友了」　陸實境節目揭「長大後」交友有多難 - ETtoday新聞雲",
-        "type": "綜藝",
-        "source": "ETtoday新聞雲",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyZXQzbk1MdjRTQTExaGthcGZwU1liMXZDc0hUN2UyaTJoeXNHUE8tb2I3WkN6Z3NsYjJwSnp0X0pRZlo3N0wzWWRjeFp6em1QLWMtdXhXRDFtVEg5bmfSAUtBVV95cUxQaEhxUlNDZDdPYU9hUkNmWGJiNThjMkxIaUVFeUptNk5tUU8yUWdwenlncE9LVjVWRDRMdkpfN1JyRVcwbTlwZUw2Ymc?oc=5",
-        "observedAt": "2026-11-16T11:10:00+08:00",
+        "id": "weekly-3e11ab5fd5305449",
+        "title": "吳慷仁首部陸劇開播！邵雨薇甜喊「很想看」　台版《梨泰院》進度全說了 - 三立新聞網SETN.com",
+        "type": "陸劇",
+        "source": "三立新聞網SETN.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ObjN3WE0zQW5NZkF6TmJWSEdlTlZYbzdIeENUc1ZfNTJ5Q1Vhc2dBWUhtdUgxQy12TVU2SlJ6SHh4M0h3MDN5ZdIBTEFVX3lxTE9qdWwwT3k5UXBqaWQ0dHV1cEx0UmJyc05pU19fNHl3OUdoSEphN3VndkgtQ3Z1dXJ5aEZvbFZVdFpsT2Y2M2VoRDlzWXM?oc=5",
+        "observedAt": "2026-11-16T16:01:43+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5682,17 +5704,6 @@
         "source": "Yahoo新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQRk5YVWtVb3lVbDdBSGpSSzczRExmVEc4eUcyY3oxR2xmVzVoY2ZZelJfeXh4UHZwU2tUN3hwTWY4bzJ5cXBCXzhsUVFmcVNIU2tmQUgtTEVGYm9BUGNWdDVTZ25nWHg2dVVEOXNaczlBOG4zTEFBODRJeWdwQ3NsT3cxTGk4cFZ1TmlfeWlrSUdnNGwxdmhsSUR6cy1pQmFUelNIYUlvMjJUY1N5WXNuM2tPeEF3MTQxblVtQ0ZoN3ZFSXpUTlhLT2ZPMWM1ZW44RHJCUGk1WGVJVDhtTy11Ml95WW9GMnc3UnNZUG56S0dmTTZNZUZUNXh3MlVpZ3BOeGZqOHhFdU5aRmZqc0pHemNKcnhzVmNkWk1Oc2JQTWNfQ3FxRmZPX2pZRlZVVnZOaFdSRjYzXy05WmtxVmJIanVLbVRTazQzVG0ybGgxVzQxVUJQMGhSLW9MWmZ2NE01SWpwTDRicGY1ajhvZDMzejZvaHFoaTJJczJGS1dFbFc2UU41aWJXekFfMVhfWVc1eVRYN2l5NzFtVmdGcDBfMnBzNm9LbEwxcHB5LTJOQ2hRd1B1dW8wUzZCZjduZzlyTjAwSFlWcTUybnlrVVkxa2lwQlhDZTZIckhKWmxpSjNLSGJQOWZrSUdtRFVIaDVBa1FvcXRtd1BYY3dqZGtrVkFoZlV5Q3pORWdpZ0V2OVVtWXp2aDI1d2puRmltQlQ5LThiREhTWU50ZWV3ZHd0Zm02RUl4ajk0Q2dkTGt2cFhXdWN0SllxTjc1RXpnbHhp?oc=5",
         "observedAt": "2026-11-16T01:47:07+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-4111598b22aecd6c",
-        "title": "外景綜藝精隨：答錯也要有氣勢！【Yahoo車的試煉】 - Yahoo - 汽機車",
-        "type": "綜藝",
-        "source": "Yahoo - 汽機車",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOSF9WSUE1cGVNVERRR2pSdk9oaFREX2p5elJBSmJuTWlLeW11clh6TEtVUmN2U2YxYWNMWFozeWZvMDA5Zks1dVdDU3d3WHNJUVJFbkJ4WUlVSFVnanBfeE9XbzBaZGVNQ0REa3oyd1ZNOUxubmtnMmtzMUYtdlVRWHRMWC0yYlk3N0ZOazhiaWtlUWFfSWZVM1J6UFMxbEdPeDFjV1FxOGZ0UHhkV2VpcGg3czA0V1lGeVUtc2w0d2ZQbTJRaC1wRWZxTl9teDRvQTN2eG5ndU5DV0pNUVlnT1hDcE1lYVdTcnkyS0RyNFRkU2R5Ml9yX2RHYndoS09qYnlxdF9fR0EzUng5dGR4UGljYUZXVzR5MDVXUWJBV2xCNkZnN0kwdDIybDA1bTZhNC1NTTRxLUdUbFFLcVlkMmNXdGtNV2hUUFlCc0cyY0k1WmpWcjZPVGNzR095VlE?oc=5",
-        "observedAt": "2026-11-16T01:30:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
