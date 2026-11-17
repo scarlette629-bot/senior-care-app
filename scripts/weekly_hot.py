@@ -25,9 +25,12 @@ def get(url):
    with urllib.request.urlopen(request,timeout=20) as r:return r.read()
   except urllib.error.HTTPError as exc:
    if exc.code not in (429,500,502,503,504) or attempt==3:raise
-  except (urllib.error.URLError,TimeoutError) :
+   retry_after=exc.headers.get('Retry-After') if exc.headers else None
+   delay=min(30,int(retry_after)) if retry_after and retry_after.isdigit() else min(5*(2**attempt),20)
+  except (urllib.error.URLError,TimeoutError):
    if attempt==3:raise
-  time.sleep(min(2**attempt,4))
+   delay=min(5*(2**attempt),20)
+  time.sleep(delay)
 
 def refresh(previous,now,load=get):
  start=now.astimezone(TZ).date()-dt.timedelta(days=now.astimezone(TZ).weekday());end=start+dt.timedelta(days=6)
