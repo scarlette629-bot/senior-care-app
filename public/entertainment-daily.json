@@ -5604,27 +5604,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-18T15:24:03+08:00",
-    "updatedAt": "2026-11-18T15:24:03+08:00",
-    "lastSuccessfulAt": "2026-11-18T15:24:03+08:00",
+    "checkedAt": "2026-11-19T02:50:19+08:00",
+    "updatedAt": "2026-11-19T02:50:19+08:00",
+    "lastSuccessfulAt": "2026-11-19T02:50:19+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-18T15:24:03+08:00",
+        "checkedAt": "2026-11-19T02:50:19+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-18T15:24:03+08:00",
-        "itemCount": 3
+        "checkedAt": "2026-11-19T02:50:19+08:00",
+        "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-18T15:24:03+08:00",
+        "checkedAt": "2026-11-19T02:50:19+08:00",
         "itemCount": 8
       }
     ],
@@ -5632,23 +5632,34 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-cd07228235cf44f1",
-        "title": "高洙展現反差綜藝感，《틈만나면》瞬間最高收視率5.5%，同時段連續14週奪冠 - www.diarypoint.com",
+        "id": "weekly-b40b2e2a9a972bb9",
+        "title": "何謂「下北澤感」穿搭？ 益智節目片段登Threads破十萬朝聖 - 自由時報",
         "type": "綜藝",
-        "source": "www.diarypoint.com",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmwxeVI5eWx3alhvNmNINng4dmt2ZTNXbkdleS1KOGJWWVJjRWwxRV9sY3lDOWY4NnBFMkxsLXpNbDlvdFhEams3OUlUWVBiY2owYThSYVd2aDN0cVBpQUJLZGRKMG1aWVJNN3U0SkxDZ1NiNkx3NFdaOVFGaGpvMUdiUktIVVFfak1TY0twTFB2VXRMSWl6RmlxM0VRY0xSR3hzOHl2Z1VJVkl6aHhpQlRFa2c?oc=5",
-        "observedAt": "2026-11-18T10:34:00+08:00",
+        "source": "自由時報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTRi05dEQ5WUF4cWV1WmtsY3lWMW1JMnJ3b211dmRLMElJNkZRR1g2UGZKOGpZZHE1azllX0w0N2xVcEVod2RrTGV5RnpsRHluamY0RjMyUnp5aE9IZjFhUWt3eS11Vi140gFuQVVfeXFMT3JpNVJEMWxZODFHREpZT3JRRUpsNmMwUktlVzlRQTR0bmJQWmhybjdnZUdiX0UxMHA2bjlPZzFLdmdueVUzUlFqYlgzOG1aU1cwaWs0cHU4S1BTdHVkY1RNOHhuTkdNUkJQZ2Z0SUE?oc=5",
+        "observedAt": "2026-11-18T22:58:16+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-8d4e9ccf7f57ae08",
-        "title": "愛莉莎莎反感沈伯洋！自封柯粉卻邀他上節目　曝原因：不想只投黨 - NOWnews今日新聞",
+        "id": "weekly-0e98d6c52e13363a",
+        "title": "Netflix《急診室的奇蹟》評價兩極！10部沒爛尾「從頭好看到尾」台劇！第6部錯過很可惜 - BEAUTY美人圈",
+        "type": "台劇",
+        "source": "BEAUTY美人圈",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MVkhVUS1vN0o0dUFHZDhyS1BiUHROU0Y2TG0wXy1xQnFzeXp0VjhDNjQweWh5Q29LN3JlaDdBaS1jTHpsMkFheFh6R0vSAVJBVV95cUxPUmNJNndDTFA5cnk0b3ItbGlzVUxGTEpSSzVLdnd0dEdWd01wbHdQMFBQaW1zTElhcHhEd3hfRExaSUhwb2llOUxyclhDSV9hY21R?oc=5",
+        "observedAt": "2026-11-18T19:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-749cc9310a0792f2",
+        "title": "《百戰百勝》魔王竟選台北市長！網點名「這綜藝天王」該站台了 - Yahoo新聞",
         "type": "綜藝",
-        "source": "NOWnews今日新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4R0Zvb1Rpb1owcjNtZWxrMTdZcTlLQV9jc3RSNUN6cVkxdF9KQlV3enRtRXM5eW40UWdUQnFMVnMzWktZNzlNeVBFVzfSAVJBVV95cUxQZEJsZFFJVzJFOFZWTDVSdnRhTUttN0xlNTI0WDFET1pnaWlJLV9WVHVuSlQ1LVVIMG00QTI3VTFKRnBpTzVvR2lZX2pyYkhvT093?oc=5",
-        "observedAt": "2026-11-18T08:59:49+08:00",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQajB0TTJXaGgxc05CQ0wwRUVGSElhUnV5WkdoeDMtTGN6djJSUUN6TnhQd0RZZVBObkxIX3c0MllDMGNwQVEzVzhsMFJ6UjZNLU9USHNJcEttUVBfWFcxUklYZnlWbjB2aE83VnRacm5qQXRJNzhkOFY5dXZmTEdtcnd6RWVlX08xR3BPLW81bjVPdWp1bUY1bWxkV0w4THNGMW9wc2pDSWIyQUVHN3AtVWh0aUt1d0lrZ254LTh3NXhBUVlZckNkM01NbXZSdXR3MDlDTGxVM3k5Tk83WWRNNXJpNHZLQlJ2WFdZMmt4NWNOWW5Lbkx6Y2k3eWVWTUNMc3JISVdCQlBKWG0wSDlGWC1INVZLbFdteFlsQjlNaU52SG0xdTY0Ni1zanZqVHEySWFzeDMtYzZXTmtsZXllREVpT00zSmpOYlVrcFpYVGlhbnZ1VXhhVDNHZ0pWaTVXR3hxdXdhcjhBLTg1MU1VY0o0M29va2di?oc=5",
+        "observedAt": "2026-11-18T17:40:36+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
