@@ -5604,33 +5604,55 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-18T11:11:54+08:00",
-    "updatedAt": "2026-11-18T11:11:54+08:00",
-    "lastSuccessfulAt": "2026-11-18T11:11:54+08:00",
+    "checkedAt": "2026-11-18T15:24:03+08:00",
+    "updatedAt": "2026-11-18T15:24:03+08:00",
+    "lastSuccessfulAt": "2026-11-18T15:24:03+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-18T11:11:54+08:00",
+        "checkedAt": "2026-11-18T15:24:03+08:00",
         "itemCount": 1
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-18T11:11:54+08:00",
+        "checkedAt": "2026-11-18T15:24:03+08:00",
         "itemCount": 3
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-18T11:11:54+08:00",
-        "itemCount": 7
+        "checkedAt": "2026-11-18T15:24:03+08:00",
+        "itemCount": 8
       }
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-cd07228235cf44f1",
+        "title": "高洙展現反差綜藝感，《틈만나면》瞬間最高收視率5.5%，同時段連續14週奪冠 - www.diarypoint.com",
+        "type": "綜藝",
+        "source": "www.diarypoint.com",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTmwxeVI5eWx3alhvNmNINng4dmt2ZTNXbkdleS1KOGJWWVJjRWwxRV9sY3lDOWY4NnBFMkxsLXpNbDlvdFhEams3OUlUWVBiY2owYThSYVd2aDN0cVBpQUJLZGRKMG1aWVJNN3U0SkxDZ1NiNkx3NFdaOVFGaGpvMUdiUktIVVFfak1TY0twTFB2VXRMSWl6RmlxM0VRY0xSR3hzOHl2Z1VJVkl6aHhpQlRFa2c?oc=5",
+        "observedAt": "2026-11-18T10:34:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-8d4e9ccf7f57ae08",
+        "title": "愛莉莎莎反感沈伯洋！自封柯粉卻邀他上節目　曝原因：不想只投黨 - NOWnews今日新聞",
+        "type": "綜藝",
+        "source": "NOWnews今日新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4R0Zvb1Rpb1owcjNtZWxrMTdZcTlLQV9jc3RSNUN6cVkxdF9KQlV3enRtRXM5eW40UWdUQnFMVnMzWktZNzlNeVBFVzfSAVJBVV95cUxQZEJsZFFJVzJFOFZWTDVSdnRhTUttN0xlNTI0WDFET1pnaWlJLV9WVHVuSlQ1LVVIMG00QTI3VTFKRnBpTzVvR2lZX2pyYkhvT093?oc=5",
+        "observedAt": "2026-11-18T08:59:49+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-41988b6c5a8d11cf",
         "title": "《請回答1988》善宇濾鏡碎裂！高庚杓酒駕超標 3大綜藝火速割席 - 香港01",
@@ -5643,12 +5665,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-bc47866db5274b63",
-        "title": "侯明昊音樂事業全面衝刺！《歌手2026》後再接新節目 SEVENTEEN文俊輝也加入 - Yahoo新聞",
+        "id": "weekly-c284054acea57fa2",
+        "title": "政論節目爆全武行！兩來賓揮拳互毆 記者事後嗆：替他爸管教 - Yahoo新聞",
         "type": "綜藝",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilANBVV95cUxPSG5WN3NDSDJYbnUza1RXdVlheU45OXNqb1hWSjVXTUNvMDhaMmYtYndudGg2V2Z5TkNva2w1MS11TFhwOXN6dTM3dVRDV3ViTmN6U3VPWUpyaEVidDYyRmo2QnhzaGd4LU5TdEVZSWJEVnBtVVV3NGFJbVliMmFKdnZ1b2Z5UjQzal8wanFfUy1RV1JpWTlhbGhqcTRhOG9xQmRyRkFGZ2ZUTTlnWWcwSXlWaDlrR3lncmxETENHaWxIdi0wNGdPaEY1THRmQ3RUVDljT01QNUlfWXNMS3RhSXZ0UWxpUTJiOTRQcTJCOWJIZTlrcnZoS1hJOTNEQ2psSHVjUDJua0lzV3ltSWRnajJkVFpzZjFBd1o1NnZ3YXFWNi1ISjVPTFFtQjRNU2tYSXdOb2FraGt0WGZ5TGVnelpIbXdObkhKQTlLbmtZbGRuR3BodWRnSGgzTk1TbWJQUjZ1WWFuTHRsWHlVTjc5em5oTkI2MFJEUXNQSFNFS2R4Z1JjVzkzR3FjcGhqR21MYkZROQ?oc=5",
-        "observedAt": "2026-11-17T16:02:19+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZHpXdXNLM1JSTndQTS1sUVJmR2JkZGtmcDJRSGJjS3Rtdks4ZFpUbTBpY0Voa1JoQjViUnNBcUxfMEhEdC1qSFNkSGU1ek85VHJfSE91c3Vrc2MycUplcWNzZnhHNlpJd2ZtNVdTY1g5WGNCbU5jbVF6TFhyRkEybVhyRVZReV9ld0t2NXJHbjBUWGIzNC1tRVVzNWdqRlhZeUd4RWZZRnlpQzZ6UTRVQnphN043VVFLOUlKTVk1NTY5YnE1dnU5bmxmOXhkTlptVHVMZmRUZzZGODgteWpCVklkNjM0T3dCcV9zclJVMEE4WjlSUnRYYTE1SUpLSlg5S0NBWF9aMVd5bVpMQ19JZExRS0llNWZYRFJkN1V5WHpnRGFlazBFYmh1eWdDRExFc3NyV1pzTDZjUGdMUC1kN2RzaG00R3V0OGMxNFdqcnJXOXBHaTN0dEdEZzVOT01tSndGRmZlM083Z1dPYWVGNURDQ3I2eG9KSGdDM0ZhVDFvQmM?oc=5",
+        "observedAt": "2026-11-17T16:26:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5682,17 +5704,6 @@
         "source": "加拿大星島日報",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxON1cyZDJXRFRZNHVxckdtQy1RVWk0bVFvMEpGVG1wNWxfZW9NcUEzTGRhazA5dWxCSDg1czBPWEZjbUNTZVpMRVcwTFA2UHBrTHF5TzBXaWtiZHNsNjdhUGJVYy1PUlh6dEpjcUVLTFd6Ti1DYmdfMlRFTGI0dTNvb2JaUFJjV0lYdzBReEhHS3JsTnFDakVnUElORXRmYjJGOUYzVVY4eTBjUVEzYVZycWM1UXFDemQwU0FDWW9NNmNseGdPTk14Sm0xWW5ZQlNkR2E5Y2xNM2dzYmVucVdsRmVZNVZ0SXlLZjJKeE95dDRNWFdWMHlKUlRoSGVEM2pnV0wtcFB5Y2lOaFIzZjd6SktOVFNpdDZJa3NaRldpOXJJVk9CZGZaTmRKbHhWRW5oRzZSbFRlOHkwN2pUWUFQcmFaUlRVSVdybVNaZElTSTl0NmJmVmpR?oc=5",
         "observedAt": "2026-11-17T14:00:47+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-7095079b6bc08248",
-        "title": "MC張天賦首登央視綜藝嗌緊張 跟外國歌手「幫唱」惹熱議 (12:31) - 20261117 - 明報 Our Lifestyle",
-        "type": "綜藝",
-        "source": "明報 Our Lifestyle",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMilwNBVV95cUxNclVsVXZGODRkRWJLd3E0eUhyX0xhUGxsaHZrMjJLdWJTckJpeWV3U1lSRWI5Y2VBQzJ0bU9kejM4cFR5ZkdWdjhyMC1TM1Y4ZFpicDVVQmtLMkdqcTRTTEQ4TmQ4WlNSODk2ZFdsQU81bTl5SC1oenVFUlNZNUsxNkdjS285LURsOFdqcXJwenAzZkRCUVFOX3ZFS256NDJlSkJRcW5UVHNSMWQ0UjVxZWFNOVhZZ1ZweTRLUHlIdTVhMEQ4ZUJjZnhWT1V3STBfWTFybzU5cm5vbXZpRG9IZ2ZPLXA2Q2ZDZkF6Z0NhWlpDaUlFLWVOT245cTFxMHRPLUFhWW4yNk1pMVNnTE03U3ByX0l5a3BrVkRVZGdkYkdJX1d1T3l2M3FZNnBZcWttSDBiTjlpWDFwa3FoOXRyVzB6c3lpb1hmY2NPUEdSa3ItRXc1LUJEcE91X3M0SmpMYmtGR0dFWTg5V2t6YTBranQ0U3pEQnp4Qm8wY3pkMlVlRkpLdFJWNU16TTNXemx0UnVvU3RuRQ?oc=5",
-        "observedAt": "2026-11-17T12:31:04+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
