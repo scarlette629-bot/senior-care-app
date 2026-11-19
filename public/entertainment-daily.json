@@ -5615,27 +5615,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-19T15:21:02+08:00",
-    "updatedAt": "2026-11-19T15:21:02+08:00",
-    "lastSuccessfulAt": "2026-11-19T15:21:02+08:00",
+    "checkedAt": "2026-11-20T02:58:35+08:00",
+    "updatedAt": "2026-11-20T02:58:35+08:00",
+    "lastSuccessfulAt": "2026-11-20T02:58:35+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-19T15:21:02+08:00",
+        "checkedAt": "2026-11-20T02:58:35+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-19T15:21:02+08:00",
-        "itemCount": 4
+        "checkedAt": "2026-11-20T02:58:35+08:00",
+        "itemCount": 5
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-19T15:21:02+08:00",
+        "checkedAt": "2026-11-20T02:58:35+08:00",
         "itemCount": 8
       }
     ],
@@ -5643,12 +5643,56 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
+        "id": "weekly-7efc8566bb3c2237",
+        "title": "大麻屋| 專題節目 - TVB",
+        "type": "綜藝",
+        "source": "TVB",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNd290Wm9laUZBZGdaWmgwMF9zMGJCMWl5MkhNdWdhMTZEUmNzb3hLZzVBZWR3dUlfMFRsUkFpTzVfT0ZtZ1p2ZHF6YWZpc1JjcEYxT2d3MHFlVmwxUF9XOVQ3V2xUZlZGbkg4R1ZhQjEyY0R1QjJGLXhlRHV3WUstb0FaSHE?oc=5",
+        "observedAt": "2026-11-19T21:24:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-fbb56010341877ee",
+        "title": "《嫁金釵》《Doctor X》輸了！Netflix台灣最新收視排行榜出爐，冠軍竟是1 部黑馬台劇 - 風傳媒",
+        "type": "台劇",
+        "source": "風傳媒",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrUTJGcVhGTi04RHlyb3dwZHBrdnZsbVRoMHgzQkdoSHRKeFlBMFppTE12VFF2UEFEM18yZHk5ZWgydG56ck9oQ1otUmE3X0pm?oc=5",
+        "observedAt": "2026-11-19T15:59:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-6c31d7bfce27605b",
         "title": "《綜藝一級棒》連3週稱霸收視！王建傑登台揭工地秀秘辛 - 自由娛樂",
         "type": "綜藝",
         "source": "自由娛樂",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naVV5TWU0MVRjVFkybEhRS0E3TzlmTm9wSms5WEE5S1gxeExpaHdTTWYwMWVZUkRsanp3bGdOSWpXOTZOTmVINDBfcGZYSU9EekxQX28zeXVaWm8w0gFiQVVfeXFMTnQwYXd0Ukk4TXV5aHBPSmFYSHk4NzFJWWdoaWZJOE9ZQUhFWnJUc1gzQUdTbHNZelJiNXZGR2R2Ynl2d0RHRlEtRWZVSlNiVVVhV1diQ2tPcHI1MDF1R21XWEE?oc=5",
         "observedAt": "2026-11-19T14:36:14+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-682a8423c8762605",
+        "title": "《綜藝大集合》爆爭議？素人彩排整天突被換　疑連獎金都是給藝人 - NOWnews今日新聞",
+        "type": "綜藝",
+        "source": "NOWnews今日新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16dEh2S2ZrRkNfNGdITmNVQlJ3b3o0bUhUTGFQbXE5dl8tSS1LT2dQdUF5TjdqNG5rS2lIR3JmT2NTcXNEeWVLMU9hMzJ3WVU3c2fSAVJBVV95cUxNenRIdktma0ZDXzRnSE5jVUJSd296NG1IVExhUG1xOXZfLUktS09nUHVBeU43ajRua0tpSEdyZk9jU3FzRHllSzFPYTMyd1lVN3Nn?oc=5",
+        "observedAt": "2026-11-19T14:02:37+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-e7a5d86c48c936e1",
+        "title": "董思成、楊超越錄《今天是太陽雨》延伸綜藝 他見她與《逐玉》鄧凱合照醋勁大發「這番話」超爆笑 - 上報Up Media",
+        "type": "綜藝",
+        "source": "上報Up Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kS1RrZGtPZDd3bW5yLVdlUUstNEhuTURiTWVlWllWb3VNbnFBZ3RxbURpRGR4SU1qSHlQblZxMFNLRUNNS0pmVFVTMHAyYk1odjVYZ29Ib2VZWGtrUW5aa0NER3oxbHl1MUE?oc=5",
+        "observedAt": "2026-11-19T11:40:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5676,17 +5720,6 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-b6942fdd83c4decc",
-        "title": "馬傑森綜藝處女秀獨家獻林襄 私下「真實互動」全曝光 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOS0FURXFZWkE0WDlqODFxbTBNa0RIYjk2bF9zc3lQRWIzRkJVSHkxVklabXBzWGFxRmQ3ckZFSDlxbDVsMnphbk9kaGVqRVBFSW1aVzRQa1FNLTBLQXV6aTFDWkNQZkVRczRDS0xxUk1wbGI1cnhrLTlzeVZ4cVkweTZjaVVjdGZVSUhSU2plN1l5OUFxUGRHeTN2WnRPZ3lfTFFlWEoxRVBDWjhnSmQwYlprVUhiQUlLMmZIZkNLd2NLVzhScWpZMG04YU9PQnhNcldodjlkTllEZmswSzl0akRwTFI0NFlCdlZXS29waU90bG11U0dmbFZXZERaZDJBclJOa1dKRzJaVWw3a3J4NDF6Vl9ZR2ZCTGpKUXIzSUJuYzVPNzVadndaT1RPMFUxdEo0OTRkelE1cjI1ME5zZGphZTgxMWhsMUZoT1U1OVNGdXY4Zi1pU2plOTRsU0U?oc=5",
-        "observedAt": "2026-11-18T12:23:37+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-41988b6c5a8d11cf",
         "title": "《請回答1988》善宇濾鏡碎裂！高庚杓酒駕超標 3大綜藝火速割席 - 香港01",
         "type": "綜藝",
@@ -5698,33 +5731,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-c284054acea57fa2",
-        "title": "政論節目爆全武行！兩來賓揮拳互毆 記者事後嗆：替他爸管教 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZHpXdXNLM1JSTndQTS1sUVJmR2JkZGtmcDJRSGJjS3Rtdks4ZFpUbTBpY0Voa1JoQjViUnNBcUxfMEhEdC1qSFNkSGU1ek85VHJfSE91c3Vrc2MycUplcWNzZnhHNlpJd2ZtNVdTY1g5WGNCbU5jbVF6TFhyRkEybVhyRVZReV9ld0t2NXJHbjBUWGIzNC1tRVVzNWdqRlhZeUd4RWZZRnlpQzZ6UTRVQnphN043VVFLOUlKTVk1NTY5YnE1dnU5bmxmOXhkTlptVHVMZmRUZzZGODgteWpCVklkNjM0T3dCcV9zclJVMEE4WjlSUnRYYTE1SUpLSlg5S0NBWF9aMVd5bVpMQ19JZExRS0llNWZYRFJkN1V5WHpnRGFlazBFYmh1eWdDRExFc3NyV1pzTDZjUGdMUC1kN2RzaG00R3V0OGMxNFdqcnJXOXBHaTN0dEdEZzVOT01tSndGRmZlM083Z1dPYWVGNURDQ3I2eG9KSGdDM0ZhVDFvQmM?oc=5",
-        "observedAt": "2026-11-17T16:26:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-8fd222c13dd15307",
-        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - 經濟日報",
-        "type": "綜藝",
-        "source": "經濟日報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96bkd5aUtaX2hSOXhuZVhZY0dQRDJVeFlhbXRsVEVOandMNFZSeEpxbHpsbzdGY3o4dFpmNzFQckVVbXhzY0h2N0JRU2kzMHdCVkJvRDVqTnRnT3ZvYncwT0t30gFiQVVfeXFMT3puR3lpS1pfaFI5eG5lWFljR1BEMlV4WWFtdGxURU5qd0w0VlJ4SnFsemxvN0Zjejh0WmY3MVByRVVteHNjSHY3QlFTaTMwd0JWQm9ENWpOdGdPdm9idzBPS3c?oc=5",
-        "observedAt": "2026-11-17T15:00:49+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-852998dab10cc10d",
-        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 加拿大星島日報",
+        "id": "weekly-0e1282b1983f7823",
+        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 星島頭條",
         "type": "台劇",
-        "source": "加拿大星島日報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxON1cyZDJXRFRZNHVxckdtQy1RVWk0bVFvMEpGVG1wNWxfZW9NcUEzTGRhazA5dWxCSDg1czBPWEZjbUNTZVpMRVcwTFA2UHBrTHF5TzBXaWtiZHNsNjdhUGJVYy1PUlh6dEpjcUVLTFd6Ti1DYmdfMlRFTGI0dTNvb2JaUFJjV0lYdzBReEhHS3JsTnFDakVnUElORXRmYjJGOUYzVVY4eTBjUVEzYVZycWM1UXFDemQwU0FDWW9NNmNseGdPTk14Sm0xWW5ZQlNkR2E5Y2xNM2dzYmVucVdsRmVZNVZ0SXlLZjJKeE95dDRNWFdWMHlKUlRoSGVEM2pnV0wtcFB5Y2lOaFIzZjd6SktOVFNpdDZJa3NaRldpOXJJVk9CZGZaTmRKbHhWRW5oRzZSbFRlOHkwN2pUWUFQcmFaUlRVSVdybVNaZElTSTl0NmJmVmpR?oc=5",
+        "source": "星島頭條",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQcUNna1pRRWxTV0h0QV9veTJSOHdwM0p6R3FoWmNEVzBsb3ZoVzlqeXRzRWs5TnAyeWt5VWNodFU1bFZDdGdXalphQVpEOWRhMzJqU3lyMk5acm03XzIxeEtDLVV5ZC1VYUItZG9NazVIWGc5N1NzRFpjTWpJMlhXTjRYR1A4R1d2ZW83X0VWRjJTUU5NcFRjZTBaRFBHalc1dkNHUDVqVHNSUFduODlEVjJxalB5d1N4bVJuSWNVaW9JanprRjluS1ZtRjBxc1hvZmxPWmVzQUprbmZFQzBkakVzaDRiLUJHR1V2b2c5YzlHb2I5azMwT0g2THJHajg4ajlsZHdqOEM1c2FDM0E0dVFyb3ZUTUhmSG9tUzZKcVlEVk9QcEZGSnh1amxpVXJMVjl5cERkaU9nNFNhZzJuek5JNDZDTzgzTFVhd0FqTVFwcG9IS1JvTE95bFF3eVp4X0R5Q0pRanJOUFhRcEhWbGFDWmZrX0JkSTVPbms5M0NTSkcxRFJNS2xVT01fUjRnanRpZkJZekRLTF9Ob3lpbkVGNTJxN3RWZFBnVDd2WUdoUVJ0SjROZFVJeUFaa045VkJxeXREbw?oc=5",
         "observedAt": "2026-11-17T14:00:47+08:00",
         "isWeiboMention": false,
         "verified": false,
