@@ -5622,27 +5622,27 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-19T10:51:46+08:00",
-    "updatedAt": "2026-11-19T10:51:46+08:00",
-    "lastSuccessfulAt": "2026-11-19T10:51:46+08:00",
+    "checkedAt": "2026-11-19T15:21:02+08:00",
+    "updatedAt": "2026-11-19T15:21:02+08:00",
+    "lastSuccessfulAt": "2026-11-19T15:21:02+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-19T10:51:46+08:00",
+        "checkedAt": "2026-11-19T15:21:02+08:00",
         "itemCount": 0
       },
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-19T10:51:46+08:00",
+        "checkedAt": "2026-11-19T15:21:02+08:00",
         "itemCount": 4
       },
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-19T10:51:46+08:00",
+        "checkedAt": "2026-11-19T15:21:02+08:00",
         "itemCount": 8
       }
     ],
@@ -5650,12 +5650,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-9a6957c55ae77ff2",
-        "title": "綜藝大集合灣裡錄影 萬年殿王醮文化 躍上電視螢光幕 - Yahoo新聞",
+        "id": "weekly-6c31d7bfce27605b",
+        "title": "《綜藝一級棒》連3週稱霸收視！王建傑登台揭工地秀秘辛 - 自由娛樂",
         "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQLU1UaDl1YjNrblNWNW8tdjc0VzhIVUJWNzNCdEVsVm5qWVEzdTZJYWZlS25KQnF0UjZSLTd5dFNxdkdFb1RIYlNXcUtZRTNUU2YyTm9yWk93SXFyZDl3NjE4elA0Vi0ta0w2N3hpUGFHcFFBM0kxLVBpdjRETjZLazhRLW9NYVk2QVpCZVFlSlg4NG15S1p1T2QzX2xMcWdiYUVBRGFZRTJpLUF0cmszQk04b0RWa3RVd0JVczdFM21JY3M3TllmR25XVUw3dnlqS1dzOXBKQ01BV3AtMHp2bzB5cGstcERrTE9zWWVSQ1F5cFRKUHhOTlRUcm1Eck15VFpkeGpZRlZVYmUtQk9Uam9KOV84X2pNNFo1SXIxVGVMOGc4TXBRNGoxazhhMldCcy15ZUFIeEU5c0ZXaEU3ekR6ejRGMTY3aS1yZnpnMWlrYU8tMktWczdpcmtaRkFFREFjQ0g5aThEdw?oc=5",
-        "observedAt": "2026-11-18T19:05:36+08:00",
+        "source": "自由娛樂",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naVV5TWU0MVRjVFkybEhRS0E3TzlmTm9wSms5WEE5S1gxeExpaHdTTWYwMWVZUkRsanp3bGdOSWpXOTZOTmVINDBfcGZYSU9EekxQX28zeXVaWm8w0gFiQVVfeXFMTnQwYXd0Ukk4TXV5aHBPSmFYSHk4NzFJWWdoaWZJOE9ZQUhFWnJUc1gzQUdTbHNZelJiNXZGR2R2Ynl2d0RHRlEtRWZVSlNiVVVhV1diQ2tPcHI1MDF1R21XWEE?oc=5",
+        "observedAt": "2026-11-19T14:36:14+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5683,17 +5683,6 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-cb7aeb26b5632afa",
-        "title": "鍾欣凌、杜詩梅錄製綜藝節目 (圖) - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM3NaZDdCbno1QWF3dHBEb3ROX2J1RVpVOTloWWgwLVE0SEltTllMS1hVazVfNGZ2Y2FHY3VsOG4yRzV6SV83T2N0b2F4R09MV1I4VTI1Z2JUUjV6cDFLRDk5ekt3b3RLVzhrdFRJV2wzYldTaFAyRmhBRUtLWF9zRHpkWGNKenZnMDJGZDBjak9iaWhLLTVndGU0cWFaMGRVZ2pfOTd6UUh4Sm1TbWRNUjRjeGlDZGxzUHJibDhkd19oVU9CRF8xdlktMkZZLTJlbllHd0FCNWdwcldpbEU0UThvUks0UkpmdURYNzBQNnNZQQ?oc=5",
-        "observedAt": "2026-11-18T16:13:49+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
         "id": "weekly-b6942fdd83c4decc",
         "title": "馬傑森綜藝處女秀獨家獻林襄 私下「真實互動」全曝光 - Yahoo新聞",
         "type": "綜藝",
@@ -5716,23 +5705,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-dbf4cfdfdf5e689c",
-        "title": "侯明昊音樂事業全面衝刺！《歌手2026》後再接新節目　SEVENTEEN文俊輝也加入 - 鏡週刊Mirror Media",
+        "id": "weekly-c284054acea57fa2",
+        "title": "政論節目爆全武行！兩來賓揮拳互毆 記者事後嗆：替他爸管教 - Yahoo新聞",
         "type": "綜藝",
-        "source": "鏡週刊Mirror Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uWXNyemd1WDd4ZW5Ua2htTGJZcS0yYWFrZi1YUnZlSGFCY3lSUFN2ZUtRZTRTWE8wZEM5dy1fVVVKVDN6VXBwZC1WclhHcHNNUVdMSVNjQ3daMHRLU2tiZ3VEc9IBaEFVX3lxTE13Y2pMdjVpMWhKbVVkQm96TGFmUUtfZXhjYWg0Zm9MdmlTNk5wLUFJbTA2TndZZUl0Y21POHZURXlYRTdZRHlEa0xqdTVPaWwxeWZOaHJxMllicENlZXp5QU8xUWM1d3lW?oc=5",
-        "observedAt": "2026-11-17T15:18:00+08:00",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigwNBVV95cUxNZHpXdXNLM1JSTndQTS1sUVJmR2JkZGtmcDJRSGJjS3Rtdks4ZFpUbTBpY0Voa1JoQjViUnNBcUxfMEhEdC1qSFNkSGU1ek85VHJfSE91c3Vrc2MycUplcWNzZnhHNlpJd2ZtNVdTY1g5WGNCbU5jbVF6TFhyRkEybVhyRVZReV9ld0t2NXJHbjBUWGIzNC1tRVVzNWdqRlhZeUd4RWZZRnlpQzZ6UTRVQnphN043VVFLOUlKTVk1NTY5YnE1dnU5bmxmOXhkTlptVHVMZmRUZzZGODgteWpCVklkNjM0T3dCcV9zclJVMEE4WjlSUnRYYTE1SUpLSlg5S0NBWF9aMVd5bVpMQ19JZExRS0llNWZYRFJkN1V5WHpnRGFlazBFYmh1eWdDRExFc3NyV1pzTDZjUGdMUC1kN2RzaG00R3V0OGMxNFdqcnJXOXBHaTN0dEdEZzVOT01tSndGRmZlM083Z1dPYWVGNURDQ3I2eG9KSGdDM0ZhVDFvQmM?oc=5",
+        "observedAt": "2026-11-17T16:26:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-5e7405ac23cc3948",
-        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - Macau Business",
+        "id": "weekly-8fd222c13dd15307",
+        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - 經濟日報",
         "type": "綜藝",
-        "source": "Macau Business",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPT0lZX0hIS3Rwd1VnY08yUzN2TkxoTXd0X1d2LVJpUHZHUG5DNDBNM25raW9ZN0FTUXc4ZnYxRVJUZE5jcEhMaGcwcUl6bzlxTTh3OGNXZnEwXzBBZzVWRXRiZXhBMU5XWjRfWjBPWmN0cjV0VEpQdmZCZWg0V1lpZ3JOWld5WFp5anN2djdFcV9lcHZPOWd0ZnJDQ2FtRzh5cVZ0d2stMjhrRUpmVWluaDc1M2NXRTNRbmhpc1RHMEY2NURfa0NsMFhzbGl0Mkp3cFNQQkd2d2FVS1lYOG56OFVFLWxGN2E3T1pNWUhCYjVFblYxcmRRSTlBNnQzREYxNUdsY0pJdjRabXdJMU1iYVNiZmU1amlHMVZPRGdDRkM5Z2FGZWVPc3JGSFEtcG9ZREVMMUEyM25DNnJURFNxaElQbw?oc=5",
-        "observedAt": "2026-11-17T15:13:27+08:00",
+        "source": "經濟日報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96bkd5aUtaX2hSOXhuZVhZY0dQRDJVeFlhbXRsVEVOandMNFZSeEpxbHpsbzdGY3o4dFpmNzFQckVVbXhzY0h2N0JRU2kzMHdCVkJvRDVqTnRnT3ZvYncwT0t30gFiQVVfeXFMT3puR3lpS1pfaFI5eG5lWFljR1BEMlV4WWFtdGxURU5qd0w0VlJ4SnFsemxvN0Zjejh0WmY3MVByRVVteHNjSHY3QlFTaTMwd0JWQm9ENWpOdGdPdm9idzBPS3c?oc=5",
+        "observedAt": "2026-11-17T15:00:49+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -5755,6 +5744,17 @@
         "source": "Singtaousa",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWlzZEhYNFY0OGtVdGZ5Vi1jY3FHby1OTXFpQUpXWVROM0VhLXdSaU10ZlVZU0hEOS1xX1h2MFd2dWQydHZKQ1hYY0JGY24ySEw5SWJSdlFzSFpzeldPbWx5S2xneWVJVjVGY1p6UDR1TFBzcVUzc01ZVnM5ZGYyeENB?oc=5",
         "observedAt": "2026-11-17T08:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-3df5eed1cf5aed1e",
+        "title": "TVB收視｜台慶月劇集綜藝雙雙報喜！玫瑰戰爭首播22.6點踞冠軍 首周吸145萬觀眾 - UHK 港生活",
+        "type": "綜藝",
+        "source": "UHK 港生活",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMixwNBVV95cUxNbENyclp4NTRkUGhIN2JGcWhGeUpvNTM0TmZBT1VmYzFLS2o3aWFNemdzUDdoXzFjNkdXQjVmYURFR0tVMjFpLWlFM0R3UEQzdjVWNXI0UTY5dEhzOXdZZ3V1WkppdHM5WGtkM3MwbTBXY0dDTjFTTXpLdHhvN0pmRmd2Z1I5bmhlZTNNaThzaWZWaktvb18ydm84TjhIZnJlZGxSZWpoRjJvT3dqVGNZeEp3THFZdXp0R0E1WHlsdjdIN0thSzVRaG1kU20weGR2M1pGOHMtQ2lKbm03dVEyemxNVVo3ajBld1ZhSWhDQThuWEp4ancySlNGcWZZZGVyalFrek85MXY4aW5zbUFvTWNBVl92NTd6a0R5WFFheFNEZjFfcGxMZ2xhY1pZejNmc19iZUJVY3hMSnJuQzJ2alFnNno0Q3ViUDZra1RYbjRKNHoxcU1lT3FYVGxKb1Fzc2xJQ3pzRWV4SFV4TmJvWmhEaFVHa2VrTGZuaG51WTYzcEFmRWl5Q3FJclAxSTNoZWtUcTFLbzZQeU5VWXRNVDBNQXlaSEZaT3Z5ajU2Z3hmUHZsczc0UHNUUVo2OERFSm9NN2lwZw?oc=5",
+        "observedAt": "2026-11-16T18:26:48+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
