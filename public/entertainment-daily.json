@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-20T10:43+08:00",
+  "updatedAt": "2026-11-20T15:24+08:00",
   "categories": {
     "陸劇": [
       {
@@ -36,12 +36,6 @@
     ],
     "台劇": [
       {
-        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
-        "published": "Wed, 04 Nov 2026 08:00:00 GMT",
-        "source": "ELLE"
-      },
-      {
         "title": "張孝全自己打自己？Netflix《消失的裂痕》對決Disney+《郵票與舒芙蕾》、愛奇藝《一甌春》衝TOP 1｜追劇推薦 - Yahoo新聞",
         "url": "https://news.google.com/rss/articles/CBMi7gRBVV95cUxQdXlVZ3E2MlZJMm5BRmhTblROVEF5aWloaC1PcmxKSk5ST0RIRTlfWFcyeFliWHNsa0RNYnJHbndGT1FWSVRxQjBnOXQ4dFFCZkNwcHRSeHRfbnNTVWswX24xZ1l1Rzc2RFI2YWRLTGFQMzNUdDVwN0JoUlFXcE5VeU14WUlRbzRwV19FNEZJVlVRbVMtU252OVR2NmVHRVhWbXFpUzNYYmQ1Q0g1cENUcjhfdUVOa2NnOVBZMUpmZU5vS0xyRDRTZ1BNU0R4dlUwbERJc2ctR21EbmNnVUlKblkyVVg0QmVDWl9RZVQ2QzlWQS1MSzlSa3l6a1VWajBnN29qejRUX3hYaG5lT3JWU0hXYWt1WFZIV2VuNXN5OGxGck91VmJVQ25wTWNROEdwWER1R2RUbVAxd0E1MzhFWFhqMmZXVVJBREFsZlJmWFRneHJZdnFVdkROSlREbkthVldTZnhxOThYMzRJNWVMN0NEMmN5Skhta0NPemNPMHlRWkUwdUlMY1ZnUmlEbnZKZThNbl9oZDBlZmpZcDZGVnNxMGpaNkZVa01JcUN4Tm9NazVxeGthUG5oV0NvUThTTWFyTURrOW1BcmRtS0F5NmdZNGkxZmUxY2lLUWszZDdmOGtVb1VPTXk1VFpDT1FGTW1vZmpENE1NS2tHZlhkbVU0QmVvWkl1ZUNyRUQ0Qm54NjJnNnlMLWo5RnNTRW9xdkVwT3F0T2NaampncTVoUHB2dXAtRnBOQmhhamVNUGFXSElkOUlpcHFwS3Q0LWhPaFRMbnk0SDNOc2ZtVnhzTVBodUxMdldkdU02ZUFR?oc=5",
         "published": "Thu, 24 Sep 2026 07:00:00 GMT",
@@ -58,6 +52,12 @@
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUZtalpEd25pZUZiUU1vOFFZYl95aUhOLW9lcjZRd1Bnbm9oTkswTE9QcV9uMmpNME5TOGNVcFQ0U0hMdEY2bzd1ZXp6dHcwWjhJZE1ZZ2NNdUVnRmdkVDFHenZJTllhY2dtQnZZR3RSaTZOb0dmSjhsRWlaR3ZJcXFqMnZmZEMzQ3pDNEV5ckUzVmFWSE95dFFMcnhxM0ZXdVREcndhZ2UyXzBoakE?oc=5",
         "published": "Fri, 27 Dec 2024 08:00:00 GMT",
         "source": "MilkX Taiwan"
+      },
+      {
+        "title": "2026台劇推薦必看！TOP10+台劇片單整理，霍建華《急診室的奇蹟》、邱澤《重生密碼》強勢登場 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GU2xOeGctZjlSSzZONzRiLVdsSVJPWGstb2czZXZhcVNkNFNZalBGMHl5LVJIaWNnUjZCbGVvRThRNktKdi1Bb1Rza1NYWEs3RXljZ0tiQjdIT0VMQ2pwZVo4WnR1ZDF6NGdLVmR5Y1VYcllHUzlMel82U3g?oc=5",
+        "published": "Thu, 05 Nov 2026 08:00:00 GMT",
+        "source": "ELLE"
       },
       {
         "title": "2025串流付費平台人氣TOP 10 這平台成黑馬闖進前三 - TVBS新聞網",
@@ -124,10 +124,10 @@
         "source": "鉅亨號"
       },
       {
-        "title": "陸劇推薦2026》10+部必看排行榜！《逐玉》、《玫瑰叢生》古裝現代一次看 - TVBS新聞網",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yR0NuR2VfekYtNnllb3ZyMVg4R1M0TldBMWtkTGRvcXdsbTc5RmpXa1BPelYxNVRuTDA3VXRoWlYxQ0kzUEZPODZwOW9pUlFiNFlBRVNTN3lIc3oxa0ZyQUZ3?oc=5",
-        "published": "Tue, 03 Feb 2026 08:00:00 GMT",
-        "source": "TVBS新聞網"
+        "title": "《中國有嘻哈》是如何爆紅的？還原今夏最火網綜的商業秘密 - TechOrange 科技報橘",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIME5xa1FPc3EtanZCNERaN2RHSEcya0g4T0E3SWxOWVV5OFZTRnNMR1lxZVBIN3lTS2l5ckd2WW5mYUVEWEVyb1VleThJbi1rZUx4V2h1UQ?oc=5",
+        "published": "Fri, 25 Aug 2017 07:00:00 GMT",
+        "source": "TechOrange 科技報橘"
       }
     ],
     "日劇": [
@@ -3464,8 +3464,22 @@
   "cpblDataMode": "official",
   "cpblValidUntil": "2026-11-20T13:59:45+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-20T10:43+08:00",
+    "checkedAt": "2026-11-20T15:24+08:00",
     "items": [
+      {
+        "title": "嫁金釵",
+        "publishedAt": "2026-11-19T02:22+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2xpdmU4bExGd1dTWFk0Y3NsODBUZzhZYVQ0R2hVMll2LW5hZURSNHFtMm82aEJPdnFnNjFmN0FpWDdILTA0NnF6ODhVSmo2ZjFWWW5tdGtqTmQzeG00QTNGdjBqYVZLV1VCMnJ3MzRvREU4MFVGVnFadUNqRk5ZWlp5SXk?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
+      {
+        "title": "早春晴朗",
+        "publishedAt": "2026-11-19T02:22+08:00",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2xpdmU4bExGd1dTWFk0Y3NsODBUZzhZYVQ0R2hVMll2LW5hZURSNHFtMm82aEJPdnFnNjFmN0FpWDdILTA0NnF6ODhVSmo2ZjFWWW5tdGtqTmQzeG00QTNGdjBqYVZLV1VCMnJ3MzRvREU4MFVGVnFadUNqRk5ZWlp5SXk?oc=5",
+        "status": "新聞提及（尚未核實正式開播）"
+      },
       {
         "title": "寶珠",
         "publishedAt": "2026-11-17T22:00+08:00",
@@ -3478,13 +3492,6 @@
         "publishedAt": "2026-11-17T22:00+08:00",
         "source": "Marie Claire 美麗佳人",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6b284WWF5UDhaU0pBaTllZmpodFpaUDFEcWZrQWZoeG9KOXljRFhSSGRiMDdPbmVIdHVmUVI3X25CVGlqa1l3d2MtSUxjUEdsbjlOYVA2bjBqTVItdTlVUnJGSWZKUjE2?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "嫁金釵",
-        "publishedAt": "2026-11-13T16:00+08:00",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
       },
       {
@@ -3540,7 +3547,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-20T10:43+08:00",
+    "lastSuccessfulAt": "2026-11-20T15:24+08:00",
     "method": "最近14天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -5444,7 +5451,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "updatedAt": "2026-11-20T10:43+08:00",
+    "updatedAt": "2026-11-20T15:24+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
