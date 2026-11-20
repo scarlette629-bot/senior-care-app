@@ -5269,28 +5269,28 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-20T10:43:03+08:00",
-    "updatedAt": "2026-11-20T10:43:03+08:00",
+    "checkedAt": "2026-11-20T15:10:56+08:00",
+    "updatedAt": "2026-11-20T15:10:56+08:00",
     "lastSuccessfulAt": "2026-11-20T10:43:03+08:00",
-    "status": "success",
+    "status": "failed",
     "sources": [
       {
         "type": "陸劇",
-        "status": "success",
-        "checkedAt": "2026-11-20T10:43:03+08:00",
-        "itemCount": 0
+        "status": "error",
+        "checkedAt": "2026-11-20T15:10:56+08:00",
+        "error": "HTTP Error 503: Service Unavailable"
       },
       {
         "type": "台劇",
-        "status": "success",
-        "checkedAt": "2026-11-20T10:43:03+08:00",
-        "itemCount": 5
+        "status": "error",
+        "checkedAt": "2026-11-20T15:10:56+08:00",
+        "error": "HTTP Error 503: Service Unavailable"
       },
       {
         "type": "綜藝",
-        "status": "success",
-        "checkedAt": "2026-11-20T10:43:03+08:00",
-        "itemCount": 8
+        "status": "error",
+        "checkedAt": "2026-11-20T15:10:56+08:00",
+        "error": "HTTP Error 503: Service Unavailable"
       }
     ],
     "market": "台灣及華語市場",
