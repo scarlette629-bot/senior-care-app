@@ -32,3 +32,26 @@ class RetryTests(unittest.TestCase):
   with patch.object(w.urllib.request,'urlopen',side_effect=HTTPError('rss',503,'unavailable',None,None)) as open_url, patch.object(w.time,'sleep'):
    with self.assertRaises(HTTPError):w.get('https://example.com/rss')
    self.assertEqual(open_url.call_count,4)
+
+class FallbackTests(unittest.TestCase):
+ def test_google_503_uses_bing(self):
+  def load(url):
+   if 'news.google.com' in url:raise HTTPError(url,503,'unavailable',None,None)
+   return rss()
+  x=w.refresh({},NOW,load)
+  self.assertEqual(x['status'],'success')
+  self.assertEqual(len(x['items']),1)
+  for source in x['sources']:
+   self.assertEqual(source['provider'],'Bing News')
+   self.assertEqual(source['attempts'][0]['httpStatus'],503)
+ def test_invalid_primary_uses_backup(self):
+  x=w.refresh({},NOW,lambda url:'<html/>' if 'news.google.com' in url else rss())
+  self.assertEqual(x['status'],'success')
+ def test_both_fail_preserves_current_week(self):
+  previous={'lastSuccessfulAt':'old','items':[{'type':'陸劇','observedAt':NOW.isoformat(),'sourceUrl':'https://example.com/current'}]}
+  def fail(url):raise OSError('timeout')
+  x=w.refresh(previous,NOW,fail)
+  self.assertEqual(x['status'],'failed')
+  self.assertEqual(x['lastSuccessfulAt'],'old')
+  self.assertEqual(len(x['items']),1)
+  self.assertTrue(all(len(s['attempts'])==2 for s in x['sources']))
