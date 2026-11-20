@@ -32,10 +32,37 @@ def get(url):
    delay=min(5*(2**attempt),20)
   time.sleep(delay)
 
+# Independent search provider; keep the original publication-date and category filters.
+def candidate_feeds(query):
+ google='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'zh-TW','gl':'TW','ceid':'TW:zh-Hant'})
+ bing='https://www.bing.com/news/search?'+urllib.parse.urlencode({'q':query.replace(' when:7d',''),'format':'rss','mkt':'zh-TW'})
+ return [('Google News',google),('Bing News',bing)]
+
+def read_feed(query,load,cache,kind):
+ attempts=[]
+ for provider,url in candidate_feeds(query):
+  try:
+   if url not in cache:
+    try:
+     root=ET.fromstring(load(url))
+     if root.tag!='rss' or root.find('channel') is None:raise ValueError('Invalid RSS response')
+     cache[url]=root
+    except Exception as exc:cache[url]=exc
+   root=cache[url]
+   if isinstance(root,Exception):raise root
+   attempts.append({'provider':provider,'url':url,'status':'success'})
+   return root,attempts
+  except Exception as exc:
+   detail={'provider':provider,'url':url,'status':'error','error':str(exc)[:160]}
+   if isinstance(exc,urllib.error.HTTPError):detail['httpStatus']=exc.code
+   attempts.append(detail)
+   print('Weekly source failure:',kind,provider,str(exc),flush=True)
+ return None,attempts
+
 def refresh(previous,now,load=get):
  start=now.astimezone(TZ).date()-dt.timedelta(days=now.astimezone(TZ).weekday());end=start+dt.timedelta(days=6)
  minimum=dt.datetime.combine(start,dt.time.min,tzinfo=TZ);stamp=now.isoformat(timespec='seconds')
- items={};sources=[]
+ items={};sources=[];cache={}
  known={k:[] for k in QUERIES}
  evidence_path=Path(__file__).resolve().parents[1]/'data/series-release-evidence.json'
  if evidence_path.exists():
@@ -43,13 +70,12 @@ def refresh(previous,now,load=get):
    if entry.get('type') in known:known[entry['type']].extend([entry['title']]+entry.get('aliases',[]))
  for kind,query in QUERIES.items():
   if known[kind]:query='('+query.replace(' when:7d','')+' OR '+' OR '.join(known[kind])+') when:7d'
-  url='https://news.google.com/rss/search?'+urllib.parse.urlencode({'q':query,'hl':'zh-TW','gl':'TW','ceid':'TW:zh-Hant'})
+  root,attempts=read_feed(query,load,cache,kind)
   try:
-   root=ET.fromstring(load(url))
-   if root.tag!='rss' or root.find('channel') is None:raise ValueError('Invalid RSS response')
+   if root is None:raise OSError('All news providers unavailable: '+'; '.join(a['provider']+': '+a['error'] for a in attempts))
    accepted=0
    for story in root.findall('./channel/item'):
-    title=(story.findtext('title') or '').strip();link=(story.findtext('link') or '').strip();source=(story.findtext('source') or '公開娛樂新聞').strip()
+    title=(story.findtext('title') or '').strip();link=(story.findtext('link') or '').strip();source=(story.findtext('source') or next((child.text for child in story if child.tag.split('}')[-1]=='Source' and child.text),None) or attempts[-1]['provider']).strip()
     try:published=email.utils.parsedate_to_datetime(story.findtext('pubDate') or '').astimezone(TZ)
     except (ValueError,TypeError):continue
     if not minimum<=published<=now or not title or not link.startswith('https://'):continue
@@ -59,8 +85,8 @@ def refresh(previous,now,load=get):
     items[link]={'id':'weekly-'+hashlib.sha256(link.encode()).hexdigest()[:16],'title':title,'type':kind,'source':source,'sourceUrl':link,'observedAt':published.isoformat(timespec='seconds'),'isWeiboMention':'微博' in title or '微博' in source,'verified':False,'evidenceType':'本週娛樂報導（非官方熱搜排行）'}
     accepted+=1
     if accepted>=8:break
-   sources.append({'type':kind,'status':'success','checkedAt':stamp,'itemCount':accepted})
-  except Exception as exc:sources.append({'type':kind,'status':'error','checkedAt':stamp,'error':str(exc)[:160]})
+   sources.append({'type':kind,'status':'success','checkedAt':stamp,'itemCount':accepted,'provider':attempts[-1]['provider'],'attempts':attempts})
+  except Exception as exc:sources.append({'type':kind,'status':'error','checkedAt':stamp,'error':str(exc)[:160],'attempts':attempts})
  # Retain only genuinely current-week dated reports when their category fails.
  failed={x['type'] for x in sources if x['status']=='error'}
  for item in previous.get('items',[]):
