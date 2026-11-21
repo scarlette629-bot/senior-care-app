@@ -4728,16 +4728,16 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-21T15:02:07+08:00",
-    "updatedAt": "2026-11-21T15:02:07+08:00",
-    "lastSuccessfulAt": "2026-11-21T15:02:07+08:00",
+    "checkedAt": "2026-11-22T01:28:52+08:00",
+    "updatedAt": "2026-11-22T01:28:52+08:00",
+    "lastSuccessfulAt": "2026-11-22T01:28:52+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-21T15:02:07+08:00",
-        "itemCount": 0,
+        "checkedAt": "2026-11-22T01:28:52+08:00",
+        "itemCount": 1,
         "provider": "Google News",
         "attempts": [
           {
@@ -4750,7 +4750,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-21T15:02:07+08:00",
+        "checkedAt": "2026-11-22T01:28:52+08:00",
         "itemCount": 5,
         "provider": "Google News",
         "attempts": [
@@ -4764,7 +4764,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-21T15:02:07+08:00",
+        "checkedAt": "2026-11-22T01:28:52+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4780,22 +4780,11 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-dee1ea5195dba624",
-        "title": "【23:17 即時新聞】Amphenol(APH) 重挫逾5%／遭節目點名轉往光纖競品 Corning - CMoney投資網誌",
+        "id": "weekly-7ad93a458c28714e",
+        "title": "《綜藝大集合》爆錄影爭議！參賽者烈日苦等整天「開錄前遭換掉」 製作單位道歉了 - Yahoo新聞",
         "type": "綜藝",
-        "source": "CMoney投資網誌",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWEVWX0ZacFpLd2pWXzNERlNaaXk5alFEaDZyWUN0NUtTd292THFrY2QtUHJsbV9NQzlFTXFjRGZZX0E5N2lfMUctaEd0cGN5R1FoWmhkeXVYYlp1RU1tMkVKN3VpdFFzU1c3dE1HejI4S3pHS1lzdTFDcUJxU1BIV2VGLUZzcmpuV2xXQklR?oc=5",
-        "observedAt": "2026-11-20T23:17:10+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-0523a640317582a8",
-        "title": "《綜藝大集合》爆錄影爭議！參賽者烈日苦等整天「開錄前遭換掉」　製作單位道歉了 - 鏡週刊Mirror Media",
-        "type": "綜藝",
-        "source": "鏡週刊Mirror Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBWenB1QjhyQk4wV0RaNDRUdTdqb0ZnNV9LaXc5VkhGZWRFWGNvMWFaTHg2MF9EaUV2YTU3dkl6RGl3Y0s5VjR3N29xMTdETjZHdUJ2YWwxZkR3Y0tlckQ2VkRla9IBaEFVX3lxTE1PYzZqcW1KSURVbkJaN0owMnM2bFh0eGM2TUlxekhYVUc1dUNBS2FpNDNtZ1piOWJLaEZtRVpJV0tPRnAtVHpkS0tXTnRTMHJxdnhoLUdnWHRSUHkybHFGaTdTSkpjUVBU?oc=5",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNOXVtMmtDOGppdDNuUUk2aElEUVEtbjl1R3o5a0lXdkNNLW1icEVOektLYXVNVExvRVFQaG1FQ3NjZGhEeUJVSWFjTXV3bmtaY3J3NExJZHFSemRQMGM1R2Z4VXBsZEJzWWRMYTYtNDJuWTlrUWpEcU5YMnY3aXJ1aktJU2d1b0Y2c1JUdGlHZjRJNnZRM0MtcDA3Mno1bnFoeTBwMERPU1JoeklsalN1b1E4dFV1S29jTFFvd2FCQ0ZQRkM0dXpnbVZ6WEtnZ2Noamd5Sm1idmxMVWpCM0EtempjeFNESEJHTHVUUmVNVW1qVDV0a1I5dUZlaHFQMEtqSVNSZ0dNcldwOFlNSzk5b1g1bGJGODVOSy0xQjVZay1pY09hSW5mVHJaWnpObTdLa2h1RExDZkJKQWxPU3pUcFlKd3h6WUVVMjc2Mm9zQmplcjdfNHR3WG9SX0MyMXp5d002R3J4VnlTV2JfYmpzLTVmV2lCdVp0cjlraUU4T1BycHlOS28xVEVwSXE1dDB4UUFPUGRsN05mS0Z4QnVFNWk0OUJ4bGxaQjQ5TVBINjU4NVdLVG1OS0JmYm90WkZWb1V5bUM5LUJBUEtOZjhZVlU3emVHY1JU?oc=5",
         "observedAt": "2026-11-20T18:52:00+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -4846,6 +4835,17 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-33490cf4b0180e65",
+        "title": "10部「開播就爆紅」高人氣陸劇推薦！田曦薇《嫁金釵》、井柏然《早春晴朗》上榜，這幾部年度爆紅劇一次看 - ELLE",
+        "type": "陸劇",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2xpdmU4bExGd1dTWFk0Y3NsODBUZzhZYVQ0R2hVMll2LW5hZURSNHFtMm82aEJPdnFnNjFmN0FpWDdILTA0NnF6ODhVSmo2ZjFWWW5tdGtqTmQzeG00QTNGdjBqYVZLV1VCMnJ3MzRvREU4MFVGVnFadUNqRk5ZWlp5SXk?oc=5",
+        "observedAt": "2026-11-19T02:22:04+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-0e98d6c52e13363a",
         "title": "Netflix《急診室的奇蹟》評價兩極！10部沒爛尾「從頭好看到尾」台劇！第6部錯過很可惜 - BEAUTY美人圈",
         "type": "台劇",
@@ -4857,12 +4857,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-749cc9310a0792f2",
-        "title": "《百戰百勝》魔王竟選台北市長！網點名「這綜藝天王」該站台了 - Yahoo新聞",
+        "id": "weekly-f675e0b3ea0d1c1b",
+        "title": "馬傑森綜藝初體驗獻給林襄！開口唱歌讓全場驚艷 - Yahoo新聞",
         "type": "綜藝",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQajB0TTJXaGgxc05CQ0wwRUVGSElhUnV5WkdoeDMtTGN6djJSUUN6TnhQd0RZZVBObkxIX3c0MllDMGNwQVEzVzhsMFJ6UjZNLU9USHNJcEttUVBfWFcxUklYZnlWbjB2aE83VnRacm5qQXRJNzhkOFY5dXZmTEdtcnd6RWVlX08xR3BPLW81bjVPdWp1bUY1bWxkV0w4THNGMW9wc2pDSWIyQUVHN3AtVWh0aUt1d0lrZ254LTh3NXhBUVlZckNkM01NbXZSdXR3MDlDTGxVM3k5Tk83WWRNNXJpNHZLQlJ2WFdZMmt4NWNOWW5Lbkx6Y2k3eWVWTUNMc3JISVdCQlBKWG0wSDlGWC1INVZLbFdteFlsQjlNaU52SG0xdTY0Ni1zanZqVHEySWFzeDMtYzZXTmtsZXllREVpT00zSmpOYlVrcFpYVGlhbnZ1VXhhVDNHZ0pWaTVXR3hxdXdhcjhBLTg1MU1VY0o0M29va2di?oc=5",
-        "observedAt": "2026-11-18T17:40:36+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPdjNlSjN3dG5CaXBuNzJOM3VMeEppQ3JuVWVZRU5wb2lrbkpJUWNZNWRoRlV6MGVFcGZHZUs0TjlhM2RJNHJmcC1MRmo5OFFQWDI3SmROWVhOQllJTGNzWThYUnZtSHZCMzFIYzI1bFZyNVBNc0NQSnlMUFlVc0R4UkpKWkJMaWY3UHpGV2hhal82a1dCNVNhSlU5b0xXVE1QXzNvWU9qOUhzcGdab3hEbXNxMk9yekIzSTE2aXRHenJtOHRNdS1YVWFaZlZpcW5mUUxZUXZEeU01NUJ2TzloTkZUVXRIYUVCNkF2QmZQWjdnY05ub1d5VjdWd2tLeGJKVnJ5YkJ1SXh3b2I2WWlvTDQyWXpVTFpudW9kQkgwSHoyVHR1TFdPX2hEVmpvZ3ZydzJuTmNRdWo4S05VblZfUjdndkxCSUhjTjdQVkdPZXc?oc=5",
+        "observedAt": "2026-11-18T14:39:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4879,11 +4879,22 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-0e1282b1983f7823",
-        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 星島頭條",
+        "id": "weekly-dcd0b280bb0c33fd",
+        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - 經濟日報",
+        "type": "綜藝",
+        "source": "經濟日報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WWdzU0xXVUw3bjZ3RDlVRzh3eEZySGpZU21vSjZQZ3Y1MF9IZE51SXB5bjVMU2lTcXhoZ1RNX2NJYU9xMWNTM0dQWjFLUmRXRTBqUU0wYlVnM2FN0gFiQVVfeXFMT3puR3lpS1pfaFI5eG5lWFljR1BEMlV4WWFtdGxURU5qd0w0VlJ4SnFsemxvN0Zjejh0WmY3MVByRVVteHNjSHY3QlFTaTMwd0JWQm9ENWpOdGdPdm9idzBPS3c?oc=5",
+        "observedAt": "2026-11-17T15:00:49+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-852998dab10cc10d",
+        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 加拿大星島日報",
         "type": "台劇",
-        "source": "星島頭條",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMixwNBVV95cUxQcUNna1pRRWxTV0h0QV9veTJSOHdwM0p6R3FoWmNEVzBsb3ZoVzlqeXRzRWs5TnAyeWt5VWNodFU1bFZDdGdXalphQVpEOWRhMzJqU3lyMk5acm03XzIxeEtDLVV5ZC1VYUItZG9NazVIWGc5N1NzRFpjTWpJMlhXTjRYR1A4R1d2ZW83X0VWRjJTUU5NcFRjZTBaRFBHalc1dkNHUDVqVHNSUFduODlEVjJxalB5d1N4bVJuSWNVaW9JanprRjluS1ZtRjBxc1hvZmxPWmVzQUprbmZFQzBkakVzaDRiLUJHR1V2b2c5YzlHb2I5azMwT0g2THJHajg4ajlsZHdqOEM1c2FDM0E0dVFyb3ZUTUhmSG9tUzZKcVlEVk9QcEZGSnh1amxpVXJMVjl5cERkaU9nNFNhZzJuek5JNDZDTzgzTFVhd0FqTVFwcG9IS1JvTE95bFF3eVp4X0R5Q0pRanJOUFhRcEhWbGFDWmZrX0JkSTVPbms5M0NTSkcxRFJNS2xVT01fUjRnanRpZkJZekRLTF9Ob3lpbkVGNTJxN3RWZFBnVDd2WUdoUVJ0SjROZFVJeUFaa045VkJxeXREbw?oc=5",
+        "source": "加拿大星島日報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxON1cyZDJXRFRZNHVxckdtQy1RVWk0bVFvMEpGVG1wNWxfZW9NcUEzTGRhazA5dWxCSDg1czBPWEZjbUNTZVpMRVcwTFA2UHBrTHF5TzBXaWtiZHNsNjdhUGJVYy1PUlh6dEpjcUVLTFd6Ti1DYmdfMlRFTGI0dTNvb2JaUFJjV0lYdzBReEhHS3JsTnFDakVnUElORXRmYjJGOUYzVVY4eTBjUVEzYVZycWM1UXFDemQwU0FDWW9NNmNseGdPTk14Sm0xWW5ZQlNkR2E5Y2xNM2dzYmVucVdsRmVZNVZ0SXlLZjJKeE95dDRNWFdWMHlKUlRoSGVEM2pnV0wtcFB5Y2lOaFIzZjd6SktOVFNpdDZJa3NaRldpOXJJVk9CZGZaTmRKbHhWRW5oRzZSbFRlOHkwN2pUWUFQcmFaUlRVSVdybVNaZElTSTl0NmJmVmpR?oc=5",
         "observedAt": "2026-11-17T14:00:47+08:00",
         "isWeiboMention": false,
         "verified": false,
