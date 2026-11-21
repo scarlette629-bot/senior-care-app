@@ -4707,15 +4707,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-21T10:53:44+08:00",
-    "updatedAt": "2026-11-21T10:53:44+08:00",
-    "lastSuccessfulAt": "2026-11-21T10:53:44+08:00",
+    "checkedAt": "2026-11-21T15:02:07+08:00",
+    "updatedAt": "2026-11-21T15:02:07+08:00",
+    "lastSuccessfulAt": "2026-11-21T15:02:07+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-21T10:53:44+08:00",
+        "checkedAt": "2026-11-21T15:02:07+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4729,7 +4729,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-21T10:53:44+08:00",
+        "checkedAt": "2026-11-21T15:02:07+08:00",
         "itemCount": 5,
         "provider": "Google News",
         "attempts": [
@@ -4743,7 +4743,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-21T10:53:44+08:00",
+        "checkedAt": "2026-11-21T15:02:07+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4792,11 +4792,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-128b15d2a9f66300",
+        "id": "weekly-6c31d7bfce27605b",
         "title": "《綜藝一級棒》連3週稱霸收視！王建傑登台揭工地秀秘辛 - 自由娛樂",
         "type": "綜藝",
         "source": "自由娛樂",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE50MGF3dFJJOE11eWhwT0phWEh5ODcxSVlnaGlmSThPWUFIRVpyVHNYM0FHU2xzWXpSYjV2RkdkdmJ5dndER0ZRLUVmVUpTYlVVYVdXYkNrT3ByNTAxdUdtV1hB0gFiQVVfeXFMTnQwYXd0Ukk4TXV5aHBPSmFYSHk4NzFJWWdoaWZJOE9ZQUhFWnJUc1gzQUdTbHNZelJiNXZGR2R2Ynl2d0RHRlEtRWZVSlNiVVVhV1diQ2tPcHI1MDF1R21XWEE?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naVV5TWU0MVRjVFkybEhRS0E3TzlmTm9wSms5WEE5S1gxeExpaHdTTWYwMWVZUkRsanp3bGdOSWpXOTZOTmVINDBfcGZYSU9EekxQX28zeXVaWm8w0gFiQVVfeXFMTnQwYXd0Ukk4TXV5aHBPSmFYSHk4NzFJWWdoaWZJOE9ZQUhFWnJUc1gzQUdTbHNZelJiNXZGR2R2Ynl2d0RHRlEtRWZVSlNiVVVhV1diQ2tPcHI1MDF1R21XWEE?oc=5",
         "observedAt": "2026-11-19T14:36:14+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -4814,6 +4814,17 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
+        "id": "weekly-e7a5d86c48c936e1",
+        "title": "董思成、楊超越錄《今天是太陽雨》延伸綜藝 他見她與《逐玉》鄧凱合照醋勁大發「這番話」超爆笑 - 上報Up Media",
+        "type": "綜藝",
+        "source": "上報Up Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kS1RrZGtPZDd3bW5yLVdlUUstNEhuTURiTWVlWllWb3VNbnFBZ3RxbURpRGR4SU1qSHlQblZxMFNLRUNNS0pmVFVTMHAyYk1odjVYZ29Ib2VZWGtrUW5aa0NER3oxbHl1MUE?oc=5",
+        "observedAt": "2026-11-19T11:40:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-0e98d6c52e13363a",
         "title": "Netflix《急診室的奇蹟》評價兩極！10部沒爛尾「從頭好看到尾」台劇！第6部錯過很可惜 - BEAUTY美人圈",
         "type": "台劇",
@@ -4825,12 +4836,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-b6942fdd83c4decc",
-        "title": "馬傑森綜藝處女秀獨家獻林襄 私下「真實互動」全曝光 - Yahoo新聞",
+        "id": "weekly-749cc9310a0792f2",
+        "title": "《百戰百勝》魔王竟選台北市長！網點名「這綜藝天王」該站台了 - Yahoo新聞",
         "type": "綜藝",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOS0FURXFZWkE0WDlqODFxbTBNa0RIYjk2bF9zc3lQRWIzRkJVSHkxVklabXBzWGFxRmQ3ckZFSDlxbDVsMnphbk9kaGVqRVBFSW1aVzRQa1FNLTBLQXV6aTFDWkNQZkVRczRDS0xxUk1wbGI1cnhrLTlzeVZ4cVkweTZjaVVjdGZVSUhSU2plN1l5OUFxUGRHeTN2WnRPZ3lfTFFlWEoxRVBDWjhnSmQwYlprVUhiQUlLMmZIZkNLd2NLVzhScWpZMG04YU9PQnhNcldodjlkTllEZmswSzl0akRwTFI0NFlCdlZXS29waU90bG11U0dmbFZXZERaZDJBclJOa1dKRzJaVWw3a3J4NDF6Vl9ZR2ZCTGpKUXIzSUJuYzVPNzVadndaT1RPMFUxdEo0OTRkelE1cjI1ME5zZGphZTgxMWhsMUZoT1U1OVNGdXY4Zi1pU2plOTRsU0U?oc=5",
-        "observedAt": "2026-11-18T12:23:37+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQajB0TTJXaGgxc05CQ0wwRUVGSElhUnV5WkdoeDMtTGN6djJSUUN6TnhQd0RZZVBObkxIX3c0MllDMGNwQVEzVzhsMFJ6UjZNLU9USHNJcEttUVBfWFcxUklYZnlWbjB2aE83VnRacm5qQXRJNzhkOFY5dXZmTEdtcnd6RWVlX08xR3BPLW81bjVPdWp1bUY1bWxkV0w4THNGMW9wc2pDSWIyQUVHN3AtVWh0aUt1d0lrZ254LTh3NXhBUVlZckNkM01NbXZSdXR3MDlDTGxVM3k5Tk83WWRNNXJpNHZLQlJ2WFdZMmt4NWNOWW5Lbkx6Y2k3eWVWTUNMc3JISVdCQlBKWG0wSDlGWC1INVZLbFdteFlsQjlNaU52SG0xdTY0Ni1zanZqVHEySWFzeDMtYzZXTmtsZXllREVpT00zSmpOYlVrcFpYVGlhbnZ1VXhhVDNHZ0pWaTVXR3hxdXdhcjhBLTg1MU1VY0o0M29va2di?oc=5",
+        "observedAt": "2026-11-18T17:40:36+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4842,17 +4853,6 @@
         "source": "Macau Business",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPT0lZX0hIS3Rwd1VnY08yUzN2TkxoTXd0X1d2LVJpUHZHUG5DNDBNM25raW9ZN0FTUXc4ZnYxRVJUZE5jcEhMaGcwcUl6bzlxTTh3OGNXZnEwXzBBZzVWRXRiZXhBMU5XWjRfWjBPWmN0cjV0VEpQdmZCZWg0V1lpZ3JOWld5WFp5anN2djdFcV9lcHZPOWd0ZnJDQ2FtRzh5cVZ0d2stMjhrRUpmVWluaDc1M2NXRTNRbmhpc1RHMEY2NURfa0NsMFhzbGl0Mkp3cFNQQkd2d2FVS1lYOG56OFVFLWxGN2E3T1pNWUhCYjVFblYxcmRRSTlBNnQzREYxNUdsY0pJdjRabXdJMU1iYVNiZmU1amlHMVZPRGdDRkM5Z2FGZWVPc3JGSFEtcG9ZREVMMUEyM25DNnJURFNxaElQbw?oc=5",
         "observedAt": "2026-11-17T15:13:27+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-dcd0b280bb0c33fd",
-        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - 經濟日報",
-        "type": "綜藝",
-        "source": "經濟日報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WWdzU0xXVUw3bjZ3RDlVRzh3eEZySGpZU21vSjZQZ3Y1MF9IZE51SXB5bjVMU2lTcXhoZ1RNX2NJYU9xMWNTM0dQWjFLUmRXRTBqUU0wYlVnM2FN0gFiQVVfeXFMT3puR3lpS1pfaFI5eG5lWFljR1BEMlV4WWFtdGxURU5qd0w0VlJ4SnFsemxvN0Zjejh0WmY3MVByRVVteHNjSHY3QlFTaTMwd0JWQm9ENWpOdGdPdm9idzBPS3c?oc=5",
-        "observedAt": "2026-11-17T15:00:49+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
