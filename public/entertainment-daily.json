@@ -4743,18 +4743,18 @@
     }
   ],
   "weeklyHot": {
-    "weekStart": "2026-11-16",
-    "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-22T14:43:20+08:00",
-    "updatedAt": "2026-11-22T14:43:20+08:00",
-    "lastSuccessfulAt": "2026-11-22T14:43:20+08:00",
+    "weekStart": "2026-11-23",
+    "weekEnd": "2026-11-29",
+    "checkedAt": "2026-11-23T01:48:13+08:00",
+    "updatedAt": "2026-11-23T01:48:13+08:00",
+    "lastSuccessfulAt": "2026-11-23T01:48:13+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-22T14:43:20+08:00",
-        "itemCount": 1,
+        "checkedAt": "2026-11-23T01:48:13+08:00",
+        "itemCount": 0,
         "provider": "Google News",
         "attempts": [
           {
@@ -4767,8 +4767,8 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-22T14:43:20+08:00",
-        "itemCount": 5,
+        "checkedAt": "2026-11-23T01:48:13+08:00",
+        "itemCount": 0,
         "provider": "Google News",
         "attempts": [
           {
@@ -4781,8 +4781,8 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-22T14:43:20+08:00",
-        "itemCount": 8,
+        "checkedAt": "2026-11-23T01:48:13+08:00",
+        "itemCount": 0,
         "provider": "Google News",
         "attempts": [
           {
@@ -4795,162 +4795,7 @@
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
-    "items": [
-      {
-        "id": "weekly-7f85c2d077df381c",
-        "title": "康康2027高流演唱會：從《快樂鳥日子》到綜藝收視冠軍！你不知道的11件事 - 遠傳電信",
-        "type": "綜藝",
-        "source": "遠傳電信",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkFQTG8zb3BGYlV4YWNvSGJpd1JESEtkOW1EVk5KeUFTdUxJNG83aENPTWIwSEFWLWo5NUtReE1GWUVpejRHa0FmQ0F1RVRoeFJxMGZDTnAtTWhSWE1qYmxjLVlpUjMxQWRyeG5zZ3ZoVVNIVEJEcHN4YkhQbk1YaTBJSzY?oc=5",
-        "observedAt": "2026-11-20T00:19:40+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-fbb56010341877ee",
-        "title": "《嫁金釵》《Doctor X》輸了！Netflix台灣最新收視排行榜出爐，冠軍竟是1 部黑馬台劇 - 風傳媒",
-        "type": "台劇",
-        "source": "風傳媒",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrUTJGcVhGTi04RHlyb3dwZHBrdnZsbVRoMHgzQkdoSHRKeFlBMFppTE12VFF2UEFEM18yZHk5ZWgydG56ck9oQ1otUmE3X0pm?oc=5",
-        "observedAt": "2026-11-19T15:59:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-6c31d7bfce27605b",
-        "title": "《綜藝一級棒》連3週稱霸收視！王建傑登台揭工地秀秘辛 - 自由娛樂",
-        "type": "綜藝",
-        "source": "自由娛樂",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1naVV5TWU0MVRjVFkybEhRS0E3TzlmTm9wSms5WEE5S1gxeExpaHdTTWYwMWVZUkRsanp3bGdOSWpXOTZOTmVINDBfcGZYSU9EekxQX28zeXVaWm8w0gFiQVVfeXFMTnQwYXd0Ukk4TXV5aHBPSmFYSHk4NzFJWWdoaWZJOE9ZQUhFWnJUc1gzQUdTbHNZelJiNXZGR2R2Ynl2d0RHRlEtRWZVSlNiVVVhV1diQ2tPcHI1MDF1R21XWEE?oc=5",
-        "observedAt": "2026-11-19T14:36:14+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-682a8423c8762605",
-        "title": "《綜藝大集合》爆爭議？素人彩排整天突被換　疑連獎金都是給藝人 - NOWnews今日新聞",
-        "type": "綜藝",
-        "source": "NOWnews今日新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE16dEh2S2ZrRkNfNGdITmNVQlJ3b3o0bUhUTGFQbXE5dl8tSS1LT2dQdUF5TjdqNG5rS2lIR3JmT2NTcXNEeWVLMU9hMzJ3WVU3c2fSAVJBVV95cUxNenRIdktma0ZDXzRnSE5jVUJSd296NG1IVExhUG1xOXZfLUktS09nUHVBeU43ajRua0tpSEdyZk9jU3FzRHllSzFPYTMyd1lVN3Nn?oc=5",
-        "observedAt": "2026-11-19T14:02:37+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-e7a5d86c48c936e1",
-        "title": "董思成、楊超越錄《今天是太陽雨》延伸綜藝 他見她與《逐玉》鄧凱合照醋勁大發「這番話」超爆笑 - 上報Up Media",
-        "type": "綜藝",
-        "source": "上報Up Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5kS1RrZGtPZDd3bW5yLVdlUUstNEhuTURiTWVlWllWb3VNbnFBZ3RxbURpRGR4SU1qSHlQblZxMFNLRUNNS0pmVFVTMHAyYk1odjVYZ29Ib2VZWGtrUW5aa0NER3oxbHl1MUE?oc=5",
-        "observedAt": "2026-11-19T11:40:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-33490cf4b0180e65",
-        "title": "10部「開播就爆紅」高人氣陸劇推薦！田曦薇《嫁金釵》、井柏然《早春晴朗》上榜，這幾部年度爆紅劇一次看 - ELLE",
-        "type": "陸劇",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2xpdmU4bExGd1dTWFk0Y3NsODBUZzhZYVQ0R2hVMll2LW5hZURSNHFtMm82aEJPdnFnNjFmN0FpWDdILTA0NnF6ODhVSmo2ZjFWWW5tdGtqTmQzeG00QTNGdjBqYVZLV1VCMnJ3MzRvREU4MFVGVnFadUNqRk5ZWlp5SXk?oc=5",
-        "observedAt": "2026-11-19T02:22:04+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-0e98d6c52e13363a",
-        "title": "Netflix《急診室的奇蹟》評價兩極！10部沒爛尾「從頭好看到尾」台劇！第6部錯過很可惜 - BEAUTY美人圈",
-        "type": "台劇",
-        "source": "BEAUTY美人圈",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5MVkhVUS1vN0o0dUFHZDhyS1BiUHROU0Y2TG0wXy1xQnFzeXp0VjhDNjQweWh5Q29LN3JlaDdBaS1jTHpsMkFheFh6R0vSAVJBVV95cUxPUmNJNndDTFA5cnk0b3ItbGlzVUxGTEpSSzVLdnd0dEdWd01wbHdQMFBQaW1zTElhcHhEd3hfRExaSUhwb2llOUxyclhDSV9hY21R?oc=5",
-        "observedAt": "2026-11-18T19:00:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-cb7aeb26b5632afa",
-        "title": "鍾欣凌、杜詩梅錄製綜藝節目 (圖) - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM3NaZDdCbno1QWF3dHBEb3ROX2J1RVpVOTloWWgwLVE0SEltTllMS1hVazVfNGZ2Y2FHY3VsOG4yRzV6SV83T2N0b2F4R09MV1I4VTI1Z2JUUjV6cDFLRDk5ekt3b3RLVzhrdFRJV2wzYldTaFAyRmhBRUtLWF9zRHpkWGNKenZnMDJGZDBjak9iaWhLLTVndGU0cWFaMGRVZ2pfOTd6UUh4Sm1TbWRNUjRjeGlDZGxzUHJibDhkd19oVU9CRF8xdlktMkZZLTJlbllHd0FCNWdwcldpbEU0UThvUks0UkpmdURYNzBQNnNZQQ?oc=5",
-        "observedAt": "2026-11-18T16:13:49+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-dcd0b280bb0c33fd",
-        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - 經濟日報",
-        "type": "綜藝",
-        "source": "經濟日報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16WWdzU0xXVUw3bjZ3RDlVRzh3eEZySGpZU21vSjZQZ3Y1MF9IZE51SXB5bjVMU2lTcXhoZ1RNX2NJYU9xMWNTM0dQWjFLUmRXRTBqUU0wYlVnM2FN0gFiQVVfeXFMT3puR3lpS1pfaFI5eG5lWFljR1BEMlV4WWFtdGxURU5qd0w0VlJ4SnFsemxvN0Zjejh0WmY3MVByRVVteHNjSHY3QlFTaTMwd0JWQm9ENWpOdGdPdm9idzBPS3c?oc=5",
-        "observedAt": "2026-11-17T15:00:49+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-852998dab10cc10d",
-        "title": "Netflix台劇《急診室的奇蹟》衝熱播TOP 1 楊謹華嘴咬針蓋遭醫護鬧爆根本「全菌出擊」 - 加拿大星島日報",
-        "type": "台劇",
-        "source": "加拿大星島日報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxON1cyZDJXRFRZNHVxckdtQy1RVWk0bVFvMEpGVG1wNWxfZW9NcUEzTGRhazA5dWxCSDg1czBPWEZjbUNTZVpMRVcwTFA2UHBrTHF5TzBXaWtiZHNsNjdhUGJVYy1PUlh6dEpjcUVLTFd6Ti1DYmdfMlRFTGI0dTNvb2JaUFJjV0lYdzBReEhHS3JsTnFDakVnUElORXRmYjJGOUYzVVY4eTBjUVEzYVZycWM1UXFDemQwU0FDWW9NNmNseGdPTk14Sm0xWW5ZQlNkR2E5Y2xNM2dzYmVucVdsRmVZNVZ0SXlLZjJKeE95dDRNWFdWMHlKUlRoSGVEM2pnV0wtcFB5Y2lOaFIzZjd6SktOVFNpdDZJa3NaRldpOXJJVk9CZGZaTmRKbHhWRW5oRzZSbFRlOHkwN2pUWUFQcmFaUlRVSVdybVNaZElTSTl0NmJmVmpR?oc=5",
-        "observedAt": "2026-11-17T14:00:47+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-a9a588e00c5e954f",
-        "title": "「我不想（和你）做朋友了」　陸實境節目揭「長大後」交友有多難 - ETtoday新聞雲",
-        "type": "綜藝",
-        "source": "ETtoday新聞雲",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyZXQzbk1MdjRTQTExaGthcGZwU1liMXZDc0hUN2UyaTJoeXNHUE8tb2I3WkN6Z3NsYjJwSnp0X0pRZlo3N0wzWWRjeFp6em1QLWMtdXhXRDFtVEg5bmfSAUtBVV95cUxQaEhxUlNDZDdPYU9hUkNmWGJiNThjMkxIaUVFeUptNk5tUU8yUWdwenlncE9LVjVWRDRMdkpfN1JyRVcwbTlwZUw2Ymc?oc=5",
-        "observedAt": "2026-11-16T11:10:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-1e282688118bef25",
-        "title": "Netflix台劇《急診室的奇蹟》5大亮點！霍建華睽違多年披白袍搭檔楊謹華，《火神的眼淚》團隊打造首部急診室職人劇 - PChome Online 新聞",
-        "type": "台劇",
-        "source": "PChome Online 新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR3NiSm1pR1F0eXkxTzlwRk04ZWNXYzNZSEVtcUEwOEtjWmk4TVVKMnhIRWg5ZHZfaEozMHo0Z18tcDJ3aUU5dWVKc0J3TkpfQWxYVmN2ZVBydGNOVWpjNXBvY2xXSHZSclJIVTZjNUxMT0pMWnI1OWpFX3BZSVJSRk9yUEhIZEtkbkE?oc=5",
-        "observedAt": "2026-11-16T08:50:52+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-86dc87482d2fe4a7",
-        "title": "Netflix TOP1台劇《急診室的奇蹟》結局&醫療行為惹議？霍建華、楊謹華端「巔峰演技」5大噴淚情節必看！ - Yahoo新聞",
-        "type": "台劇",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQRk5YVWtVb3lVbDdBSGpSSzczRExmVEc4eUcyY3oxR2xmVzVoY2ZZelJfeXh4UHZwU2tUN3hwTWY4bzJ5cXBCXzhsUVFmcVNIU2tmQUgtTEVGYm9BUGNWdDVTZ25nWHg2dVVEOXNaczlBOG4zTEFBODRJeWdwQ3NsT3cxTGk4cFZ1TmlfeWlrSUdnNGwxdmhsSUR6cy1pQmFUelNIYUlvMjJUY1N5WXNuM2tPeEF3MTQxblVtQ0ZoN3ZFSXpUTlhLT2ZPMWM1ZW44RHJCUGk1WGVJVDhtTy11Ml95WW9GMnc3UnNZUG56S0dmTTZNZUZUNXh3MlVpZ3BOeGZqOHhFdU5aRmZqc0pHemNKcnhzVmNkWk1Oc2JQTWNfQ3FxRmZPX2pZRlZVVnZOaFdSRjYzXy05WmtxVmJIanVLbVRTazQzVG0ybGgxVzQxVUJQMGhSLW9MWmZ2NE01SWpwTDRicGY1ajhvZDMzejZvaHFoaTJJczJGS1dFbFc2UU41aWJXekFfMVhfWVc1eVRYN2l5NzFtVmdGcDBfMnBzNm9LbEwxcHB5LTJOQ2hRd1B1dW8wUzZCZjduZzlyTjAwSFlWcTUybnlrVVkxa2lwQlhDZTZIckhKWmxpSjNLSGJQOWZrSUdtRFVIaDVBa1FvcXRtd1BYY3dqZGtrVkFoZlV5Q3pORWdpZ0V2OVVtWXp2aDI1d2puRmltQlQ5LThiREhTWU50ZWV3ZHd0Zm02RUl4ajk0Q2dkTGt2cFhXdWN0SllxTjc1RXpnbHhp?oc=5",
-        "observedAt": "2026-11-16T01:47:07+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-4111598b22aecd6c",
-        "title": "外景綜藝精隨：答錯也要有氣勢！【Yahoo車的試煉】 - Yahoo - 汽機車",
-        "type": "綜藝",
-        "source": "Yahoo - 汽機車",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOSF9WSUE1cGVNVERRR2pSdk9oaFREX2p5elJBSmJuTWlLeW11clh6TEtVUmN2U2YxYWNMWFozeWZvMDA5Zks1dVdDU3d3WHNJUVJFbkJ4WUlVSFVnanBfeE9XbzBaZGVNQ0REa3oyd1ZNOUxubmtnMmtzMUYtdlVRWHRMWC0yYlk3N0ZOazhiaWtlUWFfSWZVM1J6UFMxbEdPeDFjV1FxOGZ0UHhkV2VpcGg3czA0V1lGeVUtc2w0d2ZQbTJRaC1wRWZxTl9teDRvQTN2eG5ndU5DV0pNUVlnT1hDcE1lYVdTcnkyS0RyNFRkU2R5Ml9yX2RHYndoS09qYnlxdF9fR0EzUng5dGR4UGljYUZXVzR5MDVXUWJBV2xCNkZnN0kwdDIybDA1bTZhNC1NTTRxLUdUbFFLcVlkMmNXdGtNV2hUUFlCc0cyY0k1WmpWcjZPVGNzR095VlE?oc=5",
-        "observedAt": "2026-11-16T01:30:37+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      }
-    ]
+    "items": []
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-16",
