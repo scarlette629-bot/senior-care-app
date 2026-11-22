@@ -1,13 +1,19 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-21T15:17+08:00",
+  "updatedAt": "2026-11-22T09:43+08:00",
   "categories": {
     "陸劇": [
       {
-        "title": "10月必睇5部內地劇清單！肖戰轉型演基層醫生、田曦薇挑戰雙面女 - HK01",
+        "title": "2026陸劇推薦60部必追片單！田曦薇《嫁金釵》、林一《折月亮》必看，播出平台與劇情整理 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+        "source": "ELLE"
+      },
+      {
+        "title": "10月必睇5部內地劇清單！肖戰轉型演基層醫生、田曦薇挑戰雙面女 - 香港01",
         "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOcXdvLS1JZnFIYlNJN0dvWmNhckV1WG4yMnd2ZGk2R216aFdiUmt1UlBwbkRwYWFqSkdGcnlSWjM4R2oxaG1XbmpPbWNMdklCdVdOVHJSdFlIX09OaXNYQU5qTDJhLTdMTF9WbUpHREJmYkNWSGZGRjVGVlVydDRSV2pDVVFzR3NrNnI4bWJOd1ZNeC1nY0hJcWZ5aWcxQkhqRllzVmFrVTZiSk9IaVdENWE5Y0RHTGZUX01sa2luaXQ4Nm9mSnQxUkVmOGlnUkttSHhLY0QyaEJPbTJRX1g1M3hETmJTWjNTRWVibExxdG1UMHJxS3d0LU5WLVdISzJ5c0NiaGdpdWtjQU1mQVBlSV9fblVQdV9Ld3YwVUFKUGFtXzAzQk1TaUZUTEZWSmdMbnVNSHJCcW9TdWNUUUtfdnB2NmtpWlB2RHVkaDhyTHR2NWt5a0ZCcWFFSEgxY0RzRXNfVEpoMDR4S2xDR28waF9OQUpPaFBTRzVBX2lKU0VjT0JNaEt3Vlp1V0t0VU9tQk9xaXFYNXBhQkRM?oc=5",
         "published": "Fri, 09 Oct 2026 07:00:00 GMT",
-        "source": "HK01"
+        "source": "香港01"
       },
       {
         "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS新聞網",
@@ -16,22 +22,16 @@
         "source": "TVBS新聞網"
       },
       {
-        "title": "《蘭香如故》譚松韻千金淪丫鬟逆襲主母！Disney+線上看追劇日曆、演員角色與原著結局 - TVBS新聞網",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pYmhuRTRfTFc0N3ZFWERDS2hsR0M3YUU0Y3VWVnhHZ2pzdDZ0bzlKZmhxbWUyM1lKYWZRclBUZW9UVmx1dVhjb1NsWlpEWGF4SEJUeHc4UXhXTUxuRmJpUWtB?oc=5",
-        "published": "Mon, 21 Sep 2026 07:00:00 GMT",
-        "source": "TVBS新聞網"
+        "title": "《逐玉》本週完結不怕劇荒！6部古裝陸劇接檔推薦 迪麗熱巴《白日提燈》衝上Disney+ 收視冠軍！ - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOMkU0dGRidVVKSUpINDNabWwyZW1RcDVSWWhHdmJsS0lORXJ6NXJ6aWNyZEkweHFvbkZTM1JNSUVhYlZzVGE1MGViRnFCa3BhSDlOTWVuTmJvMm9YR25FZk4yam1uN1hXZkgzcENMR2pzaGVLeDNNM3JBNzM2blpfcDZ2S0RBcGoxT3ZYelE1aDhUQmpnbEY3eWsyckNCSVhUZlduVHZyZjl6SFo0dWZrZVBYYzI1dl8tRHhxTzZRT1lxNmMyS1hkS1hxdHBlbENMQUZtWV9neHRVMWk3eDJ6ejEyNUhTRVE4VTBHMnNOYWJWMzVLS25FRGhVeXRxLXYxMVEzM1V2UDhtZGV4Vnh4elNEVUVVMDRuYnJ6ZzRVTDdjTk5PUlJGUFNxRkVDN2YyVFJReURUX0Nqc294RFZ1WHA2RFBzVGhZc0MwUHZ3TG9jMjVCUEVXbmJHLVdDRDVoaGY1cEZMdUFFcjQwOE5Ob3Q0R0NEcDFFOVdDRXpOZVYxWWtrdm4wQWZpMFV0VnpxbnUwcHdBZ0ZHOEdWNmM0NERyeDNJVWZwQ1BMZGlvU1VoYnlNLVlVdEJwUWFrZGhXYkNyanNxOW5pX1pKZ25rTG1fSG1YTFhmVzU1VXkzRTRyS0hDWVhSY3EzRmt2Skoyek03UDJ6WTNISlV0MF8tV1pnamd2Y091ZUFPdDg1WEdMSThDdC1aSmtwcVNVcnN2QWh2ZVJtQ3FkZ3Znc0Frd296SQ?oc=5",
+        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Yahoo新聞"
       },
       {
-        "title": "2026陸劇推薦60部必追片單！田曦薇《嫁金釵》、林一《折月亮》必看，播出平台與劇情整理 - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
-        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
-        "source": "ELLE"
-      },
-      {
-        "title": "2021陸劇推薦！《一生一世》任嘉倫、白鹿絕世甜劇，《國子監來了個女弟子》趙露思稱霸甜寵女王 - Marie Claire 美麗佳人",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uMncyQW9sWWtiS0ROQzgyVjZ1VmtIa2FzUkw0WWFMX1BKdFBUZTFwdDhmVGZiUmExWFhRVldHNVJSakdCNTVjV1ZqOWZqMnhJbWxEamZ3QV91MmhjWW5KVVl0Z3lpRHFf?oc=5",
-        "published": "Wed, 19 Jan 2022 08:00:00 GMT",
-        "source": "Marie Claire 美麗佳人"
+        "title": "《尚公主》孟子義李昀銳新劇 改編減暴戾與暗黑 書粉批3大改動 - 香港01",
+        "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQTzA5Z1Q3TUVmVmNjUmxuMklZYi1xX3U1MjlWUWw1YUhnck9WTmtoakFVbHRIMVY0cFBVa3czeGlnZzAtUHllejcxSVpKd3FXcnVfSlFLMm42UDdzX2h1cTRMTVA0YkE1b2s5cG42TUhsRkQzNDc4bEs5Qjk2VzBQMFRBeTdiLXJKX3JpZmVhWlB0TFdSV21ZLUU0WmxicjgtSmYyOExZaEhUSGM4allVdXJhbGtxczlpQUVGSVpVd1JuUTNWemJXbFpfYlFnTmhMZmFJMGc0WW5XdGxSRFZxLUFxTUxzaTYwVzhubUZGMm96TGRuTjBfNWRWS3FRRFpRT2pybXlnMWNoWlNIY0x1ZVFLQ1V6a3EyenNob3FqY0dEUWEwZldUZTliajAtZEM4RjV2ME1GZXJ0NUgxNllNZ3d5T01qdHFpazdYZUJWS1NrUGp5d1o1Z2d3a09KQy0zYzduUkxGYktWZmpIVWN0SmlDRjN1bC1UTUtFMmFmS19sQlFady13bWFBSTdOSFU?oc=5",
+        "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+        "source": "香港01"
       }
     ],
     "台劇": [
@@ -48,9 +48,9 @@
         "source": "Yahoo新聞"
       },
       {
-        "title": "串流收視週榜／《嫁金釵》《南田南》雙破歷史紀錄！台劇《新手上路》排行超車 - ETtoday星光雲| ETtoday新聞雲",
-        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HN0FWdlZnRGFPLXlGS2ZvaVdMRDlxSUFITGxXT0NxX1NjRjNHRWdGWkVtZG5hUU5Oa1dMYTNBTmg2WTFlQkhwdFBfR0FrZ9IBTEFVX3lxTFBaQm1PNmo2UlRDQVJpYUpJMmlVMnVCempFRzBxQTlSQVJHZndGZFhFWkVYaExfTUoxdXBpTnBhWVBHV19EY1JreUZ4cEo?oc=5",
-        "published": "Wed, 28 Oct 2026 07:00:00 GMT",
+        "title": "串流收視週榜／《早春》《T乾》完結數據驚人！《夜畫帳》3新劇追起 - ETtoday星光雲| ETtoday新聞雲",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zNEVJYmZCZTJhTXliV2hwbFRWRGJtak9JUTNEdnpmNGkzcy03UmtFWWlIYU1NTVdiMmtBOFFkM2pwOW5XTW5QYnZOYTZ0d9IBTEFVX3lxTE92YV9icWRtTmhLazB1S2pzQkZGRU5ocHJPLXNBMURwbXBVVm9Qd3I2LVpGLWtSZXEtN1Q4aTBVWTR3VGhSeFc5X0ZXS3k?oc=5",
+        "published": "Wed, 16 Sep 2026 07:00:00 GMT",
         "source": "ETtoday星光雲| ETtoday新聞雲"
       },
       {
@@ -118,16 +118,16 @@
         "source": "網路溫度計 DailyView"
       },
       {
-        "title": "「AI版」串流平台：觀眾們，請自己創作AI劇集 - 鉅亨號",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1GMGRRM2ZRdlZ4TzVvQVBFR0R2RkpSRS0zczIxS3Q3UnR6QUlpOENlYVI3cmpURVJITVNGYm1PdUZLaHNiODA4?oc=5",
-        "published": "Fri, 07 Jun 2024 07:00:00 GMT",
-        "source": "鉅亨號"
-      },
-      {
         "title": "陸劇推薦2026》10+部必看排行榜！《逐玉》、《玫瑰叢生》古裝現代一次看 - TVBS新聞網",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yR0NuR2VfekYtNnllb3ZyMVg4R1M0TldBMWtkTGRvcXdsbTc5RmpXa1BPelYxNVRuTDA3VXRoWlYxQ0kzUEZPODZwOW9pUlFiNFlBRVNTN3lIc3oxa0ZyQUZ3?oc=5",
         "published": "Tue, 03 Feb 2026 08:00:00 GMT",
         "source": "TVBS新聞網"
+      },
+      {
+        "title": "《中國有嘻哈》是如何爆紅的？還原今夏最火網綜的商業秘密 - TechOrange 科技報橘",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBIME5xa1FPc3EtanZCNERaN2RHSEcya0g4T0E3SWxOWVV5OFZTRnNMR1lxZVBIN3lTS2l5ckd2WW5mYUVEWEVyb1VleThJbi1rZUx4V2h1UQ?oc=5",
+        "published": "Fri, 25 Aug 2017 07:00:00 GMT",
+        "source": "TechOrange 科技報橘"
       }
     ],
     "日劇": [
@@ -144,16 +144,16 @@
         "source": "La Vie | 設計美學"
       },
       {
-        "title": "石原聰美新劇《政界怪盜》5大亮點！化身「女魯邦」專偷政治黑金，架空國家竟以狸貓為國獸？ - ELLE",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0ZoeHVGODFERGFNV3JQWTVKRzNtOWkyNEVTMjEwOEx3aXNvTjlCRGhWUEdxNWtzaEhqWFZjVjZLWDJ4RkpnQzhQOHJDa0xNbG4yTUVsNURTNkt1QS1GbGRobm1tQXBpVHlnMmtLcmkxOEtjdE5ZUU53WTZfblpEc0xKNHNPbkJoWkV1YktBRQ?oc=5",
-        "published": "Fri, 30 Oct 2026 07:00:00 GMT",
-        "source": "ELLE"
-      },
-      {
         "title": "從《池袋西口公園》到Netflix新劇《有人剛好提起我嗎？》：宮藤官九郎如何成為日本最有趣的鬼才編劇？ - VERSE雜誌",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KTmhtdzVXLXBQejJQN09zTTE0cEJLMW1yTGwtekdhWE53enVmWTh2N1VmX2N2bnZtQ2pKWm5ILU44aU00Y0xjcTVqQmNMWGp1a3dqRWhpVEczOGhQS1dUR0tnZElndw?oc=5",
         "published": "Sun, 25 Oct 2026 07:00:00 GMT",
         "source": "VERSE雜誌"
+      },
+      {
+        "title": "石原聰美新劇《政界怪盜》5大亮點！化身「女魯邦」專偷政治黑金，架空國家竟以狸貓為國獸？ - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0ZoeHVGODFERGFNV3JQWTVKRzNtOWkyNEVTMjEwOEx3aXNvTjlCRGhWUEdxNWtzaEhqWFZjVjZLWDJ4RkpnQzhQOHJDa0xNbG4yTUVsNURTNkt1QS1GbGRobm1tQXBpVHlnMmtLcmkxOEtjdE5ZUU53WTZfblpEc0xKNHNPbkJoWkV1YktBRQ?oc=5",
+        "published": "Fri, 30 Oct 2026 07:00:00 GMT",
+        "source": "ELLE"
       },
       {
         "title": "Netflix 7月追劇片單！5部必看韓劇、日劇：科幻《氣體人第一號》、南柱赫《鬼謎東宮》豪華卡司接力開播 - Marie Claire 美麗佳人",
@@ -2944,14 +2944,14 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-11-22T07:03:49+08:00",
+  "cpblLastAttemptAt": "2026-11-22T09:43:15+08:00",
   "cpblAsOfDate": "2026-11-22",
-  "cpblLastSuccessAt": "2026-11-22T07:03:49+08:00",
+  "cpblLastSuccessAt": "2026-11-22T09:43:15+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-11-22T10:03:49+08:00",
+  "cpblValidUntil": "2026-11-22T12:43:15+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-21T15:17+08:00",
+    "checkedAt": "2026-11-22T09:43+08:00",
     "items": [
       {
         "title": "嫁金釵",
@@ -3025,16 +3025,9 @@
         "source": "LINE TODAY",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtb193ajVkaFpDWUR3RkZnSlBZM0Nza2ZiXzJsWlFqV2pnVkprM0xpQmwwQUxtdnpuajNWQVFTLVRocEhtUUM5NTJZdVN2Zl9VTFNkbVNn?oc=5",
         "status": "新聞提及（尚未核實正式開播）"
-      },
-      {
-        "title": "墨雨雲間",
-        "publishedAt": "2026-11-07T16:00+08:00",
-        "source": "風傳媒",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01YjlhMXBqejVwR211SEVzMlFVSDJTcTllbDJhaWxhcThQa3hQbFNZMlNwOEdWdEl1WVV4VmZXZks4QUdWLVZOTzF5M2ZpWUlN?oc=5",
-        "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-21T15:17+08:00",
+    "lastSuccessfulAt": "2026-11-22T09:43+08:00",
     "method": "最近14天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -4146,14 +4139,7 @@
     "lastSuccessfulAt": "2026-10-26T17:16:03+08:00",
     "status": "partial",
     "verifiedCount": 112,
-    "newByInterest": {
-      "台劇": 0,
-      "韓劇": 0,
-      "陸劇": 0,
-      "日劇": 0,
-      "歐美劇": 0,
-      "綜藝": 1
-    },
+    "newByInterest": null,
     "countByInterest": {
       "台劇": 1,
       "韓劇": 2,
@@ -4728,15 +4714,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-22T01:28:52+08:00",
-    "updatedAt": "2026-11-22T01:28:52+08:00",
-    "lastSuccessfulAt": "2026-11-22T01:28:52+08:00",
+    "checkedAt": "2026-11-22T09:43:15+08:00",
+    "updatedAt": "2026-11-22T09:43:15+08:00",
+    "lastSuccessfulAt": "2026-11-22T09:43:15+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-22T01:28:52+08:00",
+        "checkedAt": "2026-11-22T09:43:15+08:00",
         "itemCount": 1,
         "provider": "Google News",
         "attempts": [
@@ -4750,7 +4736,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-22T01:28:52+08:00",
+        "checkedAt": "2026-11-22T09:43:15+08:00",
         "itemCount": 5,
         "provider": "Google News",
         "attempts": [
@@ -4764,7 +4750,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-22T01:28:52+08:00",
+        "checkedAt": "2026-11-22T09:43:15+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4780,12 +4766,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-7ad93a458c28714e",
-        "title": "《綜藝大集合》爆錄影爭議！參賽者烈日苦等整天「開錄前遭換掉」 製作單位道歉了 - Yahoo新聞",
+        "id": "weekly-046eb422615a5ea9",
+        "title": "綜藝外景節目抽籤詩！ 胡瓜親自上場挑戰新遊戲「笑」果十足 - 民視新聞網",
         "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNOXVtMmtDOGppdDNuUUk2aElEUVEtbjl1R3o5a0lXdkNNLW1icEVOektLYXVNVExvRVFQaG1FQ3NjZGhEeUJVSWFjTXV3bmtaY3J3NExJZHFSemRQMGM1R2Z4VXBsZEJzWWRMYTYtNDJuWTlrUWpEcU5YMnY3aXJ1aktJU2d1b0Y2c1JUdGlHZjRJNnZRM0MtcDA3Mno1bnFoeTBwMERPU1JoeklsalN1b1E4dFV1S29jTFFvd2FCQ0ZQRkM0dXpnbVZ6WEtnZ2Noamd5Sm1idmxMVWpCM0EtempjeFNESEJHTHVUUmVNVW1qVDV0a1I5dUZlaHFQMEtqSVNSZ0dNcldwOFlNSzk5b1g1bGJGODVOSy0xQjVZay1pY09hSW5mVHJaWnpObTdLa2h1RExDZkJKQWxPU3pUcFlKd3h6WUVVMjc2Mm9zQmplcjdfNHR3WG9SX0MyMXp5d002R3J4VnlTV2JfYmpzLTVmV2lCdVp0cjlraUU4T1BycHlOS28xVEVwSXE1dDB4UUFPUGRsN05mS0Z4QnVFNWk0OUJ4bGxaQjQ5TVBINjU4NVdLVG1OS0JmYm90WkZWb1V5bUM5LUJBUEtOZjhZVlU3emVHY1JU?oc=5",
-        "observedAt": "2026-11-20T18:52:00+08:00",
+        "source": "民視新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yckUwQjZJYzVIOGFzb3RIczFMbmNqX2VWMzY5ZGo2cEhOcHpvcGoxS2wtbHBvZWt4MzBQY3l1MFBmVlRnYzNldEtpTUctc2hyZnpidkw1QUdzd2N5aFU4dg?oc=5",
+        "observedAt": "2026-11-21T18:46:21+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4857,23 +4843,23 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-f675e0b3ea0d1c1b",
-        "title": "馬傑森綜藝初體驗獻給林襄！開口唱歌讓全場驚艷 - Yahoo新聞",
+        "id": "weekly-749cc9310a0792f2",
+        "title": "《百戰百勝》魔王竟選台北市長！網點名「這綜藝天王」該站台了 - Yahoo新聞",
         "type": "綜藝",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxPdjNlSjN3dG5CaXBuNzJOM3VMeEppQ3JuVWVZRU5wb2lrbkpJUWNZNWRoRlV6MGVFcGZHZUs0TjlhM2RJNHJmcC1MRmo5OFFQWDI3SmROWVhOQllJTGNzWThYUnZtSHZCMzFIYzI1bFZyNVBNc0NQSnlMUFlVc0R4UkpKWkJMaWY3UHpGV2hhal82a1dCNVNhSlU5b0xXVE1QXzNvWU9qOUhzcGdab3hEbXNxMk9yekIzSTE2aXRHenJtOHRNdS1YVWFaZlZpcW5mUUxZUXZEeU01NUJ2TzloTkZUVXRIYUVCNkF2QmZQWjdnY05ub1d5VjdWd2tLeGJKVnJ5YkJ1SXh3b2I2WWlvTDQyWXpVTFpudW9kQkgwSHoyVHR1TFdPX2hEVmpvZ3ZydzJuTmNRdWo4S05VblZfUjdndkxCSUhjTjdQVkdPZXc?oc=5",
-        "observedAt": "2026-11-18T14:39:00+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQajB0TTJXaGgxc05CQ0wwRUVGSElhUnV5WkdoeDMtTGN6djJSUUN6TnhQd0RZZVBObkxIX3c0MllDMGNwQVEzVzhsMFJ6UjZNLU9USHNJcEttUVBfWFcxUklYZnlWbjB2aE83VnRacm5qQXRJNzhkOFY5dXZmTEdtcnd6RWVlX08xR3BPLW81bjVPdWp1bUY1bWxkV0w4THNGMW9wc2pDSWIyQUVHN3AtVWh0aUt1d0lrZ254LTh3NXhBUVlZckNkM01NbXZSdXR3MDlDTGxVM3k5Tk83WWRNNXJpNHZLQlJ2WFdZMmt4NWNOWW5Lbkx6Y2k3eWVWTUNMc3JISVdCQlBKWG0wSDlGWC1INVZLbFdteFlsQjlNaU52SG0xdTY0Ni1zanZqVHEySWFzeDMtYzZXTmtsZXllREVpT00zSmpOYlVrcFpYVGlhbnZ1VXhhVDNHZ0pWaTVXR3hxdXdhcjhBLTg1MU1VY0o0M29va2di?oc=5",
+        "observedAt": "2026-11-18T17:40:36+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-5e7405ac23cc3948",
-        "title": "深圳廣電集團《共赴深圳之約----APEC「中國年」全媒體特別節目》全網熱播出圈 - Macau Business",
+        "id": "weekly-b6942fdd83c4decc",
+        "title": "馬傑森綜藝處女秀獨家獻林襄 私下「真實互動」全曝光 - Yahoo新聞",
         "type": "綜藝",
-        "source": "Macau Business",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPT0lZX0hIS3Rwd1VnY08yUzN2TkxoTXd0X1d2LVJpUHZHUG5DNDBNM25raW9ZN0FTUXc4ZnYxRVJUZE5jcEhMaGcwcUl6bzlxTTh3OGNXZnEwXzBBZzVWRXRiZXhBMU5XWjRfWjBPWmN0cjV0VEpQdmZCZWg0V1lpZ3JOWld5WFp5anN2djdFcV9lcHZPOWd0ZnJDQ2FtRzh5cVZ0d2stMjhrRUpmVWluaDc1M2NXRTNRbmhpc1RHMEY2NURfa0NsMFhzbGl0Mkp3cFNQQkd2d2FVS1lYOG56OFVFLWxGN2E3T1pNWUhCYjVFblYxcmRRSTlBNnQzREYxNUdsY0pJdjRabXdJMU1iYVNiZmU1amlHMVZPRGdDRkM5Z2FGZWVPc3JGSFEtcG9ZREVMMUEyM25DNnJURFNxaElQbw?oc=5",
-        "observedAt": "2026-11-17T15:13:27+08:00",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOS0FURXFZWkE0WDlqODFxbTBNa0RIYjk2bF9zc3lQRWIzRkJVSHkxVklabXBzWGFxRmQ3ckZFSDlxbDVsMnphbk9kaGVqRVBFSW1aVzRQa1FNLTBLQXV6aTFDWkNQZkVRczRDS0xxUk1wbGI1cnhrLTlzeVZ4cVkweTZjaVVjdGZVSUhSU2plN1l5OUFxUGRHeTN2WnRPZ3lfTFFlWEoxRVBDWjhnSmQwYlprVUhiQUlLMmZIZkNLd2NLVzhScWpZMG04YU9PQnhNcldodjlkTllEZmswSzl0akRwTFI0NFlCdlZXS29waU90bG11U0dmbFZXZERaZDJBclJOa1dKRzJaVWw3a3J4NDF6Vl9ZR2ZCTGpKUXIzSUJuYzVPNzVadndaT1RPMFUxdEo0OTRkelE1cjI1ME5zZGphZTgxMWhsMUZoT1U1OVNGdXY4Zi1pU2plOTRsU0U?oc=5",
+        "observedAt": "2026-11-18T12:23:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4938,7 +4924,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "updatedAt": "2026-11-21T15:17+08:00",
+    "updatedAt": "2026-11-22T09:43+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
