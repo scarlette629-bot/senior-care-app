@@ -4738,15 +4738,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-16",
     "weekEnd": "2026-11-22",
-    "checkedAt": "2026-11-22T09:43:15+08:00",
-    "updatedAt": "2026-11-22T09:43:15+08:00",
-    "lastSuccessfulAt": "2026-11-22T09:43:15+08:00",
+    "checkedAt": "2026-11-22T14:43:20+08:00",
+    "updatedAt": "2026-11-22T14:43:20+08:00",
+    "lastSuccessfulAt": "2026-11-22T14:43:20+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-22T09:43:15+08:00",
+        "checkedAt": "2026-11-22T14:43:20+08:00",
         "itemCount": 1,
         "provider": "Google News",
         "attempts": [
@@ -4760,7 +4760,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-22T09:43:15+08:00",
+        "checkedAt": "2026-11-22T14:43:20+08:00",
         "itemCount": 5,
         "provider": "Google News",
         "attempts": [
@@ -4774,7 +4774,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-22T09:43:15+08:00",
+        "checkedAt": "2026-11-22T14:43:20+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4790,12 +4790,12 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-046eb422615a5ea9",
-        "title": "綜藝外景節目抽籤詩！ 胡瓜親自上場挑戰新遊戲「笑」果十足 - 民視新聞網",
+        "id": "weekly-7f85c2d077df381c",
+        "title": "康康2027高流演唱會：從《快樂鳥日子》到綜藝收視冠軍！你不知道的11件事 - 遠傳電信",
         "type": "綜藝",
-        "source": "民視新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yckUwQjZJYzVIOGFzb3RIczFMbmNqX2VWMzY5ZGo2cEhOcHpvcGoxS2wtbHBvZWt4MzBQY3l1MFBmVlRnYzNldEtpTUctc2hyZnpidkw1QUdzd2N5aFU4dg?oc=5",
-        "observedAt": "2026-11-21T18:46:21+08:00",
+        "source": "遠傳電信",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMkFQTG8zb3BGYlV4YWNvSGJpd1JESEtkOW1EVk5KeUFTdUxJNG83aENPTWIwSEFWLWo5NUtReE1GWUVpejRHa0FmQ0F1RVRoeFJxMGZDTnAtTWhSWE1qYmxjLVlpUjMxQWRyeG5zZ3ZoVVNIVEJEcHN4YkhQbk1YaTBJSzY?oc=5",
+        "observedAt": "2026-11-20T00:19:40+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4867,23 +4867,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-749cc9310a0792f2",
-        "title": "《百戰百勝》魔王竟選台北市長！網點名「這綜藝天王」該站台了 - Yahoo新聞",
+        "id": "weekly-cb7aeb26b5632afa",
+        "title": "鍾欣凌、杜詩梅錄製綜藝節目 (圖) - Yahoo新聞",
         "type": "綜藝",
         "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQajB0TTJXaGgxc05CQ0wwRUVGSElhUnV5WkdoeDMtTGN6djJSUUN6TnhQd0RZZVBObkxIX3c0MllDMGNwQVEzVzhsMFJ6UjZNLU9USHNJcEttUVBfWFcxUklYZnlWbjB2aE83VnRacm5qQXRJNzhkOFY5dXZmTEdtcnd6RWVlX08xR3BPLW81bjVPdWp1bUY1bWxkV0w4THNGMW9wc2pDSWIyQUVHN3AtVWh0aUt1d0lrZ254LTh3NXhBUVlZckNkM01NbXZSdXR3MDlDTGxVM3k5Tk83WWRNNXJpNHZLQlJ2WFdZMmt4NWNOWW5Lbkx6Y2k3eWVWTUNMc3JISVdCQlBKWG0wSDlGWC1INVZLbFdteFlsQjlNaU52SG0xdTY0Ni1zanZqVHEySWFzeDMtYzZXTmtsZXllREVpT00zSmpOYlVrcFpYVGlhbnZ1VXhhVDNHZ0pWaTVXR3hxdXdhcjhBLTg1MU1VY0o0M29va2di?oc=5",
-        "observedAt": "2026-11-18T17:40:36+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-b6942fdd83c4decc",
-        "title": "馬傑森綜藝處女秀獨家獻林襄 私下「真實互動」全曝光 - Yahoo新聞",
-        "type": "綜藝",
-        "source": "Yahoo新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOS0FURXFZWkE0WDlqODFxbTBNa0RIYjk2bF9zc3lQRWIzRkJVSHkxVklabXBzWGFxRmQ3ckZFSDlxbDVsMnphbk9kaGVqRVBFSW1aVzRQa1FNLTBLQXV6aTFDWkNQZkVRczRDS0xxUk1wbGI1cnhrLTlzeVZ4cVkweTZjaVVjdGZVSUhSU2plN1l5OUFxUGRHeTN2WnRPZ3lfTFFlWEoxRVBDWjhnSmQwYlprVUhiQUlLMmZIZkNLd2NLVzhScWpZMG04YU9PQnhNcldodjlkTllEZmswSzl0akRwTFI0NFlCdlZXS29waU90bG11U0dmbFZXZERaZDJBclJOa1dKRzJaVWw3a3J4NDF6Vl9ZR2ZCTGpKUXIzSUJuYzVPNzVadndaT1RPMFUxdEo0OTRkelE1cjI1ME5zZGphZTgxMWhsMUZoT1U1OVNGdXY4Zi1pU2plOTRsU0U?oc=5",
-        "observedAt": "2026-11-18T12:23:37+08:00",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPM3NaZDdCbno1QWF3dHBEb3ROX2J1RVpVOTloWWgwLVE0SEltTllMS1hVazVfNGZ2Y2FHY3VsOG4yRzV6SV83T2N0b2F4R09MV1I4VTI1Z2JUUjV6cDFLRDk5ekt3b3RLVzhrdFRJV2wzYldTaFAyRmhBRUtLWF9zRHpkWGNKenZnMDJGZDBjak9iaWhLLTVndGU0cWFaMGRVZ2pfOTd6UUh4Sm1TbWRNUjRjeGlDZGxzUHJibDhkd19oVU9CRF8xdlktMkZZLTJlbllHd0FCNWdwcldpbEU0UThvUks0UkpmdURYNzBQNnNZQQ?oc=5",
+        "observedAt": "2026-11-18T16:13:49+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4911,12 +4900,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-da9a4619e791adc3",
-        "title": "《Doctor X》結局未破紀錄 仍稱霸上周節目收視 - Singtaousa",
+        "id": "weekly-a9a588e00c5e954f",
+        "title": "「我不想（和你）做朋友了」　陸實境節目揭「長大後」交友有多難 - ETtoday新聞雲",
         "type": "綜藝",
-        "source": "Singtaousa",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLWlzZEhYNFY0OGtVdGZ5Vi1jY3FHby1OTXFpQUpXWVROM0VhLXdSaU10ZlVZU0hEOS1xX1h2MFd2dWQydHZKQ1hYY0JGY24ySEw5SWJSdlFzSFpzeldPbWx5S2xneWVJVjVGY1p6UDR1TFBzcVUzc01ZVnM5ZGYyeENB?oc=5",
-        "observedAt": "2026-11-17T08:00:00+08:00",
+        "source": "ETtoday新聞雲",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAyZXQzbk1MdjRTQTExaGthcGZwU1liMXZDc0hUN2UyaTJoeXNHUE8tb2I3WkN6Z3NsYjJwSnp0X0pRZlo3N0wzWWRjeFp6em1QLWMtdXhXRDFtVEg5bmfSAUtBVV95cUxQaEhxUlNDZDdPYU9hUkNmWGJiNThjMkxIaUVFeUptNk5tUU8yUWdwenlncE9LVjVWRDRMdkpfN1JyRVcwbTlwZUw2Ymc?oc=5",
+        "observedAt": "2026-11-16T11:10:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4939,6 +4928,17 @@
         "source": "Yahoo新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMi0ARBVV95cUxQRk5YVWtVb3lVbDdBSGpSSzczRExmVEc4eUcyY3oxR2xmVzVoY2ZZelJfeXh4UHZwU2tUN3hwTWY4bzJ5cXBCXzhsUVFmcVNIU2tmQUgtTEVGYm9BUGNWdDVTZ25nWHg2dVVEOXNaczlBOG4zTEFBODRJeWdwQ3NsT3cxTGk4cFZ1TmlfeWlrSUdnNGwxdmhsSUR6cy1pQmFUelNIYUlvMjJUY1N5WXNuM2tPeEF3MTQxblVtQ0ZoN3ZFSXpUTlhLT2ZPMWM1ZW44RHJCUGk1WGVJVDhtTy11Ml95WW9GMnc3UnNZUG56S0dmTTZNZUZUNXh3MlVpZ3BOeGZqOHhFdU5aRmZqc0pHemNKcnhzVmNkWk1Oc2JQTWNfQ3FxRmZPX2pZRlZVVnZOaFdSRjYzXy05WmtxVmJIanVLbVRTazQzVG0ybGgxVzQxVUJQMGhSLW9MWmZ2NE01SWpwTDRicGY1ajhvZDMzejZvaHFoaTJJczJGS1dFbFc2UU41aWJXekFfMVhfWVc1eVRYN2l5NzFtVmdGcDBfMnBzNm9LbEwxcHB5LTJOQ2hRd1B1dW8wUzZCZjduZzlyTjAwSFlWcTUybnlrVVkxa2lwQlhDZTZIckhKWmxpSjNLSGJQOWZrSUdtRFVIaDVBa1FvcXRtd1BYY3dqZGtrVkFoZlV5Q3pORWdpZ0V2OVVtWXp2aDI1d2puRmltQlQ5LThiREhTWU50ZWV3ZHd0Zm02RUl4ajk0Q2dkTGt2cFhXdWN0SllxTjc1RXpnbHhp?oc=5",
         "observedAt": "2026-11-16T01:47:07+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-4111598b22aecd6c",
+        "title": "外景綜藝精隨：答錯也要有氣勢！【Yahoo車的試煉】 - Yahoo - 汽機車",
+        "type": "綜藝",
+        "source": "Yahoo - 汽機車",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxOSF9WSUE1cGVNVERRR2pSdk9oaFREX2p5elJBSmJuTWlLeW11clh6TEtVUmN2U2YxYWNMWFozeWZvMDA5Zks1dVdDU3d3WHNJUVJFbkJ4WUlVSFVnanBfeE9XbzBaZGVNQ0REa3oyd1ZNOUxubmtnMmtzMUYtdlVRWHRMWC0yYlk3N0ZOazhiaWtlUWFfSWZVM1J6UFMxbEdPeDFjV1FxOGZ0UHhkV2VpcGg3czA0V1lGeVUtc2w0d2ZQbTJRaC1wRWZxTl9teDRvQTN2eG5ndU5DV0pNUVlnT1hDcE1lYVdTcnkyS0RyNFRkU2R5Ml9yX2RHYndoS09qYnlxdF9fR0EzUng5dGR4UGljYUZXVzR5MDVXUWJBV2xCNkZnN0kwdDIybDA1bTZhNC1NTTRxLUdUbFFLcVlkMmNXdGtNV2hUUFlCc0cyY0k1WmpWcjZPVGNzR095VlE?oc=5",
+        "observedAt": "2026-11-16T01:30:37+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
