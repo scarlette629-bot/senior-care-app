@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-23T10:02+08:00",
+  "updatedAt": "2026-11-23T15:46+08:00",
   "categories": {
     "陸劇": [
       {
@@ -2919,7 +2919,7 @@
   "cpblDataMode": "official",
   "cpblValidUntil": "2026-11-23T13:02:27+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-23T10:02+08:00",
+    "checkedAt": "2026-11-23T15:46+08:00",
     "items": [
       {
         "title": "兩京十五日",
@@ -3016,7 +3016,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-23T10:02+08:00",
+    "lastSuccessfulAt": "2026-11-23T15:46+08:00",
     "method": "最近14天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -4822,7 +4822,7 @@
   "weeklyStreaming": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "updatedAt": "2026-11-23T10:02+08:00",
+    "updatedAt": "2026-11-23T15:46+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
