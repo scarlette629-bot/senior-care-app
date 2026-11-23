@@ -4755,15 +4755,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-23T15:32:42+08:00",
-    "updatedAt": "2026-11-23T15:32:42+08:00",
-    "lastSuccessfulAt": "2026-11-23T15:32:42+08:00",
+    "checkedAt": "2026-11-24T06:02:17+08:00",
+    "updatedAt": "2026-11-24T06:02:17+08:00",
+    "lastSuccessfulAt": "2026-11-24T06:02:17+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-23T15:32:42+08:00",
+        "checkedAt": "2026-11-24T06:02:17+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4777,7 +4777,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-23T15:32:42+08:00",
+        "checkedAt": "2026-11-24T06:02:17+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4791,8 +4791,8 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-23T15:32:42+08:00",
-        "itemCount": 1,
+        "checkedAt": "2026-11-24T06:02:17+08:00",
+        "itemCount": 7,
         "provider": "Google News",
         "attempts": [
           {
@@ -4807,12 +4807,78 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-0964a329b6d4f2e7",
-        "title": "梁思浩爆「過氣一線女星」獅子開大口 上節目索價十萬梳化佔一半 - 香港01",
+        "id": "weekly-2a47cfd1cd751c60",
+        "title": "免費衛星電視節目進公屋 富蝶邨開展公益收視宣傳 - 紫荊網",
         "type": "綜藝",
-        "source": "香港01",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQYUVZd20tZFo2V0Y5UV9TcXdDVEdHbHhXVlZDY05hbllrMVNJXzNuYUJRbWJfSDh4TWtfeVlKX2xKM000QkFuUlRqeTk4MlBabjE3Q0VuTzJ1RjQ0YlRkM05SdFJiRHB2ZEx1TWJwS3haUmU3akFqcmJlN3k0ZnlFXzcyMER3bTBuMmFvVm5qS3NFeVdLQjRHbG5nYWZSYW04b01fSXFRX3dGUFhCclQ5MWYxbjRGaVZ3UkFKanRwT2pGQVJIY2l5d0ZVUFRpRDBKSG5ZejQzNnJ1UnZvaFhZVHpsWGU4STVfQUtvYkdERXJSLTNoTXk1YXBIWm8tMlBudnY0QnRyNFZLeVBKa2xrdTRreEltWDdtbVlZdFNpckFIUDY2OTFyc0QyNW9odDdabWdHOEd1cnI1MTJWZVpXaFpnaHo0WjBUUDU2dF9TNlBDX3FoNm1fOXQ1aTI5TkkzOElYUGRHOHpnRjdydmpIUVZ4aE4taU1tLUZsSFRrTzh4V3hrQ0t3WmFqZmZUemUzWlNxUXRpX2lrbkUxZ0N3MVdfcGlBeEkxN1dsS01UVmEzSzhpY1F4Y3JrV0gxZw?oc=5",
-        "observedAt": "2026-11-23T12:30:19+08:00",
+        "source": "紫荊網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa2NJaE12ZktjQjZzMS1FMzgyTm9oeFdMQ2pIOFVnREJGRzc0UG1DNVprTlRtZHJqb21BYWV3bWpfWmVNWXNRRnZCZzFjejhfd2g0S2lQdjIyOUFWN2JMRHBNYW8tMXZoSHo4Ymdycm8xNFA4OU1JUXRMcTVmYlU1X2c3bm9vZ0xUTWJud2dSbXA?oc=5",
+        "observedAt": "2026-11-23T23:50:46+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-688b500d1a11db56",
+        "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - 風傳媒",
+        "type": "綜藝",
+        "source": "風傳媒",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ycUlNZC1rVHI0UHRLazBDRlVleWFzRG80NjJvcWI4YlVxdGVTbHA3WUloX1FpYmkxUkZOdEs2aFFZR1FsM2tpNXhmSmtJUQ?oc=5",
+        "observedAt": "2026-11-23T22:48:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ea16d2c53058c90c",
+        "title": "討論牆 | 高虹安曾獲《綜藝大熱門》金頭腦年度總冠軍 網友：新竹肯定投給認真又聰明的高虹安 - LINE TODAY",
+        "type": "綜藝",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0zZklka1oyQXVJS19Jd25zMHJTZHNlS2piRHJRd1UwUXhMRHYtZGFPS2JXcW1PcU1FTzBRZVNBcEpNSUt1MmpUdVNSTTAyUFBWZUdsV3d4bDJaQlBQWWRqS3F4VXM?oc=5",
+        "observedAt": "2026-11-23T22:39:29+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-29f8e998489bd824",
+        "title": "高虹安曾獲《綜藝大熱門》金頭腦年度總冠軍 網友：新竹肯定投給認真又聰明的高虹安 - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxOVklOZHp1WWh0STgwNWhmOEl6NVNLcTJDSnpKZ25SRUJZMWVRbEhtamcxX2VrOXIyQURMMjFvNW1WYWZTZ2F6YUdadjlOb0dDYncyZnM1ZDY5YzNUekhUc3p6ejYyMmpMaldCaFhQLWNmcUluZWNLVHdNeFd0T092eGExZEJ6S1ZBM2FIUnVKWlgtYWR3R3gxOGNhb3NhdW9vbndCRWVUbkNaTXc2NU1IcnRZUy1qZ0dHemRfVmM2X0UwMW45SFVRNzRmeEk5eHJwbkFyWnVWTWQ0LTNGaHdYSDkycHo2LUxuWG1tSWRXUHFPVXpYUFVZaGpKLUxfZ2NEeHV6VUo1VXlVbndEZlA2T2Z6czJtVVMyUk93YVIyenp1eDRzeklQaVE5TzFWZzZMTGZHV1lIOTMzUE1iZWY2Y3ZsWXR2a2Ztc21YTWd0T3dlSkhtQ0dXS0dpZUdrcGF1Y25fU2NOQWZveXZlYU1aT1dlZy1hUm5CZ1g3Q1BLSFBWOXlsNUFONUFxLXJVbi1fX0UwU3dQa251Qmppdl92dGxLSU5DZXZvMWJyV29NemJ3NFZyR2J4X2M4ektDNHRTSXZ0c3IwdGwtaDhxOWxRc0VnUWlISzNsZWxqcU1hR2ZiYmRsVWtkRzJkNjd3WjdiX3B5NVBZamJDRndO?oc=5",
+        "observedAt": "2026-11-23T20:27:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ff0f698d008e10ee",
+        "title": "高虹安曾獲《綜藝大熱門》金頭腦年度總冠軍　網友：新竹肯定投給認真又聰明的高虹安 | 政治 | CTWANT - CTWANT",
+        "type": "綜藝",
+        "source": "CTWANT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Q0x6b25sVndJTUhrOHdLeUR2STZMNWVjcWo1SWlOLUl3STZrYm15aEFubTQ4TVlQRXROQlJpOEdBVTVoVUFMQ0V2aDdPMjDSAVRBVV95cUxQeVJYRjlhOHU1OUZWdURzYXhVSnRPcUdzQ2RsNEd0ZWU5QUU0YXk4SkVabUNTOGhKbDd1SlktZTVCSzU1UXdEOWcyY0doT050Qy0ydXE?oc=5",
+        "observedAt": "2026-11-23T20:27:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-7dd9af1c6172ee6d",
+        "title": "央視主持錄節目假牙消失 急懸賞「全喀什找牙」登熱搜 - 世界新聞網",
+        "type": "綜藝",
+        "source": "世界新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQXo0b0puQWpsand0eEVQS1dRQUl3bVRQTHRmTHpicC12RWVqQUZfRGtmRlNmUE5UT2ZQRTBVSXhTdkFOdGstcFdlbWh3WFl2MVQ1YkZ0a3FTV0txZVllbF9pZDVOOFXSAWdBVV95cUxPbUF6NG9KbkFqbGp3dHhFUEtXUUFJd21UUEx0Zkx6YnAtdkVlakFGX0RrZkZTZlBOVE9mUEUwVUl4U3ZBTnRrLXBXZW1od1hZdjFUNWJGdGtxU1dLcWVZZWxfaWQ1TjhV?oc=5",
+        "observedAt": "2026-11-23T19:30:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-2bcbd50876a8373a",
+        "title": "侯明昊音樂事業全面衝刺！《歌手2026》後再接新節目 SEVENTEEN文俊輝也加入 - 鏡報",
+        "type": "綜藝",
+        "source": "鏡報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxOWlpLVhlX3dHVzRPOU9HTTZWeG9DZF9yS0xxLWFsRmwwWjdGMzVlamQzeE5WcWxVdm03ZE5mUUJUci1Wajh3Wk1wb01MNnllTGc?oc=5",
+        "observedAt": "2026-11-23T00:46:10+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
