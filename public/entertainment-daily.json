@@ -4755,15 +4755,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-23T10:02:27+08:00",
-    "updatedAt": "2026-11-23T10:02:27+08:00",
-    "lastSuccessfulAt": "2026-11-23T10:02:27+08:00",
+    "checkedAt": "2026-11-23T15:32:42+08:00",
+    "updatedAt": "2026-11-23T15:32:42+08:00",
+    "lastSuccessfulAt": "2026-11-23T15:32:42+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-23T10:02:27+08:00",
+        "checkedAt": "2026-11-23T15:32:42+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4777,7 +4777,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-23T10:02:27+08:00",
+        "checkedAt": "2026-11-23T15:32:42+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4791,8 +4791,8 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-23T10:02:27+08:00",
-        "itemCount": 0,
+        "checkedAt": "2026-11-23T15:32:42+08:00",
+        "itemCount": 1,
         "provider": "Google News",
         "attempts": [
           {
@@ -4805,7 +4805,19 @@
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
-    "items": []
+    "items": [
+      {
+        "id": "weekly-0964a329b6d4f2e7",
+        "title": "梁思浩爆「過氣一線女星」獅子開大口 上節目索價十萬梳化佔一半 - 香港01",
+        "type": "綜藝",
+        "source": "香港01",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMivgNBVV95cUxQYUVZd20tZFo2V0Y5UV9TcXdDVEdHbHhXVlZDY05hbllrMVNJXzNuYUJRbWJfSDh4TWtfeVlKX2xKM000QkFuUlRqeTk4MlBabjE3Q0VuTzJ1RjQ0YlRkM05SdFJiRHB2ZEx1TWJwS3haUmU3akFqcmJlN3k0ZnlFXzcyMER3bTBuMmFvVm5qS3NFeVdLQjRHbG5nYWZSYW04b01fSXFRX3dGUFhCclQ5MWYxbjRGaVZ3UkFKanRwT2pGQVJIY2l5d0ZVUFRpRDBKSG5ZejQzNnJ1UnZvaFhZVHpsWGU4STVfQUtvYkdERXJSLTNoTXk1YXBIWm8tMlBudnY0QnRyNFZLeVBKa2xrdTRreEltWDdtbVlZdFNpckFIUDY2OTFyc0QyNW9odDdabWdHOEd1cnI1MTJWZVpXaFpnaHo0WjBUUDU2dF9TNlBDX3FoNm1fOXQ1aTI5TkkzOElYUGRHOHpnRjdydmpIUVZ4aE4taU1tLUZsSFRrTzh4V3hrQ0t3WmFqZmZUemUzWlNxUXRpX2lrbkUxZ0N3MVdfcGlBeEkxN1dsS01UVmEzSzhpY1F4Y3JrV0gxZw?oc=5",
+        "observedAt": "2026-11-23T12:30:19+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      }
+    ]
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-23",
