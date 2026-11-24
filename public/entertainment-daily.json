@@ -4592,15 +4592,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-24T13:38:57+08:00",
-    "updatedAt": "2026-11-24T13:38:57+08:00",
-    "lastSuccessfulAt": "2026-11-24T13:38:57+08:00",
+    "checkedAt": "2026-11-24T17:51:14+08:00",
+    "updatedAt": "2026-11-24T17:51:14+08:00",
+    "lastSuccessfulAt": "2026-11-24T17:51:14+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-24T13:38:57+08:00",
+        "checkedAt": "2026-11-24T17:51:14+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4614,7 +4614,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-24T13:38:57+08:00",
+        "checkedAt": "2026-11-24T17:51:14+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4628,8 +4628,8 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-24T13:38:57+08:00",
-        "itemCount": 5,
+        "checkedAt": "2026-11-24T17:51:14+08:00",
+        "itemCount": 8,
         "provider": "Google News",
         "attempts": [
           {
@@ -4643,6 +4643,39 @@
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-35f76efc22711842",
+        "title": "Netflix近期韓國話題作品推薦！金智媛、金裕貞新作接連霸榜，《魔鬼的計謀》實境秀也爆紅 - ELLE",
+        "type": "綜藝",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0cwdkdhWXkyMGtqNDMxSkdYYTdTZWhkcDBTZjRCbGJpa0otYjVMNkVXeWtHUVFKMVpzak51Y2hOOEN0S3dZemI5bGFEdUthcXhyOTVSdEhZcjJmZnAwLW1Hclo5cmg5c1hrUHF0eHdVMjV6cWkyQVpLNGFMWkk0THZYTG1pWkth?oc=5",
+        "observedAt": "2026-11-24T16:16:38+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-b034df9384f7edf6",
+        "title": "高虹安昔上綜藝節目片段被挖出 網再讚：真的有料 - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNM215eFVHdVBEaFVnMWVZN2lVR2t2RWR6RnpzV29TeWh2S2lMNDdyM1FyZlBBYVoyZUwtTWhFS2d3bUVOYlJTTWZXNzRPZllqWUlaVW55SnR2cGNTTkNsdUZOa05HR2cxVzBkLWp5blVESXNDNGZYWHdMR01mUUpPVE5hMnNoWDRzam9venM1UGQ3RGxsalV3YUFNa05oZ3phbS1XdHVWREM5WldoUHpKVnoxNHUtV1VETEdiWWNXS3pyMmhLbHNtRm54Q0o5dDJDWlNCM21NNzNhUHhzc3JyWnJMNmJaMTRjaFVNLWU2V0FTZnN1MkszSEVUZ2RpcFlKZWdLTEVYVEd2bXVjQ3F3N3RNSjJ1OENOQjljRGdJT0h2LTFpWS13VnpuUU10SDdJSUJoS2h3N1ZnaElYTGppeGRpM0tJY0s4Znotb1hSc0VoQQ?oc=5",
+        "observedAt": "2026-11-24T13:41:02+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-2a47cfd1cd751c60",
+        "title": "免費衛星電視節目進公屋 富蝶邨開展公益收視宣傳 - 紫荊網",
+        "type": "綜藝",
+        "source": "紫荊網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa2NJaE12ZktjQjZzMS1FMzgyTm9oeFdMQ2pIOFVnREJGRzc0UG1DNVprTlRtZHJqb21BYWV3bWpfWmVNWXNRRnZCZzFjejhfd2g0S2lQdjIyOUFWN2JMRHBNYW8tMXZoSHo4Ymdycm8xNFA4OU1JUXRMcTVmYlU1X2c3bm9vZ0xUTWJud2dSbXA?oc=5",
+        "observedAt": "2026-11-23T23:50:46+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-688b500d1a11db56",
         "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - 風傳媒",
@@ -4688,11 +4721,11 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-7dd9af1c6172ee6d",
+        "id": "weekly-2a36cb39202068e7",
         "title": "央視主持錄節目假牙消失 急懸賞「全喀什找牙」登熱搜 - 世界新聞網",
         "type": "綜藝",
         "source": "世界新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQXo0b0puQWpsand0eEVQS1dRQUl3bVRQTHRmTHpicC12RWVqQUZfRGtmRlNmUE5UT2ZQRTBVSXhTdkFOdGstcFdlbWh3WFl2MVQ1YkZ0a3FTV0txZVllbF9pZDVOOFXSAWdBVV95cUxPbUF6NG9KbkFqbGp3dHhFUEtXUUFJd21UUEx0Zkx6YnAtdkVlakFGX0RrZkZTZlBOVE9mUEUwVUl4U3ZBTnRrLXBXZW1od1hZdjFUNWJGdGtxU1dLcWVZZWxfaWQ1TjhV?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PZFVhMkxTX0VwSURpVUxVYUNhLUw0YkVjQlJ4TkdnOVg1SXBtcjFpdUNsTGxGY1RjZkJzZDVlWW52SzNhbDYxLTd3Sk0tR2VzR1RabzdHWXFFdmdzTXZ3QmV1VHZ1LU9YYVg4WmJHVDVZNk54aHkwTWxiWnBhRkHSAWdBVV95cUxPbUF6NG9KbkFqbGp3dHhFUEtXUUFJd21UUEx0Zkx6YnAtdkVlakFGX0RrZkZTZlBOVE9mUEUwVUl4U3ZBTnRrLXBXZW1od1hZdjFUNWJGdGtxU1dLcWVZZWxfaWQ1TjhV?oc=5",
         "observedAt": "2026-11-23T19:30:00+08:00",
         "isWeiboMention": false,
         "verified": false,
