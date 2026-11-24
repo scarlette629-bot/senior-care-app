@@ -1,13 +1,25 @@
 {
   "schemaVersion": "1.04",
-  "updatedAt": "2026-11-23T15:46+08:00",
+  "updatedAt": "2026-11-24T13:38+08:00",
   "categories": {
     "陸劇": [
+      {
+        "title": "最近大家都在追什麼劇？2026最夯陸劇排行榜推薦：除了《今天是太陽雨》、《谷雨》這些劇也是必追！ - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN1BlODhlZERlNlh3RHBfVXRNb21HREdhYmNrTnA3MjJnN1ZRYXBhSC0wQTQ1eGdDVlp2TTVGaDJvYm05VjlXLVREM29ZYjV3dHhnWENhdk1MNnZkMDdQU3dQeldpQ1pHV3FNb1pESGRnVzRIX0tLQWxsTmN4bjk3NU1FU2lnelI4RHc?oc=5",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+        "source": "ELLE"
+      },
       {
         "title": "10月必睇5部內地劇清單！肖戰轉型演基層醫生、田曦薇挑戰雙面女 - 香港01",
         "url": "https://news.google.com/rss/articles/CBMinANBVV95cUxOcXdvLS1JZnFIYlNJN0dvWmNhckV1WG4yMnd2ZGk2R216aFdiUmt1UlBwbkRwYWFqSkdGcnlSWjM4R2oxaG1XbmpPbWNMdklCdVdOVHJSdFlIX09OaXNYQU5qTDJhLTdMTF9WbUpHREJmYkNWSGZGRjVGVlVydDRSV2pDVVFzR3NrNnI4bWJOd1ZNeC1nY0hJcWZ5aWcxQkhqRllzVmFrVTZiSk9IaVdENWE5Y0RHTGZUX01sa2luaXQ4Nm9mSnQxUkVmOGlnUkttSHhLY0QyaEJPbTJRX1g1M3hETmJTWjNTRWVibExxdG1UMHJxS3d0LU5WLVdISzJ5c0NiaGdpdWtjQU1mQVBlSV9fblVQdV9Ld3YwVUFKUGFtXzAzQk1TaUZUTEZWSmdMbnVNSHJCcW9TdWNUUUtfdnB2NmtpWlB2RHVkaDhyTHR2NWt5a0ZCcWFFSEgxY0RzRXNfVEpoMDR4S2xDR28waF9OQUpPaFBTRzVBX2lKU0VjT0JNaEt3Vlp1V0t0VU9tQk9xaXFYNXBhQkRM?oc=5",
         "published": "Fri, 09 Oct 2026 07:00:00 GMT",
         "source": "香港01"
+      },
+      {
+        "title": "2026陸劇推薦60部必追片單！田曦薇《嫁金釵》、林一《折月亮》必看，播出平台與劇情整理 - ELLE",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTG5mb2R3RlhqSXBINFFLcTBnNUkzTGY2ZTNSTkpzczFRWjVtbFhBNnFibl8wXy1LaU9YVElPNDhtOTdianh6amIxa1hhZS1sT3VrQzlseW8wblAxUVdyUlFqczVYbjdxc1VHU280ZGpQNHVVQWdVNldyNVpLdnJzZGlNaw?oc=5",
+        "published": "Fri, 13 Nov 2026 08:00:00 GMT",
+        "source": "ELLE"
       },
       {
         "title": "【10月陸劇推薦】趙今麥《無可替代》、肖戰《小城良方》！9部必追陸劇片單總整理 - TVBS新聞網",
@@ -16,22 +28,10 @@
         "source": "TVBS新聞網"
       },
       {
-        "title": "2021陸劇推薦！《一生一世》任嘉倫、白鹿絕世甜劇，《國子監來了個女弟子》趙露思稱霸甜寵女王 - Marie Claire 美麗佳人",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uMncyQW9sWWtiS0ROQzgyVjZ1VmtIa2FzUkw0WWFMX1BKdFBUZTFwdDhmVGZiUmExWFhRVldHNVJSakdCNTVjV1ZqOWZqMnhJbWxEamZ3QV91MmhjWW5KVVl0Z3lpRHFf?oc=5",
-        "published": "Wed, 19 Jan 2022 08:00:00 GMT",
-        "source": "Marie Claire 美麗佳人"
-      },
-      {
-        "title": "陸劇出海・二︱從三國演義到慶餘年 外國人為什麼看陸劇？ - 香港01",
-        "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxQMDlvQ2R2RUVzV0h1LXdMRTlIYkZaNU5xSUlzNTFoVElkUks5YWRsWVNnREZXVjZTbFItSk9ndXQwR3U4UUVkZTlvbjBGSVpNZl9UcTJiQV83S1JuaW42N21UbmdWZThYZHVZcWV1SUlBSGN6eGE5OTZkM2Z5V1Iyc2h4WnVSRTBtbURuNFctLUNvNzdOdFVKOTlMTVBtOEhTVHBTczFlbjZCV3RQbzdfNXR5bkpZTEhXLW9qQ0R6RGxwb284WjFqdXkyV2EzWHZEZnBpcWxZZjZBMUNFLUhyMUxuTW41bmhMc2RWZ0NIalVMRnJmNGZmdlUwRHphc1FrV21yeVZ4M2RTSWNVQ0pSNHRqZ0hKOTc1VVpZRzJwc3JnX0hVbzdEMTRsMERnX1dYLVpvellMZlRWQ29NSjNOanVMbFZkT2ZwNHpTRU1lSlQyX3M3M3RROHc3YVRteHd2WkVCUTNpdGhsdlF0bFdzQ0d0UGc0b05JbnZUckxUbmViU1BIVlk0ZVFKbw?oc=5",
-        "published": "Wed, 06 Mar 2024 08:00:00 GMT",
-        "source": "香港01"
-      },
-      {
-        "title": "陸劇推薦2024線上看：古裝、現代愛情，最火陸劇排行榜快收藏 - TVBS新聞網",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoTWxYWnpfX21KTjNsYklfam9DWTI4UUUxeVhRcnNSS1pJN2w3UFo2TDQ0bUVoNEJKVDZDNGhBWHRPMGljc3VmYUVGQzNnYjQ2aU9OandpY2JnMTlrT3RkQ0dB?oc=5",
-        "published": "Thu, 30 Jul 2026 21:51:06 GMT",
-        "source": "TVBS新聞網"
+        "title": "《逐玉》本週完結不怕劇荒！6部古裝陸劇接檔推薦 迪麗熱巴《白日提燈》衝上Disney+ 收視冠軍！ - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOMkU0dGRidVVKSUpINDNabWwyZW1RcDVSWWhHdmJsS0lORXJ6NXJ6aWNyZEkweHFvbkZTM1JNSUVhYlZzVGE1MGViRnFCa3BhSDlOTWVuTmJvMm9YR25FZk4yam1uN1hXZkgzcENMR2pzaGVLeDNNM3JBNzM2blpfcDZ2S0RBcGoxT3ZYelE1aDhUQmpnbEY3eWsyckNCSVhUZlduVHZyZjl6SFo0dWZrZVBYYzI1dl8tRHhxTzZRT1lxNmMyS1hkS1hxdHBlbENMQUZtWV9neHRVMWk3eDJ6ejEyNUhTRVE4VTBHMnNOYWJWMzVLS25FRGhVeXRxLXYxMVEzM1V2UDhtZGV4Vnh4elNEVUVVMDRuYnJ6ZzRVTDdjTk5PUlJGUFNxRkVDN2YyVFJReURUX0Nqc294RFZ1WHA2RFBzVGhZc0MwUHZ3TG9jMjVCUEVXbmJHLVdDRDVoaGY1cEZMdUFFcjQwOE5Ob3Q0R0NEcDFFOVdDRXpOZVYxWWtrdm4wQWZpMFV0VnpxbnUwcHdBZ0ZHOEdWNmM0NERyeDNJVWZwQ1BMZGlvU1VoYnlNLVlVdEJwUWFrZGhXYkNyanNxOW5pX1pKZ25rTG1fSG1YTFhmVzU1VXkzRTRyS0hDWVhSY3EzRmt2Skoyek03UDJ6WTNISlV0MF8tV1pnamd2Y091ZUFPdDg1WEdMSThDdC1aSmtwcVNVcnN2QWh2ZVJtQ3FkZ3Znc0Frd296SQ?oc=5",
+        "published": "Wed, 01 Apr 2026 07:00:00 GMT",
+        "source": "Yahoo新聞"
       }
     ],
     "台劇": [
@@ -92,30 +92,18 @@
         "source": "Yahoo新聞"
       },
       {
-        "title": "【9月韓劇搶先看】孫藝真新劇挑逗池昌旭對決玄彬《韓國製造2》 李浚赫演中樂透的上班族 - 上報Up Media",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rZVkwWXBSRnU1V0RtVmVzOHNjbDJlWTdNeEZGUG05aDlXaE11Y1NHM2Ita1hKeWpZMUFiYUlRbXVuVmlaTzN4ME5kTFBRam5kRHE2WXllbEVoOHRNYnotWHBzbVpGbkpPa3c?oc=5",
-        "published": "Mon, 24 Aug 2026 07:00:00 GMT",
-        "source": "上報Up Media"
+        "title": "2026追劇片單！Netflix、Disney+強檔齊發，從《咒術迴戰3》到《百萬人推理》話題不掉線 - 迷誠品",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuczY4eF82X3ZCZHpBSmhHaE5kYkJta1dzLVZmaUx4czJVN2pONF9KS2JOcVFULTFpeGNVQ19yWnNRTUNRM092MUJsWnRXSlZwY1d5TVZYS2hiNzhVYldn?oc=5",
+        "published": "Fri, 13 Feb 2026 08:00:00 GMT",
+        "source": "迷誠品"
       }
     ],
     "綜藝": [
-      {
-        "title": "OTT 列強入侵：中國視頻網登台之騰訊 WeTv 也來了，真正剉咧等是誰？ - 立報傳媒",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqS1ktNzFlaF9BZ1FVY1R4TGlScXpqbk1jeng0UGJpaFZ3X09jTm1jSmJ0YU1YdGpZQ2ZEd3ZfUkZ6LVpaQTBKZ9IBSEFVX3lxTFBqS1ktNzFlaF9BZ1FVY1R4TGlScXpqbk1jeng0UGJpaFZ3X09jTm1jSmJ0YU1YdGpZQ2ZEd3ZfUkZ6LVpaQTBKZw?oc=5",
-        "published": "Mon, 20 May 2019 07:00:00 GMT",
-        "source": "立報傳媒"
-      },
       {
         "title": "紅果短劇紅什麼？滑開中毒回不去 這優勢讓用戶退訂Netflix - TVBS新聞網",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXbmkwOFl4LU5BbXFpb01SdlVTbUYyOWp4dm1YdERPSE5DRm5FMHJwUkRld09JdzBoTVFadVk2SzNWTC1abHo4cjRQb3BsS3dfUnRUX2xDZXZ2bVVvQlVYV2xR?oc=5",
         "published": "Wed, 21 Oct 2026 07:00:00 GMT",
         "source": "TVBS新聞網"
-      },
-      {
-        "title": "不只有《魔鬼的計謀》！中韓推理綜藝TOP 5 《明星大偵探》、《大逃脫》燒腦必看｜每日調查 - 網路溫度計 DailyView",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5EOGkwR1ZzSzlFN1VjUGRzSjd5OEpTX2FHaEU0UnN3aHN0MnFtRG9mODFWbnU1RnRCQlE5UWlzTFZsbmlxTlE?oc=5",
-        "published": "Fri, 06 Jun 2025 07:00:00 GMT",
-        "source": "網路溫度計 DailyView"
       },
       {
         "title": "紅果短劇日活破1.68億：打破Netflix開創的付費模式！日刷125分鐘 - 香港01",
@@ -124,10 +112,22 @@
         "source": "香港01"
       },
       {
-        "title": "陸劇推薦2026》10+部必看排行榜！《逐玉》、《玫瑰叢生》古裝現代一次看 - TVBS新聞網",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yR0NuR2VfekYtNnllb3ZyMVg4R1M0TldBMWtkTGRvcXdsbTc5RmpXa1BPelYxNVRuTDA3VXRoWlYxQ0kzUEZPODZwOW9pUlFiNFlBRVNTN3lIc3oxa0ZyQUZ3?oc=5",
-        "published": "Tue, 03 Feb 2026 08:00:00 GMT",
+        "title": "5月陸劇推薦》王楚然、楊紫大咖演員齊聚！8部必看陸劇播出時間與平台總整理 - TVBS新聞網",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yNElsYUp6UVRSRlhtTzlSQUJPZkk0cFpPUTY3d29nTm5LRkoxRkxrUU1Qb3BFajZEaUlpRWVkN1hlWWZld1g5NGIzRjZ2cHc5WXZpOWdkb3UxMnpwb3ZETEh3?oc=5",
+        "published": "Wed, 29 Apr 2026 07:00:00 GMT",
         "source": "TVBS新聞網"
+      },
+      {
+        "title": "OTT 列強入侵：中國視頻網登台之騰訊 WeTv 也來了，真正剉咧等是誰？ - 立報傳媒",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqS1ktNzFlaF9BZ1FVY1R4TGlScXpqbk1jeng0UGJpaFZ3X09jTm1jSmJ0YU1YdGpZQ2ZEd3ZfUkZ6LVpaQTBKZ9IBSEFVX3lxTFBqS1ktNzFlaF9BZ1FVY1R4TGlScXpqbk1jeng0UGJpaFZ3X09jTm1jSmJ0YU1YdGpZQ2ZEd3ZfUkZ6LVpaQTBKZw?oc=5",
+        "published": "Mon, 20 May 2019 07:00:00 GMT",
+        "source": "立報傳媒"
+      },
+      {
+        "title": "不只有《魔鬼的計謀》！中韓推理綜藝TOP 5 《明星大偵探》、《大逃脫》燒腦必看｜每日調查 - 網路溫度計 DailyView",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5EOGkwR1ZzSzlFN1VjUGRzSjd5OEpTX2FHaEU0UnN3aHN0MnFtRG9mODFWbnU1RnRCQlE5UWlzTFZsbmlxTlE?oc=5",
+        "published": "Fri, 06 Jun 2025 07:00:00 GMT",
+        "source": "網路溫度計 DailyView"
       }
     ],
     "日劇": [
@@ -144,6 +144,12 @@
         "source": "La Vie | 設計美學"
       },
       {
+        "title": "Netflix 7月追劇片單！5部必看韓劇、日劇：科幻《氣體人第一號》、南柱赫《鬼謎東宮》豪華卡司接力開播 - Marie Claire 美麗佳人",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CLUx5OWM4ejZmTG4wYTdPWlhZcEdGTERGX1N2akhMMDc4M0VNeGVvMXZJRXROeUJpNjBQLXI0STZSSHlKZXJOVGo1UUpSQ0VEbEFQZFJNQzR3VHZ1MGlxc0dLRU5QUmVL?oc=5",
+        "published": "Thu, 09 Jul 2026 07:00:00 GMT",
+        "source": "Marie Claire 美麗佳人"
+      },
+      {
         "title": "Netflix日劇《LOST 10》6大看點！橫濱流星、小栗旬主演，北海道山難72小時生死救援藏驚人真相 - ELLE",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeW1tYXc5X19FbnVrbm1sRVB1bjlmSy1Hd3B2eXlDX01qVnh2SnhnbTJCLVhyaFJqN21sNVVvcmJrSzNfV2txMlA1SHpsRHFMLTkzdWVmd1ZkX2tDNWRqTU5HT3NkMEpZS09iVkc4ay1aSVc4THRvMEt2YmFMcEltVVdTMDg2LWhCZlBwalpqekw?oc=5",
         "published": "Thu, 22 Oct 2026 07:00:00 GMT",
@@ -154,15 +160,15 @@
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KTmhtdzVXLXBQejJQN09zTTE0cEJLMW1yTGwtekdhWE53enVmWTh2N1VmX2N2bnZtQ2pKWm5ILU44aU00Y0xjcTVqQmNMWGp1a3dqRWhpVEczOGhQS1dUR0tnZElndw?oc=5",
         "published": "Sun, 25 Oct 2026 07:00:00 GMT",
         "source": "VERSE雜誌"
-      },
-      {
-        "title": "Netflix 7月追劇片單！5部必看韓劇、日劇：科幻《氣體人第一號》、南柱赫《鬼謎東宮》豪華卡司接力開播 - Marie Claire 美麗佳人",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CLUx5OWM4ejZmTG4wYTdPWlhZcEdGTERGX1N2akhMMDc4M0VNeGVvMXZJRXROeUJpNjBQLXI0STZSSHlKZXJOVGo1UUpSQ0VEbEFQZFJNQzR3VHZ1MGlxc0dLRU5QUmVL?oc=5",
-        "published": "Thu, 09 Jul 2026 07:00:00 GMT",
-        "source": "Marie Claire 美麗佳人"
       }
     ],
     "歐美劇": [
+      {
+        "title": "【11月美劇推薦】Netflix《黑鴿2》、Disney+《波西傑克森3》、Prime Video《魔戒：力量之戒3》開播 - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMi7gNBVV95cUxPaHBoUmpBSmNWTHdZLWhUYnA2ajFucHlsc3NILTVCaDQ2TGVtbzFqb0xDLWZLRzRESFFzckdNcTEzOXg1a1dpWDJqRkE5WEZYbTJMczN2Z2U5ZEtQQnRqdEhXWmctbEgtM2FVbWxBQ0UzUlBNZTFiODl0U1UxeHNyblBTdFRTajdBTk5TRTAwR3dPTTA1dWFHYWdwX2lSTWg5cUhodVJ3RWx6WXFvTzJlSldhRUIxN01TNFBWb2JLNVM4R3NFSFlQVVJqZGJ2S0FMV1pnNi11RGdUaUQ1MXdzSjl6UmlHdXA3R1d0RDlORmVyNXZPMUpKbTBpLUVYOGs0bkNfWGlMdzJFNEduZXhGRHdPeGFkaEJLZkdpdDhpdUdkSzJSMWNMejNPcWs0S19Fem42d3JSZ2xiR2I5S3Z6SlR5RUtlTDg2TTdNUzAwd3hJVDVfOFpQd1pLYmxVOWR2Wkhjd1FhQVFVaC00Nm8wUThuVkRBZF9FbThQZGpXSXhBVUNGZk9YMzAxT1JiazZpUjdHNGZRa1psLU9iOW8yWG9DNlNfWG0zRmppWFdiM2tBeks0MVFJYlItbmlLZnRHRkNOaE9lcEJGVGtQTi15LUFxZEk1X2VpMF9jOXN6YTVHdEFKYjJkMEJYa0xBZw?oc=5",
+        "published": "Mon, 02 Nov 2026 08:00:00 GMT",
+        "source": "Yahoo新聞"
+      },
       {
         "title": "2026 上半年必追英美好劇：從得獎話題劇續集到令人驚喜的新劇 - VERSE雜誌",
         "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9TSk1ha01uMjZ6WHNuZVZCLUlyLXphNS1sSkxPVmNHN0JOSlMtcS0xZUdodnFKSmdpeHZDMUVkeVdmcjhSS3JZOWp1c25DUVFneUN3TmVUcU5ITVhfeEJnU2tmYw?oc=5",
@@ -170,16 +176,10 @@
         "source": "VERSE雜誌"
       },
       {
-        "title": "【11月美劇推薦TOP 10】Netflix 必看《怪奇物語：第5季第1輯》劇終季、冰與火製作人《雷殛元首》、Disney+ 《訴訟女王》、絕命毒師編劇《萬中選一》開播！ - Yahoo新聞",
-        "url": "https://news.google.com/rss/articles/CBMiugZBVV95cUxQOTRtRFgtRVVKd0R3UXVGaTBQbUhiZ2FQQk9JdDdvQjJTdy1JaUdkS3JJdVo0U0swMlNfaFdYaWlOMFY4eWVwXzU0RUpNeG1hNF9NcWJJRjRGcE9veU9wam85aG1JZ05PZ1lsUXVSTG1OcXNFMWxiQVhSUW41ODQ4X3B3aV9HcnpqTUROd0JKbEd6cUpqMXAyVzV1LUU5N01oRl9YUE1XUkNQVW5CcXBkejlGa2lueGJHQ3lrWWJHVTRocWNxbXUtLXBlLXF0b1BjQWx6ejNXZUZaUHF1NXhYeFA5dTd4d296ZDhtUXRRdkpuMTNiVHE5WlBEUGJud2hYMjFmT3EteDZ4cFVCRDlQbkJGQ1Fqb1NnQlhJU2djVTgtYzB2WmJ4WU1rSEQyVkdZTVVYNUl3dDd1Z1pTWGprT0RhM0Zqam00UklrRTBkMFV6WmI0eTloVlBBTGVkcHFnNWh1NU51M3dRa3RqOF83M2VsVURHTG40cVZFOUZMck9yMWdlMUh1d1FEZGExRkticTZmV2c4a0pmZ3MzMkJBLUlibTYxYXoybXFUV0stOGE0NThOd3lTTG9qSElXUXRaTVRZcTJMSDNPclJlZzZIZk1CQnB5NHRGWEFSSU90N1RGRE1QTXMzWWp1SUszVDdILUI2NThKTnQ4ejBYZU1JWlNEaEpSWjk4MVpwM0dLWlVUM1FYMjYydXpleUV2RUpkQ1JhZ21GanRlanhHa0hmZjBBX3pFOTJ1alpRbTNFcU5NdUM1bmlVOHpuVlB5SV91MG5YTVJ3R21qb1p1Mll6UzlXa2FSR3Ffd1VxbW8wbHp3WXpYTEJZczYyaG1XbkIzMnRSOVNTZVRtLWFXb2U0OEtMWG1fa0VQZG85Y2NuX0ZzMVpJenkyNklqN0JvTFdmVXg1ZjdhUDBuYV9pbmk5TGJ5a29iRFZmMXRNRHZoVmRmaHVNM2lYcUtyOGY0cVRUREtaa25IdzFvYnYwRGU0ak53eHBjelptVXlBRFBwYnNBTGZXenduenVaLWRTRXhPOERWU19kNWNkZ0tGZDZwZHNVWUU2NnhURDJndkZVaVFQanF0V0tncFp3?oc=5",
-        "published": "Mon, 03 Nov 2025 08:00:00 GMT",
-        "source": "Yahoo新聞"
-      },
-      {
-        "title": "2025下半年必看歐美劇推薦｜Netflix HBO Apple TV 8部劇：《健力士王朝》《萬中選一》 - VERSE雜誌",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfdkszTU85RWtxSEQ1Nkc0SlJ5V014anZTS2pwaGxiMXMwNUNhdlVNTUVyTTZEQ3lWR3dBbzVSX24yUnJDWEpZYWU2UkEtQWFBVXBWMk5oSVlJZFNUblRZZg?oc=5",
-        "published": "Thu, 20 Nov 2025 08:00:00 GMT",
-        "source": "VERSE雜誌"
+        "title": "2026美劇必看片單推薦！預告＆開播日期＆播出平台一次看，放假追劇靠這篇 - Marie Claire 美麗佳人",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yTXpZYXNXVlBjRVl2cm5vcVB2SmJvcGI5aFlaZ09jamdwYVFjblVUSlFmeDJRZlA0ekh5elUwUk1lWWphelktVFJMSDN1S1ZHT1JkNE1ZUzdfeEgtZ1NicXZ1ZjlMRUZ6?oc=5",
+        "published": "Tue, 05 May 2026 07:00:00 GMT",
+        "source": "Marie Claire 美麗佳人"
       },
       {
         "title": "Netflix 10月必看片單！12部必追新劇一次看　金裕貞×朴珍榮《百日謊言》、《亞森羅蘋4》回歸 - udn 女子漾",
@@ -188,10 +188,10 @@
         "source": "udn 女子漾"
       },
       {
-        "title": "Netflix｜2022年十套不能錯過的新劇 恐怖懸疑喜劇艷情片樣樣齊 - 香港01",
-        "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPeUNfZk9IYnkwNXg1NktoaDVUSFBtTUpTd1NwTEUxelllWXdzcUhfcFJHOGNLUkp4MUhwd0pibnAteTRjUVl0bmxpUTdjbnZaSXdRbjJONkJidTBNVnEtcTliSDhNenBRa282djBvRmNjSXZkRWRZXzlacmNoQnU3N2YtUGFfdGRpQ1EzVWJITmlCR2ZVRFRibTJIZ2Y3SFFaeU5KS29XVnJUa1FNNl9xU0xPVmcxajJUWmt0R0N0MllRWXNMdk8xS3QtQ2pqZFRaVnlPM3JUU2ZPMkpuX1VWMkFoQ0ZEY25qOF9pSEh0QkdPYmt6VExLakg0dnRXdklmbVZUTDlUXzd3RHBoMkJwMWFsRE4wUnNnb1A5S0dQRGhjRXRMaF9SaFFvbUczSy03UzlBLW9yakxiTlBPQWNyOTBnT2ZneVo0bC05VFJNZDVSNnpBcFNkc0pjSF9EcTN2NUZIVUQycTRhLW5hY2hNVk52NGU?oc=5",
-        "published": "Wed, 02 Mar 2022 08:00:00 GMT",
-        "source": "香港01"
+        "title": "【2026年4月美劇推薦TOP 10】Netflix 神劇《怒嗆人生》第二季、Disney+《證詞》、《黑袍糾察隊》第五季劇終、《高校十八禁》第三季引爆片單！ - Yahoo新聞",
+        "url": "https://news.google.com/rss/articles/CBMi8wVBVV95cUxQTFJQME1veEJnb3J5amRRTDFSQ1pWUHhNQkV0MThQQ3FNc2dnWGI2UHoxeFNkLW02T2V0WnlxOURPLWRtTUlXdmlycWViblVwTk1HUUZCdk1jOWNBWVU0OTdoRXdHdmVhU09aNVMyamNYVFZGNHpTdzhKZEJnZ09DN0oxV2pQSXNIYmhzblRQUkNQRmVHVW9hZHYxaFJ1V2dfdGhhbmpRRnNjdlJWODE3YnJZeXpnN2lXQ08xdUg2Z0Nadi1VOXRRNXJDUG1jU1VfNFVSRTRzSkJvRzd3YjRsSzhCajY1a3R6aU1hQk4zVFZXcVBBSDJwaWEwb05nd0ZZSDdPcm1nVEdReFhBTnZLdE0yaEVpMkV1azBETlVQQWllbFh5Z2tTemI5YmFudnhScjFwbklneVM4R1lJT3hVOXJnQ2p2ZmdtaENzc0E2SnNWRzRHSUJuREk3bHpDLV9rZHpsYTQySlh3Tmp2Ui05V0JzM1JnMmUtMHozQUhiY3ZpUnVCYXp3STJydjQ1SDN3QlhOUVJoaGtPT2ZUbWFqZWxOQWlsaU5ibGlpWWxWN1l3bGRFdzQ2QUNMZjNzSXRvZWFJaUhZYzh0VmRtRDQ3eTdsNW9OUG9lSHF2cEdqMWRqV1FpQm9fWkRDSzBXRlFCY2EtTnA0bHdoTEVDd2w3UzRWT0tROWwteVFvZVdxNndIYldZSVN1emNoX29ESEVFRHNxbnk1d0dHQ1RoVWhiU2Y4aF8wUzlzYjNGZXJUX1ZWcmNIMHZoRWE5RHNfSWZWRC1JRUpWSllFbzk4NXM1ZzFrNmNvY2NvV3NIcVNZTlNUYXRkSnNSelBlamRWX255Vl81OEZXbE9wbWNkUDB5bmNBSzFjN0pHdUZvemQ3a25kSTZDUTJieGN3QmlrY2dfUjg3SmNFWnlBM09CRjQwUkxqelI0VTFsdTJrLXZNTF80cG5KM3gxYV92UTJodkZsSnRyLVV6QXVnSHlPTjZQd1pkUQ?oc=5",
+        "published": "Tue, 31 Mar 2026 07:00:00 GMT",
+        "source": "Yahoo新聞"
       }
     ]
   },
@@ -751,94 +751,6 @@
       "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
       "platformAvailabilityVerified": false,
       "firstSeenAt": "2026-11-11T10:05:49+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-81678020",
-      "title": "嘟吉的狗狗屋",
-      "type": "歐美劇",
-      "platform": "Netflix",
-      "cast": "塞萊絲蒂娜哈利斯",
-      "description": "一起來享受狗狗屋日！在這部充滿魔法的兒童影集裡，喜愛狗狗的嘟吉和狗狗夥伴一起開心玩耍，盡情發揮創意和想像力。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/81678020",
-      "verified": true,
-      "verifiedAt": "2026-11-17T12:41:46+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/81678020",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-10T12:15:37+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-80176931",
-      "title": "拜託冰箱",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "金成柱、安貞桓",
-      "description": "韓國頂尖主廚正面交鋒，利用在明星來賓的冰箱中找到的食材，即興創造出各種菜色。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/80176931",
-      "verified": true,
-      "verifiedAt": "2026-11-16T18:01:48+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/80176931",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-11T20:02:58+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-80996601",
-      "title": "盲婚試愛",
-      "type": "綜藝",
-      "platform": "Netflix",
-      "cast": "尼克·萊奇、凡妮莎·萊奇",
-      "description": "尼克·萊奇和凡妮莎·萊奇攜手主持這檔社會實驗節目，單身男女在沒見過彼此的情況下尋找對象和訂婚。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/80996601",
-      "verified": true,
-      "verifiedAt": "2026-11-16T18:01:48+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/80996601",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-09T18:06:33+08:00",
-      "verificationStale": true
-    },
-    {
-      "id": "netflix-auto-83021610",
-      "title": "權欲 3：卡南崛起",
-      "type": "歐美劇",
-      "platform": "Netflix",
-      "cast": "梅凱柯提斯、帕蒂納·米勒、倫敦·布朗、麥爾坎 M 梅斯、惡男喬伊",
-      "description": "卡南史塔克在 1990 年代的皇后區成長。他一心想在母親的古柯鹼生意中證明自己，同時還得面對威脅家族地盤的敵對勢力。",
-      "source": "Netflix 台灣官方作品頁（自動核對）",
-      "url": "https://www.netflix.com/tw/title/83021610",
-      "verified": true,
-      "verifiedAt": "2026-11-16T18:01:48+08:00",
-      "autoDiscovered": true,
-      "releasePrecision": "year",
-      "releaseWindow": "2026 年作品；確切上架日未核實",
-      "releaseStatus": "catalogue-listed",
-      "releaseSourceUrl": "https://www.netflix.com/tw/title/83021610",
-      "catalogueYear": 2026,
-      "availabilityNote": "Netflix 台灣官方公開片庫列出；實際可播放情況請開啟平台確認",
-      "platformAvailabilityVerified": false,
-      "firstSeenAt": "2026-11-09T18:06:33+08:00",
       "verificationStale": true
     },
     {
@@ -2912,14 +2824,14 @@
     "羽球": [],
     "桌球": []
   },
-  "cpblLastAttemptAt": "2026-11-24T05:13:23+08:00",
+  "cpblLastAttemptAt": "2026-11-24T13:38:57+08:00",
   "cpblAsOfDate": "2026-11-24",
-  "cpblLastSuccessAt": "2026-11-24T05:13:23+08:00",
+  "cpblLastSuccessAt": "2026-11-24T13:38:57+08:00",
   "cpblSyncError": null,
   "cpblDataMode": "official",
-  "cpblValidUntil": "2026-11-24T08:13:23+08:00",
+  "cpblValidUntil": "2026-11-24T16:38:57+08:00",
   "chinaDramaNewTitles": {
-    "checkedAt": "2026-11-23T15:46+08:00",
+    "checkedAt": "2026-11-24T13:38+08:00",
     "items": [
       {
         "title": "兩京十五日",
@@ -3016,7 +2928,7 @@
         "status": "新聞提及（尚未核實正式開播）"
       }
     ],
-    "lastSuccessfulAt": "2026-11-23T15:46+08:00",
+    "lastSuccessfulAt": "2026-11-24T13:38+08:00",
     "method": "最近14天新聞提及的劇名，待官方核實後才能視為已開播"
   },
   "seriesDiscovery": {
@@ -4177,22 +4089,15 @@
     ],
     "lastSuccessfulAt": "2026-10-26T17:16:03+08:00",
     "status": "partial",
-    "verifiedCount": 111,
-    "newByInterest": {
-      "台劇": 0,
-      "韓劇": 0,
-      "陸劇": 0,
-      "日劇": 0,
-      "歐美劇": 0,
-      "綜藝": 1
-    },
+    "verifiedCount": 107,
+    "newByInterest": null,
     "countByInterest": {
       "台劇": 1,
       "韓劇": 1,
       "陸劇": 48,
       "日劇": 0,
-      "歐美劇": 4,
-      "綜藝": 57
+      "歐美劇": 2,
+      "綜藝": 55
     }
   },
   "seriesDiscoveryLastSnapshot": [
@@ -4220,26 +4125,6 @@
       "title": "爆笑悲劇王：笑著笑著就哭了",
       "platform": "Netflix",
       "type": "綜藝"
-    },
-    {
-      "title": "嘟吉的狗狗屋",
-      "platform": "Netflix",
-      "type": "歐美劇"
-    },
-    {
-      "title": "拜託冰箱",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
-      "title": "盲婚試愛",
-      "platform": "Netflix",
-      "type": "綜藝"
-    },
-    {
-      "title": "權欲 3：卡南崛起",
-      "platform": "Netflix",
-      "type": "歐美劇"
     },
     {
       "title": "家乡美食大赛",
@@ -4755,15 +4640,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-24T06:02:17+08:00",
-    "updatedAt": "2026-11-24T06:02:17+08:00",
-    "lastSuccessfulAt": "2026-11-24T06:02:17+08:00",
+    "checkedAt": "2026-11-24T13:38:57+08:00",
+    "updatedAt": "2026-11-24T13:38:57+08:00",
+    "lastSuccessfulAt": "2026-11-24T13:38:57+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-24T06:02:17+08:00",
+        "checkedAt": "2026-11-24T13:38:57+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4777,7 +4662,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-24T06:02:17+08:00",
+        "checkedAt": "2026-11-24T13:38:57+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4791,8 +4676,8 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-24T06:02:17+08:00",
-        "itemCount": 7,
+        "checkedAt": "2026-11-24T13:38:57+08:00",
+        "itemCount": 5,
         "provider": "Google News",
         "attempts": [
           {
@@ -4806,17 +4691,6 @@
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
-      {
-        "id": "weekly-2a47cfd1cd751c60",
-        "title": "免費衛星電視節目進公屋 富蝶邨開展公益收視宣傳 - 紫荊網",
-        "type": "綜藝",
-        "source": "紫荊網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa2NJaE12ZktjQjZzMS1FMzgyTm9oeFdMQ2pIOFVnREJGRzc0UG1DNVprTlRtZHJqb21BYWV3bWpfWmVNWXNRRnZCZzFjejhfd2g0S2lQdjIyOUFWN2JMRHBNYW8tMXZoSHo4Ymdycm8xNFA4OU1JUXRMcTVmYlU1X2c3bm9vZ0xUTWJud2dSbXA?oc=5",
-        "observedAt": "2026-11-23T23:50:46+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
       {
         "id": "weekly-688b500d1a11db56",
         "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - 風傳媒",
@@ -4871,24 +4745,13 @@
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-2bcbd50876a8373a",
-        "title": "侯明昊音樂事業全面衝刺！《歌手2026》後再接新節目 SEVENTEEN文俊輝也加入 - 鏡報",
-        "type": "綜藝",
-        "source": "鏡報",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxOWlpLVhlX3dHVzRPOU9HTTZWeG9DZF9yS0xxLWFsRmwwWjdGMzVlamQzeE5WcWxVdm03ZE5mUUJUci1Wajh3Wk1wb01MNnllTGc?oc=5",
-        "observedAt": "2026-11-23T00:46:10+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       }
     ]
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "updatedAt": "2026-11-23T15:46+08:00",
+    "updatedAt": "2026-11-24T13:38+08:00",
     "market": "台灣關注的三大串流平台",
     "method": "官方新公告或本週新上架優先；其餘為當週相關消息，不宣稱平台排行",
     "items": []
