@@ -4202,15 +4202,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-26T16:12:52+08:00",
-    "updatedAt": "2026-11-26T16:12:52+08:00",
-    "lastSuccessfulAt": "2026-11-26T16:12:52+08:00",
+    "checkedAt": "2026-11-27T03:36:49+08:00",
+    "updatedAt": "2026-11-27T03:36:49+08:00",
+    "lastSuccessfulAt": "2026-11-27T03:36:49+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-26T16:12:52+08:00",
+        "checkedAt": "2026-11-27T03:36:49+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4224,8 +4224,8 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-26T16:12:52+08:00",
-        "itemCount": 0,
+        "checkedAt": "2026-11-27T03:36:49+08:00",
+        "itemCount": 1,
         "provider": "Google News",
         "attempts": [
           {
@@ -4238,7 +4238,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-26T16:12:52+08:00",
+        "checkedAt": "2026-11-27T03:36:49+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4253,6 +4253,28 @@
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
+      {
+        "id": "weekly-b52ab84d802cd200",
+        "title": "台劇走向國際 胡元輝：不應只依賴串流平台 - 台灣大紀元",
+        "type": "台劇",
+        "source": "台灣大紀元",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMisAJBVV95cUxORERiOHI0VjlrUDFaM2NfaGFBSl9iRkw0aXRhZnpwNnlnTnhIeWtNdWNIVG1zQWNSRDBDVWU0bEV6YktwZ2RTUlF6Y3JXbmpJdThEcnFCZDM4N3NUcllRazRRUnJmWGdVNmR1QWZZcnhlQ0g5UlNBem5nQ2VGejFWdzBpd3RQWEpRdHd5QWhCZFVYU0FqTmpvUFgydktod0dlWE5WREtsNFJnQ3VQM3gyTWJESm9ib245TExPM1VTaHRHb1J6Z1FjS3Z1N01TZFBLcy1iNkZ2enNKb1FaUmJFaURoZ0tFaXR4VFRhUzE5Rkk2X0NqN2RTc1BuY1NjRGRSTEJwTERJVGtDYmZGTVlKVkdlUHlSdm95UTJBbkZpYjRsUzI0aFFBVWxuc3g3ZnVF?oc=5",
+        "observedAt": "2026-11-27T01:00:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-e769890780c31230",
+        "title": "【綜藝】 以為神東民穩贏了？Netflix《魔鬼的計謀3：死亡重啟》差點棄劇卻迎來史詩級大逆轉！ - udn 女子漾",
+        "type": "綜藝",
+        "source": "udn 女子漾",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DRHEwa1hfMHdpaWIzM21mTkE1MF8taHJ3a1ZqakRvc3dOdlhCck5NZTBOQmpnQzUyVEJEVXVHTGxyc1JvS3hBTkg5ZDhyeUV0YzRKMjdSMEVPMFlv0gFiQVVfeXFMUFVVVE1DeXRZMWR4QWZwUHFibDExNjVONWFJXzZBQ3M4S0xJbGlQWEhvLWhfMzRHbkg3SkdVcHlCS1JXakM1VGs3VlYtZjBuV1JWWV9aSEI0c2dIVFNqZzRCVXc?oc=5",
+        "observedAt": "2026-11-25T17:17:24+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
       {
         "id": "weekly-9c272bc9947aadf5",
         "title": "中國推「AI綜藝」！浙江衛視公布10片單　網2派戰翻：我要看得是真人感… - 鏡新聞",
@@ -4276,12 +4298,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-35f76efc22711842",
-        "title": "Netflix近期韓國話題作品推薦！金智媛、金裕貞新作接連霸榜，《魔鬼的計謀》實境秀也爆紅 - ELLE",
+        "id": "weekly-64af4ceee3b44a2c",
+        "title": "「AI綜藝」也來了！浙江衛視推10部片單　陸網炸鍋：不如看紅果 - ETtoday新聞雲",
         "type": "綜藝",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0cwdkdhWXkyMGtqNDMxSkdYYTdTZWhkcDBTZjRCbGJpa0otYjVMNkVXeWtHUVFKMVpzak51Y2hOOEN0S3dZemI5bGFEdUthcXhyOTVSdEhZcjJmZnAwLW1Hclo5cmg5c1hrUHF0eHdVMjV6cWkyQVpLNGFMWkk0THZYTG1pWkth?oc=5",
-        "observedAt": "2026-11-24T16:16:38+08:00",
+        "source": "ETtoday新聞雲",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1uZTU4ZzZ2N25OZFBnc0ZtWnhZbzM3WnU2dzBES1R1NGtDellvVVE0dG1CZmpiVVljc1M4Q3ZhM0l4RkdFclREVG1FWnZMVkpvVm5oUFZ5aktocDN4dVHSAUtBVV95cUxOb092ZkdpQTFteEk0U2VkMTdRdzE2cE1Ibjk4WjF1QXdrd2tvazE2SlI2SmozU2I0bnlwQUllTGpncldvYVZ3b09NZkU?oc=5",
+        "observedAt": "2026-11-24T18:09:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4326,17 +4348,6 @@
         "source": "CTWANT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Q0x6b25sVndJTUhrOHdLeUR2STZMNWVjcWo1SWlOLUl3STZrYm15aEFubTQ4TVlQRXROQlJpOEdBVTVoVUFMQ0V2aDdPMjDSAVRBVV95cUxQeVJYRjlhOHU1OUZWdURzYXhVSnRPcUdzQ2RsNEd0ZWU5QUU0YXk4SkVabUNTOGhKbDd1SlktZTVCSzU1UXdEOWcyY0doT050Qy0ydXE?oc=5",
         "observedAt": "2026-11-23T20:27:52+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-31d34f16efee3da0",
-        "title": "央視主持錄節目假牙消失 急懸賞「全喀什找牙」登熱搜 - 世界新聞網",
-        "type": "綜藝",
-        "source": "世界新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uMlZINmE1TWhKeXRsU1YwWXhhTlc5dXRkdzlpeWY4dGZDcDZjd25ReTB3WXpqU1poYVNXOU9ILXRfSldoWHZRM2FCQ1NjaHhDR2cyTG43X1lubG5TS3h4bHdR0gFnQVVfeXFMT21BejRvSm5Bamxqd3R4RVBLV1FBSXdtVFBMdGZMemJwLXZFZWpBRl9Ea2ZGU2ZQTlRPZlBFMFVJeFN2QU50ay1wV2VtaHdYWXYxVDViRnRrcVNXS3FlWWVsX2lkNU44VQ?oc=5",
-        "observedAt": "2026-11-23T19:30:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
