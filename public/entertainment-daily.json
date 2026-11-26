@@ -4195,15 +4195,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-26T11:49:06+08:00",
-    "updatedAt": "2026-11-26T11:49:06+08:00",
-    "lastSuccessfulAt": "2026-11-26T11:49:06+08:00",
+    "checkedAt": "2026-11-26T16:12:52+08:00",
+    "updatedAt": "2026-11-26T16:12:52+08:00",
+    "lastSuccessfulAt": "2026-11-26T16:12:52+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-26T11:49:06+08:00",
+        "checkedAt": "2026-11-26T16:12:52+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4217,7 +4217,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-26T11:49:06+08:00",
+        "checkedAt": "2026-11-26T16:12:52+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4231,7 +4231,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-26T11:49:06+08:00",
+        "checkedAt": "2026-11-26T16:12:52+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
