@@ -4095,15 +4095,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-27T11:50:38+08:00",
-    "updatedAt": "2026-11-27T11:50:38+08:00",
-    "lastSuccessfulAt": "2026-11-27T11:50:38+08:00",
+    "checkedAt": "2026-11-27T16:24:38+08:00",
+    "updatedAt": "2026-11-27T16:24:38+08:00",
+    "lastSuccessfulAt": "2026-11-27T16:24:38+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-27T11:50:38+08:00",
+        "checkedAt": "2026-11-27T16:24:38+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4117,7 +4117,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-27T11:50:38+08:00",
+        "checkedAt": "2026-11-27T16:24:38+08:00",
         "itemCount": 1,
         "provider": "Google News",
         "attempts": [
@@ -4131,7 +4131,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-27T11:50:38+08:00",
+        "checkedAt": "2026-11-27T16:24:38+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4147,11 +4147,33 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
-        "id": "weekly-3bfbc8ad1efcc8fb",
+        "id": "weekly-42bf5868a2a5af75",
+        "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意原因超爆笑 - 鏡週刊Mirror Media",
+        "type": "綜藝",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wUkl1TUFMLXdQVWZPX2p5bEZFaVJINFlLVWpFdnNyeW9DdUlndFh0LXlpMFc0ZkhUX0Q3eVZ6Mk9nOWhWRzE1RXBGNVRMcWdZMTB4SFdoQjlyeE43QzR5TFozdFpoUQ?oc=5",
+        "observedAt": "2026-11-27T15:02:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-239eaf52743d6229",
+        "title": "啦啦隊女神李多慧遇上綜藝大哥徐乃麟 跨界合作為台灣綠金10週年添話題 | 熱門亮點 | 商情 - 經濟日報",
+        "type": "綜藝",
+        "source": "經濟日報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9keU9FdGhlOUhIMWxvZlhJeWMyVmRLdDF2MjlzMllUb2NlNnZPMVNzR2lURlFBOC1OVHlDZDFIN1VRM0hWR2VzT0NJeDg1V0MyelBqdnNCY2JJQQ?oc=5",
+        "observedAt": "2026-11-27T10:02:13+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-9790805d9e5e5edc",
         "title": "台劇走向國際 胡元輝：不應只依賴串流平台 - 大紀元",
         "type": "台劇",
         "source": "大紀元",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsNWRDcl9PM1ZBZktFVkNKSnlaZ0hFMHc0YTlINXdvMElsTHctakRhY0h3X2lwbnIzX2FJYzBlU0QxZ3BxYzU5TWVqTTJISG1mTU8xUXN4cGZVUkg3MnVmaDFWVzhQT1nSAWdBVV95cUxQbDVkQ3JfTzNWQWZLRVZDSkp5WmdIRTB3NGE5SDV3bzBJbEx3LWpEYWNId19pcG5yM19hSWMwZVNEMWdwcWM1OU1lak0ySEhtZk1PMVFzeHBmVVJINzJ1ZmgxVlc4UE9Z?oc=5",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wb2M3a3FKa1lDS0RJWVdRWmhBeTZocEd0SGR0S2NmaC1tT2xNZGJ0TmJ3d3YwbUhVTGNsUFhZNDl3LUZxV3BxUXhMNUpQMWt6QkVScjJzb1EzNTQ0T2JrT2530gFnQVVfeXFMUGw1ZENyX08zVkFmS0VWQ0pKeVpnSEUwdzRhOUg1d28wSWxMdy1qRGFjSHdfaXBucjNfYUljMGVTRDFncHFjNTlNZWpNMkhIbWZNTzFRc3hwZlVSSDcydWZoMVZXOFBPWQ?oc=5",
         "observedAt": "2026-11-27T07:24:00+08:00",
         "isWeiboMention": false,
         "verified": false,
@@ -4164,17 +4186,6 @@
         "source": "鏡新聞",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kZ3ZicVpXUUpQczM3OXVYNFJuU1huaTJFV01kNW5sY3pzQmNpZ1ctNEI0dDZxZDNzY1U2eEFBQWhubGtqdVlSSGVsTHo3cmhRU01WZHhVTjBMcVFU0gFcQVVfeXFMT2RndmJxWldRSlBzMzc5dVg0Um5TWG5pMkVXTWQ1bmxjenNCY2lnVy00QjR0NnFkM3NjVTZ4QUFBaG5sa2p1WVJIZWxMejdyaFFTTVZkeFVOMExxUVQ?oc=5",
         "observedAt": "2026-11-24T19:20:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-74d7ba5f10ee7cf7",
-        "title": "中國推「AI綜藝」！浙江衛視公布10片單 網2派戰翻：我要看得是真人感… - 鏡週刊Mirror Media",
-        "type": "綜藝",
-        "source": "鏡週刊Mirror Media",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Hak9hNXpPUnM5VzAzTENQeXpFRnNXYnhYdkQ4c1FqM1M1cGJTM2lpSzhFTFo4V2s5VFI4NXFiNVByU3JVaFZTMmxNQ1EtT3k1eFo4UWpDaUNaOVE?oc=5",
-        "observedAt": "2026-11-24T19:08:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4230,17 +4241,6 @@
         "source": "CTWANT",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Q0x6b25sVndJTUhrOHdLeUR2STZMNWVjcWo1SWlOLUl3STZrYm15aEFubTQ4TVlQRXROQlJpOEdBVTVoVUFMQ0V2aDdPMjDSAVRBVV95cUxQeVJYRjlhOHU1OUZWdURzYXhVSnRPcUdzQ2RsNEd0ZWU5QUU0YXk4SkVabUNTOGhKbDd1SlktZTVCSzU1UXdEOWcyY0doT050Qy0ydXE?oc=5",
         "observedAt": "2026-11-23T20:27:52+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-31d34f16efee3da0",
-        "title": "央視主持錄節目假牙消失 急懸賞「全喀什找牙」登熱搜 - 世界新聞網",
-        "type": "綜藝",
-        "source": "世界新聞網",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uMlZINmE1TWhKeXRsU1YwWXhhTlc5dXRkdzlpeWY4dGZDcDZjd25ReTB3WXpqU1poYVNXOU9ILXRfSldoWHZRM2FCQ1NjaHhDR2cyTG43X1lubG5TS3h4bHdR0gFnQVVfeXFMT21BejRvSm5Bamxqd3R4RVBLV1FBSXdtVFBMdGZMemJwLXZFZWpBRl9Ea2ZGU2ZQTlRPZlBFMFVJeFN2QU50ay1wV2VtaHdYWXYxVDViRnRrcVNXS3FlWWVsX2lkNU44VQ?oc=5",
-        "observedAt": "2026-11-23T19:30:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
