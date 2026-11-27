@@ -4088,15 +4088,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-27T16:24:38+08:00",
-    "updatedAt": "2026-11-27T16:24:38+08:00",
-    "lastSuccessfulAt": "2026-11-27T16:24:38+08:00",
+    "checkedAt": "2026-11-28T03:28:28+08:00",
+    "updatedAt": "2026-11-28T03:28:28+08:00",
+    "lastSuccessfulAt": "2026-11-28T03:28:28+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-27T16:24:38+08:00",
+        "checkedAt": "2026-11-28T03:28:28+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -4110,8 +4110,8 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-27T16:24:38+08:00",
-        "itemCount": 1,
+        "checkedAt": "2026-11-28T03:28:28+08:00",
+        "itemCount": 3,
         "provider": "Google News",
         "attempts": [
           {
@@ -4124,7 +4124,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-27T16:24:38+08:00",
+        "checkedAt": "2026-11-28T03:28:28+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -4140,12 +4140,34 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
+        "id": "weekly-ec900a20056f581b",
+        "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意原因超爆笑 - 鏡新聞",
+        "type": "綜藝",
+        "source": "鏡新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdW0zVU40MDE5dFlTVTNCdTgxNEloTVRtS1YyZ2RoeFhjYllCR290amh4TVZpblF6Ri1XUDYzSFhTeUpvZUE1R0pJQTJYX2s2cEpDZ3VoYmhIREliNDZwZjVGQVhvejDSAWdBVV95cUxQMHVtM1VONDAxOXRZU1UzQnU4MTRJaE1UbUtWMmdkaHhYY2JZQkdvdGpoeE1WaW5RekYtV1A2M0hYU3lKb2VBNUdKSUEyWF9rNnBKQ2d1aGJoSERJYjQ2cGY1RkFYb3ow?oc=5",
+        "observedAt": "2026-11-27T15:20:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-42bf5868a2a5af75",
         "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意原因超爆笑 - 鏡週刊Mirror Media",
         "type": "綜藝",
         "source": "鏡週刊Mirror Media",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wUkl1TUFMLXdQVWZPX2p5bEZFaVJINFlLVWpFdnNyeW9DdUlndFh0LXlpMFc0ZkhUX0Q3eVZ6Mk9nOWhWRzE1RXBGNVRMcWdZMTB4SFdoQjlyeE43QzR5TFozdFpoUQ?oc=5",
         "observedAt": "2026-11-27T15:02:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-e5ec81ed300c0391",
+        "title": "為衝流量豁出去！鄭人碩想遷戶籍　喊話觀眾「睡覺也開著」：電費我埋單 - 三立新聞",
+        "type": "台劇",
+        "source": "三立新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kSGVMZU9sX0dKZy01am0tTFlCdG1mUWtLWW5sLXRqYUY2Q0NUcUlnaHhacHpWRHdEcFQ5SDA1LUFDc1o0MlBtTjF2ZjRoQkxSbUQ4MmFwOU41Vm1TRXZF0gFfQVVfeXFMTmRIZUxlT2xfR0pnLTVqbS1MWUJ0bWZRa0tZbmwtdGphRjZDQ1RxSWdoeFpwelZEd0RwVDlIMDUtQUNzWjQyUG1OMXZmNGhCTFJtRDgyYXA5TjVWbVNFdkU?oc=5",
+        "observedAt": "2026-11-27T14:14:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4173,12 +4195,12 @@
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
       },
       {
-        "id": "weekly-9c272bc9947aadf5",
-        "title": "中國推「AI綜藝」！浙江衛視公布10片單　網2派戰翻：我要看得是真人感… - 鏡新聞",
-        "type": "綜藝",
-        "source": "鏡新聞",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9kZ3ZicVpXUUpQczM3OXVYNFJuU1huaTJFV01kNW5sY3pzQmNpZ1ctNEI0dDZxZDNzY1U2eEFBQWhubGtqdVlSSGVsTHo3cmhRU01WZHhVTjBMcVFU0gFcQVVfeXFMT2RndmJxWldRSlBzMzc5dVg0Um5TWG5pMkVXTWQ1bmxjenNCY2lnVy00QjR0NnFkM3NjVTZ4QUFBaG5sa2p1WVJIZWxMejdyaFFTTVZkeFVOMExxUVQ?oc=5",
-        "observedAt": "2026-11-24T19:20:00+08:00",
+        "id": "weekly-e149b1c8e5afa887",
+        "title": "Netflix首部烏爾都語影集將上架 寶萊塢工會要求莫迪全面封殺 | 民視新聞網 - LINE TODAY",
+        "type": "台劇",
+        "source": "LINE TODAY",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45Yjlub3B0NVpHZWJIcXVsMUJSWHJ6VzY4N3lwd3VmSlg4YnJFODRrRktOSkMwTjktWno0M1ZUak12UUNXMDZmYTdHSWpJT2dUamFxX2FR?oc=5",
+        "observedAt": "2026-11-25T20:45:08+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4196,9 +4218,9 @@
       },
       {
         "id": "weekly-688b500d1a11db56",
-        "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - 風傳媒",
+        "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - Storm.mg",
         "type": "綜藝",
-        "source": "風傳媒",
+        "source": "Storm.mg",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ycUlNZC1rVHI0UHRLazBDRlVleWFzRG80NjJvcWI4YlVxdGVTbHA3WUloX1FpYmkxUkZOdEs2aFFZR1FsM2tpNXhmSmtJUQ?oc=5",
         "observedAt": "2026-11-23T22:48:00+08:00",
         "isWeiboMention": false,
