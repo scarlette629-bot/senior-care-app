@@ -3925,28 +3925,21 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-28T11:37:06+08:00",
-    "updatedAt": "2026-11-28T11:37:06+08:00",
-    "lastSuccessfulAt": "2026-11-28T11:37:06+08:00",
+    "checkedAt": "2026-11-28T15:44:39+08:00",
+    "updatedAt": "2026-11-28T15:44:39+08:00",
+    "lastSuccessfulAt": "2026-11-28T15:44:39+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-28T11:37:06+08:00",
+        "checkedAt": "2026-11-28T15:44:39+08:00",
         "itemCount": 0,
-        "provider": "Bing News",
+        "provider": "Google News",
         "attempts": [
           {
             "provider": "Google News",
             "url": "https://news.google.com/rss/search?q=%28%28%E9%99%B8%E5%8A%87+OR+%E7%94%B5%E8%A7%86%E5%89%A7%29+%28%E7%86%B1%E6%92%AD+OR+%E7%83%AD%E6%92%AD+OR+%E7%86%B1%E6%90%9C+OR+%E7%83%AD%E6%90%9C+OR+%E5%BE%AE%E5%8D%9A+OR+%E9%96%8B%E6%92%AD%29+OR+%E5%AB%81%E9%87%91%E9%87%B5+OR+%E5%AB%81%E9%87%91%E9%92%97%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
-            "status": "error",
-            "error": "HTTP Error 503: Service Unavailable",
-            "httpStatus": 503
-          },
-          {
-            "provider": "Bing News",
-            "url": "https://www.bing.com/news/search?q=%28%28%E9%99%B8%E5%8A%87+OR+%E7%94%B5%E8%A7%86%E5%89%A7%29+%28%E7%86%B1%E6%92%AD+OR+%E7%83%AD%E6%92%AD+OR+%E7%86%B1%E6%90%9C+OR+%E7%83%AD%E6%90%9C+OR+%E5%BE%AE%E5%8D%9A+OR+%E9%96%8B%E6%92%AD%29+OR+%E5%AB%81%E9%87%91%E9%87%B5+OR+%E5%AB%81%E9%87%91%E9%92%97%29&format=rss&mkt=zh-TW",
             "status": "success"
           }
         ]
@@ -3954,20 +3947,13 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-28T11:37:06+08:00",
-        "itemCount": 0,
-        "provider": "Bing News",
+        "checkedAt": "2026-11-28T15:44:39+08:00",
+        "itemCount": 3,
+        "provider": "Google News",
         "attempts": [
           {
             "provider": "Google News",
             "url": "https://news.google.com/rss/search?q=%28%E5%8F%B0%E5%8A%87+%28%E7%86%B1%E6%92%AD+OR+%E7%86%B1%E9%96%80+OR+%E6%96%B0%E5%8A%87+OR+%E6%94%B6%E8%A6%96+OR+Netflix%29+OR+%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
-            "status": "error",
-            "error": "HTTP Error 503: Service Unavailable",
-            "httpStatus": 503
-          },
-          {
-            "provider": "Bing News",
-            "url": "https://www.bing.com/news/search?q=%28%E5%8F%B0%E5%8A%87+%28%E7%86%B1%E6%92%AD+OR+%E7%86%B1%E9%96%80+OR+%E6%96%B0%E5%8A%87+OR+%E6%94%B6%E8%A6%96+OR+Netflix%29+OR+%E6%96%B0%E6%89%8B%E4%B8%8A%E8%B7%AF%29&format=rss&mkt=zh-TW",
             "status": "success"
           }
         ]
@@ -3975,20 +3961,13 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-28T11:37:06+08:00",
-        "itemCount": 0,
-        "provider": "Bing News",
+        "checkedAt": "2026-11-28T15:44:39+08:00",
+        "itemCount": 8,
+        "provider": "Google News",
         "attempts": [
           {
             "provider": "Google News",
             "url": "https://news.google.com/rss/search?q=%E7%B6%9C%E8%97%9D+%28%E7%86%B1%E6%92%AD+OR+%E7%86%B1%E6%90%9C+OR+%E5%BE%AE%E5%8D%9A+OR+%E6%94%B6%E8%A6%96+OR+%E7%86%B1%E9%96%80%29+when%3A7d&hl=zh-TW&gl=TW&ceid=TW%3Azh-Hant",
-            "status": "error",
-            "error": "HTTP Error 503: Service Unavailable",
-            "httpStatus": 503
-          },
-          {
-            "provider": "Bing News",
-            "url": "https://www.bing.com/news/search?q=%E7%B6%9C%E8%97%9D+%28%E7%86%B1%E6%92%AD+OR+%E7%86%B1%E6%90%9C+OR+%E5%BE%AE%E5%8D%9A+OR+%E6%94%B6%E8%A6%96+OR+%E7%86%B1%E9%96%80%29&format=rss&mkt=zh-TW",
             "status": "success"
           }
         ]
@@ -3996,7 +3975,129 @@
     ],
     "market": "台灣及華語市場",
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
-    "items": []
+    "items": [
+      {
+        "id": "weekly-7a70d9c40ec8fc43",
+        "title": "《急診室的奇蹟》登台灣冠軍 Netflix揭台劇兩大新機會 - 壹蘋新聞網",
+        "type": "台劇",
+        "source": "壹蘋新聞網",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVJ3YVgxMDVLSjM2MnpRb0hVVzZZWkFWXzVDQlJnZHdST0hqS1llaDRkR2E2Q0RiT092NWkxamc5MVhYa2pFMDJMblk1Y2VyZ3FZeG1iR3BQaW9oY3lCUmxHYi0zNHdmdWxtVzlNV1N5akxwMVVWZHNta0pub2NEbg?oc=5",
+        "observedAt": "2026-11-28T11:37:30+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-f547280510140011",
+        "title": "Netflix 台劇《人選之人》第二季開拍！《急診室的奇蹟》登台灣榜首，揭職人劇創作關鍵 - 三嘻行動哇 Yipee!",
+        "type": "台劇",
+        "source": "三嘻行動哇 Yipee!",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQRlVNQ0VaNnlQUS1ncUZrVU1fTHQ3YWpOdTZ0U2J2cGJxeTJ2S0JYWU9QQ19CaU9MRlcxS0xYYXpBcFdSMHcyekViSHJCX2RsWllkUnRld1IzQzBmWTFkb3lnSHZSZmVvczFaQ1ZZR1lhc3BuYk9ZN0NxcHltYWtQN1p3Y0NvN3FPTTQ4Vnh5cU1YVXhYdUtRTlpGZjZUelViTVZwYVEzT3VTZHZraklsNU96b3UyQ2xRNkI1VkZaS3cxRk1tbDNGb2liaVR6anJCMHB6M2MzcDUyb0FGVDlPLUZqeDhNRGxoQzVPZTROYnZjNno2d2NOZXQtQ0NCUjNSQUVDd2ZpbnVKN0xFLUk0UHRzQVM5VkNtd3oyNHZQSHdmS2kySzBraHRjYlFGTF9HR3VRMm51c2hLcDNxc2RVT3ZzZ3FFUDYw?oc=5",
+        "observedAt": "2026-11-28T06:10:28+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-5203f4fa626f6e1f",
+        "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意，笑虧翁鈺鈞護夫！ - JUKSY 街星",
+        "type": "綜藝",
+        "source": "JUKSY 街星",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqb0VUMWJ0VGp4UVJvS0ZvU3RkLS1EbXFqTFU0b3gwVWgtcFM3aEhEd0JOcjZoVU81NVp3c3V0ZkIwNUdtMDhocVRFc3U?oc=5",
+        "observedAt": "2026-11-28T04:38:43+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ec900a20056f581b",
+        "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意原因超爆笑 - 鏡新聞",
+        "type": "綜藝",
+        "source": "鏡新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwdW0zVU40MDE5dFlTVTNCdTgxNEloTVRtS1YyZ2RoeFhjYllCR290amh4TVZpblF6Ri1XUDYzSFhTeUpvZUE1R0pJQTJYX2s2cEpDZ3VoYmhIREliNDZwZjVGQVhvejDSAWdBVV95cUxQMHVtM1VONDAxOXRZU1UzQnU4MTRJaE1UbUtWMmdkaHhYY2JZQkdvdGpoeE1WaW5RekYtV1A2M0hYU3lKb2VBNUdKSUEyWF9rNnBKQ2d1aGJoSERJYjQ2cGY1RkFYb3ow?oc=5",
+        "observedAt": "2026-11-27T15:20:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-42bf5868a2a5af75",
+        "title": "《綜藝一級棒》收視連4週奪冠！康康頒MVP給陳隨意原因超爆笑 - 鏡週刊Mirror Media",
+        "type": "綜藝",
+        "source": "鏡週刊Mirror Media",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4wUkl1TUFMLXdQVWZPX2p5bEZFaVJINFlLVWpFdnNyeW9DdUlndFh0LXlpMFc0ZkhUX0Q3eVZ6Mk9nOWhWRzE1RXBGNVRMcWdZMTB4SFdoQjlyeE43QzR5TFozdFpoUQ?oc=5",
+        "observedAt": "2026-11-27T15:02:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-239eaf52743d6229",
+        "title": "啦啦隊女神李多慧遇上綜藝大哥徐乃麟 跨界合作為台灣綠金10週年添話題 | 熱門亮點 | 商情 - 經濟日報",
+        "type": "綜藝",
+        "source": "經濟日報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9keU9FdGhlOUhIMWxvZlhJeWMyVmRLdDF2MjlzMllUb2NlNnZPMVNzR2lURlFBOC1OVHlDZDFIN1VRM0hWR2VzT0NJeDg1V0MyelBqdnNCY2JJQQ?oc=5",
+        "observedAt": "2026-11-27T10:02:13+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-9790805d9e5e5edc",
+        "title": "台劇走向國際 胡元輝：不應只依賴串流平台 - 大紀元",
+        "type": "台劇",
+        "source": "大紀元",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wb2M3a3FKa1lDS0RJWVdRWmhBeTZocEd0SGR0S2NmaC1tT2xNZGJ0TmJ3d3YwbUhVTGNsUFhZNDl3LUZxV3BxUXhMNUpQMWt6QkVScjJzb1EzNTQ0T2JrT2530gFnQVVfeXFMUGw1ZENyX08zVkFmS0VWQ0pKeVpnSEUwdzRhOUg1d28wSWxMdy1qRGFjSHdfaXBucjNfYUljMGVTRDFncHFjNTlNZWpNMkhIbWZNTzFRc3hwZlVSSDcydWZoMVZXOFBPWQ?oc=5",
+        "observedAt": "2026-11-27T07:24:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-35f76efc22711842",
+        "title": "Netflix近期韓國話題作品推薦！金智媛、金裕貞新作接連霸榜，《魔鬼的計謀》實境秀也爆紅 - ELLE",
+        "type": "綜藝",
+        "source": "ELLE",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0cwdkdhWXkyMGtqNDMxSkdYYTdTZWhkcDBTZjRCbGJpa0otYjVMNkVXeWtHUVFKMVpzak51Y2hOOEN0S3dZemI5bGFEdUthcXhyOTVSdEhZcjJmZnAwLW1Hclo5cmg5c1hrUHF0eHdVMjV6cWkyQVpLNGFMWkk0THZYTG1pWkth?oc=5",
+        "observedAt": "2026-11-24T16:16:38+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-688b500d1a11db56",
+        "title": "高虹安綜藝腦舊片再受關注 網友讚有料喊支持 | 楊艾喬 | 地方新聞 - Storm.mg",
+        "type": "綜藝",
+        "source": "Storm.mg",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ycUlNZC1rVHI0UHRLazBDRlVleWFzRG80NjJvcWI4YlVxdGVTbHA3WUloX1FpYmkxUkZOdEs2aFFZR1FsM2tpNXhmSmtJUQ?oc=5",
+        "observedAt": "2026-11-23T22:48:00+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-29f8e998489bd824",
+        "title": "高虹安曾獲《綜藝大熱門》金頭腦年度總冠軍 網友：新竹肯定投給認真又聰明的高虹安 - Yahoo新聞",
+        "type": "綜藝",
+        "source": "Yahoo新聞",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMi_ANBVV95cUxOVklOZHp1WWh0STgwNWhmOEl6NVNLcTJDSnpKZ25SRUJZMWVRbEhtamcxX2VrOXIyQURMMjFvNW1WYWZTZ2F6YUdadjlOb0dDYncyZnM1ZDY5YzNUekhUc3p6ejYyMmpMaldCaFhQLWNmcUluZWNLVHdNeFd0T092eGExZEJ6S1ZBM2FIUnVKWlgtYWR3R3gxOGNhb3NhdW9vbndCRWVUbkNaTXc2NU1IcnRZUy1qZ0dHemRfVmM2X0UwMW45SFVRNzRmeEk5eHJwbkFyWnVWTWQ0LTNGaHdYSDkycHo2LUxuWG1tSWRXUHFPVXpYUFVZaGpKLUxfZ2NEeHV6VUo1VXlVbndEZlA2T2Z6czJtVVMyUk93YVIyenp1eDRzeklQaVE5TzFWZzZMTGZHV1lIOTMzUE1iZWY2Y3ZsWXR2a2Ztc21YTWd0T3dlSkhtQ0dXS0dpZUdrcGF1Y25fU2NOQWZveXZlYU1aT1dlZy1hUm5CZ1g3Q1BLSFBWOXlsNUFONUFxLXJVbi1fX0UwU3dQa251Qmppdl92dGxLSU5DZXZvMWJyV29NemJ3NFZyR2J4X2M4ektDNHRTSXZ0c3IwdGwtaDhxOWxRc0VnUWlISzNsZWxqcU1hR2ZiYmRsVWtkRzJkNjd3WjdiX3B5NVBZamJDRndO?oc=5",
+        "observedAt": "2026-11-23T20:27:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
+        "id": "weekly-ff0f698d008e10ee",
+        "title": "高虹安曾獲《綜藝大熱門》金頭腦年度總冠軍　網友：新竹肯定投給認真又聰明的高虹安 | 政治 | CTWANT - CTWANT",
+        "type": "綜藝",
+        "source": "CTWANT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB3Q0x6b25sVndJTUhrOHdLeUR2STZMNWVjcWo1SWlOLUl3STZrYm15aEFubTQ4TVlQRXROQlJpOEdBVTVoVUFMQ0V2aDdPMjDSAVRBVV95cUxQeVJYRjlhOHU1OUZWdURzYXhVSnRPcUdzQ2RsNEd0ZWU5QUU0YXk4SkVabUNTOGhKbDd1SlktZTVCSzU1UXdEOWcyY0doT050Qy0ydXE?oc=5",
+        "observedAt": "2026-11-23T20:27:52+08:00",
+        "isWeiboMention": false,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      }
+    ]
   },
   "weeklyStreaming": {
     "weekStart": "2026-11-23",
