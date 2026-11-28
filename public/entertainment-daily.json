@@ -3939,15 +3939,15 @@
   "weeklyHot": {
     "weekStart": "2026-11-23",
     "weekEnd": "2026-11-29",
-    "checkedAt": "2026-11-28T15:44:39+08:00",
-    "updatedAt": "2026-11-28T15:44:39+08:00",
-    "lastSuccessfulAt": "2026-11-28T15:44:39+08:00",
+    "checkedAt": "2026-11-29T02:13:51+08:00",
+    "updatedAt": "2026-11-29T02:13:51+08:00",
+    "lastSuccessfulAt": "2026-11-29T02:13:51+08:00",
     "status": "success",
     "sources": [
       {
         "type": "陸劇",
         "status": "success",
-        "checkedAt": "2026-11-28T15:44:39+08:00",
+        "checkedAt": "2026-11-29T02:13:51+08:00",
         "itemCount": 0,
         "provider": "Google News",
         "attempts": [
@@ -3961,7 +3961,7 @@
       {
         "type": "台劇",
         "status": "success",
-        "checkedAt": "2026-11-28T15:44:39+08:00",
+        "checkedAt": "2026-11-29T02:13:51+08:00",
         "itemCount": 3,
         "provider": "Google News",
         "attempts": [
@@ -3975,7 +3975,7 @@
       {
         "type": "綜藝",
         "status": "success",
-        "checkedAt": "2026-11-28T15:44:39+08:00",
+        "checkedAt": "2026-11-29T02:13:51+08:00",
         "itemCount": 8,
         "provider": "Google News",
         "attempts": [
@@ -3991,12 +3991,23 @@
     "method": "本週發布的娛樂報導；微博相關報導優先，不宣稱官方熱搜或播放排名",
     "items": [
       {
+        "id": "weekly-5c3817e0e92eb151",
+        "title": "全台關注選舉開票 中國微博熱搜談綜藝節目 - 自由時報",
+        "type": "綜藝",
+        "source": "自由時報",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB1aGo1eTdzZmJ1UE9VS2FGZzViTWxXZGFmdld5VDl0dFlKTmt0S3pLcklSdUNYYk9pbXVEZ3J4S3dFWXNVRWhLMWE1QmNlaF9zTUd4VXI5a24xSnliMzVhbTRESERFQdIBa0FVX3lxTE03cFVQUU16Wi1DUmF4NVp5WGs4bC1EWVMyZVJod0FueDdEQ0pkSFBXQUVLTk5UNXlYX29uY1NTdlk0bWRuNUt1ZEFsZTNhTlZtV2lLUEl6QWdSSXRBaGtSZW4xUE92UExBRlc0?oc=5",
+        "observedAt": "2026-11-28T17:07:08+08:00",
+        "isWeiboMention": true,
+        "verified": false,
+        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
+      },
+      {
         "id": "weekly-7a70d9c40ec8fc43",
         "title": "《急診室的奇蹟》登台灣冠軍 Netflix揭台劇兩大新機會 - 壹蘋新聞網",
         "type": "台劇",
         "source": "壹蘋新聞網",
         "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVJ3YVgxMDVLSjM2MnpRb0hVVzZZWkFWXzVDQlJnZHdST0hqS1llaDRkR2E2Q0RiT092NWkxamc5MVhYa2pFMDJMblk1Y2VyZ3FZeG1iR3BQaW9oY3lCUmxHYi0zNHdmdWxtVzlNV1N5akxwMVVWZHNta0pub2NEbg?oc=5",
-        "observedAt": "2026-11-28T11:37:30+08:00",
+        "observedAt": "2026-11-28T10:12:00+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
@@ -4063,17 +4074,6 @@
         "source": "大紀元",
         "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1wb2M3a3FKa1lDS0RJWVdRWmhBeTZocEd0SGR0S2NmaC1tT2xNZGJ0TmJ3d3YwbUhVTGNsUFhZNDl3LUZxV3BxUXhMNUpQMWt6QkVScjJzb1EzNTQ0T2JrT2530gFnQVVfeXFMUGw1ZENyX08zVkFmS0VWQ0pKeVpnSEUwdzRhOUg1d28wSWxMdy1qRGFjSHdfaXBucjNfYUljMGVTRDFncHFjNTlNZWpNMkhIbWZNTzFRc3hwZlVSSDcydWZoMVZXOFBPWQ?oc=5",
         "observedAt": "2026-11-27T07:24:00+08:00",
-        "isWeiboMention": false,
-        "verified": false,
-        "evidenceType": "本週娛樂報導（非官方熱搜排行）"
-      },
-      {
-        "id": "weekly-35f76efc22711842",
-        "title": "Netflix近期韓國話題作品推薦！金智媛、金裕貞新作接連霸榜，《魔鬼的計謀》實境秀也爆紅 - ELLE",
-        "type": "綜藝",
-        "source": "ELLE",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0cwdkdhWXkyMGtqNDMxSkdYYTdTZWhkcDBTZjRCbGJpa0otYjVMNkVXeWtHUVFKMVpzak51Y2hOOEN0S3dZemI5bGFEdUthcXhyOTVSdEhZcjJmZnAwLW1Hclo5cmg5c1hrUHF0eHdVMjV6cWkyQVpLNGFMWkk0THZYTG1pWkth?oc=5",
-        "observedAt": "2026-11-24T16:16:38+08:00",
         "isWeiboMention": false,
         "verified": false,
         "evidenceType": "本週娛樂報導（非官方熱搜排行）"
